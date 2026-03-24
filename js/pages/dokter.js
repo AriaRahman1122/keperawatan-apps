@@ -1,12 +1,19 @@
-// Halaman Dokter
+/*
+
+    Handle Data Dokter Dengan UI
+    Author: Aria Rahman, Siddiq Ahmad Anshori
+    Title: dokter
+    Description: Class untuk handle data dokter dengan UI untuk Aplikasi Manajemen Keperawatan
+
+**/
+
 function renderDokterPage() {
     const dokterGrid = document.getElementById('dokterGrid');
     if (!dokterGrid) return;
     
     dokterGrid.innerHTML = '';
-    const dokterSOP = sopData.filter(sop => sop.category === 'dokter');
     
-    dokterSOP.forEach(sop => {
+    sopDataDokter.forEach(sop => {
         const card = document.createElement('div');
         card.className = 'sop-card';
         card.innerHTML = `
@@ -22,7 +29,6 @@ function renderDokterPage() {
     });
 }
 
-// Search untuk halaman dokter
 function initDokterSearch() {
     const searchInput = document.querySelector('.page-search-input[data-page="dokter"]');
     if (!searchInput) return;

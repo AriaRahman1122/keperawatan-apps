@@ -1,4 +1,13 @@
-// Inisialisasi AOS
+/*
+
+    Handle Pertukaran Data JS dengan UI
+    Author: Aria Rahman, Siddiq Ahmad Anshori
+    Title: app
+    Description: Class untuk handle pertukaran data JS dengan UI untuk Aplikasi Manajemen Keperawatan
+
+**/
+
+
 AOS.init({ duration: 800 });
 
 // Modal global
@@ -22,7 +31,7 @@ function openModal(sop) {
                         <div class="step-desc">${p.desc}</div>
                         ${p.detail ? `<small style="color: #7a94b5; display: block; margin-top: 5px;">${p.detail}</small>` : ''}
                     </div>
-                    <div class="step-arrow"><i class="fas fa-arrow-down"></i></div>
+                    <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
                 </div>
             `).join('') + 
             '</div>';
@@ -44,7 +53,7 @@ function openModal(sop) {
 
         <div class="sop-detail-section">
             <div class="sop-detail-title"><i class="fas fa-info-circle"></i> Pengertian</div>
-            <p>${sop.pengertian || sop.fullDesc || 'Tidak ada data'}</p>
+            <p>${sop.pengertian || 'Tidak ada data'}</p>
         </div>
 
         <div class="sop-detail-section">
@@ -81,7 +90,47 @@ function openModal(sop) {
     modal.classList.add('active');
 }
 
-// Event listener untuk modal
+// Fungsi untuk render berita
+function renderNews() {
+    const newsGrid = document.querySelector('.news-grid');
+    if (!newsGrid) return;
+    
+    newsGrid.innerHTML = '';
+    newsData.forEach((news, index) => {
+        const newsItem = document.createElement('div');
+        newsItem.className = 'news-item';
+        newsItem.setAttribute('data-aos', 'fade-up');
+        newsItem.setAttribute('data-aos-delay', index * 50);
+        newsItem.innerHTML = `
+            <div class="news-date">${news.date}</div>
+            <div class="news-title">${news.title}</div>
+            <p>${news.description}</p>
+        `;
+        newsGrid.appendChild(newsItem);
+    });
+}
+
+// Fungsi untuk render pengumuman
+function renderAnnouncements() {
+    const announcementsGrid = document.querySelector('.announcements-grid');
+    if (!announcementsGrid) return;
+    
+    announcementsGrid.innerHTML = '';
+    announcementsData.forEach((announcement, index) => {
+        const announcementItem = document.createElement('div');
+        announcementItem.className = 'announcement-item';
+        announcementItem.setAttribute('data-aos', 'zoom-in');
+        announcementItem.setAttribute('data-aos-delay', index * 100);
+        announcementItem.innerHTML = `
+            <h3 style="color: #1a2b4c; margin-bottom: 10px;">${announcement.title}</h3>
+            <p style="color: #4d6a8c;">${announcement.description}</p>
+            <div style="margin-top: 15px; color: #4300FF;"><i class="fas fa-clock"></i> ${announcement.date}</div>
+        `;
+        announcementsGrid.appendChild(announcementItem);
+    });
+}
+
+// Modal event listeners
 closeModal.addEventListener('click', () => {
     modal.classList.remove('active');
 });
@@ -97,17 +146,18 @@ const footerNavs = document.querySelectorAll('.nav-footer');
 const burgerBtn = document.getElementById('burgerBtn');
 const navLinks = document.getElementById('navLinks');
 
-// Burger menu toggle
-burgerBtn.addEventListener('click', () => {
-    burgerBtn.classList.toggle('active');
-    navLinks.classList.toggle('active');
-});
+// Burger menu
+if (burgerBtn) {
+    burgerBtn.addEventListener('click', () => {
+        burgerBtn.classList.toggle('active');
+        navLinks.classList.toggle('active');
+    });
+}
 
-// Tutup menu saat link diklik
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
-        burgerBtn.classList.remove('active');
-        navLinks.classList.remove('active');
+        burgerBtn?.classList.remove('active');
+        navLinks?.classList.remove('active');
     });
 });
 
@@ -118,14 +168,18 @@ function switchPage(pageId) {
     document.querySelector(`.nav-item[data-page="${pageId}"]`).classList.add('active');
     window.scrollTo({ top: 0, behavior: 'smooth' });
     
+    // Reset perawat tabs ketika membuka halaman perawat
     if (pageId === 'perawat') {
-        document.querySelectorAll('.submenu-btn').forEach(btn => btn.classList.remove('active'));
-        document.querySelector('.submenu-btn[data-sub="manajemen"]').classList.add('active');
-        document.querySelectorAll('.sub-view').forEach(v => v.classList.remove('active'));
-        document.getElementById('manajemenView').classList.add('active');
-        document.getElementById('categoryContainer').style.display = 'block';
-        document.getElementById('sopByCategoryContainer').style.display = 'none';
-        document.getElementById('categorySearch').value = '';
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+        if (tabBtns.length) {
+            tabBtns.forEach(btn => btn.classList.remove('active'));
+            tabContents.forEach(content => content.classList.remove('active'));
+            document.querySelector('.tab-btn[data-tab="umum"]')?.classList.add('active');
+            document.getElementById('tab-umum')?.classList.add('active');
+            document.getElementById('categoryContainer') ? document.getElementById('categoryContainer').style.display = 'block' : null;
+            document.getElementById('sopByCategoryContainer') ? document.getElementById('sopByCategoryContainer').style.display = 'none' : null;
+        }
     }
 }
 
@@ -143,24 +197,6 @@ footerNavs.forEach(item => {
     });
 });
 
-// Submenu perawat
-document.querySelectorAll('.submenu-btn').forEach(btn => {
-    btn.addEventListener('click', function() {
-        document.querySelectorAll('.submenu-btn').forEach(b => b.classList.remove('active'));
-        this.classList.add('active');
-        const sub = this.dataset.sub;
-        document.querySelectorAll('.sub-view').forEach(v => v.classList.remove('active'));
-        if (sub === 'manajemen') {
-            document.getElementById('manajemenView').classList.add('active');
-        } else {
-            document.getElementById('tindakanView').classList.add('active');
-            document.getElementById('categoryContainer').style.display = 'block';
-            document.getElementById('sopByCategoryContainer').style.display = 'none';
-            document.getElementById('categorySearch').value = '';
-        }
-    });
-});
-
 // FAQ
 document.querySelectorAll('.faq-question').forEach(q => {
     q.addEventListener('click', function() {
@@ -171,17 +207,18 @@ document.querySelectorAll('.faq-question').forEach(q => {
     });
 });
 
-// Initialize semua halaman
+// Initialize all
 document.addEventListener('DOMContentLoaded', function() {
+    renderNews();
+    renderAnnouncements();
     renderDokterPage();
     renderPasienPage();
-    renderPerawatManajemenPage();
+    renderPerawatUmum();
+    renderPerawatManajemen();
     renderTindakanCategories();
     
     initDokterSearch();
     initPasienSearch();
-    initPerawatManajemenSearch();
-    initCategorySearch();
-    initCategoryDetailSearch();
-    initBackToCategories();
+    initPerawatSearches();
+    initPerawatTabs();
 });

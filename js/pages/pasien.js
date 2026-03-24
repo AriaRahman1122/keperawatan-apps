@@ -1,12 +1,19 @@
-// Halaman Pasien
+/*
+
+    Handle Data Pasien Dengan UI
+    Author: Aria Rahman, Siddiq Ahmad Anshori
+    Title: pasien
+    Description: Class untuk handle data pasien dengan UI untuk Aplikasi Manajemen Keperawatan
+
+**/
+
 function renderPasienPage() {
     const pasienGrid = document.getElementById('pasienGrid');
     if (!pasienGrid) return;
     
     pasienGrid.innerHTML = '';
-    const pasienSOP = sopData.filter(sop => sop.category === 'pasien');
     
-    pasienSOP.forEach(sop => {
+    sopDataPasien.forEach(sop => {
         const card = document.createElement('div');
         card.className = 'sop-card';
         card.innerHTML = `
@@ -22,7 +29,6 @@ function renderPasienPage() {
     });
 }
 
-// Search untuk halaman pasien
 function initPasienSearch() {
     const searchInput = document.querySelector('.page-search-input[data-page="pasien"]');
     if (!searchInput) return;
