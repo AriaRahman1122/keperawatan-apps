@@ -1080,6 +1080,12 @@ body {
     object-fit: contain;
 }
 
+.rsud-logo-full {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
 .upi-logo-icon {
     height: 45px;
     width: auto;

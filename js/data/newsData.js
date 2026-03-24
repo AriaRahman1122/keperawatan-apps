@@ -10,38 +10,38 @@
 const newsData = [
     { 
         id: 1,
-        date: '15 Maret 2025',
-        title: 'SOP Kemoterapi Terbaru',
-        description: 'Pedoman baru pemberian kemoterapi untuk pasien kanker paru telah dirilis oleh Kementerian Kesehatan.'
+        date: '20 Maret 2026',
+        title: 'Peningkatan Kasus Diabetes Tipe 2 pada Usia Muda',
+        description: 'Tenaga kesehatan diminta meningkatkan edukasi pola hidup sehat karena kasus diabetes tipe 2 meningkat signifikan pada usia produktif.'
     },
     { 
         id: 2,
-        date: '14 Maret 2025',
-        title: 'Vaksinasi Influenza Massal',
-        description: 'Program vaksinasi di seluruh fasilitas kesehatan mulai bulan April 2025.'
+        date: '19 Maret 2026',
+        title: 'Update SOP Penanganan Infeksi Saluran Pernapasan',
+        description: 'Protokol terbaru menekankan penggunaan APD dan triase cepat untuk pasien dengan gejala ISPA di fasilitas kesehatan.'
     },
     { 
         id: 3,
-        date: '13 Maret 2025',
-        title: 'Sistem Antrian Digital',
-        description: 'Integrasi SOP dengan sistem antrian rumah sakit memudahkan pasien.'
+        date: '18 Maret 2026',
+        title: 'Lonjakan Kasus DBD di Musim Hujan',
+        description: 'Perawat diminta meningkatkan kewaspadaan terhadap pasien demam tinggi dengan gejala trombosit turun di beberapa daerah endemis.'
     },
     { 
         id: 4,
-        date: '12 Maret 2025',
-        title: 'Pelatihan SOP untuk Perawat',
-        description: 'Webinar nasional tentang implementasi SOP terbaru akan digelar 20 Maret.'
+        date: '17 Maret 2026',
+        title: 'Digitalisasi Rekam Medis di Rumah Sakit',
+        description: 'Implementasi rekam medis elektronik membantu perawat dalam dokumentasi SOP dan meningkatkan efisiensi pelayanan.'
     },
     { 
         id: 5,
-        date: '11 Maret 2025',
-        title: 'Penghargaan Inovasi',
-        description: 'Manajemen Keperawatan Apps meraih penghargaan sebagai platform terbaik 2025.'
+        date: '16 Maret 2026',
+        title: 'Pentingnya Kesehatan Mental Tenaga Kesehatan',
+        description: 'Stres kerja pada tenaga keperawatan meningkat, sehingga diperlukan program dukungan psikologis di lingkungan kerja.'
     },
     { 
         id: 6,
-        date: '10 Maret 2025',
-        title: 'Kolaborasi dengan 50 RS',
-        description: '50 rumah sakit baru bergabung menggunakan platform ini.'
+        date: '15 Maret 2026',
+        title: 'Pelatihan Penanganan Pasien Geriatri',
+        description: 'Pelatihan khusus untuk perawat dalam menangani pasien lansia dengan penyakit kronis mulai banyak diterapkan di rumah sakit.'
     }
 ];
