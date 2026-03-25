@@ -8,9 +8,10 @@
 **/
 
 const tindakanCategories = [
-    { id: 'onkologi', name: 'Onkologi', icon: 'fa-capsules', desc: 'Prosedur keperawatan onkologi', sopIds: [1001] },
-    { id: 'bedah', name: 'Bedah', icon: 'fa-scalpel', desc: 'Tindakan keperawatan bedah', sopIds: [1002] },
-    { id: 'darurat', name: 'Gawat Darurat', icon: 'fa-heartbeat', desc: 'Prosedur kegawatdaruratan', sopIds: [1003] },
-    { id: 'anak', name: 'Pediatri', icon: 'fa-child', desc: 'Keperawatan anak', sopIds: [1004] },
-    { id: 'icu', name: 'ICU', icon: 'fa-lungs', desc: 'Perawatan intensif', sopIds: [1005] }
+    { id: 'farmasi', name: 'Farmasi', icon: 'fa-capsules', desc: 'Prosedur pengelolaan dan pemberian obat-obatan', sopIds: Array.from({ length: 100 }, (_, i) => 1001 + i) },
+    { id: 'onkologi', name: 'Onkologi', icon: 'fa-dna', desc: 'Prosedur keperawatan untuk pasien dengan kanker dan gangguan onkologi', sopIds: Array.from({ length: 100 }, (_, i) => 1101 + i) },
+    { id: 'maternitas', name: 'Maternitas', icon: 'fa-baby-carriage', desc: 'Prosedur keperawatan ibu hamil, bersalin, nifas, dan bayi baru lahir', sopIds: Array.from({ length: 100 }, (_, i) => 1201 + i) },
+    { id: 'medikalBedah', name: 'Medikal Bedah', icon: 'fa-procedures', desc: 'Prosedur keperawatan untuk pasien dengan gangguan medis dan pasca operasi bedah', sopIds: Array.from({ length: 100 }, (_, i) => 1301 + i) },
+    { id: 'keperawatanDasar', name: 'Keperawatan Dasar', icon: 'fa-hand-holding-heart', desc: 'Prosedur dasar keperawatan seperti pemasangan infus, perawatan luka, dan mobilisasi', sopIds: Array.from({ length: 100 }, (_, i) => 1401 + i) },
+    { id: 'pediatric', name: 'Pediatric', icon: 'fa-child', desc: 'Prosedur keperawatan untuk anak dan bayi', sopIds: Array.from({ length: 100 }, (_, i) => 1501 + i) }
 ];

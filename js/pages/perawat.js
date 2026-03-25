@@ -9,6 +9,7 @@
 **/
 
 let currentCategorySOPs = [];
+let currentCategoryName = '';
 
 function initPerawatTabs() {
     const tabBtns = document.querySelectorAll('.tab-btn');
@@ -28,8 +29,22 @@ function initPerawatTabs() {
             
             // Reset kategori jika beralih ke tab tindakan
             if (tabId === 'tindakan') {
+                // Reset state
+                currentCategorySOPs = [];
+                currentCategoryName = '';
+                
+                // Reset search inputs
+                const categorySearch = document.getElementById('categorySearch');
+                const categorySearchInput = document.getElementById('categorySearchInput');
+                if (categorySearch) categorySearch.value = '';
+                if (categorySearchInput) categorySearchInput.value = '';
+                
+                // Tampilkan kategori, sembunyikan container SOP
                 document.getElementById('categoryContainer').style.display = 'block';
                 document.getElementById('sopByCategoryContainer').style.display = 'none';
+                
+                // Render ulang kategori
+                renderTindakanCategories();
             }
         });
     });
@@ -83,8 +98,28 @@ function renderTindakanCategories() {
     const container = document.getElementById('categoryGrid');
     if (!container) return;
     
+    // Ambil nilai search dari input pencarian kategori
+    const searchTerm = document.getElementById('categorySearch')?.value.toLowerCase() || '';
+    
+    // Filter kategori berdasarkan search term
+    const filteredCategories = tindakanCategories.filter(cat => 
+        cat.name.toLowerCase().includes(searchTerm) || 
+        cat.desc.toLowerCase().includes(searchTerm)
+    );
+    
     container.innerHTML = '';
-    tindakanCategories.forEach(cat => {
+    
+    if (filteredCategories.length === 0) {
+        container.innerHTML = `
+            <div class="no-data" style="grid-column: 1/-1; text-align: center; padding: 40px;">
+                <i class="fas fa-folder-open" style="font-size: 48px; color: var(--text-light);"></i>
+                <p>Tidak ada kategori ditemukan</p>
+            </div>
+        `;
+        return;
+    }
+    
+    filteredCategories.forEach(cat => {
         const card = document.createElement('div');
         card.className = 'category-card';
         card.innerHTML = `
@@ -98,15 +133,47 @@ function renderTindakanCategories() {
 }
 
 function showSOPByCategory(category) {
+    // Sembunyikan container kategori
     document.getElementById('categoryContainer').style.display = 'none';
-    document.getElementById('sopByCategoryContainer').style.display = 'block';
     
+    // Tampilkan container SOP
+    const sopContainer = document.getElementById('sopByCategoryContainer');
+    sopContainer.style.display = 'block';
+    
+    // Ambil SOP berdasarkan sopIds dari kategori
     const sopIds = category.sopIds;
     const sopList = sopDataPerawatTindakan.filter(sop => sopIds.includes(sop.id));
-    renderSOPGrid(sopList, 'tindakanSopGrid');
-
+    
+    // Simpan ke state global untuk keperluan search dalam kategori
     currentCategorySOPs = sopList;
-    document.getElementById('categorySearchInput').value = '';
+    currentCategoryName = category.name;
+    
+    // Update header kategori
+    const categoryHeader = document.querySelector('#sopByCategoryContainer .category-header');
+    if (categoryHeader) {
+        categoryHeader.innerHTML = `
+            <i class="fas ${category.icon}"></i>
+            <span>${category.name}</span>
+            <small>(${sopList.length} SOP)</small>
+        `;
+    } else {
+        // Buat header jika belum ada
+        const header = document.createElement('div');
+        header.className = 'category-header';
+        header.innerHTML = `
+            <i class="fas ${category.icon}"></i>
+            <span>${category.name}</span>
+            <small>(${sopList.length} SOP)</small>
+        `;
+        sopContainer.insertBefore(header, sopContainer.firstChild);
+    }
+    
+    // Reset search input dalam kategori
+    const categorySearchInput = document.getElementById('categorySearchInput');
+    if (categorySearchInput) categorySearchInput.value = '';
+    
+    // Render SOP
+    renderSOPGrid(sopList, 'tindakanSopGrid');
 }
 
 function renderSOPGrid(sopList, gridId) {
@@ -114,6 +181,17 @@ function renderSOPGrid(sopList, gridId) {
     if (!grid) return;
     
     grid.innerHTML = '';
+    
+    if (sopList.length === 0) {
+        grid.innerHTML = `
+            <div class="no-data" style="grid-column: 1/-1; text-align: center; padding: 40px;">
+                <i class="fas fa-search" style="font-size: 48px; color: var(--text-light);"></i>
+                <p>Tidak ada SOP ditemukan</p>
+            </div>
+        `;
+        return;
+    }
+    
     sopList.forEach(sop => {
         const card = document.createElement('div');
         card.className = 'sop-card';
@@ -163,42 +241,71 @@ function initPerawatSearches() {
         });
     }
     
-    // Search kategori tindakan
+    // Search kategori tindakan (HANYA untuk halaman kategori, bukan detail)
     const categorySearch = document.getElementById('categorySearch');
     if (categorySearch) {
         categorySearch.addEventListener('input', function(e) {
-            const keyword = e.target.value.toLowerCase();
-            const categories = document.querySelectorAll('.category-card');
-            categories.forEach(card => {
-                const name = card.querySelector('h4').textContent.toLowerCase();
-                const desc = card.querySelector('p').textContent.toLowerCase();
-                card.style.display = (name.includes(keyword) || desc.includes(keyword)) ? 'block' : 'none';
-            });
+            // Hanya jalankan jika container kategori sedang ditampilkan
+            const categoryContainer = document.getElementById('categoryContainer');
+            if (categoryContainer && categoryContainer.style.display !== 'none') {
+                renderTindakanCategories();
+            }
         });
     }
     
-    // Search dalam kategori
+    // Search dalam kategori (HANYA untuk halaman detail kategori)
     const categoryDetailSearch = document.getElementById('categorySearchInput');
     if (categoryDetailSearch) {
         categoryDetailSearch.addEventListener('input', function(e) {
             const keyword = e.target.value.toLowerCase();
-            if (!currentCategorySOPs) return;
-            const filtered = currentCategorySOPs.filter(sop => 
-                sop.title.toLowerCase().includes(keyword) || sop.description.toLowerCase().includes(keyword)
-            );
-            renderSOPGrid(filtered, 'tindakanSopGrid');
+            // Hanya jalankan jika ada SOP yang sedang ditampilkan
+            if (currentCategorySOPs && currentCategorySOPs.length > 0) {
+                const filtered = currentCategorySOPs.filter(sop => 
+                    sop.title.toLowerCase().includes(keyword) || 
+                    sop.description.toLowerCase().includes(keyword) ||
+                    (sop.tags && sop.tags.some(tag => tag.toLowerCase().includes(keyword)))
+                );
+                renderSOPGrid(filtered, 'tindakanSopGrid');
+            }
         });
     }
     
-    // Back to categories
+    // Back to categories - Kembali ke halaman kategori
     const backBtn = document.getElementById('backToCategories');
     if (backBtn) {
         backBtn.addEventListener('click', function() {
+            // Reset state
+            currentCategorySOPs = [];
+            currentCategoryName = '';
+            
+            // Reset search input dalam kategori
+            const categorySearchInput = document.getElementById('categorySearchInput');
+            if (categorySearchInput) categorySearchInput.value = '';
+            
+            // Reset search input kategori utama
+            const categorySearch = document.getElementById('categorySearch');
+            if (categorySearch) categorySearch.value = '';
+            
+            // Tampilkan container kategori, sembunyikan container SOP
             document.getElementById('categoryContainer').style.display = 'block';
             document.getElementById('sopByCategoryContainer').style.display = 'none';
-            currentCategorySOPs = [];
-            const categorySearchInput = document.getElementById('categorySearch');
-            if (categorySearchInput) categorySearchInput.value = '';
+            
+            // Render ulang kategori
+            renderTindakanCategories();
         });
     }
 }
+
+// Inisialisasi halaman perawat
+function initPerawatPage() {
+    initPerawatTabs();
+    renderPerawatUmum();
+    renderPerawatManajemen();
+    renderTindakanCategories();
+    initPerawatSearches();
+}
+
+// Jalankan inisialisasi saat DOM siap
+document.addEventListener('DOMContentLoaded', function() {
+    initPerawatPage();
+});
