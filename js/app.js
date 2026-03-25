@@ -19,6 +19,87 @@ const closeModal = document.getElementById('closeModal');
 // Fungsi untuk membuka modal dengan detail SOP
 function openModal(sop) {
     modalTitle.textContent = sop.title;
+
+    const splitListMarker = (text = '') => {
+        const match = text.match(/^\s*([A-Za-z]\.|\d+\))\s+(.*)$/);
+        if (!match) {
+            return { marker: '', content: text.trim() };
+        }
+        return { marker: match[1], content: match[2].trim() };
+    };
+
+    const getAlphabetMarker = (index) => {
+        let marker = '';
+        let value = index;
+
+        do {
+            marker = String.fromCharCode(65 + (value % 26)) + marker;
+            value = Math.floor(value / 26) - 1;
+        } while (value >= 0);
+
+        return `${marker}.`;
+    };
+
+    const renderDesc = (desc, options = {}) => {
+        if (!desc) return '';
+
+        const { indexed = false, markerOverride = '' } = options;
+        if (!indexed) {
+            return `<div class="step-desc">${desc}</div>`;
+        }
+
+        const parsed = splitListMarker(desc);
+        const marker = markerOverride || parsed.marker;
+        const content = parsed.content || desc;
+
+        return `
+            <div class="step-desc step-desc-indexed">
+                <span class="step-desc-marker">${marker}</span>
+                <span class="step-desc-text">${content}</span>
+            </div>
+        `;
+    };
+
+    const renderDetail = (detailText, options = {}) => {
+        if (!detailText) return '';
+
+        const { indexed = false } = options;
+
+        const lines = detailText
+            .split('\n')
+            .map((line) => line.trim())
+            .filter(Boolean);
+
+        if (!lines.length) return '';
+
+        const renderedLines = indexed
+            ? lines.map((line, lineIndex) => {
+                const parsed = splitListMarker(line);
+                const marker = `${lineIndex + 1})`;
+                const content = parsed.content || line;
+
+                return `
+                    <div class="step-detail-item step-detail-item-indexed">
+                        <span class="step-detail-marker">${marker}</span>
+                        <span class="step-detail-text">${content}</span>
+                    </div>
+                `;
+            }).join('')
+            : lines.map((line) => `<div class="step-detail-item">${line}</div>`).join('');
+
+        return `
+            <div class="step-detail-list">
+                ${renderedLines}
+            </div>
+        `;
+    };
+
+    const renderDescDetailBlock = (desc, detail, itemIndex) => `
+        <div class="step-item-group">
+            ${renderDesc(desc, { indexed: true, markerOverride: getAlphabetMarker(itemIndex) })}
+            ${renderDetail(detail, { indexed: true })}
+        </div>
+    `;
     
     let prosedurHTML = '';
     if (sop.prosedur) {
@@ -26,10 +107,15 @@ function openModal(sop) {
             sop.prosedur.map((p, index) => `
                 <div class="prosedur-step">
                     <div class="step-number">${index + 1}</div>
-                    <div class="step-content">
+                    <div class="step-content ${p.items && Array.isArray(p.items) ? 'has-items' : ''}">
                         <div class="step-title">${p.step}</div>
-                        <div class="step-desc">${p.desc}</div>
-                        ${p.detail ? `<small style="color: #7a94b5; display: block; margin-top: 5px;">${p.detail}</small>` : ''}
+                        ${p.items && Array.isArray(p.items)
+                            ? p.items.map((item, itemIndex) => renderDescDetailBlock(item.desc, item.detail, itemIndex)).join('')
+                            : `
+                                ${renderDesc(p.desc)}
+                                ${p.detail ? `<small class="step-detail" style="white-space: pre-line;">${p.detail}</small>` : ''}
+                            `
+                        }
                     </div>
                     <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
                 </div>
