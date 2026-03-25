@@ -11,69 +11,150 @@
 const sopDataPerawatUmum = [
     { 
         id: 401, 
-        title: 'Keselamatan Pasien', 
+        title: 'Penyediaan Obat dan Alat Kesehatan untuk Pasien Rawat Inap', 
         category: 'umum', 
-        description: 'Prinsip keselamatan pasien di rumah sakit.', 
-        icon: 'fa-shield-alt', 
-        tags: ['Patient Safety', 'Keselamatan', 'Sasaran'],
-        noDokumen: 'SOP/UMUM/001/2025',
-        tanggalTerbit: '1 Januari 2025',
-        pengertian: 'Keselamatan pasien adalah sistem yang membuat asuhan pasien lebih aman.',
-        tujuan: 'Mencegah terjadinya cedera yang disebabkan oleh kesalahan akibat melaksanakan suatu tindakan.',
-        kebijakan: 'Permenkes No. 11 Tahun 2017 tentang Keselamatan Pasien.',
+        description: 'Kegiatan penyediaan obat-obatan dan  alat kesehatan untuk pasien rawat inap.', 
+        icon: 'fa-briefcase-medical', 
+        tags: ['Obat', 'Alat Kesehatan', 'Rawat Inap'],
+        noDokumen: '445/ SPO.3395/ Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Adalah kegiatan penyediaan obat-obatan dan  alat kesehatan untuk pasien rawat inap.',
+        tujuan: 'Sebagai acuan penerapan langkah-langkah dalam penyediaan obat-obatan dan alat kesehatan untuk pasien rawat inap.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
         prosedur: [
-            { step: 'Identifikasi', desc: 'Identifikasi pasien dengan benar', detail: 'Gunakan minimal 2 identifikasi' },
-            { step: 'Komunikasi', desc: 'Komunikasi efektif antar petugas', detail: 'SBAR dalam handover' },
-            { step: 'Obat', desc: 'Keamanan obat yang perlu diwaspadai', detail: 'High-alert medication' },
-            { step: 'Prosedur', desc: 'Pastikan prosedur tepat, lokasi tepat, pasien tepat', detail: 'Time out sebelum prosedur' },
-            { step: 'Infeksi', desc: 'Pencegahan infeksi', detail: 'Cuci tangan 5 momen' },
-            { step: 'Risiko Jatuh', desc: 'Kurangi risiko jatuh', detail: 'Asesmen risiko jatuh' }
+            { step: 'Pasien VIP, kelas I, kelas IIA dan pasien kontraktor',
+                items: [
+                    {
+                        desc: 'A. Resep dibuat oleh dokter yang merawat / dokter ruangan untuk 1 hari',
+                        detail: '1) Resep harus dilengkapi dengan nama jelas pasien, no rekam medic, dan ruangan pasien' + '\n' +
+                        '2) Resep kontraktor dicap dan dilengkapi dengan nama perusahaannya' + '\n' +
+                        '3) Resep obat khusus untuk pasien Askes harus disertai dengan surat pernyataan obat khusus yang ditandatangani oleh dokter yang merawat.' + '\n'
+                    },
+                    {
+                        desc: 'B. Resep diserahkan ke apotek oleh Pekarya Kesehatan Umum (PKU) ruangan'
+                    },
+                    {
+                        desc: 'C. Petugas apotek menyediakan obat-obatan dan alat kesehatan sesuai resep'
+                    },
+                    {
+                        desc: 'D. PKU ruangan mengambil obat-obatan dan alat kesehatan yang telah disiapkan oleh bagian apotek'
+                    },
+                    {
+                        desc: 'E. PKU mengecek kesesuaian obat-obatan dan alat kesehatan dengan faktur pembelian'
+                    },
+                    {
+                        desc: 'F. PKU membawa obat-obatan keruangan, menyerahkan faktur dan obat-obatan / alat kesehatan kepada perawat'
+                    },
+                    {
+                        desc: 'G. Perawat mengecek jumlah dan jenis obat / alkes sesuai order, serta mengecek apakah ada bon obat/alkes yang dipinjam pasien dari ruangan. Faktur diserahkan  kepada petugas administrasi'
+                    },
+                    {
+                        desc: 'H. Perawat menyerahkan obat-obatan / alat kesehatan kepada pasien/keluarga, dan menyimpannya pada tempat obat pasien'
+                    },
+                    {
+                        desc: 'I. Perawat dinas malam mengecek jumlah obat yang tersedia pada kartu obat untuk dilaporkan kepada PP atau shif berikutnya'
+                    },
+                    {
+                        desc: 'J. Perawat (Kepala tim / yang berkolaborasi dengan dokter) pada saat visite memberitahukan jumlah obat/alkes yang dibutuhkan oleh pasien pada hari itu.'
+                    }
+                ]},
+            { step: 'Pasien kelas IIB, kelas III umum dan Askes atau pasien kontraktor tertentu',
+                items: [
+                    {
+                        desc: 'A. Resep dibuat oleh dokter yang merawat / dokter ruangan',
+                        detail: '1) Resep harus dilengkapi dengan nama jelas pasien, no rekam medic, dan ruangan pasien' + '\n' +
+                                '2) Resep obat khusus untuk pasien Askes harus disertai dengan surat pernyataan obat khusus yang ditandatangani oleh dokter yang merawat' + '\n'
+                    },
+                    {
+                        desc: 'B. Pekarya Kesehatan Umum (PKU) memberikan nomor pada resep sesuai dengan nomor pengambilan obat'
+                    },
+                    {
+                        desc: 'C. PKU menyerahkan resep ke apotek'
+                    },
+                    {
+                        desc: 'D. PKU menyerahkan nomor pengambilan obat kepada keluarga pasien'
+                    },
+                    {
+                        desc: 'E. Petugas apotek menyediakan obat-obatan dan alat kesehatan sesuai resep'
+                    },
+                    {
+                        desc: 'F. Keluarga pasien menyerahkan nomor, melakukan transaksi pembelian dan mengambil obat-obatan / alat kesehatan sesuai resep'
+                    },
+                    {
+                        desc: 'G. Petugas apotek menyerahkan obat-obatan / alat kesehatan kepada keluarga pasien sesuai dengan faktur pembelian'
+                    },
+                    {
+                        desc: 'H. Keluarga pasien membawa obat-obatan / alkes dan menyerahkannya kepada perawat ruangan'
+                    },
+                    {
+                        desc: 'I. Perawat mengecek jumlah dan jenis obat / alkes sesuai order, serta mengecek apakah ada bon obat/alkes yang dipinjam pasien dari ruangan. Untuk faktur bon farmasi pasien ASKES dan pasien kontraktor tertentu diserahkan  kepada petugas administrasi'
+                    },
+                    {
+                        desc: 'J. Perawat menyerahkan obat-obatan / alat kesehatan kepada pasien / keluarga, dan menyimpannya pada tempat obat pasien'
+                    },
+                    {
+                        desc: 'K. Perawat dinas malam mengecek jumlah obat yang tersedia pada kartu obat untuk dilaporkan kepada PP atau shift berikutnya'
+                    },
+                    {
+                        desc: 'L. Perawat (PP / yang berkolaborasi dengan dokter) pada saat visite memberitahukan jumlah obat / alkes yang dibutuhkan oleh pasien pada hari itu'
+                    }
+                ]
+            }
         ],
-        dokumenTerkait: ['Formulir Asesmen Risiko', 'Checklist Keselamatan Pasien', 'Laporan Insiden'],
-        instalasiTerkait: ['Semua Instalasi']
+        dokumenTerkait: ['Rekam Medik Pasien', 'Kartu Obat'],
+        instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif']
     },
     { 
         id: 402, 
-        title: 'Komunikasi Terapeutik', 
+        title: 'Permintaan Diet Harian Ke Instalasi Gizi', 
         category: 'umum', 
-        description: 'Teknik komunikasi efektif dengan pasien.', 
-        icon: 'fa-comments', 
-        tags: ['Komunikasi', 'Terapeutik', 'Edukasi'],
-        noDokumen: 'SOP/UMUM/002/2025',
-        tanggalTerbit: '1 Januari 2025',
-        pengertian: 'Komunikasi terapeutik adalah komunikasi yang direncanakan untuk menyembuhkan pasien.',
-        tujuan: 'Membangun hubungan saling percaya antara perawat dan pasien.',
-        kebijakan: 'Standar Praktik Keperawatan Profesional.',
+        description: 'Kegiatan pelayanan permintaan diet ke bagian gizi.', 
+        icon: 'fa-file-medical-alt', 
+        tags: ['Diet', 'Gizi', 'Edukasi'],
+        noDokumen: '445/ SPO.3397/ Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Suatu kegiatan pelayanan permintaan diet ke bagian gizi.',
+        tujuan: 'Sebagai acuan penerapan langkah-langkah dalam pelaksanaan pelayanan permintaan diet ke bagian gizi untuk memenuhi kebutuhan nutrisi.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
         prosedur: [
-            { step: 'Sapa', desc: 'Sapa pasien dengan ramah', detail: 'Sebut nama pasien' },
-            { step: 'Perkenalan', desc: 'Perkenalkan diri', detail: 'Nama dan peran' },
-            { step: 'Empati', desc: 'Tunjukkan empati', detail: 'Dengarkan keluhan pasien' },
-            { step: 'Edukasi', desc: 'Berikan edukasi yang jelas', detail: 'Gunakan bahasa sederhana' },
-            { step: 'Validasi', desc: 'Validasi pemahaman pasien', detail: 'Tanyakan kembali' }
+            { step: 'Persiapan', desc: 'Buku daftar permintaan makanan pasien ( DPMP )' },
+            { step: 'Pelaksanaan', 
+                items: [
+                    { desc: 'A. Setiap ruangan perawatan membuat permintaan diet dalam buku DPMP berdasarkan nomor, tanggal, waktu makan, nama pasien, jenis diet, kelas perawatan dan nomor kamar, ditandatangani oleh perawat ruangan' },
+                    { desc: 'B. Buku DPMP diambil oleh petugas gizi pada :', 
+                        detail: '1) Pagi pukul 06.00 Wib dikembalikan ke ruangan jam 10.00 WIB ( untuk diet makan pagi )' + '\n' +
+                        '2) Siang pukul 11.00 Wib dikembalikan ke ruangan jam 12.00 WIB ( untuk diet makan siang )' + '\n' +
+                        '3) Sore pukul 12.00 Wib dikembalikan ke ruangan jam 12.30 WIB ( untuk diet makan sore )' },
+                    { desc: 'C. Buku DPMP di cek ulang oleh petugas gizi dan ruangan' },
+                    { desc: 'D. Makanan didistribusikan ke ruangan oleh petugas gizi' },
+                    { desc: 'E. Makanan diserahkan oleh petugas gizi kepasien sesuai permintaan baik jumlah maupun dietnya' },
+                    { desc: 'F. Peralatan makan ditarik kembali satu jam setelah makan oleh petugas gizi dan dibawa kembali ke instalasi gizi' }
+                ]
+            }
         ],
-        dokumenTerkait: ['Lembar Edukasi Pasien', 'Formulir Informed Consent'],
-        instalasiTerkait: ['Semua Instalasi']
+        dokumenTerkait: ['Buku daftar permintaan makanan pasien ( DPMP )'],
+        instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', 'Instalasi Gawat Darurat']
     },
     { 
         id: 403, 
-        title: 'Pencegahan Infeksi', 
+        title: 'Permintaan Diet Baru dan Penggantian Diet', 
         category: 'umum', 
-        description: 'Standar pencegahan dan pengendalian infeksi.', 
-        icon: 'fa-hand-holding-heart', 
-        tags: ['Infeksi', 'PPI', 'Hand Hygiene'],
-        noDokumen: 'SOP/UMUM/003/2025',
-        tanggalTerbit: '1 Januari 2025',
-        pengertian: 'Pencegahan infeksi adalah upaya untuk mencegah terjadinya infeksi di lingkungan pelayanan kesehatan.',
-        tujuan: 'Menurunkan angka infeksi nosokomial.',
-        kebijakan: 'Standar Pencegahan Infeksi Nasional.',
+        description: 'Kegiatan pelayanan perawatan, permintaan, diet untuk pasien baru dan penggantian diet ke bagian instalasi gizi.', 
+        icon: 'fa-file-medical', 
+        tags: ['Diet', 'Gizi', 'Edukasi'],
+        noDokumen: '445/ SPO.3398/ Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Suatu kegiatan pelayanan perawatan, permintaan, diet untuk pasien baru dan penggantian diet ke bagian instalasi gizi.',
+        tujuan: 'Sebagai acuan penerapan langkah-langkah dalam pelaksanaan pelayanan permintaan diet baru dan penggantian diet  untuk memenuhi kebutuhan nutrisi.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
         prosedur: [
-            { step: 'Hand Hygiene', desc: 'Cuci tangan 5 momen', detail: 'Pakai sabun atau handrub' },
-            { step: 'APD', desc: 'Gunakan APD sesuai prosedur', detail: 'Masker, sarung tangan, apron' },
-            { step: 'Sterilisasi', desc: 'Sterilisasi alat medis', detail: 'Autoklaf atau kimia' },
-            { step: 'Limbah', desc: 'Pengelolaan limbah medis', detail: 'Pisahkan sesuai jenis' },
-            { step: 'Ruang Isolasi', desc: 'Pengelolaan pasien infeksi', detail: 'Ruang isolasi khusus' }
+            { step: 'Perawat ruangan menginformasikan adanya pasien baru, atau adanya perubahan diet melalui telepone ke instalasi Gizi' },
+            { step: 'Petugas instalasi Gizi mencatat dan menyiapkan diet sesuai permintaan' },
+            { step: 'Petugas Instalasi Gizi mengirimkan makanan sesuai permintaan' },
+            { step: 'Makan dibagikan oleh petugas gizi' },
+            { step: 'Peralatan makan ditarik kembali satu jam setelah makan dan di kumpulkan di dapur gizi' }
         ],
-        dokumenTerkait: ['Checklist PPI', 'Lembar Monitoring Infeksi', 'Formulir Surveilans'],
-        instalasiTerkait: ['Semua Instalasi']
+        dokumenTerkait: ['Buku daftar permintaan makanan pasien ( DPMP )'],
+        instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', 'Instalasi Gawat Darurat']
     }
 ];

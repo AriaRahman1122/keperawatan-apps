@@ -913,14 +913,82 @@ body {
 .step-title {
     font-weight: 600;
     color: #1a2b4c;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
     font-size: 1.1rem;
+}
+
+.step-content.has-items .step-item-group {
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: rgba(0, 101, 248, 0.04);
+    border: 1px solid rgba(0, 101, 248, 0.12);
+    margin-bottom: 10px;
+}
+
+.step-content.has-items .step-item-group:last-child {
+    margin-bottom: 0;
 }
 
 .step-desc {
     color: #4d6a8c;
     font-size: 0.95rem;
     line-height: 1.5;
+    font-weight: 400;
+}
+
+.step-content.has-items .step-desc {
+    font-size: 0.96rem;
+    line-height: 1.65;
+    font-weight: 600;
+}
+
+.step-desc-indexed {
+    display: grid;
+    grid-template-columns: minmax(2ch, max-content) 1fr;
+    column-gap: 8px;
+    align-items: start;
+}
+
+.step-desc-marker {
+    color: inherit;
+    font-weight: inherit;
+    text-align: right;
+}
+
+.step-desc-text {
+    min-width: 0;
+}
+
+.step-detail-list {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.step-detail-item {
+    color: #7a94b5;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.step-detail-item-indexed {
+    display: grid;
+    grid-template-columns: minmax(2.5ch, max-content) 1fr;
+    column-gap: 8px;
+    align-items: start;
+}
+
+.step-detail-marker {
+    color: inherit;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.step-detail-text {
+    min-width: 0;
 }
 
 .step-detail {
@@ -928,7 +996,8 @@ body {
     margin-top: 8px;
     font-size: 0.85rem;
     color: #7a94b5;
-    font-style: italic;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .step-arrow {
