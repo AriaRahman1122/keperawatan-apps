@@ -1305,10 +1305,16 @@ body {
         height: 24px;
     }
     .partnership-logos {
+        display: flex;
+    align-items: center;
+    justify-content: center;
         gap: 20px;
     }
     .upi-logo-full {
         height: 40px;
+    }
+    .rsud-logo-full {
+        height: 80px;
     }
     .upi-logo-icon {
         height: 35px;
@@ -1363,11 +1369,16 @@ body {
         height: 28px;
     }
     .partnership-logos {
-        flex-direction: column;
+        display: flex;
+    align-items: center;
+    justify-content: center;
         gap: 15px;
     }
     .upi-logo-full {
         height: 35px;
+    }
+    .rsud-logo-full {
+        height: 70px;
     }
     .upi-logo-icon {
         height: 30px;
