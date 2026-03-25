@@ -12,6 +12,17 @@ function renderDokterPage() {
     if (!dokterGrid) return;
     
     dokterGrid.innerHTML = '';
+
+    if (!Array.isArray(sopDataDokter) || sopDataDokter.length === 0) {
+        dokterGrid.innerHTML = `
+            <div class="sop-empty-state" data-aos="fade-up">
+                <div class="sop-empty-icon"><i class="fas fa-folder-open"></i></div>
+                <h3>Belum Ada Data SOP Dokter</h3>
+                <p>Data SOP dokter masih dalam proses validasi dan akan ditampilkan setelah siap.</p>
+            </div>
+        `;
+        return;
+    }
     
     sopDataDokter.forEach(sop => {
         const card = document.createElement('div');
@@ -38,7 +49,7 @@ function initDokterSearch() {
         const grid = document.getElementById('dokterGrid');
         if (!grid) return;
         
-        Array.from(grid.children).forEach(card => {
+        Array.from(grid.querySelectorAll('.sop-card')).forEach(card => {
             const title = card.querySelector('h3').textContent.toLowerCase();
             const desc = card.querySelector('p').textContent.toLowerCase();
             card.style.display = (title.includes(keyword) || desc.includes(keyword)) ? 'block' : 'none';

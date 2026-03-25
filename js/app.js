@@ -21,7 +21,7 @@ function openModal(sop) {
     modalTitle.textContent = sop.title;
 
     const splitListMarker = (text = '') => {
-        const match = text.match(/^\s*([A-Za-z]\.|\d+\))\s+(.*)$/);
+        const match = text.match(/^\s*([A-Za-z]+\.|\d+\)|[-•])\s+(.*)$/);
         if (!match) {
             return { marker: '', content: text.trim() };
         }
@@ -60,46 +60,276 @@ function openModal(sop) {
         `;
     };
 
-    const renderDetail = (detailText, options = {}) => {
-        if (!detailText) return '';
+    const normalizeSubDetail = (input) => {
+        if (!input) return [];
+
+        if (Array.isArray(input)) {
+            return input
+                .map((line) => (typeof line === 'string' ? line.trim() : ''))
+                .filter(Boolean);
+        }
+
+        if (typeof input === 'string') {
+            return input
+                .split('\n')
+                .map((line) => line.trim())
+                .filter(Boolean);
+        }
+
+        return [];
+    };
+
+    const normalizeDetailEntries = (detailInput) => {
+        if (!detailInput) return [];
+
+        if (typeof detailInput === 'string') {
+            return detailInput
+                .split('\n')
+                .map((line) => line.trim())
+                .filter(Boolean)
+                .map((line) => ({ text: line, subDetail: [] }));
+        }
+
+        const entries = Array.isArray(detailInput) ? detailInput : [detailInput];
+
+        return entries
+            .map((entry) => {
+                if (typeof entry === 'string') {
+                    return { text: entry.trim(), subDetail: [] };
+                }
+
+                if (!entry || typeof entry !== 'object') {
+                    return null;
+                }
+
+                const text = (entry.text || entry.detail || entry.desc || '').trim();
+                const subDetail = normalizeSubDetail(entry.subDetail || entry.subDetails || entry.children);
+
+                if (!text && !subDetail.length) {
+                    return null;
+                }
+
+                return { text, subDetail };
+            })
+            .filter(Boolean);
+    };
+
+    const renderDetail = (detailInput, options = {}) => {
+        if (!detailInput) return '';
 
         const { indexed = false } = options;
+        const entries = normalizeDetailEntries(detailInput);
 
-        const lines = detailText
-            .split('\n')
-            .map((line) => line.trim())
-            .filter(Boolean);
+        if (!entries.length) return '';
 
-        if (!lines.length) return '';
+        let autoNumber = 0;
 
-        const renderedLines = indexed
-            ? lines.map((line, lineIndex) => {
-                const parsed = splitListMarker(line);
-                const marker = `${lineIndex + 1})`;
-                const content = parsed.content || line;
+        const renderedEntries = entries.map((entry) => {
+            const parsed = splitListMarker(entry.text || '');
+            const lineMarker = indexed ? (parsed.marker || `${++autoNumber})`) : '';
+            const lineContent = parsed.content || entry.text;
 
-                return `
+            const mainLine = indexed
+                ? `
                     <div class="step-detail-item step-detail-item-indexed">
-                        <span class="step-detail-marker">${marker}</span>
-                        <span class="step-detail-text">${content}</span>
+                        <span class="step-detail-marker">${lineMarker}</span>
+                        <span class="step-detail-text">${lineContent}</span>
                     </div>
-                `;
-            }).join('')
-            : lines.map((line) => `<div class="step-detail-item">${line}</div>`).join('');
+                `
+                : `<div class="step-detail-item">${lineContent}</div>`;
+
+            const subLines = entry.subDetail.length
+                ? `
+                    <div class="step-subdetail-list">
+                        ${(() => {
+                            const rows = [];
+                            let formulaGroup = [];
+                            const isFormulaExpression = (text = '') => /=/.test(text)
+                                || (/[()]/.test(text) && /[xX×*\/+-]/.test(text));
+                            const isGivenValueLine = (text = '') => /^diberikan\b/i.test(text)
+                                && /\bbb\b/i.test(text)
+                                && /\d/.test(text);
+
+                            const flushFormulaGroup = () => {
+                                if (!formulaGroup.length) return;
+
+                                rows.push(`
+                                    <div class="step-subdetail-item step-detail-item-indexed is-formula">
+                                        <span class="step-detail-text formula-group">
+                                            ${formulaGroup.map((line) => `
+                                                <div class="formula-line ${line.isNote ? 'formula-note' : ''}">
+                                                    ${line.marker ? `<span class="formula-inline-marker">${line.marker}</span>` : ''}
+                                                    <span>${line.content}</span>
+                                                </div>
+                                            `).join('')}
+                                        </span>
+                                    </div>
+                                `);
+
+                                formulaGroup = [];
+                            };
+
+                            entry.subDetail.forEach((subLine, idx, allLines) => {
+                                const subParsed = splitListMarker(subLine);
+                                const hasExplicitMarker = Boolean(subParsed.marker);
+                                const subMarker = hasExplicitMarker ? subParsed.marker : '';
+                                const subContent = subParsed.content || subLine;
+
+                                const previousRaw = idx > 0 ? allLines[idx - 1] : '';
+                                const nextRaw = idx < allLines.length - 1 ? allLines[idx + 1] : '';
+                                const previousParsed = splitListMarker(previousRaw || '');
+                                const nextParsed = splitListMarker(nextRaw || '');
+                                const previousContent = previousParsed.content || previousRaw;
+                                const nextContent = nextParsed.content || nextRaw;
+
+                                const isFormulaExpr = isFormulaExpression(subContent);
+                                const isFormulaNote = /^keterangan\s*:/i.test(subContent);
+                                const isContextFormulaValue = isGivenValueLine(subContent)
+                                    && (isFormulaExpression(previousContent) || isFormulaExpression(nextContent));
+                                const isFormulaRelated = isFormulaExpr || isFormulaNote || isContextFormulaValue;
+
+                                if (isFormulaRelated) {
+                                    formulaGroup.push({
+                                        marker: subMarker,
+                                        content: subContent,
+                                        isNote: isFormulaNote
+                                    });
+                                    return;
+                                }
+
+                                flushFormulaGroup();
+
+                                const displayMarker = subMarker || '-';
+
+                                rows.push(`
+                                    <div class="step-subdetail-item step-detail-item-indexed">
+                                        <span class="step-detail-marker">${displayMarker}</span>
+                                        <span class="step-detail-text">${subContent}</span>
+                                    </div>
+                                `);
+                            });
+
+                            flushFormulaGroup();
+
+                            return rows.join('');
+                        })()}
+                    </div>
+                `
+                : '';
+
+            return `
+                <div class="step-detail-entry">
+                    ${mainLine}
+                    ${subLines}
+                </div>
+            `;
+        }).join('');
 
         return `
             <div class="step-detail-list">
-                ${renderedLines}
+                ${renderedEntries}
             </div>
         `;
     };
 
-    const renderDescDetailBlock = (desc, detail, itemIndex) => `
-        <div class="step-item-group">
-            ${renderDesc(desc, { indexed: true, markerOverride: getAlphabetMarker(itemIndex) })}
-            ${renderDetail(detail, { indexed: true })}
-        </div>
-    `;
+    const renderDescDetailBlock = (desc, detail, itemIndex) => {
+        const parsed = splitListMarker(desc || '');
+        const markerOverride = parsed.marker ? '' : getAlphabetMarker(itemIndex);
+
+        return `
+            <div class="step-item-group">
+                ${renderDesc(desc, { indexed: true, markerOverride })}
+                ${renderDetail(detail, { indexed: true })}
+            </div>
+        `;
+    };
+
+    const renderPointList = (text, fallback) => {
+        const value = (text || fallback).trim();
+        const lines = value.split('\n').map((line) => line.trim()).filter(Boolean);
+
+        if (lines.length <= 1) {
+            return `<p>${value}</p>`;
+        }
+
+        let intro = '';
+        let items = lines;
+
+        if (/[:：]$/.test(lines[0]) && lines.length > 1) {
+            intro = lines[0];
+            items = lines.slice(1);
+        }
+
+        const cleanItems = items
+            .map((line) => line.replace(/^(\d+[\.)]?|[-•])\s*/, '').trim())
+            .filter(Boolean);
+
+        if (!cleanItems.length) {
+            return `<p>${value}</p>`;
+        }
+
+        return `
+            ${intro ? `<p>${intro}</p>` : ''}
+            <ol class="tujuan-list">
+                ${cleanItems.map((item) => `<li>${item}</li>`).join('')}
+            </ol>
+        `;
+    };
+
+    const renderTujuan = (tujuanText) => {
+        return renderPointList(
+            tujuanText,
+            'Standar operasional prosedur ini bertujuan untuk memberikan panduan yang jelas dan seragam.'
+        );
+    };
+
+    const renderPengertian = (pengertianText) => {
+        const value = (pengertianText || 'Tidak ada data').trim();
+        const lines = value.split('\n').map((line) => line.trim()).filter(Boolean);
+
+        if (lines.length <= 1) {
+            return `<p>${value}</p>`;
+        }
+
+        const isAlphaItem = (line) => /^[a-zA-Z][\.)]\s+/.test(line);
+        const cleanAlphaItem = (line) => line.replace(/^[a-zA-Z][\.)]\s+/, '').trim();
+
+        const groups = [];
+        let currentGroup = null;
+
+        lines.forEach((line) => {
+            if (isAlphaItem(line)) {
+                if (!currentGroup) {
+                    currentGroup = { title: '', items: [] };
+                    groups.push(currentGroup);
+                }
+                currentGroup.items.push(cleanAlphaItem(line));
+                return;
+            }
+
+            currentGroup = { title: line, items: [] };
+            groups.push(currentGroup);
+        });
+
+        const hasAlphaGroups = groups.some((group) => group.items.length);
+
+        if (!hasAlphaGroups) {
+            return renderPointList(value, 'Tidak ada data');
+        }
+
+        return `
+            <div class="pengertian-list">
+                ${groups.map((group) => `
+                    <div class="pengertian-block">
+                        ${group.title ? `<p class="pengertian-title">${group.title}</p>` : ''}
+                        ${group.items.length
+                            ? `<ol class="pengertian-sublist" type="a">${group.items.map((item) => `<li>${item}</li>`).join('')}</ol>`
+                            : ''}
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    };
     
     let prosedurHTML = '';
     if (sop.prosedur) {
@@ -139,12 +369,12 @@ function openModal(sop) {
 
         <div class="sop-detail-section">
             <div class="sop-detail-title"><i class="fas fa-info-circle"></i> Pengertian</div>
-            <p>${sop.pengertian || 'Tidak ada data'}</p>
+            ${renderPengertian(sop.pengertian)}
         </div>
 
         <div class="sop-detail-section">
             <div class="sop-detail-title"><i class="fas fa-bullseye"></i> Tujuan</div>
-            <p>${sop.tujuan || 'Standar operasional prosedur ini bertujuan untuk memberikan panduan yang jelas dan seragam.'}</p>
+            ${renderTujuan(sop.tujuan)}
         </div>
 
         <div class="sop-detail-section">

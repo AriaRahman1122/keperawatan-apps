@@ -1098,6 +1098,1053 @@ const sopDataPerawatTindakan = [
         ],
         dokumenTerkait: ['Panduan Pelayanan Kemoterapi'],
         instalasiTerkait: ['Instalasi Farmasi', 'IPSRS', 'Instalasi Rawat Inap', 'Instalasi Rawat Jalan']
-    }
+    },
+
+
+/*
+ ===================================================================================
+ Category Maternitas, ID: 1201 - 1300
+ ===================================================================================
+*/
+
+    {
+        id: 1201,
+        title: 'PERAWATAN PAYUDARA ( BREAST CARE )',
+        category: 'tindakan',
+        subCategory: 'maternitas',
+        description: 'Memberi tindakan  pada organ payudara dengan cara di-massage.',
+        icon: 'fa-hands',
+        tags: ['Breast Care', 'Perawatan Payudara'],
+        noDokumen: '445/SPO. 3541/Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Memberi tindakan  pada organ payudara dengan cara di-massage.',
+        tujuan: 'Sebagai acuan penerapan langkah-langkah perawatan payudara untuk:\nMencegah pembendungan ASI.\nMeningkatkan hygiene payudara.\nMeningkatkan produksi ASI.\nMelenturkan dan menguatkan puting.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+        prosedur: [
+            {
+                step: 'Persiapan',
+                items: [
+                    {
+                        desc: 'Persiapan Alat',
+                        detail: '1) Handuk besar 2 buah' + '\n' +
+                                '2) Waskom ukuran sedang 2 buah (berisi air panas/hangat, air dingin)' + '\n' +
+                                '3) Waslap 3 pasang' + '\n' +
+                                '4) Kapas untuk kompres dalam wadahnya tertutup (kombulat bertutup)' + '\n' +
+                                '5) Kombulat tertutup (untuk wadah penampung ASI)' + '\n' +
+                                '6) Baby Oil' + '\n' +
+                                '7) Celemek / Barakschort + topi dan masker' + '\n' +
+                                '8) Handuk kecil (untuk lap kerja)' + '\n' +
+                                '9) Wadah tempat kain kotor' + '\n' +
+                                '10) Nierbeken / Bengkok 2 buah' + '\n' +
+                                '11) Tempat sampah (2 jenis)'
+                    },
+                    {
+                        desc: 'Persiapan Pasien',
+                        detail: '1) Berikan penjelasan kepada pasien dan keluarga tentang tindakan yang akan dilakukan'
+                    },
+                    {
+                        desc: 'Persiapan Lingkungan',
+                        detail: '1) Skherm ditutup (bila perlu) agar privasi pasien terjaga, bedplang tempat tidur pasien dibuka atau ditutup sesuai dengan kebutuhan'
+                    }
+                ]
+            },
+            {
+                step: 'Pelaksanaan',
+                items: [
+                    { desc: 'A. Perawat cuci tangan' },
+                    { desc: 'B. Cocokkan nama pasien dengan gelang identitas' },
+                    { desc: 'C. Dekatkan alat-alat di samping pasien' },
+                    { desc: 'D. Membaca basmallah' },
+                    { desc: 'E. Memakai celemek, topi, dan masker' },
+                    { desc: 'F. Bantu ibu duduk dan mengatur posisi yang nyaman dengan cara posisi duduk bersandar' },
+                    { desc: 'G. Pasang scherm / pembatas ruangan untuk menjaga privasi ibu sebelum membuka pakaian dan melakukan tindakan' },
+                    { desc: 'H. Perawat / Bidan berdiri di belakang ibu dan bantu ibu membuka pakaian bagian atas' },
+                    { desc: 'I. Letakkan 1 buah handuk besar di punggung ibu sampai menutupi payudara ibu dan 1 handuk lagi di bawah payudara ibu' },
+                    { desc: 'J. Basahi kapas kering 2 buah dengan baby oil atau minyak kelapa khusus, lalu buka sedikit penutup payudara dan tempelkan kapas tersebut pada puting susu' },
+                    { desc: 'K. Biarkan kapas tersebut selama 2–3 menit, setelah itu lepaskan kapas dari puting susu dan buang ke dalam bengkok / nierbeken' },
+                    { desc: 'L. Tuangkan baby oil atau minyak kelapa pada telapak tangan secukupnya, lalu ratakan dengan kedua telapak tangan ke seluruh permukaan tangan untuk dioleskan ke seluruh bagian payudara' },
+                    { desc: 'M. Letakkan nierbeken tepat di bawah payudara agar ketika payudara ditekan ASI yang keluar tidak membasahi handuk atau pakaian ibu' },
+                    { desc: 'N. Letakkan kedua telapak tangan yang telah dibasahi dengan baby oil tersebut di kedua payudara (kanan dan kiri), kemudian lakukan gerakan memutar dari arah dalam ke arah luar dengan hitungan sebanyak 30 kali' },
+                    { desc: 'O. Sokonglah payudara sebelah kanan dengan tangan kiri, lalu kepalkan tangan kanan dan lakukan gerakan menekan payudara dengan kepalan tangan tersebut dari atas ke arah puting susu sampai merata ke seluruh sisi payudara (sebanyak 30 kali gerakan)' },
+                    { desc: 'P. Sokonglah payudara sebelah kiri dengan tangan kanan, lalu kepalkan tangan kiri dan lakukan gerakan menekan payudara dengan kepalan tangan tersebut dari atas ke arah puting susu sampai merata ke seluruh sisi payudara (sebanyak 30 kali gerakan)' },
+                    { desc: 'Q. Mulai dari payudara sebelah kanan, peganglah payudara dengan posisi ibu jari kedua tangan saling berhadapan dan bertemu ujungnya, dan jari-jari lainnya berada di bawah, kemudian lakukan masase dengan sedikit tekanan dari seluruh jari-jari dari bagian atas ke puting susu (seperti gerakan memeras susu) sebanyak 30 kali gerakan' },
+                    { desc: 'R. Lanjutkan dengan payudara sebelah kiri, peganglah payudara dengan posisi ibu jari kedua tangan saling berhadapan dan bertemu ujungnya, dan jari-jari lainnya berada di bawah, kemudian lakukan masase dengan sedikit tekanan dari seluruh jari-jari dari bagian atas ke puting susu (seperti gerakan memeras susu) sebanyak 30 kali gerakan' },
+                    { desc: 'S. Dengan menggunakan 2 buah waslap, kompres kedua payudara dengan air hangat selama 3–5 menit (kondisi air hangat tetap dijaga kehangatannya, jika kurang hangat ditambahkan lagi dengan air hangat sesuai kebutuhan)' },
+                    { desc: 'T. Dengan menggunakan 2 buah waslap, kompres kedua payudara dengan air dingin selama 3–5 menit' },
+                    { desc: 'U. Kompres kembali kedua payudara dengan menggunakan 2 buah waslap dan air hangat selama 3–5 menit (kondisi air hangat tetap dijaga kehangatannya, jika kurang hangat ditambahkan lagi dengan air hangat sesuai kebutuhan)' },
+                    { desc: 'V. Kemudian keringkan kedua payudara dengan menggunakan handuk yang diletakkan di bawah payudara tersebut' },
+                    { desc: 'W. Pakailah kembali pakaian ibu bagian atas (tanyakan pada ibu ingin diganti dengan yang bersih atau pakaian yang telah dipakai tadi), sambil amati kondisi ibu dan atur kembali posisi ibu yang nyaman' },
+                    { desc: 'X. Ucapkan hamdallah' },
+                    { desc: 'Y. Bereskan kembali semua peralatan yang telah digunakan untuk dibersihkan dan dikeringkan' },
+                    { desc: 'Z. Cucilah tangan setelah menyelesaikan pekerjaan' }
+                ]
+            },
+            {
+                step: 'Evaluasi',
+                desc: 'Pantau respon pasien selama dan setelah tindakan dilakukan'
+            },
+            {
+                step: 'Dokumentasi',
+                desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medik pasien'
+            }
+        ],
+        dokumenTerkait: ['Status pasien'],
+        instalasiTerkait: ['Instalasi Rawat Inap']
+    },
+    {
+        id: 1202,
+        title: 'Vulva Hygiene',
+        category: 'tindakan',
+        subCategory: 'maternitas',
+        description: 'Memberikan tindakan  pada vulva untuk menjaga kebersihan.',
+        icon: 'fa-pump-soap',
+        tags: ['Vulva Hygiene', 'Hygiene', 'Sanitasi Klinis', 'Postpartum'],
+        noDokumen: '445/SPO.3542/Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Memberikan tindakan  pada vulva untuk menjaga kebersihan.',
+        tujuan: 'Sebagai acuan penerapan langkah-langkah perawatan payudara untuk:\nMencegah terjadinya infeksi di daerah vulva, perineum maupun uterus.\nUntuk penyembuhan luka perineum/ jahitan pada perineum.\nUntuk kebersihan perineum dan vulva.\nMemberikan rasa nyaman pasien.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+        prosedur: [
+                {
+                    step: 'Persiapan',
+                    items: [
+                        {
+                            desc: 'Persiapan Alat',
+                            detail: '1) Perlak dan pengalas' + '\n' +
+                                    '2) Selimut mandi' + '\n' +
+                                    '3) Hands scoon 1 pasang' + '\n' +
+                                    '4) Bengkok 2 buah, salah satu berisi lisol 2%' + '\n' +
+                                    '5) Tas plastik 2 buah' + '\n' +
+                                    '6) Kom berisi kapas basah (air dan kapas direbus bersama)' + '\n' +
+                                    '7) Celana dalam (bila diperlukan persiapkan pembalut)' + '\n' +
+                                    '8) Pispot' + '\n' +
+                                    '9) Botol cebok berisi air matang'
+                        },
+                        {
+                            desc: 'Persiapan Pasien',
+                            detail: '1) Memberikan penjelasan tentang tujuan dan prosedur yang akan dilakukan' + '\n' +
+                                    '2) Mengatur posisi pasien dan menanyakan persetujuan serta kesiapan klien'
+                        },
+                        {
+                            desc: 'Persiapan Lingkungan',
+                            detail: '1) Skherm ditutup (bila perlu) agar privasi pasien terjaga' + '\n' +
+                                    '2) Bedplang tempat tidur pasien dibuka atau ditutup sesuai dengan kebutuhan'
+                        }
+                    ]
+                },
+                {
+                    step: 'Pelaksanaan',
+                    items: [
+                        { desc: 'A. Mencuci tangan' },
+                        { desc: 'B. Cocokkan nama pasien dengan gelang identitas' },
+                        { desc: 'C. Memberikan salam dan menyapa nama pasien' },
+                        { desc: 'D. Memasang sampiran / menjaga privasi' },
+                        { desc: 'E. Memasang selimut mandi' },
+                        { desc: 'F. Mengatur posisi pasien dorsal recumbent' },
+                        { desc: 'G. Memasang alat dan perlak di bawah pantat' },
+                        { desc: 'H. Melepas celana dan pembalut kemudian segera pasang pispot sambil memperhatikan lochea. Celana dan pembalut dimasukkan dalam tas plastik yang berbeda' },
+                        { desc: 'I. Mempersilahkan bila ingin BAB / BAK' },
+                        { desc: 'J. Memakai sarung tangan kiri' },
+                        { desc: 'K. Mengguyur vulva dengan air matang' },
+                        { desc: 'L. Mengambil pispot' },
+                        { desc: 'M. Meletakkan bengkok di dekat vulva' },
+                        { desc: 'N. Membersihkan vulva mulai dari labia mayora kiri, labia mayora kanan, labia minora kiri, labia minora kanan, vestibulum, dan perineum. Arah dari atas ke bawah dengan kapas basah (1 kapas 1 kali usap)' },
+                        { desc: 'O. Memasang celana dalam' },
+                        { desc: 'P. Mengambil alas perlak dan bengkok' },
+                        { desc: 'Q. Merapikan pasien, mengambil selimut mandi' },
+                        { desc: 'R. Membereskan dan mengembalikan alat ke tempat semula' },
+                        { desc: 'S. Mencuci tangan' }
+                    ]
+                },
+                {
+                    step: 'Evaluasi',
+                    desc: 'Pantau respon pasien selama dan setelah dilakukan tindakan'
+                },
+                {
+                    step: 'Dokumentasi',
+                    desc: 'Mencatat kegiatan dalam lembar catatan keperawatan'
+                }
+        ],
+        dokumenTerkait: ['Status pasien'],
+        instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Rawat Jalan']
+    },
+    {
+        id: 1203,
+        title: 'Merawat Luka Perineum',
+        category: 'tindakan',
+        subCategory: 'maternitas',
+        description: 'Memberi tindakan  pada area perineum untuk menjaga kebersihan.',
+        icon: 'fa-band-aid',
+        tags: ['Perawatan Luka', 'Perineum', 'Wound Care', 'Postpartum'],
+        noDokumen: '445/SPO.3543/Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Memberi tindakan  pada area perineum untuk menjaga kebersihan.',
+        tujuan: 'Sebagai acuan penerapan langkah-langkah perawatan luka perineum untuk:\nMencegah terjadinya infeksi di daerah  vulva, perineum maupun uterus.\nUntuk penyembuhan luka perineum/ jahitan pada perineum.\nUntuk kebersihan perineum dan vulva.\nMemberikan rasa nyaman pasien.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+        prosedur: [
+                {
+                    step: 'Persiapan',
+                    items: [
+                        {
+                            desc: 'Persiapan Alat',
+                            detail: '1) Bak instrumen steril berisi kapas dan pinset anatomis' + '\n' +
+                                    '2) Perlak dan pengalas' + '\n' +
+                                    '3) Selimut mandi' + '\n' +
+                                    '4) Hands scoon 1 pasang' + '\n' +
+                                    '5) Bengkok 2 buah, 1 buah berisi larutan desinfektan' + '\n' +
+                                    '6) Tas plastik 2 buah' + '\n' +
+                                    '7) Kom berisi kapas basah' + '\n' +
+                                    '8) Celana dalam dan pembalut wanita' + '\n' +
+                                    '9) Pispot' + '\n' +
+                                    '10) Botol cebok berisi air matang' + '\n' +
+                                    '11) Obat luka perineum'
+                        },
+                        {
+                            desc: 'Persiapan Pasien',
+                            detail: '1) Menjelaskan tujuan dan prosedur tindakan pada keluarga / klien' + '\n' +
+                                    '2) Menanyakan persetujuan dan kesiapan klien'
+                        },
+                        {
+                            desc: 'Persiapan Lingkungan',
+                            detail: '1) Skherm ditutup (bila perlu) agar privasi pasien terjaga' + '\n' +
+                                    '2) Bedplang tempat tidur pasien dibuka atau ditutup sesuai dengan kebutuhan'
+                        }
+                    ]
+                },
+                {
+                    step: 'Pelaksanaan',
+                    items: [
+                        { desc: 'A. Perawat cuci tangan' },
+                        { desc: 'B. Cocokkan nama pasien dengan gelang identitas' },
+                        { desc: 'C. Membawa alat di dekat pasien dengan benar' },
+                        { desc: 'D. Memberikan salam dan menyapa nama pasien' },
+                        { desc: 'E. Memasang sampiran / menjaga privasi' },
+                        { desc: 'F. Memasang selimut mandi' },
+                        { desc: 'G. Mengatur posisi pasien dorsal recumbent' },
+                        { desc: 'H. Memasang alat dan perlak di bawah pantat' },
+                        { desc: 'I. Melepas celana dan pembalut kemudian segera pasang pispot sambil memperhatikan lochea. Celana dan pembalut dimasukkan dalam tas plastik yang berbeda' },
+                        { desc: 'J. Mempersilahkan bila ingin BAB / BAK' },
+                        { desc: 'K. Memakai sarung tangan kiri' },
+                        { desc: 'L. Mengguyur vulva dengan air matang' },
+                        { desc: 'M. Mengambil pispot' },
+                        { desc: 'N. Meletakkan bengkok di dekat vulva' },
+                        { desc: 'O. Mengambil kapas basah' },
+                        { desc: 'P. Membuka vulva dengan ibu jari dan jari telunjuk kiri' },
+                        { desc: 'Q. Membersihkan vulva mulai dari labia mayora kiri, labia mayora kanan, labia minora kiri, labia minora kanan, vestibulum, dan perineum. Arah dari atas ke bawah dengan kapas basah (1 kapas 1 kali usap)' },
+                        { desc: 'R. Mengobati luka dan menutup luka dengan kasa steril' },
+                        { desc: 'S. Memasang celana dalam dan pembalut wanita' },
+                        { desc: 'T. Mengambil alas perlak dan bengkok' },
+                        { desc: 'U. Merapikan pasien, mengambil selimut mandi' },
+                        { desc: 'V. Membereskan alat-alat' },
+                        { desc: 'W. Mencuci tangan' }
+                    ]
+                },
+                {
+                    step: 'Evaluasi',
+                    desc: 'Pantau respon pasien selama dan setelah tindakan dilakukan'
+                },
+                {
+                    step: 'Dokumentasi',
+                    desc: 'Mencatat kegiatan dalam lembar catatan keperawatan'
+                }
+        ],
+        dokumenTerkait: ['Status pasien'],
+        instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Rawat Jalan']
+    },
+    {
+        id: 1204,
+        title: 'Menyiapkan Pasien Untuk Pemasangan Laminaria',
+        category: 'tindakan',
+        subCategory: 'maternitas',
+        description: 'Kegiatan menyiapkan pasien untuk dilakukan  pemasangan laminaria.',
+        icon: 'fa-procedures',
+        tags: ['Persiapan Pasien', 'Laminaria', 'Obstetri', 'Dilatasi Serviks'],
+        noDokumen: '445/SPO.3544/Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Suatu kegiatan menyiapkan pasien untuk dilakukan  pemasangan laminaria.',
+        tujuan: 'Sebagai acuan penerapan langkah-langkah dalam menyiapkan pasien untuk dilakukan  pemasangan laminaria.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+        prosedur: [
+                {
+                    step: 'Persiapan',
+                    items: [
+                        {
+                            desc: 'Persiapan Alat',
+                            detail: [
+                                {
+                                    text: '1) Bak instrumen steril sedang berisi:',
+                                    subDetail: [
+                                        '- Kom kecil berisi bethadine',
+                                        '- Kassa steril 3–5 buah',
+                                        '- Speculum cocor bebek',
+                                        '- Tena kulum / kogel tang',
+                                        '- Tampon tang',
+                                        '- Penser klem',
+                                        '- Gunting',
+                                        '- Roll tampon'
+                                    ]
+                                },
+                                { text: '2) Sarung tangan 1 pasang' },
+                                {
+                                    text: '3) Alat pelindung diri:',
+                                    subDetail: [
+                                        '- Sepatu bot, kacamata google, topi (sesuai indikasi)',
+                                        '- Barak schort',
+                                        '- Masker'
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            desc: 'Persiapan Pasien',
+                            detail: '1) Berikan penjelasan kepada ibu tentang tindakan yang akan dilakukan' + '\n' +
+                                    '2) Pasien dan keluarga menandatangani formulir informed consent dan surat izin tindakan pemasangan laminaria' + '\n' +
+                                    '3) Pasien disuruh untuk BAK terlebih dahulu' + '\n' +
+                                    '4) Posisi pasien diatur lithotomi'
+                        },
+                        {
+                            desc: 'Persiapan Lingkungan',
+                            detail: '1) Skherm ditutup (bila perlu) agar privasi pasien terjaga' + '\n' +
+                                    '2) Bedplang tempat tidur pasien dibuka atau ditutup sesuai dengan kebutuhan'
+                        }
+                    ]
+                },
+                {
+                    step: 'Pelaksanaan',
+                    items: [
+                        { desc: 'A. Perawat cuci tangan' },
+                        { desc: 'B. Cocokkan nama pasien dengan gelang identitas' },
+                        { desc: 'C. Alat-alat disiapkan, letakkan secara ergonomis' },
+                        { desc: 'D. Pakai APD' },
+                        { desc: 'E. Membantu pasien untuk membuka pakaian dalamnya' },
+                        { desc: 'F. Pasien ditidurkan pada tempat tidur tindakan dengan posisi lithotomi' },
+                        { desc: 'G. Berdoa bersama sebelum tindakan pemasangan laminaria' },
+                        { desc: 'H. Membantu dokter saat memasang laminaria' },
+                        { desc: 'I. Merapikan pasien setelah selesai tindakan pemasangan laminaria' },
+                        { desc: 'J. Alat-alat dibereskan dan dicuci' },
+                        { desc: 'K. Mengucapkan hamdallah' },
+                        { desc: 'L. Cuci tangan' }
+                    ]
+                },
+                {
+                    step: 'Evaluasi',
+                    desc: 'Observasi respon pasien selama dan setelah dilakukan tindakan'
+                },
+                {
+                    step: 'Dokumentasi',
+                    desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medik pasien meliputi waktu pemasangan dan ukuran laminaria'
+                }
+        ],
+        dokumenTerkait: ['Status pasien'],
+        instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Rawat Jalan']
+    },
+    {
+        id: 1205,
+        title: 'Menyiapkan Pasien Untuk Tindakan Kuretage',
+        category: 'tindakan',
+        subCategory: 'maternitas',
+        description: 'Kegiatan mempersiapkan alat dan pasien untuk melakukan tindakan kuretage pada kasus obstetrik dan ginekologi serta diagnostik.',
+        icon: 'fa-procedures',
+        tags: ['Kuretase', 'Curettage', 'Ginekologi', 'Persiapan Operasi', 'Tindakan Medis'],
+        noDokumen: '445/SPO.3545/Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Adalah kegiatan mempersiapkan alat dan pasien untuk melakukan tindakan kuretage pada kasus obstetrik dan ginekologi serta diagnostik.',
+        tujuan: 'Sebagai acuan penerapan langkah-langkah dalam menyiapkan pasien yang  akan dilakukan tindakan kuretage pada kasus obstetrik dan ginekologi.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+        prosedur: [
+                {
+                    step: 'Persiapan',
+                    items: [
+                        {
+                            desc: 'Persiapan Alat',
+                            detail: [
+                                {
+                                    text: '1) Bak instrumen steril sedang berisi:',
+                                    subDetail: [
+                                        '- Kom kecil berisi bethadine',
+                                        '- Kassa steril 3–5 buah',
+                                        '- Speculum sim 2 buah',
+                                        '- Tena kulum / kogel tang',
+                                        '- Tampon tang',
+                                        '- Sonde uterus',
+                                        '- Cunam abortus',
+                                        '- Sendok kuret sesuai kebutuhan',
+                                        '- Sarung tangan 2 pasang',
+                                        '- Bougi bila diperlukan'
+                                    ]
+                                },
+                                {
+                                    text: '4) Alat pelindung diri:',
+                                    subDetail: [
+                                        '- Sepatu bot',
+                                        '- Kacamata google',
+                                        '- Topi',
+                                        '- Barak schort',
+                                        '- Masker'
+                                    ]
+                                },
+                                {
+                                    text: '5) Alat kesehatan dan obat-obatan:',
+                                    subDetail: [
+                                        '- Wing needle no. 23, 1 buah (pasien harus diinfus)',
+                                        '- Aquadest',
+                                        '- Disposable 5 cc, 1 buah',
+                                        '- Disposable 3 cc, 1 buah',
+                                        '- Disposable 10 cc, 1 buah',
+                                        '- Set infus (IV catheter, infusion set, dan cairan infus)',
+                                        '- Uterotonica',
+                                        '- Analgetik',
+                                        '- Sedativa',
+                                        '- Obat anestesi',
+                                        '- Obat dan alat kesehatan untuk mengatasi syok'
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            desc: 'Persiapan Pasien',
+                            detail: '1) Memberikan penjelasan (informed consent) kepada pasien dan keluarga tentang tujuan dan prosedur tindakan yang akan dilakukan' + '\n' +
+                                    '2) Pasien dan keluarga menandatangani formulir informed consent dan surat izin tindakan kuretage' + '\n' +
+                                    '3) Pasien disuruh untuk BAK terlebih dahulu' + '\n' +
+                                    '4) Posisi pasien diatur lithotomi' + '\n' +
+                                    '5) Pasien dipuasakan selama 6–8 jam sebelum tindakan kuret'
+                        },
+                        {
+                            desc: 'Persiapan Lingkungan',
+                            detail: '1) Skherm ditutup (bila perlu) agar privasi pasien terjaga' + '\n' +
+                                    '2) Bedplang tempat tidur pasien dibuka atau ditutup sesuai dengan kebutuhan'
+                        }
+                    ]
+                    },
+                    {
+                        step: 'Pelaksanaan',
+                        items: [
+                            { desc: 'A. Perawat cuci tangan' },
+                            { desc: 'B. Cocokkan nama pasien dengan gelang identitas' },
+                            { desc: 'C. Mengukur tekanan darah, nadi sebelum dan sesudah tindakan, suhu, dan pernapasan' },
+                            { desc: 'D. Memindahkan pasien ke meja ginekologi kemudian mengatur posisi lithotomi' },
+                            { desc: 'E. Membantu dokter untuk tindakan kuret' },
+                            { desc: 'F. Membersihkan dan merapikan pasien sesudah dilakukan tindakan kuret' },
+                            { desc: 'G. Memasang pembalut wanita' },
+                            { desc: 'H. Memindahkan pasien ke kereta dorong' },
+                            { desc: 'I. Menyiapkan bahan untuk pemeriksaan PA (sesuai kebutuhan, jika diperlukan)' },
+                            { desc: 'J. Formulir diisi lengkap oleh dokter' },
+                            { desc: 'K. Pasang label pada tempat pemeriksaan PA: nama pasien, nomor rekam medik, diagnosa pasien, tanggal pengembalian / pengiriman, nama ruangan' },
+                            { desc: 'L. Bahan pemeriksaan PA dikirim ke bagian laboratorium' }
+                        ]
+                    },
+                    {
+                        step: 'Evaluasi',
+                        desc: 'Observasi dan hitung jumlah darah yang keluar. Observasi gejala-gejala syok hypovolemik (tekanan darah menurun, nadi melemah dan cepat, kulit dingin, dan pasien gelisah)'
+                    },
+                    {
+                        step: 'Dokumentasi',
+                        desc: 'Dokumentasikan tindakan yang dilakukan dalam status pasien'
+                    }
+        ],
+        dokumenTerkait: ['Status pasien'],
+        instalasiTerkait: ['Instalasi Bedah Sentral', 'Instalasi Rawat Inap ( Ruang Kebidanan  dan VK)', 'Status pasien']
+    },
+
+
+/*
+ ===================================================================================
+ Category Medikal Bedah , ID: 1301 - 1400
+ ===================================================================================
+*/
+
+    {
+        id: 1301,
+        title: 'Merawat & Mengganti Balutan Luka Nekrotik Lembab (Warna Dasar Luka Hitam Atau Kuning)',
+        category: 'tindakan',
+        subCategory: 'Medikal Bedah',
+        description: 'Luka yang mengalami kegagalan atau hambatan dalam proses penyembuhan akibat faktor endogen dan/atau eksogen.',
+        icon: 'fa-ambulance',
+        tags: ['Breast Care', 'Perawatan Payudara'],
+        noDokumen: '445/SPO.3309/Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Luka kronis adalah luka yang mengalami kegagalan atau hambatan dalam proses penyembuhan akibat faktor endogen dan/atau eksogen.\nWarna dasar luka kuning adalah permukaan dasar luka berwarna kuning, kuning kecoklatan, kuning kehijauan, atau kuning pucat yang merupakan tanda adanya jaringan fibrous/slough (avaskuler), lembab (jaringan nekrotik lembab).\nWarna dasar luka hitam adalah permukaan dasar luka berwarna hitam, hitam kecoklatan, atau hitam kehijauan yang merupakan tanda adanya nekrosis jaringan (avaskuler), lembab, atau kering.',
+        tujuan: 'Sebagai acuan penerapan langkah-langkah perawatan luka nekrotik untuk:\nMembuang jaringan nekrotik.\nMengurangi atau menghilangkan bau.\nMemberikan kenyamanan fisik dan psikologis kepada pasien.\nMemberikan lingkungan lembab yang memfasilitasi autolytic debridement.',
+        kebijakan: 'Surat Keputusan Pemberlakuan STANDAR PROSEDUR OPERASIONAl  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+        prosedur: [
+                {
+                    step: 'Persiapan',
+                    items: [
+                        {
+                            desc: 'Persiapan Alat',
+                            detail: [
+                                {
+                                    text: '1) Instrumen GV Set steril berisi:',
+                                    subDetail: [
+                                        '- Gunting jaringan tajam 1 buah',
+                                        '- Pinset anatomis 2 buah',
+                                        '- Pinset chirurgis 1 buah',
+                                        '- Kom 2 buah'
+                                    ]
+                                },
+                                { text: '2) Nierbeken / bengkok berisi larutan enzymatik yang sudah diencerkan: 1 buah' },
+                                { text: '3) Handscoon / sarung tangan sesuai ukuran: 3 pasang non-steril' },
+                                { text: '4) Larutan NaCl 0,9% 500 ml dalam botol' },
+                                {
+                                    text: '5) Topikal terapi sesuai kondisi luka, misalnya:',
+                                    subDetail: [
+                                        '- Hydrogel paste atau zink',
+                                        '- Gigazym',
+                                        '- Cream antibiotika topikal (misal: mupirocin, augmentin, Metcopain)',
+                                        '- Foam penyerap exudate (absorbent dressing) sesuai kondisi luka (misalnya: foam, hydrocoloid, alginat, transparent film)'
+                                    ]
+                                },
+                                { text: '6) Kassa segi empat (ukuran sesuai kebutuhan)' },
+                                { text: '7) Aplikator kapas (cotton bud)' },
+                                { text: '8) Alkohol swab / Convacare remover wipe' },
+                                { text: '9) Gown / apron plastik' },
+                                { text: '10) Underpad / perlak' },
+                                { text: '11) Transofix 1 buah' },
+                                { text: '12) Plester' },
+                                { text: '13) Gunting verband 1 buah' },
+                                { text: '14) Nierbeken / bengkok' },
+                                { text: '15) Kantung sampah infeksius' },
+                                { text: '16) Penggaris pengukur luka disposable' },
+                                { text: '17) Sabun cair antiseptik' },
+                                { text: '18) Cairan PHMB (Polyhexamethylene biguanidine)' }
+                            ]
+                        },
+                        {
+                            desc: 'Persiapan Pasien',
+                            detail: 'Beritahu pasien dan / keluarga tentang tujuan dan prosedur perawatan luka yang akan dilakukan'
+                        },
+                        {
+                            desc: 'Persiapan Lingkungan',
+                            detail: 'Siapkan lingkungan sekitar pasien dengan memasang skerm atau menutup tirai jendela / pintu kamar pasien agar privasi pasien terjaga'
+                        }
+                    ]
+                },
+                {
+                    step: 'Pelaksanaan',
+                    items: [
+                        { desc: 'A. Ucapkan basmallah' },
+                        { desc: 'B. Lakukan kebersihan tangan (lihat SPO cuci tangan PPI)' },
+                        { desc: 'C. Lakukan verifikasi identitas pasien dengan cara mencocokkan nama pada rekam medik pasien dengan nama yang tertera pada gelang identitas pasien' },
+                        { desc: 'D. Periksa program perawatan luka / penggantian balutan yang direkomendasikan' },
+                        { desc: 'E. Bawa peralatan ke dekat pasien' },
+                        { desc: 'F. Atur posisi pasien sesuai lokasi luka agar memudahkan prosedur tindakan' },
+                        { desc: 'G. Pakai gown / apron plastik dan sarung tangan (lihat SPO pemakaian sarung tangan umum)' },
+                        { desc: 'H. Tempatkan kantung sampah di dekat area kerja' },
+                        { desc: 'I. Letakkan underpad di bawah area luka' },
+                        { desc: 'J. Usapkan alkohol swab / adhesive remover pada plester balutan yang menempel di kulit pasien' },
+                        { desc: 'K. Lepaskan / angkat perekat balutan secara hati-hati' },
+                        { desc: 'L. Basahi kassa (balutan primer) dengan NaCl 0,9% bila kassa lengket di dasar luka' },
+                        { desc: 'M. Buang kasa pembalut luka ke dalam kantung sampah' },
+                        { desc: 'N. Lepaskan sarung tangan (lihat SPO melepas sarung tangan PPI)' },
+                        { desc: 'O. Kenakan sarung tangan baru (lihat SPO pemakaian sarung tangan umum PPI)' },
+                        { desc: 'P. Luka dibersihkan dengan NaCl 0,9% dan gosok jaringan nekrosis secara lembut dengan ujung jari yang diberi sabun. Awali pembersihan dari bagian luar terlebih dahulu, kemudian bagian luka, lalu bilas kembali dengan NaCl 0,9%' },
+                        { desc: 'Q. Keringkan luka dengan cara ditekan ringan dan lembut (bukan digosok) menggunakan kassa' },
+                        { desc: 'R. Lepaskan sarung tangan (lihat SPO melepas sarung tangan PPI)' },
+                        { desc: 'S. Buka instrumen GV Set steril' },
+                        { desc: 'T. Kenakan sarung tangan steril (lihat SPO pemakaian sarung tangan steril PPI)' },
+                        { desc: 'U. Kaji luka meliputi jumlah, jenis, viskositas, dan bau exudate; warna dasar luka; ukuran luka (panjang, lebar, kedalaman dalam centimeter); jaringan granulasi / fibrorik; dan tanda infeksi' },
+                        { desc: 'V. Lakukan nekrotomi untuk melepas dan membuang jaringan nekrotik (jika jaringan nekrotik telah lepas dari dasar luka) dengan gunting tajam dan pinset' },
+                        { desc: 'W. Bilas dengan NaCl 0,9% dan keringkan dengan kassa' },
+                        { desc: 'X. Kompres dengan cairan PHMB (Polyhexamethylene biguanidine) ± 10–15 menit' },
+                        { desc: 'Y. Aplikasikan antibiotika topikal dan autolitic gel di permukaan luka secara merata. Jika luka berwarna hitam menggunakan hydrogel, jika berwarna putih, kuning, atau hijau menggunakan hydrogel antimikrobial' },
+                        { desc: 'Z. Kemudian tutup dengan balutan penyerap exudate menggunakan foam sebagai primary dressing' },
+                        { desc: 'AA. Tutup balutan dengan dressing atau transparent film dressing (tepi pembalut melingkupi 3–4 cm dari tepi luka)' },
+                        { desc: 'BB. Tutup dengan beberapa lapis kasa dan tutup seluruh permukaan kasa dengan plester non-woven' },
+                        { desc: 'CC. Letakkan instrumen yang telah terpakai dan kotor di dalam bengkok berisi larutan enzymatik yang sudah diencerkan, rendam instrumen dalam larutan enzymatik selama 10–15 menit (lihat SPO dekontaminasi PPI)' },
+                        { desc: 'DD. Angkat underpad dan rapikan pasien' },
+                        { desc: 'EE. Ucapkan hamdallah' },
+                        { desc: 'FF. Cuci peralatan kotor dan rapikan kembali ke tempat semula' },
+                        { desc: 'GG. Lepaskan sarung tangan (lihat SPO melepas sarung tangan PPI)' },
+                        { desc: 'HH. Lepaskan gown / apron plastik' },
+                        { desc: 'II. Lakukan kebersihan tangan (lihat SPO cuci tangan PPI)' }
+                    ]
+                },
+                {
+                    step: 'Evaluasi',
+                    desc: 'Pantau respon pasien selama dan setelah tindakan perawatan luka'
+                },
+                {
+                    step: 'Dokumentasi',
+                    desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medik pasien tentang waktu penggantian balutan luka, penampilan / ukuran luka, dan exudate'
+                }
+        ],
+        dokumenTerkait: ['Status pasien'],
+        instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Jalan', 'Instalasi Rawat Inap', 'Instalasi Pelayanan Intensif', 'Instalasi Bedah Sentral']
+    },
+    {
+        id: 1302,
+        title: 'Merawat & Mengganti Balutan Drain',
+        category: 'tindakan',
+        subCategory: 'Medikal Bedah',
+        description: 'Pipa/tube yang diinsersikan oleh dokter bedah di dekat area insisi bedah untuk mengalirkan exudates dari area dead space luka dan menampungnya dalam suatu reservoir.',
+        icon: 'fa-ambulance',
+        tags: ['Breast Care', 'Perawatan Payudara'],
+        noDokumen: '445/SPO.3311/Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Drain adalah pipa/tube yang diinsersikan oleh dokter bedah di dekat area insisi bedah untuk mengalirkan exudates dari area dead space luka dan menampungnya dalam suatu reservoir. \nBalutan drain adalah balutan penutup stoma insersi pipa/tube drain untuk mencegah kontaminasi bakteri.',
+        tujuan: 'Sebagai acuan penerapan langkah-langkah perawatan drain untuk:\nMemberikan kenyamanan kepada pasien.\nMencegah kontaminasi bakteri pada stab wound drain.',
+        kebijakan: 'Surat Keputusan Pemberlakuan STANDAR PROSEDUR OPERASIONAL  Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+        prosedur: [
+                {
+                    step: 'Persiapan',
+                    items: [
+                        {
+                            desc: 'Persiapan Alat',
+                            detail: [
+                                {
+                                    text: '1) Instrumen GV Set steril berisi:',
+                                    subDetail: [
+                                        '- Gunting jaringan tajam 1 buah',
+                                        '- Pinset anatomis 2 buah',
+                                        '- Pinset chirurgis 1 buah',
+                                        '- Kom 2 buah'
+                                    ]
+                                },
+                                { text: '2) Sarung tangan 2 pasang (1 pasang steril, 1 pasang non-steril)' },
+                                { text: '3) Nierbeken / bengkok berisi larutan enzymatik yang sudah diencerkan 1 buah' },
+                                { text: '4) Kassa (ukuran sesuai kebutuhan)' },
+                                { text: '5) Cotton bud / lidi kapas secukupnya' },
+                                { text: '6) Foam penyerap exudates (jika perlu)' },
+                                { text: '7) NaCl 0,9% 500 ml dan Transofix 1 buah' },
+                                { text: '8) Alkohol swab / Convacare remover wipe' },
+                                { text: '9) Plester' },
+                                { text: '10) Gown / apron plastik 1 buah' },
+                                { text: '11) Underpad 1 buah' },
+                                { text: '12) Gunting verband 1 buah' },
+                                { text: '13) Nierbeken / bengkok, kantung sampah infeksius' }
+                            ]
+                        },
+                        {
+                            desc: 'Persiapan Pasien',
+                            detail: 'Beritahu pasien dan / keluarga tentang tujuan dan prosedur perawatan luka yang akan dilakukan'
+                        },
+                        {
+                            desc: 'Persiapan Lingkungan',
+                            detail: 'Siapkan lingkungan sekitar pasien dengan memasang skerm atau menutup tirai jendela / pintu kamar pasien agar privasi pasien terjaga'
+                        }
+                    ]
+                },
+                {
+                    step: 'Pelaksanaan',
+                    items: [
+                        { desc: 'A. Ucapkan basmallah' },
+                        { desc: 'B. Lakukan kebersihan tangan (lihat SPO cuci tangan PPI)' },
+                        { desc: 'C. Lakukan verifikasi identitas pasien dengan cara mencocokkan nama pada rekam medik pasien dengan nama yang tertera pada gelang yang terpasang pada pasien' },
+                        { desc: 'D. Periksa program perawatan dan penggantian balutan drain' },
+                        { desc: 'E. Bawa peralatan ke dekat pasien' },
+                        { desc: 'F. Atur posisi pasien sesuai lokasi luka dan memudahkan prosedur perawatan drain' },
+                        { desc: 'G. Pakai gown / apron dan sarung tangan (lihat SPO pemakaian sarung tangan umum PPI)' },
+                        { desc: 'H. Tempatkan bengkok / kantung sampah di dekat area kerja' },
+                        { desc: 'I. Letakkan underpad / perlak di bawah area luka' },
+                        { desc: 'J. Usapkan alkohol swab / Convacare remover wipe pada plester yang melekat di kulit' },
+                        { desc: 'K. Lepaskan plester dan pembalut kotor secara hati-hati, jangan menimbulkan tarikan pada pipa drain' },
+                        { desc: 'L. Buang kasa pembalut luka ke kantung sampah' },
+                        { desc: 'M. Lepaskan sarung tangan (lihat SPO melepas sarung tangan PPI)' },
+                        { desc: 'N. Buka instrumen GV Set steril' },
+                        { desc: 'O. Kenakan sarung tangan steril (lihat SPO pemakaian sarung tangan steril PPI)' },
+                        { desc: 'P. Bersihkan area insersi drain dengan kassa lembab NaCl 0,9%, gerakan usapan melingkar dari tengah ke arah luar dengan radius 5 cm sekeliling drain. Buang kassa lembab kotor ke kantung sampah' },
+                        { desc: 'Q. Kaji patensi drain, warna stab wound, tanda inflamasi / infeksi, dan exudate dalam reservoir drain (jumlah, warna, konsistensi)' },
+                        { desc: 'R. Aplikasikan pembalut penyerap exudates (misalnya: foam, hydrocoloid, alginat) yang dibelah di bagian tengahnya kemudian lilitkan di sekeliling area insersi drain' },
+                        { desc: 'S. Tutup pembalut penyerap exudate yang telah dipakai dengan kassa / dressing yang telah dibelah di bagian tengah, pastikan balutan menutup rapat' },
+                        { desc: 'T. Rekatkan dengan plester' },
+                        { desc: 'U. Letakkan instrumen yang telah terpakai dan kotor di dalam bengkok berisi larutan enzymatik yang sudah diencerkan, rendam instrumen dalam larutan enzymatik selama 10–15 menit (lihat SPO dekontaminasi PPI)' },
+                        { desc: 'V. Angkat perlak / underpad dan rapikan pasien' },
+                        { desc: 'W. Cuci peralatan dan rapikan kembali pada tempatnya' },
+                        { desc: 'X. Lepaskan sarung tangan (lihat SPO melepas sarung tangan PPI)' },
+                        { desc: 'Y. Lepaskan gown / apron plastik' },
+                        { desc: 'Z. Lakukan kebersihan tangan (lihat SPO cuci tangan PPI)' }
+                    ]
+                },
+                {
+                    step: 'Evaluasi',
+                    desc: 'Pantau respon pasien selama dan setelah perawatan luka'
+                },
+                {
+                    step: 'Dokumentasi',
+                    desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medik pasien tentang penggantian balutan luka, penampilan / ukuran luka, patensi drain, serta jumlah dan warna exudate di dalam reservoir drain'
+                }
+        ],
+        dokumenTerkait: ['Status pasien'],
+        instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Jalan', 'Instalasi Rawat Inap', 'Instalasi Pelayanan Intensif', 'Instalasi Bedah Sentral']
+    },
+
+/*
+ ===================================================================================
+ Category Keperawatan Dasar , ID: 1401 - 1500
+ ===================================================================================
+*/
+
+    {
+        id: 1401,
+        title: 'Mengukur Tekanan Darah',
+        category: 'tindakan',
+        subCategory: 'Keperawatan Dasar',
+        description: 'Suatu kegiatan mengukur tekanan darah melalui dinding arteri pasien dengan kriteria normal.',
+        icon: 'fa-ambulance',
+        tags: ['Breast Care', 'Perawatan Payudara'],
+        noDokumen: '445/SPO.3408/Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Suatu kegiatan mengukur tekanan darah melalui dinding arteri pasien dengan kriteria normal: \nUsia neonatus : 80/45 mmhg \nUsia 6-12 bulan : 90/60 mmhg \nUsia 1-5 tahun : 95/65 mmhg \nUsia 5-10 tahun : 100/60 mmhg \nUsia 10-15 tahun : 115/60 mmhg \nUsia > 15 tahun : Sistole 100 – 130 mmHg,  Diastole 60 – 90 mmHg.',
+        tujuan: 'Sebagai acuan penerapan langkah – langkah untuk tindakan keperawatan mengukur tekanan darah.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+        prosedur: [
+                {
+                    step: 'Persiapan',
+                    items: [
+                        {
+                            desc: 'Persiapan Alat',
+                            detail: [
+                                { text: '1) Stetoskop' },
+                                { text: '2) Sfigmomanometer dengan manometer air raksa / aneroid atau tensimeter digital' },
+                                { text: '3) Manset sesuai dengan besarnya lengan' },
+                                { text: '4) Catatan keperawatan' }
+                            ]
+                        },
+                        {
+                            desc: 'Persiapan Pasien',
+                            detail: '1) Beritahu pasien dan keluarga tentang prosedur yang akan dilakukan' + '\n' +
+                                    '2) Atur posisi pasien untuk memudahkan tindakan' + '\n' +
+                                    '3) Pilih lokasi pengukuran dan manset yang tepat'
+                        },
+                        {
+                            desc: 'Persiapan Lingkungan',
+                            detail: '1) Siapkan lingkungan sekitar agar menjaga privasi pasien dan mempermudah tindakan'
+                        }
+                    ]
+                    },
+                    {
+                        step: 'Pelaksanaan',
+                        items: [
+                            { desc: 'A. Perawat / Bidan cuci tangan' },
+                            { desc: 'B. Ucapkan basmallah' },
+                            { desc: 'C. Cocokkan nama pada gelang identitas pasien' },
+                            { desc: 'D. Atur posisi lengan pasien sejajar dengan jantungnya' },
+                            { desc: 'E. Buka pakaian dari lengan pasien' },
+                            {
+                                desc: 'F. Pasang manset tekanan darah',
+                                detail: [
+                                    {
+                                        text: '1) Metode Auskultasi',
+                                        subDetail: [
+                                            '- Pasang manset di lengan atas, posisi manometer setinggi mata pemeriksa',
+                                            '- Raba arteri brakhialis, pompa manset sampai 30 mmHg di atas posisi denyutan menghilang',
+                                            '- Kempiskan manset, tunggu selama 30 detik',
+                                            '- Pompa manset sampai 30 mmHg di atas sistolik',
+                                            '- Gunakan stetoskop untuk mendengar suara denyut sistole dan diastole di atas arteri brakhialis',
+                                            '- Kempiskan manset dengan kecepatan 2–3 mmHg / detik, kemudian ukur saat terdengar sistole dan diastole'
+                                        ]
+                                    },
+                                    {
+                                        text: '2) Metode Palpasi',
+                                        subDetail: [
+                                            '- Raba arteri brakialis / radialis, pompa manset sampai 30 mmHg di atas titik denyut nadi menghilang',
+                                            '- Kempiskan manset dengan kecepatan 2–3 mmHg / detik',
+                                            '- Raba arteri untuk mengukur denyut sistole'
+                                        ]
+                                    },
+                                    {
+                                        text: '3) Metode Digital',
+                                        subDetail: [
+                                            '- Tekan tombol “ON” atau pompa manset sampai 30 mmHg di atas titik denyut nadi menghilang',
+                                            '- Lihat hasil pengukuran di layar mesin'
+                                        ]
+                                    }
+                                ]
+                            },
+                            { desc: 'G. Lepaskan manset dari lengan pasien' },
+                            { desc: 'H. Ucapkan hamdallah' },
+                            { desc: 'I. Bereskan alat-alat' },
+                            { desc: 'J. Cuci tangan' }
+                        ]
+                    },
+                    {
+                        step: 'Evaluasi',
+                        desc: 'Kaji respon pasien setelah dilakukan tindakan, bandingkan hasil pemeriksaan saat ini dengan hasil pemeriksaan yang lalu'
+                    },
+                    {
+                        step: 'Dokumentasi',
+                        desc: 'Dokumentasikan tindakan dan hasil pengukuran dalam catatan keperawatan'
+                    }
+        ],
+        dokumenTerkait: ['Status pasien'],
+        instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Jalan', 'Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', `Instalasi Haemodialisa`, 'Instalasi Bedah Sentral']
+    },
+    {
+        id: 1402,
+        title: 'Menghitung Denyut Nadi dan Pernafasan',
+        category: 'tindakan',
+        subCategory: 'Keperawatan Dasar',
+        description: 'Kegiatan yang dilakukan untuk menghitung denyut nadi dan pernafasan pasien.',
+        icon: 'fa-ambulance',
+        tags: ['Breast Care', 'Perawatan Payudara'],
+        noDokumen: '445/SPO.3409/Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Suatu kegiatan yang dilakukan untuk menghitung denyut nadi dan pernafasan pasien.' + '\n' +
+                '1. Kriteria normal denyut nadi' + '\n' +
+                'a. Bayi 0–1 tahun: 130–160 x/menit' + '\n' +
+                'b. Anak 1–14 tahun: 90–120 x/menit' + '\n' +
+                'c. Dewasa: 60–80 x/menit' + '\n' +
+                '2. Kriteria normal pernafasan' + '\n' +
+                'a. Bayi 0–1 tahun: 40 x/menit' + '\n' +
+                'b. Anak 1–14 tahun: 28 x/menit',
+        tujuan: 'Sebagai acuan penerapan langkah – langkah untuk melaksanakan tindakan menghitung denyut nadi dan pernafasan pasien.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+        prosedur: [
+                {
+                    step: 'Persiapan',
+                    items: [
+                        {
+                            desc: 'Persiapan Alat',
+                            detail: [
+                                { text: '1) Jam tangan dengan detik atau polsteller' },
+                                { text: '2) Stetoskop' },
+                                { text: '3) Catatan keperawatan' }
+                            ]
+                        },
+                        {
+                            desc: 'Persiapan Pasien',
+                            detail: '1) Informasikan kepada pasien / keluarga tentang tujuan dan prosedur yang akan dilakukan'
+                        },
+                        {
+                            desc: 'Persiapan Lingkungan',
+                            detail: '1) Siapkan lingkungan sekitar agar menjaga privasi pasien dan mempermudah tindakan'
+                        }
+                    ]
+                    },
+                    {
+                        step: 'Pelaksanaan',
+                        items: [
+                            { desc: 'A. Perawat / Bidan cuci tangan' },
+                            { desc: 'B. Cocokkan nama pasien dengan gelang identitas' },
+                            { desc: 'C. Ucapkan basmallah sebelum melakukan tindakan' },
+                            { desc: 'D. Hitung denyut nadi selama 1 menit' },
+                            { desc: 'E. Hitung pernapasan selama 1 menit' },
+                            { desc: 'F. Rapikan kembali pasien' },
+                            { desc: 'G. Ucapkan hamdallah' },
+                            { desc: 'H. Bereskan alat' },
+                            { desc: 'I. Ucapkan hamdallah' },
+                            { desc: 'J. Cuci tangan sesudah tindakan' }
+                        ]
+                    },
+                    {
+                        step: 'Evaluasi',
+                        desc: 'Respon pasien selama dilakukan tindakan, bandingkan jumlah nadi dan pernafasan sebelumnya, adanya demam, palpitasi atau aritmia, pemberian obat-obatan, riwayat aritmia'
+                    },
+                    {
+                        step: 'Dokumentasi',
+                        desc: 'Catat tindakan dalam rekam medik pasien meliputi waktu dan hasil pemeriksaan'
+                    }
+        ],
+        dokumenTerkait: ['Status pasien'],
+        instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Jalan', 'Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', `Instalasi Haemodialisa`, 'Instalasi Bedah Sentral']
+    },
+
+/*
+ ===================================================================================
+ Category Pediatric , ID: 1501 - 1600
+ ===================================================================================
+*/
+
+    {
+        id: 1501,
+        title: 'Menghitung Denyut Nadi  Dan Pernafasan Pada Bayi Dan Anak',
+        category: 'tindakan',
+        subCategory: 'Pediatric',
+        description: 'Kegiatan yang dilakukan untuk menghitung denyut nadi dan pernafasan selama 1 menit.',
+        icon: 'fa-ambulance',
+        tags: ['Breast Care', 'Perawatan Payudara'],
+        noDokumen: '445/SPO.4749/Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Suatu kegiatan yang dilakukan untuk menghitung denyut nadi dan pernafasan selama 1 menit.' + '\n' +
+                '1. Tempat perabaan denyut nadi' + '\n' +
+                'a. Arteri radialis pada pergelangan tangan' + '\n' +
+                'b. Arteri brachialis pada siku bagian dalam' + '\n' +
+                'c. Arteri karotis pada leher' + '\n' +
+                'd. Arteri temporalis pada pelipis' + '\n' +
+                'e. Arteri femoralis pada lipatan paha' + '\n' +
+                'f. Arteri dorsalis pedis pada kaki' + '\n' +
+                'g. Arteri frontalis pada ubun-ubun' + '\n' +
+                '2. Kriteria normal denyut nadi' + '\n' +
+                'a. Bayi 0 – 1 tahun 130 – 160 x/menit' + '\n' +
+                'b. Anak 1 – 14 tahun 90 – 120 x/menit' + '\n' +
+                '3. Kriteria normal pernafasan' + '\n' +
+                'a. Bayi 0 – 1 tahun 40x/menit' + '\n' +
+                'b. Anak 1 – 14 tahun  28x/menit',
+        tujuan: 'Sebagai acuan penerapan langkah – langkah untuk melaksanakan tindakan menghitung denyut nadi dan pernafasan pasien.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+        prosedur: [
+                {
+                step: 'Persiapan',
+                items: [
+                {
+                    desc: 'Persiapan Alat',
+                    detail: [
+                        { text: '1) Jam tangan dengan detik atau polsteller' },
+                        { text: '2) Stetoskop' },
+                        { text: '3) Catatan keperawatan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan Pasien',
+                    detail: '1) Menginformasikan kepada keluarga atau anak tentang tujuan dan prosedur yang akan dilakukan' + '\n' +
+                            '2) Mengatur posisi anak (tidur / duduk / digendong ibu)' + '\n' +
+                            '3) Melibatkan keluarga dalam restrain'
+                }
+            ]
+            },
+            {
+                step: 'Pelaksanaan',
+                items: [
+                    { desc: 'A. Perawat mencuci tangan' },
+                    { desc: 'B. Mengucapkan basmallah sebelum melakukan tindakan' },
+                    { desc: 'C. Mencocokkan nama pada gelang identitas pasien' },
+                    { desc: 'D. Mengukur nadi pada saat anak tidur / diam' },
+                    { desc: 'E. Apikal (pada anak < 1 tahun)' },
+                    { desc: 'F. Memakai stetoskop, diletakkan di atas sela iga ke-4 / 5' },
+                    { desc: 'G. Menghitung denyut nadi selama 1 menit' },
+                    { desc: 'H. Menghitung pernapasan selama 1 menit' },
+                    { desc: 'I. Merapikan pasien kembali' },
+                    { desc: 'J. Memberikan pujian kepada anak atas kerjasamanya' },
+                    { desc: 'K. Mengucapkan hamdallah' },
+                    { desc: 'L. Membereskan alat' },
+                    { desc: 'M. Perawat mencuci tangan' }
+                ]
+            },
+            {
+                step: 'Evaluasi',
+                items: [
+                    { desc: 'A. Respon klien' },
+                    { desc: 'B. Hasil pengukuran' }
+                ]
+            },
+            {
+                step: 'Dokumentasi',
+                items: [
+                    { desc: 'A. Mendokumentasikan tindakan keperawatan dalam rekam medik pasien' },
+                    { desc: `B. Perlu Diperhatikan`, 
+                        detail: [
+                                { text: '1) Identifikasi jumlah nadi dan pernapasan sebelumnya' },
+                                { text: '2) Identifikasi adanya demam dan pemberian obat-obatan' },
+                                { text: '3) Identifikasi adanya riwayat aritmia' },
+                                { text: '4) Identifikasi pernah atau sedang palpitasi atau aritmia' },
+                                { text: '5) Menghitung nadi dan pernapasan saat bayi / anak dalam keadaan tenang / tidur' }
+                            ]},
+                    { desc: 'C. Waktu pelaksanaan' },
+                    { desc: 'D. Respon klien' },
+                    { desc: 'E. Hasil pengukuran' }
+                ]
+            }
+        ],
+        dokumenTerkait: ['Status pasien'],
+        instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Jalan', 'Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', 'Instalasi Bedah Sentral']
+    },
+    {
+        id: 1502,
+        title: 'Mengukur Suhu Tubuh Pada Bayi Dan Anak',
+        category: 'tindakan',
+        subCategory: 'Pediatric',
+        description: 'Kegiatan mengukur suhu tubuh pasien dengan menggunakan thermometer pada daerah axilla, mulut, rektal dan telinga.',
+        icon: 'fa-ambulance',
+        tags: ['Breast Care', 'Perawatan Payudara'],
+        noDokumen: '445/SPO.4749/Bidper',
+        tanggalTerbit: '04 Maret 2019',
+        pengertian: 'Suatu Kegiatan mengukur suhu tubuh pasien dengan menggunakan thermometer pada daerah axilla, mulut, rektal dan telinga.',
+        tujuan: 'Sebagai acuan penerapan langkah – langkah untuk melaksanakan tindakan keperawatan mengukur suhu badan pasien pada daerah axilla, mulut, rektal dan telinga.',
+        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+        prosedur: [
+                {
+                step: 'Persiapan',
+                items: [
+                    {
+                        desc: 'Persiapan Alat',
+                        detail: [
+                            { text: '1) Thermometer' },
+                            { text: '2) Tissue (2 lembar) / waslap' },
+                            { text: '3) Bengkok' },
+                            { text: '4) Jam tangan dengan detik' },
+                            { text: '5) Lembar catatan keperawatan' }
+                        ]
+                    },
+                    {
+                        desc: 'Persiapan Pasien',
+                        detail: '1) Memberi tahu keluarga dan anak tentang prosedur yang akan dilakukan' + '\n' +
+                                '2) Mengatur posisi anak (tidur / duduk / digendong ibu)'
+                    }
+                ]
+            },
+            {
+                step: 'Pelaksanaan',
+                items: [
+                    { desc: 'A. Perawat mencuci tangan' },
+                    { desc: 'B. Mengucapkan basmallah' },
+                    { desc: 'C. Mencocokkan nama pada gelang identitas pasien' },
+                    { desc: 'D. Menyiapkan thermometer dan memperhatikan kesiapannya' },
+                    {
+                        desc: 'E. Mengukur suhu tubuh melalui axilla',
+                        detail: [
+                            { text: '1) Mengeringkan ketiak dengan tissue atau waslap' },
+                            { text: '2) Memastikan suhu thermometer di bawah 35,6°C untuk thermometer air raksa, sedangkan untuk thermometer elektrik pastikan dapat berfungsi dengan baik' },
+                            { text: '3) Ketiak dikeringkan dengan tissue / lap kering' },
+                            { text: '4) Memasangkan reservoir thermometer, jepitkan di tengah ketiak, lengan dilipat, siku anak dipegang (3–4 menit)' },
+                            { text: '5) Mengangkat thermometer, membaca dan mencatat hasilnya' }
+                        ]
+                    },
+                    {
+                        desc: 'F. Mengukur suhu melalui mulut',
+                        detail: [
+                            { text: '1) Memastikan suhu thermometer di bawah 35,6°C' },
+                            { text: '2) Tempatkan thermometer di bawah mulut jauh di belakang bawah lidah, beritahu anak untuk tetap menutup mulutnya, tidak berbicara dan tidak bernapas melalui mulut selama 2–3 menit' },
+                            { text: '3) Pastikan anak untuk tidak menggigit thermometer' },
+                            { text: '4) Mengangkat thermometer, membaca dan mencatat hasilnya' }
+                        ]
+                    },
+                    {
+                        desc: 'G. Mengukur suhu melalui rectal',
+                        detail: [
+                            { text: '1) Memastikan suhu thermometer di bawah 35,6°C' },
+                            { text: '2) Ukur 2,5 cm pada thermometer atau 1/6 dari panjang thermometer' },
+                            { text: '3) Tempatkan anak pada posisi telungkup atau telentang dengan kedua kaki diangkat' },
+                            { text: '4) Popok bayi dibuka, bersihkan daerah anus dengan kapas cebok' },
+                            { text: '5) Celupkan ujung perak thermometer pada pelumas (jelly petroleum / vaselin)' },
+                            { text: '6) Masukkan ujung thermometer ke dalam anus, jangan memasukkan lebih dari 2,5 cm selama 2–3 menit, pegang anak agar tidak memutar tubuhnya' },
+                            { text: '7) Mengangkat thermometer, membaca dan mencatat hasilnya' }
+                        ]
+                    },
+                    {
+                        desc: 'H. Mengukur suhu melalui telinga (thimpani)',
+                        detail: [
+                            { text: '1) Pasang cuff pada thermometer' },
+                            { text: '2) Tekan tombol “ON” sampai terlihat simbol “◄ ◄ ◄” dalam 10 detik, thermometer siap digunakan' },
+                            { text: '3) Masukkan ujung cuff ke dalam telinga, kemudian tekan “MEASURE”' },
+                            { text: '4) Dalam beberapa detik hasil pengukuran akan langsung tampak pada layar thermometer' },
+                            { text: '5) Mengangkat thermometer, membaca dan mencatat hasilnya' }
+                        ]
+                    },
+                    { desc: 'I. Memuji anak atas kerjasamanya' },
+                    { desc: 'J. Mengucapkan hamdallah' },
+                    { desc: 'K. Merapikan pasien kembali' },
+                    { desc: 'L. Membereskan dan membersihkan alat-alat (untuk thermometer elektrik cukup dibersihkan dengan kasa alkohol)' }
+                ]
+            },
+            {
+                step: 'Evaluasi',
+                items: [
+                    { desc: 'A. Respon klien' },
+                    { desc: 'B. Hasil pengukuran' }
+                ]
+            },
+            {
+                step: 'Dokumentasi',
+                items: [
+                    { desc: 'A. Mendokumentasikan tindakan keperawatan dalam rekam medik pasien' },
+                    { desc: 'B. Waktu pelaksanaan' },
+                    { desc: 'C. Respon klien' },
+                    { desc: 'D. Hasil pengukuran' }
+                ]
+            }
+        ],
+        dokumenTerkait: ['Status pasien'],
+        instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Jalan', 'Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', 'Instalasi Bedah Sentral']
+    },
    
 ];

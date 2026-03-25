@@ -752,6 +752,37 @@ body {
     color: #2d4a7c;
 }
 
+.sop-empty-state {
+    grid-column: 1 / -1;
+    background: white;
+    border: 1px dashed rgba(0, 101, 248, 0.35);
+    border-radius: 30px;
+    padding: 42px 28px;
+    text-align: center;
+    box-shadow: 0 10px 30px -10px rgba(67, 0, 255, 0.08);
+}
+
+.sop-empty-icon {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+    background: linear-gradient(135deg, #4300FF, #0065F8, #00CAFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.sop-empty-state h3 {
+    color: #1a2b4c;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+.sop-empty-state p {
+    color: #4d6a8c;
+    max-width: 560px;
+    margin: 0 auto;
+}
+
 /* Modal */
 .modal {
     position: fixed;
@@ -838,6 +869,44 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+.tujuan-list {
+    margin: 8px 0 0 20px;
+    padding-left: 6px;
+    color: #2d4a7c;
+}
+
+.tujuan-list li {
+    margin-bottom: 4px;
+    line-height: 1.6;
+}
+
+.pengertian-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #2d4a7c;
+}
+
+.pengertian-block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.pengertian-title {
+    margin: 0;
+}
+
+.pengertian-sublist {
+    margin: 0 0 0 24px;
+    padding-left: 6px;
+}
+
+.pengertian-sublist li {
+    margin-bottom: 4px;
+    line-height: 1.6;
 }
 
 .sop-meta-grid {
@@ -933,7 +1002,7 @@ body {
     color: #4d6a8c;
     font-size: 0.95rem;
     line-height: 1.5;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .step-content.has-items .step-desc {
@@ -966,6 +1035,12 @@ body {
     gap: 5px;
 }
 
+.step-detail-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 .step-detail-item {
     color: #7a94b5;
     font-size: 0.9rem;
@@ -989,6 +1064,47 @@ body {
 
 .step-detail-text {
     min-width: 0;
+}
+
+.step-subdetail-list {
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.step-subdetail-item {
+    color: #7a94b5;
+    font-size: 0.88rem;
+    line-height: 1.55;
+}
+
+.step-subdetail-item.is-formula {
+    grid-template-columns: 1fr;
+    background: rgba(67, 0, 255, 0.06);
+    border: 1px solid #4300FF;
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin: 4px 0;
+    color: #1a2b4c;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.formula-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.formula-line {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.formula-inline-marker {
+    min-width: 1.8ch;
+    font-weight: 600;
 }
 
 .step-detail {
