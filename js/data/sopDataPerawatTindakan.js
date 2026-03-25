@@ -604,7 +604,6 @@ const sopDataPerawatTindakan = [
  Category ONKOLOGI, ID: 1101 - 1199
  ===================================================================================
 */
-
     {
         id: 1101,
         title: 'Alur Pelayanan Pasien Kemoterapi',
@@ -658,26 +657,26 @@ const sopDataPerawatTindakan = [
                 step: 'Penatalaksanaan Terapi obat Kemoterapi',
                 items: [
                     { desc: 'Carboplatin - Pelarut: SWFI, D5, NS | Stabilita: 8 jam suhu kamar, 24 jam lemari pendingin | Penyimpanan: Suhu kamar, lemari pendingin, terlindung dari cahaya | Metode: Infus 60 menit' },
-                    { desc: 'Cisplatin - Pelarut: SWFI | Stabilita: 24 jam suhu 4-25°C | Penyimpanan: Suhu kamar, lemari pendingin, terlindung dari cahaya | Metode: IV pendek 15 menit diberikan setelah pemberian manitol 20% sebanyak 62,5 ml iv panjang. IV selama 1-8 jam. Cisplatin hanya diberikan secara IV.' },
+                    { desc: 'Cisplatin - Pelarut: SWFI | Stabilita: 24 jam suhu 4-25°C | Penyimpanan: Suhu kamar, lemari pendingin, terlindung dari cahaya | Metode: IV pendek 15 menit setelah manitol 20% 62,5 ml, IV panjang 1-8 jam. Hanya diberikan secara IV.' },
                     { desc: 'Cyclophosphamid/cyclofid/endokan - Pelarut: SWFI | Stabilita: 24 jam suhu kamar, 6 hari lemari pendingin | Penyimpanan: Suhu kamar, lemari pendingin, terlindung dari cahaya | Metode: IV kontinyu 1-24 jam, dosis >500mg maksimal 2gr diberikan >30 menit' },
-                    { desc: 'Decotaxel/Brexel - Pelarut: NS | Stabilita: 8 jam suhu kamar, 2-25°C terlindung dari cahaya langsung | Penyimpanan: Suhu kamar 2-25°C, suhu dingin, jangan dikocok, hindari dari cahaya langsung | Metode: Infus IV 60 menit/250ml' },
-                    { desc: 'Doxorubicin - Pelarut: NS, D5 | Stabilita: 48 jam suhu kamar 25°C terlindung dari cahaya langsung | Penyimpanan: Suhu kamar 2-25°C, suhu dingin, jangan dikocok, hindari dari cahaya langsung | Metode: Infus IV 60 menit' },
-                    { desc: 'Epirubicin - Pelarut: D5 | Stabilita: 24 jam suhu kamar 2-8°C terlindung dari cahaya langsung | Penyimpanan: Suhu 2-8°C terlindung dari cahaya langsung | Metode: Infus IV 30 menit' },
-                    { desc: 'Fluorourasil/Curacil - Pelarut: NS, D5 | Stabilita: 75 jam suhu kamar 25°C terlindung dari cahaya langsung | Penyimpanan: Suhu kamar 25°C terlindung dari cahaya langsung | Metode: IV 5-15 menit, dosis >1000mg/m2 IV selama 22 jam' },
-                    { desc: 'Folinic Acid/Leucoforin - Pelarut: NS, D5 | Stabilita: 24 jam suhu kamar 25°C terlindung dari cahaya langsung | Penyimpanan: Suhu kamar 25°C terlindung dari cahaya langsung | Metode: IV 120 menit' },
-                    { desc: 'Gemcitabine/Cytogem/Foncogem - Pelarut: NS | Stabilita: 24 jam suhu kamar 25°C terlindung dari cahaya langsung | Penyimpanan: Suhu kamar 25°C terlindung dari cahaya langsung | Metode: Infus IV 60 menit' },
-                    { desc: 'Iphosfamida/Holoxan - Pelarut: SWFI, NS | Stabilita: 7 hari suhu kamar, 21 hari lemari pendingin | Penyimpanan: Suhu kamar 2-25°C, suhu dingin, hindari dari cahaya langsung | Metode: Infus IV 8 jam' },
-                    { desc: 'Uromitexan - Pelarut: NS | Stabilita: 7 hari suhu kamar, 21 hari lemari pendingin | Penyimpanan: Suhu kamar 15-30°C, hindari dari cahaya langsung | Metode: Infus IV 4-8 jam' },
-                    { desc: 'Metrotexate - Pelarut: SWFI, NS, D5 | Stabilita: 24 jam lemari pendingin, 4-8 jam suhu ruangan terlindung cahaya | Penyimpanan: Suhu 2-8°C, terlindung dari cahaya langsung, bungkus aluminium foil karena larutan tidak stabil | Metode: IM, IT, IV dilakukan secara pelan-pelan, infus IV kontinyu 24 jam' },
+                    { desc: 'Decotaxel/Brexel - Pelarut: NS | Stabilita: 8 jam suhu kamar, 2-25°C terlindung cahaya | Penyimpanan: Suhu kamar 2-25°C, suhu dingin, jangan dikocok, hindari cahaya langsung | Metode: Infus IV 60 menit/250ml' },
+                    { desc: 'Doxorubicin - Pelarut: NS, D5 | Stabilita: 48 jam suhu kamar 25°C terlindung cahaya | Penyimpanan: Suhu kamar 2-25°C, suhu dingin, jangan dikocok, hindari cahaya langsung | Metode: Infus IV 60 menit' },
+                    { desc: 'Epirubicin - Pelarut: D5 | Stabilita: 24 jam suhu kamar 2-8°C terlindung cahaya | Penyimpanan: Suhu 2-8°C terlindung cahaya langsung | Metode: Infus IV 30 menit' },
+                    { desc: 'Fluorourasil/Curacil - Pelarut: NS, D5 | Stabilita: 75 jam suhu kamar 25°C terlindung cahaya | Penyimpanan: Suhu kamar 25°C terlindung cahaya langsung | Metode: IV 5-15 menit, dosis >1000mg/m2 IV 22 jam' },
+                    { desc: 'Folinic Acid/Leucoforin - Pelarut: NS, D5 | Stabilita: 24 jam suhu kamar 25°C terlindung cahaya | Penyimpanan: Suhu kamar 25°C terlindung cahaya langsung | Metode: IV 120 menit' },
+                    { desc: 'Gemcitabine/Cytogem/Foncogem - Pelarut: NS | Stabilita: 24 jam suhu kamar 25°C terlindung cahaya | Penyimpanan: Suhu kamar 25°C terlindung cahaya langsung | Metode: Infus IV 60 menit' },
+                    { desc: 'Iphosfamida/Holoxan - Pelarut: SWFI, NS | Stabilita: 7 hari suhu kamar, 21 hari lemari pendingin | Penyimpanan: Suhu kamar 2-25°C, suhu dingin, hindari cahaya langsung | Metode: Infus IV 8 jam' },
+                    { desc: 'Uromitexan - Pelarut: NS | Stabilita: 7 hari suhu kamar, 21 hari lemari pendingin | Penyimpanan: Suhu kamar 15-30°C, hindari cahaya langsung | Metode: Infus IV 4-8 jam' },
+                    { desc: 'Metrotexate - Pelarut: SWFI, NS, D5 | Stabilita: 24 jam lemari pendingin, 4-8 jam suhu ruangan terlindung cahaya | Penyimpanan: Suhu 2-8°C, terlindung cahaya, bungkus aluminium foil | Metode: IM, IT, IV pelan-pelan, infus IV kontinyu 24 jam' },
                     { desc: 'Mitomycin-C - Pelarut: SWFI, NS, D5 | Stabilita: NS-12 jam, D5-3 jam, SWFI 7 hari suhu ruangan, 14 hari lemari pendingin | Penyimpanan: Suhu ruangan dan lemari pendingin 2-25°C | Metode: IV 5-10 menit, infus IV 30-60 menit' },
-                    { desc: 'Paclitaxel/foncopac - Pelarut: NS | Stabilita: 27 jam suhu ruangan | Penyimpanan: Suhu ruangan, simpan dengan botol khusus terlindung dari cahaya | Metode: Infus IV 3 jam' },
-                    { desc: 'Vincristine - Pelarut: NS, D5 | Stabilita: 2 hari suhu ruangan, 7 hari lemari pendingin | Penyimpanan: Suhu ruangan atau lemari pendingin | Metode: IV 10-15 menit, infus kontinyu selama 24 jam' },
-                    { desc: 'Herceptin - Pelarut: NS 250 | Stabilita: Setelah pencampuran hanya 24 jam | Penyimpanan: Suhu ruangan dingin 2-8°C, jangan di frezer | Metode: IV 2 jam' },
-                    { desc: 'Leucogen - Penyimpanan: Suhu 2-8°C, terlindung dari cahaya langsung | Metode: SC' },
-                    { desc: 'Navelbine - Pelarut: D5/NS 50 ml | Stabilita: 8 hari lemari pendingin suhu 2-5°C, 24 jam suhu ruangan | Penyimpanan: Suhu 2-8°C, terlindung dari cahaya langsung | Metode: IV selama 10 menit, setelah pemberian navelbine langsung diberikan NaCl 250 cc' },
-                    { desc: 'Oxaliplatin/Rexta - Pelarut: D5 | Stabilita: 24 jam lemari pendingin | Penyimpanan: Suhu dingin hindarkan dari cahaya langsung, pelarut tidak mengandung NaCl 0,9% | Metode: IV dalam D5 2-6 jam' },
-                    { desc: 'Zoladex - Penyimpanan: Jangan disimpan pada suhu diatas 25°C | Metode: Injeksi subcutan secara langsung' },
-                    { desc: 'Zometa - Pelarut: NS 100, D5 100 | Stabilita: 24 jam suhu 2-8°C setelah pencampuran | Penyimpanan: Jangan disimpan pada suhu 30°C jauhkan dari jangkauan anak | Metode: IV 15 menit' }
+                    { desc: 'Paclitaxel/foncopac - Pelarut: NS | Stabilita: 27 jam suhu ruangan | Penyimpanan: Suhu ruangan, simpan botol khusus terlindung cahaya | Metode: Infus IV 3 jam' },
+                    { desc: 'Vincristine - Pelarut: NS, D5 | Stabilita: 2 hari suhu ruangan, 7 hari lemari pendingin | Penyimpanan: Suhu ruangan atau lemari pendingin | Metode: IV 10-15 menit, infus kontinyu 24 jam' },
+                    { desc: 'Herceptin - Pelarut: NS 250 | Stabilita: 24 jam setelah pencampuran | Penyimpanan: Suhu ruangan dingin 2-8°C, jangan di frezer | Metode: IV 2 jam' },
+                    { desc: 'Leucogen - Penyimpanan: Suhu 2-8°C, terlindung cahaya langsung | Metode: SC' },
+                    { desc: 'Navelbine - Pelarut: D5/NS 50 ml | Stabilita: 8 hari lemari pendingin 2-5°C, 24 jam suhu ruangan | Penyimpanan: Suhu 2-8°C, terlindung cahaya | Metode: IV 10 menit, dilanjut NaCl 250 cc' },
+                    { desc: 'Oxaliplatin/Rexta - Pelarut: D5 | Stabilita: 24 jam lemari pendingin | Penyimpanan: Suhu dingin, hindari cahaya, pelarut tidak mengandung NaCl 0,9% | Metode: IV dalam D5 2-6 jam' },
+                    { desc: 'Zoladex - Penyimpanan: Jangan disimpan pada suhu diatas 25°C | Metode: Injeksi subcutan langsung' },
+                    { desc: 'Zometa - Pelarut: NS 100, D5 100 | Stabilita: 24 jam suhu 2-8°C setelah pencampuran | Penyimpanan: Jangan disimpan pada suhu 30°C | Metode: IV 15 menit' }
                 ]
             },
             {
@@ -895,12 +894,23 @@ const sopDataPerawatTindakan = [
                     { desc: 'Berikan obat dan alkes dengan alkohol' },
                     { desc: 'Letakkan seluruh obat dan perlengkapan percampuran diatas alas sitostatika' },
                     { desc: 'Sesudah dioplos, bersihkan syringe dan bag infuse dengan alkohol kemudian beri etiket' },
-                    { desc: 'Buang sisa bungkus, syringe jarum, bekas vial ke kantong' }
+                    { desc: 'Buang sisa bungkus, syringe jarum, bekas vial ke kantong limbah tertutup (safety box)' },
+                    { desc: 'Masukkan obat yang terlindungi dari cahaya dalam kantong plastik' },
+                    { desc: 'Berikan paraf setelah selesai' },
+                    { desc: 'Periksa kembali obat yang siap dikirim ke ruangan sesuai dengan yang diinginkan' },
+                    { desc: 'Dekontaminasi dan desinfeksi ruang kerja' },
+                    { desc: 'Lepas perlengkapan pelindung' },
+                    { desc: 'Cuci tangan dengan aseptik dan alkohol' },
+                    { desc: 'Dokumentasikan percampuran' }
                 ]
+            },
+            {
+                step: 'Evaluasi',
+                desc: 'Observasi hasil drug mixing yang telah dilakukan'
             }
         ],
-        dokumenTerkait: ['-'],
-        instalasiTerkait: ['-']
+        dokumenTerkait: ['Panduan Pelayanan Kemoterapi'],
+        instalasiTerkait: ['Instalasi Farmasi', 'Instalasi Rawat Inap', 'Instalasi Rawat Jalan']
     },
     {
         id: 1106,
@@ -1008,6 +1018,86 @@ const sopDataPerawatTindakan = [
         ],
         dokumenTerkait: ['Panduan Pelayanan Pasien'],
         instalasiTerkait: ['Instalasi Farmasi', 'Instalasi Rawat Inap', 'Instalasi Rawat Jalan', 'IPSRS']
+    },
+    {
+        id: 1108,
+        title: 'Penanganan Kecelakaan Kerja dalam Pemberian Obat Sitostatik',
+        category: 'tindakan',
+        subCategory: 'onkologi',
+        description: 'Prosedur penanganan kecelakaan kerja seperti tumpahan obat di kulit, kontak dengan mata, dan tertusuk jarum.',
+        icon: 'fa-ambulance',
+        tags: ['Kecelakaan Kerja', 'Sitostatika', 'Keselamatan Kerja', 'APD', 'Onkologi'],
+        noDokumen: '45/SPO 8265 IPKT',
+        tanggalTerbit: '25 November 2021',
+        pengertian: 'Adalah cara petugas dalam membersihkan area drug mixing dan area pemberian obat sitostika dari tumpahan obat.',
+        tujuan: 'Sebagai acuan atau panduan seorang tenaga medis atau paramedis yang sudah terlatih dalam mencegah paparan petugas terhadap obat sitostatika.',
+        kebijakan: 'Petugas medis atau paramedis yang sudah terlatih dalam pemberian kemoterapi.',
+        prosedur: [
+            {
+                step: 'Persiapan',
+                items: [
+                    { desc: 'Kemoterapi spill kit' },
+                    { desc: 'Emergency kit' },
+                    { desc: 'Baju pelindung' },
+                    { desc: 'Sarung tangan' },
+                    { desc: 'Tutup kepala' },
+                    { desc: 'Masker' },
+                    { desc: '30 ml larutan pencuci mata steril' },
+                    { desc: '120 ml air sabun' },
+                    { desc: 'Larutan klorin 5% 500 ml' },
+                    { desc: 'Larutan NaCl 0,9% 500 ml' }
+                ]
+            },
+            {
+                step: 'Penanganan Tumpahan di Kulit',
+                items: [
+                    { desc: 'Tanggalkan sarung tangan' },
+                    { desc: 'Bilas kulit dengan air hangat' },
+                    { desc: 'Cuci dengan sabun, bilas dengan air hangat' },
+                    { desc: 'Jika kulit tidak sobek, seka area dengan kassa yang dibasahi larutan chlorine 5% dan bilas dengan air hangat' },
+                    { desc: 'Jika kulit sobek gunakan H2O2 3%' },
+                    { desc: 'Catat jenis obatnya dan siapkan antidote khusus' },
+                    { desc: 'Tanggalkan seluruh pakaian alat pelindung diri' },
+                    { desc: 'Laporkan ke supervisor' },
+                    { desc: 'Lengkapi format kecelakaan' }
+                ]
+            },
+            {
+                step: 'Kontak Dengan Mata',
+                items: [
+                    { desc: 'Meminta pertolongan' },
+                    { desc: 'Tanggalkan sarung tangan' },
+                    { desc: 'Bilas mata dengan air mengalir dan rendam dengan air hangat selama 5 menit' },
+                    { desc: 'Letakkan tangan disekitar mata dan cuci mata terbuka dengan larutan NaCl 0,9%' },
+                    { desc: 'Aliri mata dengan larutan pencuci mata' },
+                    { desc: 'Tanggalkan seluruh pakaian pelindung' },
+                    { desc: 'Catat jenis obat yang tumpah' },
+                    { desc: 'Laporkan ke supervisor' },
+                    { desc: 'Lengkapi format kecelakaan kerja' }
+                ]
+            },
+            {
+                step: 'Tertusuk Jarum',
+                items: [
+                    { desc: 'Jangan segera mengangkat jarum, tarik kembali plinger untuk menghisap obat yang mungkin terinjeksi' },
+                    { desc: 'Angkat jarum dari kulit dan tutup jarum kemudian buang' },
+                    { desc: 'Jika perlu gunakan spuit baru dan jarum yang bersih untuk mengambil obat dalam jaringan yang tertusuk' },
+                    { desc: 'Tanggalkan sarung tangan, bilas bagian yang tertusuk dengan air hangat' },
+                    { desc: 'Cuci bersih dengan sabun, bilas dengan air hangat' },
+                    { desc: 'Tanggalkan semua APD' },
+                    { desc: 'Catat jenis obat dan perkirakan berapa banyak yang terinjeksi' },
+                    { desc: 'Laporkan ke supervisor' },
+                    { desc: 'Lengkapi format kecelakaan kerja' },
+                    { desc: 'Segera konsultasikan ke dokter' }
+                ]
+            },
+            {
+                step: 'Evaluasi',
+                desc: 'Evaluasi kembali daerah yang terkena obat sitostatik apakah terjadi peradangan, rasa berbeda, dll.'
+            }
+        ],
+        dokumenTerkait: ['Panduan Pelayanan Kemoterapi'],
+        instalasiTerkait: ['Instalasi Farmasi', 'IPSRS', 'Instalasi Rawat Inap', 'Instalasi Rawat Jalan']
     }
-
+   
 ];
