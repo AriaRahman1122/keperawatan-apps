@@ -268,7 +268,7 @@ const sopDataPerawatManajemen = [
         category: 'umum',
         subCategory: 'keperawatanDasar',
         description: 'Kegiatan menyiapkan pasien pulang karena meninggal dunia.',
-        icon: 'fa-cross',
+        icon: 'fa-flag',
         tags: ['Kematian', 'Jenazah', 'Administrasi', 'Pemulasaraan'],
         noDokumen: '445/ SPO.3392/ Bidper',
         tanggalTerbit: '04 Maret 2019',

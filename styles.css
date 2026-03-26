@@ -1317,7 +1317,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .burger-btn {
         display: flex;
     }
@@ -1707,7 +1707,7 @@ body {
 }
 
 /* Responsive untuk Login Modal */
-@media (max-width: 768px) {
+@media (max-width: 800) {
     .login-card {
         padding: 30px 25px;
         margin: 0 15px;
