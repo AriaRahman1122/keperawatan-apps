@@ -2,7 +2,7 @@
     UI Manajemen Keperawatan
     Author: Aria Rahman, Siddiq Ahmad Anshori
     Title: index
-    Description: UI untuk Aplikasi Manajemen Keperawatan
+    Description: UI untuk Aplikasi Manajemen Keperawatan dengan Fitur Login
 -->
 
 
@@ -28,360 +28,398 @@
     <div class="gradient-orb2"></div>
     <div class="gradient-orb3"></div>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="./assets/logo-apps.png" alt="Logo" style="height: 60px; width: auto;">
-            Bimasakti Digital
-        </div>
-        
-        <!-- Burger Button -->
-        <div class="burger-btn" id="burgerBtn">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <div class="nav-links" id="navLinks">
-            <a class="nav-item active" data-page="beranda">Beranda</a>
-            <a class="nav-item" data-page="dokter">Dokter</a>
-            <a class="nav-item" data-page="perawat">Perawat</a>
-            <!-- <a class="nav-item" data-page="pasien">Pasien</a> -->
-        </div>
-        <div style="width: 40px;" class="desktop-spacer"></div>
-    </nav>
-
-    <!-- Pages -->
-    <div id="beranda" class="page active">
-        <!-- Hero Section -->
-        <div class="hero-section">
-            <div data-aos="fade-right">
-                <div class="hospital-badge">
-                    <img src="./assets/logo-welas-asih-full.png" alt="Logo RSUD" class="hospital-logo">
-                    RSUD WELAS ASIH Provinsi Jawa Barat
+    <!-- Login Modal -->
+    <div class="login-modal" id="loginModal">
+        <div class="login-container">
+            <div class="login-card">
+                <div class="login-header">
+                    <img src="./assets/logo-welas-asih-icon.png" alt="Logo" class="login-logo">
+                    <h2>Bimasakti Digital</h2>
+                    <p>Silakan login untuk mengakses aplikasi</p>
                 </div>
-                <h1 class="hero-title">Buku Informasi Medis dan Asuhan Keperawatan Terintegrasi</h1>
-                <p class="hero-text">Platform terintegrasi untuk standar prosedur keperawatan, manajemen tindakan, dan panduan pasien. Transparan, mudah diakses, dan selalu diperbarui.</p>
-                <div class="stats-container">
-                    <div class="stat-item">
-                        <div class="stat-value">10+</div>
-                        <div class="stat-label">SOP KEPERAWATAN</div>
+                <div class="login-form">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="loginUsername" placeholder="Username" autocomplete="off">
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-value">8+</div>
-                        <div class="stat-label">SPESIALISASI</div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="loginPassword" placeholder="Password">
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-value">100%</div>
-                        <div class="stat-label">DIGITAL</div>
-                    </div>
-                </div>
-            </div>
-            <div data-aos="fade-left">
-                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='none' stroke='%234300FF' stroke-width='2' /%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%230065F8' stroke-width='2' /%3E%3Ccircle cx='50' cy='50' r='20' fill='none' stroke='%2300CAFF' stroke-width='2' /%3E%3C/svg%3E" alt="Ilustrasi" style="width: 100%; max-width: 400px;">
-            </div>
-        </div>
-
-        <!-- Features -->
-        <h2 class="section-title"><i class="fas fa-star"></i> Kelebihan & Fitur</h2>
-        <div class="features-grid">
-            <div class="feature-item" data-aos="fade-up">
-                <i class="fas fa-bolt"></i>
-                <h3>Akses Cepat</h3>
-                <p>Temukan prosedur keperawatan dalam hitungan detik dengan sistem pencarian cerdas.</p>
-            </div>
-            <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
-                <i class="fas fa-sync-alt"></i>
-                <h3>Update Real-time</h3>
-                <p>Data langsung terupdate pada seluruh platform secara real time</p>
-            </div>
-            <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
-                <i class="fas fa-route"></i>
-                <h3>Visual Alur</h3>
-                <p>Setiap SOP dilengkapi diagram alur yang mudah dipahami.</p>
-            </div>
-            <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
-                <i class="fas fa-mobile-alt"></i>
-                <h3>Responsif</h3>
-                <p>Dapat diakses dari berbagai perangkat dengan pengalaman optimal.</p>
-            </div>
-        </div>
-
-        <!-- Marquee - Responsive -->
-        <div class="marquee-container">
-            <div class="marquee-wrapper">
-                <div class="marquee left-marquee">
-                    <div class="marquee-content">
-                        <span><i class="fas fa-circle"></i> SOP Pemasangan Infus</span>
-                        <span><i class="fas fa-circle"></i> Edukasi Pasien</span>
-                        <span><i class="fas fa-circle"></i> Alur Gawat Darurat</span>
-                        <span><i class="fas fa-circle"></i> Perawatan Luka</span>
-                        <span><i class="fas fa-circle"></i> Kateterisasi</span>
-                        <span><i class="fas fa-circle"></i> Suction Jalan Napas</span>
-                        <span><i class="fas fa-circle"></i> Perawatan Ostomi</span>
-                        <span><i class="fas fa-circle"></i> Pemberian Obat</span>
-                        <span><i class="fas fa-circle"></i> Persiapan Operasi</span>
-                    </div>
-                    <div class="marquee-content">
-                        <span><i class="fas fa-circle"></i> SOP Pemasangan Infus</span>
-                        <span><i class="fas fa-circle"></i> Edukasi Pasien</span>
-                        <span><i class="fas fa-circle"></i> Alur Gawat Darurat</span>
-                        <span><i class="fas fa-circle"></i> Perawatan Luka</span>
-                        <span><i class="fas fa-circle"></i> Kateterisasi</span>
-                        <span><i class="fas fa-circle"></i> Suction Jalan Napas</span>
-                        <span><i class="fas fa-circle"></i> Perawatan Ostomi</span>
-                        <span><i class="fas fa-circle"></i> Pemberian Obat</span>
-                        <span><i class="fas fa-circle"></i> Persiapan Operasi</span>
-                    </div>
-                </div>
-            </div>
-            <div class="marquee-wrapper reverse">
-                <div class="marquee right-marquee">
-                    <div class="marquee-content">
-                        <span><i class="fas fa-star"></i> 24/7 Layanan</span>
-                        <span><i class="fas fa-star"></i> 100+ Rumah Sakit</span>
-                        <span><i class="fas fa-star"></i> 5000+ Perawat</span>
-                        <span><i class="fas fa-star"></i> Terintegrasi EMR</span>
-                        <span><i class="fas fa-star"></i> Sertifikasi ISO</span>
-                        <span><i class="fas fa-star"></i> Tim Ahli 24 Jam</span>
-                        <span><i class="fas fa-star"></i> Update Berkala</span>
-                        <span><i class="fas fa-star"></i> Akreditasi Nasional</span>
-                    </div>
-                    <div class="marquee-content">
-                        <span><i class="fas fa-star"></i> 24/7 Layanan</span>
-                        <span><i class="fas fa-star"></i> 100+ Rumah Sakit</span>
-                        <span><i class="fas fa-star"></i> 5000+ Perawat</span>
-                        <span><i class="fas fa-star"></i> Terintegrasi EMR</span>
-                        <span><i class="fas fa-star"></i> Sertifikasi ISO</span>
-                        <span><i class="fas fa-star"></i> Tim Ahli 24 Jam</span>
-                        <span><i class="fas fa-star"></i> Update Berkala</span>
-                        <span><i class="fas fa-star"></i> Akreditasi Nasional</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- News - Data dari JS -->
-        <h2 class="section-title"><i class="fas fa-newspaper"></i> Berita Terkini</h2>
-        <div class="news-grid"></div>
-
-        <!-- Announcements - Data dari JS -->
-        <h2 class="section-title"><i class="fas fa-bullhorn"></i> Pengumuman</h2>
-        <div class="announcements-grid"></div>
-
-        <!-- FAQ -->
-        <h2 class="section-title"><i class="fas fa-question-circle"></i> Pertanyaan Umum</h2>
-        <div class="faq-container">
-            <div class="faq-item">
-                <div class="faq-question">
-                    Apa itu Bimasakti Digital?
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="faq-answer">
-                    <strong>Bimasakti Digital</strong> merupakan singkatan dari <strong>Buku Informasi Medis dan Asuhan Keperawatan Terintegrasi</strong>, sebuah platform digital yang menghadirkan informasi medis, SOP keperawatan, panduan asuhan keperawatan, manajemen tindakan, serta edukasi pasien secara terintegrasi dalam satu sistem.
-                </div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question">
-                    Bagaimana cara mengakses SOP Perawat?
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="faq-answer">
-                    Pilih menu Perawat, lalu pilih tab "Umum", "Manajemen Keperawatan", atau "Tindakan Keperawatan".
-                </div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question">
-                    Apakah SOP selalu diperbarui?
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="faq-answer">
-                    Ya, tim kami memastikan semua SOP mengikuti pedoman terbaru dari organisasi kesehatan.
-                </div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question">
-                    Apakah ada versi mobile?
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="faq-answer">
-                    Platform ini responsif dan dapat diakses melalui semua perangkat.
-                </div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question">
-                    Bagaimana jika ada pertanyaan lebih lanjut?
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="faq-answer">
-                    Silakan hubungi kami melalui email atau telepon yang tercantum di footer.
+                    <button class="login-btn" id="loginBtn">Login</button>
+                    <div class="login-error" id="loginError"></div>
+                    <!-- <div class="demo-credentials">
+                        <p><i class="fas fa-info-circle"></i> Demo Credentials:</p>
+                        <p>Username: <strong>admin</strong> | Password: <strong>admin123</strong></p>
+                        <p>Username: <strong>perawat</strong> | Password: <strong>nurse123</strong></p>
+                        <p>Username: <strong>dokter</strong> | Password: <strong>doctor123</strong></p>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="dokter" class="page">
-        <div class="page-intro" data-aos="fade-up">
-            <h3><i class="fas fa-stethoscope"></i> SOP untuk Dokter</h3>
-            <p>Kumpulan Standar Operasional Prosedur yang dirancang khusus untuk praktik klinis dokter. Setiap SOP dilengkapi dengan alur detail, panduan langkah demi langkah, dan referensi terkini.</p>
-        </div>
-        
-        <div class="page-search">
-            <div class="search-box">
-                <i class="fas fa-search"></i>
-                <input type="text" class="page-search-input" data-page="dokter" placeholder="Cari SOP Dokter...">
-            </div>
-        </div>
-
-        <div class="sop-grid" id="dokterGrid"></div>
-    </div>
-
-    <div id="perawat" class="page">
-        <div class="page-intro" data-aos="fade-up">
-            <h3><i class="fas fa-hand-holding-heart"></i> Panduan Keperawatan</h3>
-            <p>Pilih tab di bawah untuk mengakses berbagai panduan prosedur keperawatan.</p>
-        </div>
-
-        <!-- Tabs - Centered -->
-        <div class="tabs-container">
-            <div class="tabs">
-                <button class="tab-btn active" data-tab="umum">Umum</button>
-                <button class="tab-btn" data-tab="manajemen">Manajemen Keperawatan</button>
-                <button class="tab-btn" data-tab="tindakan">Tindakan Keperawatan</button>
-            </div>
-        </div>
-
-        <!-- Tab Content: Umum -->
-        <div class="tab-content active" id="tab-umum">
-            <div class="page-search">
-                <div class="search-box">
-                    <i class="fas fa-search"></i>
-                    <input type="text" id="searchUmum" placeholder="Cari SOP Umum...">
-                </div>
-            </div>
-            <div class="sop-grid" id="umumGrid"></div>
-        </div>
-
-        <!-- Tab Content: Manajemen Keperawatan -->
-        <div class="tab-content" id="tab-manajemen">
-            <div class="page-search">
-                <div class="search-box">
-                    <i class="fas fa-search"></i>
-                    <input type="text" id="searchManajemen" placeholder="Cari SOP Manajemen...">
-                </div>
-            </div>
-            <div class="sop-grid" id="manajemenGrid"></div>
-        </div>
-
-        <!-- Tab Content: Tindakan Keperawatan -->
-        <div class="tab-content" id="tab-tindakan">
-            <!-- Search untuk kategori -->
-            <div class="page-search">
-                <div class="search-box">
-                    <i class="fas fa-search"></i>
-                    <input type="text" id="categorySearch" placeholder="Cari kategori...">
-                </div>
+    <!-- Main Content (Protected) -->
+    <div class="main-content" id="mainContent" style="display: none;">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./assets/logo-apps.png" alt="Logo" style="height: 60px; width: auto;">
+                Bimasakti Digital
             </div>
             
-            <!-- Tampilan kategori -->
-            <div id="categoryContainer">
-                <div class="category-grid" id="categoryGrid"></div>
+            <!-- Burger Button -->
+            <div class="burger-btn" id="burgerBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <a class="nav-item active" data-page="beranda">Beranda</a>
+                <a class="nav-item" data-page="dokter">Dokter</a>
+                <a class="nav-item" data-page="perawat">Perawat</a>
+                <div class="user-info">
+                    <i class="fas fa-user-circle"></i>
+                    <span id="currentUser">User</span>
+                    <button class="logout-btn" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+                </div>
+            </div>
+            <div style="width: 40px;" class="desktop-spacer"></div>
+        </nav>
+
+        <!-- Pages -->
+        <div id="beranda" class="page active">
+            <!-- Hero Section -->
+            <div class="hero-section">
+                <div data-aos="fade-right">
+                    <div class="hospital-badge">
+                        <img src="./assets/logo-welas-asih-full.png" alt="Logo RSUD" class="hospital-logo">
+                        RSUD WELAS ASIH Provinsi Jawa Barat
+                    </div>
+                    <h1 class="hero-title">Buku Informasi Medis dan Asuhan Keperawatan Terintegrasi</h1>
+                    <p class="hero-text">Platform terintegrasi untuk standar prosedur keperawatan, manajemen tindakan, dan panduan pasien. Transparan, mudah diakses, dan selalu diperbarui.</p>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-value">10+</div>
+                            <div class="stat-label">SOP KEPERAWATAN</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">8+</div>
+                            <div class="stat-label">SPESIALISASI</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">100%</div>
+                            <div class="stat-label">DIGITAL</div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='none' stroke='%234300FF' stroke-width='2' /%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%230065F8' stroke-width='2' /%3E%3Ccircle cx='50' cy='50' r='20' fill='none' stroke='%2300CAFF' stroke-width='2' /%3E%3C/svg%3E" alt="Ilustrasi" style="width: 100%; max-width: 400px;">
+                </div>
+            </div>
+
+            <!-- Features -->
+            <h2 class="section-title"><i class="fas fa-star"></i> Kelebihan & Fitur</h2>
+            <div class="features-grid">
+                <div class="feature-item" data-aos="fade-up">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Akses Cepat</h3>
+                    <p>Temukan prosedur keperawatan dalam hitungan detik dengan sistem pencarian cerdas.</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-sync-alt"></i>
+                    <h3>Update Real-time</h3>
+                    <p>Data langsung terupdate pada seluruh platform secara real time</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-route"></i>
+                    <h3>Visual Alur</h3>
+                    <p>Setiap SOP dilengkapi diagram alur yang mudah dipahami.</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsif</h3>
+                    <p>Dapat diakses dari berbagai perangkat dengan pengalaman optimal.</p>
+                </div>
+            </div>
+
+            <!-- Marquee - Responsive -->
+            <div class="marquee-container">
+                <div class="marquee-wrapper">
+                    <div class="marquee left-marquee">
+                        <div class="marquee-content">
+                            <span><i class="fas fa-circle"></i> SOP Pemasangan Infus</span>
+                            <span><i class="fas fa-circle"></i> Edukasi Pasien</span>
+                            <span><i class="fas fa-circle"></i> Alur Gawat Darurat</span>
+                            <span><i class="fas fa-circle"></i> Perawatan Luka</span>
+                            <span><i class="fas fa-circle"></i> Kateterisasi</span>
+                            <span><i class="fas fa-circle"></i> Suction Jalan Napas</span>
+                            <span><i class="fas fa-circle"></i> Perawatan Ostomi</span>
+                            <span><i class="fas fa-circle"></i> Pemberian Obat</span>
+                            <span><i class="fas fa-circle"></i> Persiapan Operasi</span>
+                        </div>
+                        <div class="marquee-content">
+                            <span><i class="fas fa-circle"></i> SOP Pemasangan Infus</span>
+                            <span><i class="fas fa-circle"></i> Edukasi Pasien</span>
+                            <span><i class="fas fa-circle"></i> Alur Gawat Darurat</span>
+                            <span><i class="fas fa-circle"></i> Perawatan Luka</span>
+                            <span><i class="fas fa-circle"></i> Kateterisasi</span>
+                            <span><i class="fas fa-circle"></i> Suction Jalan Napas</span>
+                            <span><i class="fas fa-circle"></i> Perawatan Ostomi</span>
+                            <span><i class="fas fa-circle"></i> Pemberian Obat</span>
+                            <span><i class="fas fa-circle"></i> Persiapan Operasi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="marquee-wrapper reverse">
+                    <div class="marquee right-marquee">
+                        <div class="marquee-content">
+                            <span><i class="fas fa-star"></i> 24/7 Layanan</span>
+                            <span><i class="fas fa-star"></i> 100+ Rumah Sakit</span>
+                            <span><i class="fas fa-star"></i> 5000+ Perawat</span>
+                            <span><i class="fas fa-star"></i> Terintegrasi EMR</span>
+                            <span><i class="fas fa-star"></i> Sertifikasi ISO</span>
+                            <span><i class="fas fa-star"></i> Tim Ahli 24 Jam</span>
+                            <span><i class="fas fa-star"></i> Update Berkala</span>
+                            <span><i class="fas fa-star"></i> Akreditasi Nasional</span>
+                        </div>
+                        <div class="marquee-content">
+                            <span><i class="fas fa-star"></i> 24/7 Layanan</span>
+                            <span><i class="fas fa-star"></i> 100+ Rumah Sakit</span>
+                            <span><i class="fas fa-star"></i> 5000+ Perawat</span>
+                            <span><i class="fas fa-star"></i> Terintegrasi EMR</span>
+                            <span><i class="fas fa-star"></i> Sertifikasi ISO</span>
+                            <span><i class="fas fa-star"></i> Tim Ahli 24 Jam</span>
+                            <span><i class="fas fa-star"></i> Update Berkala</span>
+                            <span><i class="fas fa-star"></i> Akreditasi Nasional</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- News - Data dari JS -->
+            <h2 class="section-title"><i class="fas fa-newspaper"></i> Berita Terkini</h2>
+            <div class="news-grid"></div>
+
+            <!-- Announcements - Data dari JS -->
+            <h2 class="section-title"><i class="fas fa-bullhorn"></i> Pengumuman</h2>
+            <div class="announcements-grid"></div>
+
+            <!-- FAQ -->
+            <h2 class="section-title"><i class="fas fa-question-circle"></i> Pertanyaan Umum</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Apa itu Bimasakti Digital?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <strong>Bimasakti Digital</strong> merupakan singkatan dari <strong>Buku Informasi Medis dan Asuhan Keperawatan Terintegrasi</strong>, sebuah platform digital yang menghadirkan informasi medis, SOP keperawatan, panduan asuhan keperawatan, manajemen tindakan, serta edukasi pasien secara terintegrasi dalam satu sistem.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Bagaimana cara mengakses SOP Perawat?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Pilih menu Perawat, lalu pilih tab "Umum", "Manajemen Keperawatan", atau "Tindakan Keperawatan".
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Apakah SOP selalu diperbarui?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Ya, tim kami memastikan semua SOP mengikuti pedoman terbaru dari organisasi kesehatan.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Apakah ada versi mobile?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Platform ini responsif dan dapat diakses melalui semua perangkat.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Bagaimana jika ada pertanyaan lebih lanjut?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Silakan hubungi kami melalui email atau telepon yang tercantum di footer.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="dokter" class="page">
+            <div class="page-intro" data-aos="fade-up">
+                <h3><i class="fas fa-stethoscope"></i> SOP untuk Dokter</h3>
+                <p>Kumpulan Standar Operasional Prosedur yang dirancang khusus untuk praktik klinis dokter. Setiap SOP dilengkapi dengan alur detail, panduan langkah demi langkah, dan referensi terkini.</p>
             </div>
             
-            <!-- Tampilan SOP berdasarkan kategori -->
-            <div id="sopByCategoryContainer" style="display: none;">
-                <button class="back-btn" id="backToCategories"><i class="fas fa-arrow-left"></i> Kembali ke Kategori</button>
+            <div class="page-search">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="page-search-input" data-page="dokter" placeholder="Cari SOP Dokter...">
+                </div>
+            </div>
+
+            <div class="sop-grid" id="dokterGrid"></div>
+        </div>
+
+        <div id="perawat" class="page">
+            <div class="page-intro" data-aos="fade-up">
+                <h3><i class="fas fa-hand-holding-heart"></i> Panduan Keperawatan</h3>
+                <p>Pilih tab di bawah untuk mengakses berbagai panduan prosedur keperawatan.</p>
+            </div>
+
+            <!-- Tabs - Centered -->
+            <div class="tabs-container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="umum">Umum</button>
+                    <button class="tab-btn" data-tab="manajemen">Manajemen Keperawatan</button>
+                    <button class="tab-btn" data-tab="tindakan">Tindakan Keperawatan</button>
+                </div>
+            </div>
+
+            <!-- Tab Content: Umum -->
+            <div class="tab-content active" id="tab-umum">
                 <div class="page-search">
                     <div class="search-box">
                         <i class="fas fa-search"></i>
-                        <input type="text" id="categorySearchInput" placeholder="Cari dalam kategori ini...">
+                        <input type="text" id="searchUmum" placeholder="Cari SOP Umum...">
                     </div>
                 </div>
-                <div class="sop-grid" id="tindakanSopGrid"></div>
+                <div class="sop-grid" id="umumGrid"></div>
+            </div>
+
+            <!-- Tab Content: Manajemen Keperawatan -->
+            <div class="tab-content" id="tab-manajemen">
+                <div class="page-search">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="searchManajemen" placeholder="Cari SOP Manajemen...">
+                    </div>
+                </div>
+                <div class="sop-grid" id="manajemenGrid"></div>
+            </div>
+
+            <!-- Tab Content: Tindakan Keperawatan -->
+            <div class="tab-content" id="tab-tindakan">
+                <!-- Search untuk kategori -->
+                <div class="page-search">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="categorySearch" placeholder="Cari kategori...">
+                    </div>
+                </div>
+                
+                <!-- Tampilan kategori -->
+                <div id="categoryContainer">
+                    <div class="category-grid" id="categoryGrid"></div>
+                </div>
+                
+                <!-- Tampilan SOP berdasarkan kategori -->
+                <div id="sopByCategoryContainer" style="display: none;">
+                    <button class="back-btn" id="backToCategories"><i class="fas fa-arrow-left"></i> Kembali ke Kategori</button>
+                    <div class="page-search">
+                        <div class="search-box">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="categorySearchInput" placeholder="Cari dalam kategori ini...">
+                        </div>
+                    </div>
+                    <div class="sop-grid" id="tindakanSopGrid"></div>
+                </div>
             </div>
         </div>
+
+        <div id="pasien" class="page">
+            <div class="page-intro" data-aos="fade-up">
+                <h3><i class="fas fa-users"></i> Panduan untuk Pasien</h3>
+                <p>Informasi dan prosedur yang perlu diketahui pasien sebelum, selama, dan setelah menjalani perawatan. Disusun dengan bahasa yang mudah dipahami agar pasien lebih siap dan nyaman.</p>
+            </div>
+
+            <div class="page-search">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="page-search-input" data-page="pasien" placeholder="Cari Panduan Pasien...">
+                </div>
+            </div>
+
+            <div class="sop-grid" id="pasienGrid"></div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal" id="sopModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modalTitle">SOP Title</h2>
+                    <button class="close-modal" id="closeModal">&times;</button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- Akan diisi JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Nursync</h4>
+                    <p>RSUD WELAS ASIH Provinsi Jawa Barat</p>
+                    <p style="margin-top: 10px; font-size: 0.9rem;">Masa depan standar prosedur keperawatan yang terintegrasi, transparan, dan mudah diakses.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigasi</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="nav-footer" data-page="beranda"><i class="fas fa-chevron-right"></i> Beranda</a></li>
+                        <li><a href="#" class="nav-footer" data-page="dokter"><i class="fas fa-chevron-right"></i> Dokter</a></li>
+                        <li><a href="#" class="nav-footer" data-page="perawat"><i class="fas fa-chevron-right"></i> Perawat</a></li>
+                        <!-- <li><a href="#" class="nav-footer" data-page="pasien"><i class="fas fa-chevron-right"></i> Pasien</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontak</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-pin"></i> Jl. Kiastramanggala, Baleendah, Kec. Baleendah, Kabupaten Bandung, Jawa Barat 40375</li>
+                        <li><i class="fas fa-phone"></i> (022) 5940872</li>
+                        <li><i class="fas fa-envelope"></i> rsudalihsan@jabarprov.go.id</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Jam Operasional</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-ambulance"></i> IGD: 24 Jam</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Partnership Section with UPI -->
+            <div class="partnership">
+                <div class="partnership-divider">
+                    <span>Kolaborasi</span>
+                </div>
+                <div class="partnership-logos">
+                    <img src="./assets/logo-upi-full.png" alt="Universitas Pendidikan Indonesia" class="upi-logo-full">
+                    <img src="./assets/logo-welas-asih-full.png" alt="RSUD Welas Asih" class="rsud-logo-full">
+                </div>
+                <div class="partnership-text">
+                    <i class="fas fa-graduation-cap"></i> Program Kolaborasi Pengembangan Keperawatan Digital
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <i class="far fa-copyright"></i> 2025 RSUD WELAS ASIH Provinsi Jawa Barat & Universitas Pendidikan Indonesia | All Rights Reserved
+            </div>
+        </footer>
     </div>
-
-    <div id="pasien" class="page">
-        <div class="page-intro" data-aos="fade-up">
-            <h3><i class="fas fa-users"></i> Panduan untuk Pasien</h3>
-            <p>Informasi dan prosedur yang perlu diketahui pasien sebelum, selama, dan setelah menjalani perawatan. Disusun dengan bahasa yang mudah dipahami agar pasien lebih siap dan nyaman.</p>
-        </div>
-
-        <div class="page-search">
-            <div class="search-box">
-                <i class="fas fa-search"></i>
-                <input type="text" class="page-search-input" data-page="pasien" placeholder="Cari Panduan Pasien...">
-            </div>
-        </div>
-
-        <div class="sop-grid" id="pasienGrid"></div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal" id="sopModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 id="modalTitle">SOP Title</h2>
-                <button class="close-modal" id="closeModal">&times;</button>
-            </div>
-            <div class="modal-body" id="modalBody">
-                <!-- Akan diisi JS -->
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-col">
-                <h4>Nursync</h4>
-                <p>RSUD WELAS ASIH Provinsi Jawa Barat</p>
-                <p style="margin-top: 10px; font-size: 0.9rem;">Masa depan standar prosedur keperawatan yang terintegrasi, transparan, dan mudah diakses.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Navigasi</h4>
-                <ul class="footer-links">
-                    <li><a href="#" class="nav-footer" data-page="beranda"><i class="fas fa-chevron-right"></i> Beranda</a></li>
-                    <li><a href="#" class="nav-footer" data-page="dokter"><i class="fas fa-chevron-right"></i> Dokter</a></li>
-                    <li><a href="#" class="nav-footer" data-page="perawat"><i class="fas fa-chevron-right"></i> Perawat</a></li>
-                    <!-- <li><a href="#" class="nav-footer" data-page="pasien"><i class="fas fa-chevron-right"></i> Pasien</a></li> -->
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Kontak</h4>
-                <ul class="footer-links">
-                    <li><i class="fas fa-map-pin"></i> Jl. Kiastramanggala, Baleendah, Kec. Baleendah, Kabupaten Bandung, Jawa Barat 40375</li>
-                    <li><i class="fas fa-phone"></i> (022) 5940872</li>
-                    <li><i class="fas fa-envelope"></i> rsudalihsan@jabarprov.go.id</li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Jam Operasional</h4>
-                <ul class="footer-links">
-                    <li><i class="fas fa-ambulance"></i> IGD: 24 Jam</li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- Partnership Section with UPI -->
-        <div class="partnership">
-            <div class="partnership-divider">
-                <span>Kolaborasi</span>
-            </div>
-            <div class="partnership-logos">
-                <img src="./assets/logo-upi-full.png" alt="Universitas Pendidikan Indonesia" class="upi-logo-full">
-                <img src="./assets/logo-welas-asih-full.png" alt="RSUD Welas Asih" class="rsud-logo-full">
-            </div>
-            <div class="partnership-text">
-                <i class="fas fa-graduation-cap"></i> Program Kolaborasi Pengembangan Keperawatan Digital
-            </div>
-        </div>
-        
-        <div class="copyright">
-            <i class="far fa-copyright"></i> 2025 RSUD WELAS ASIH Provinsi Jawa Barat & Universitas Pendidikan Indonesia | All Rights Reserved
-        </div>
-    </footer>
 
     <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -401,7 +439,8 @@
     <script src="js/pages/pasien.js"></script>
     <script src="js/pages/perawat.js"></script>
     
-    <!-- Main App -->
+    <!-- Login & Main App -->
+    <script src="js/auth.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

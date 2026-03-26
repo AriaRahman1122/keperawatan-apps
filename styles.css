@@ -1516,3 +1516,237 @@ body {
         justify-content: center;
     }
 }
+
+/* Login Modal Styles */
+.login-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #f5f9ff 0%, #e8f0fe 100%);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.login-card {
+    background: white;
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: 0 30px 60px rgba(67, 0, 255, 0.2);
+    border: 1px solid rgba(0, 202, 255, 0.2);
+    animation: fadeInUp 0.5s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-logo {
+    height: 80px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.login-header h2 {
+    font-size: 1.8rem;
+    background: linear-gradient(135deg, #4300FF, #0065F8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    color: #4d6a8c;
+    font-size: 0.95rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #f5f9ff;
+    border-radius: 50px;
+    padding: 12px 20px;
+    border: 1px solid rgba(0, 101, 248, 0.2);
+    transition: all 0.3s;
+}
+
+.input-group:focus-within {
+    border-color: #4300FF;
+    box-shadow: 0 0 0 3px rgba(67, 0, 255, 0.1);
+}
+
+.input-group i {
+    color: #0065F8;
+    font-size: 1.2rem;
+    margin-right: 12px;
+}
+
+.input-group input {
+    background: transparent;
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 1rem;
+    color: #1a2b4c;
+}
+
+.input-group input::placeholder {
+    color: #9aaec9;
+}
+
+.login-btn {
+    background: linear-gradient(135deg, #4300FF, #0065F8);
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(67, 0, 255, 0.3);
+}
+
+.login-error {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.demo-credentials {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 101, 248, 0.1);
+    text-align: center;
+}
+
+.demo-credentials p {
+    font-size: 0.8rem;
+    color: #7a94b5;
+    margin-bottom: 5px;
+}
+
+.demo-credentials strong {
+    color: #4300FF;
+}
+
+/* User Info in Navbar */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid rgba(0, 101, 248, 0.2);
+}
+
+.user-info i {
+    font-size: 1.4rem;
+    color: #4300FF;
+}
+
+.user-info span {
+    font-weight: 600;
+    color: #1a2b4c;
+}
+
+.logout-btn {
+    background: transparent;
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+    padding: 6px 14px;
+    border-radius: 40px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logout-btn:hover {
+    background: #e74c3c;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Responsive untuk Login Modal */
+@media (max-width: 768px) {
+    .login-card {
+        padding: 30px 25px;
+        margin: 0 15px;
+    }
+    
+    .login-logo {
+        height: 60px;
+    }
+    
+    .login-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .user-info {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid rgba(0, 101, 248, 0.2);
+    }
+}
+
+@media (max-width: 480px) {
+    .login-card {
+        padding: 25px 20px;
+    }
+    
+    .login-logo {
+        height: 50px;
+    }
+    
+    .input-group {
+        padding: 10px 16px;
+    }
+    
+    .login-btn {
+        padding: 12px;
+    }
+}
