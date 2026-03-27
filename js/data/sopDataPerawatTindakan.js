@@ -1474,7 +1474,7 @@ const sopDataPerawatTindakan = [
                                     ]
                                 },
                                 {
-                                    text: '4) Alat pelindung diri:',
+                                    text: '2) Alat pelindung diri:',
                                     subDetail: [
                                         '- Sepatu bot',
                                         '- Kacamata google',
@@ -1484,7 +1484,7 @@ const sopDataPerawatTindakan = [
                                     ]
                                 },
                                 {
-                                    text: '5) Alat kesehatan dan obat-obatan:',
+                                    text: '3) Alat kesehatan dan obat-obatan:',
                                     subDetail: [
                                         '- Wing needle no. 23, 1 buah (pasien harus diinfus)',
                                         '- Aquadest',
@@ -1535,7 +1535,10 @@ const sopDataPerawatTindakan = [
                     },
                     {
                         step: 'Evaluasi',
-                        desc: 'Observasi dan hitung jumlah darah yang keluar. Observasi gejala-gejala syok hypovolemik (tekanan darah menurun, nadi melemah dan cepat, kulit dingin, dan pasien gelisah)'
+                        items: [
+                            { desc: 'A. Observasi dan hitung jumlah darah yang keluar.' },
+                            { desc: 'B. Observai gejala-gejala syok hypovolemik (tekanan darah menurun, nadi melemah dan cepat, kulit dingin dan paien gelisah).' }
+                        ]
                     },
                     {
                         step: 'Dokumentasi',
@@ -1545,6 +1548,1330 @@ const sopDataPerawatTindakan = [
         dokumenTerkait: ['Status pasien'],
         instalasiTerkait: ['Instalasi Bedah Sentral', 'Instalasi Rawat Inap ( Ruang Kebidanan  dan VK)', 'Status pasien']
     },
+    {
+    id: 1206,
+    title: 'Menyiapkan Pasien Untuk Tindakan Seksio Cesaria',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Kegiatan membantu menyiapkan pasien untuk tindakan operasi seksio cesaria.',
+    icon: 'fa-procedures',
+    tags: ['Seksio Cesaria', 'SC', 'Operasi', 'Persiapan Operasi', 'Obstetri'],
+    noDokumen: '445/SPO.3546/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan membantu menyiapkan pasien untuk tindakan operasi seksio cesaria.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah untuk menyiapkan pasien yang akan dilakukan tindakan seksio cesaria.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan Alat',
+                    detail: [
+                        { text: '1) Status pasien' },
+                        { text: '2) Hasil pemeriksaan penunjang' },
+                        { text: '3) Darah 1–2 labu sesuai kebutuhan pasien' },
+                        { text: '4) Brancard dan selimut' },
+                        { text: '5) Oksigen kecil lengkap (jika diperlukan)' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan Pasien',
+                    detail:
+                        '1) Pasien dan keluarga diberikan penjelasan tentang tindakan yang akan dilakukan\n' +
+                        '2) Pasien dan keluarga menandatangani informed consent dan surat izin tindakan seksio cesaria\n' +
+                        '3) Pasien dipuasakan selama 8 jam sebelum tindakan (jika elektif)\n' +
+                        '4) Bila diperlukan transfusi darah intra atau post operasi, darah disiapkan sesuai kebutuhan\n' +
+                        '5) Keluarga menyelesaikan administrasi biaya operasi sesuai ketentuan dan menandatangani surat perjanjian biaya operasi (bila diperlukan)'
+                },
+                {
+                    desc: 'Persiapan Lingkungan',
+                    detail: [
+                        { text: '1) Skherm ditutup (bila perlu) untuk menjaga privasi pasien' },
+                        { text: '2) Bedplang tempat tidur disesuaikan sesuai kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas ruangan memberitahu petugas kamar bedah untuk jadwal operasi' },
+                { desc: 'Petugas kebidanan menghubungi dokter anak yang akan menolong persalinan' },
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Mencocokkan nama pasien dengan gelang identitas' },
+                { desc: 'Memberikan terapi sesuai instruksi dokter termasuk premedikasi (jika ada)' },
+                { desc: 'Pasien dibawa ke ruang operasi 1–2 jam sebelum tindakan' },
+                { desc: 'Pasien dipindahkan ke tempat tidur tindakan di ruang pre operasi' },
+                {
+                    desc: 'Serah terima pasien dengan petugas kamar bedah',
+                    detail: [
+                        { text: 'Status pasien dan hasil pemeriksaan penunjang' },
+                        { text: 'Darah untuk transfusi sesuai kebutuhan' },
+                        { text: 'Jam terakhir puasa' },
+                        { text: 'Obat premedikasi yang telah diberikan' }
+                    ]
+                },
+                { desc: 'Setelah operasi selesai, petugas kamar bedah menghubungi petugas ruangan' },
+                { desc: 'Petugas ruangan menjemput pasien ke kamar bedah' },
+                {
+                    desc: 'Serah terima kembali pasien dari kamar bedah',
+                    detail: [
+                        { text: 'Status pasien dan berkas pemeriksaan penunjang' },
+                        { text: 'Labu darah sesuai dengan kebutuhan (jika belum digunakan)' },
+                        { text: 'Laporan operasi, intruksi post operasi' }
+                    ]
+                },
+                { desc: 'Membawa pasien kembali ke ruang nifas' },
+                { desc: 'Mengukur tanda-tanda vital' },
+                { desc: 'Membereskan pasien' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi TTV, tingkat kesadaran, adanya sesak nafas, perdarahan'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan pada lembar catatan   perawatan'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Anesthesi dan Perawatan Intensif', 'Instalasi Gawat Darurat', 'Instalasi Bedah Sentral']
+    },
+    {
+    id: 1207,
+    title: 'Menyiapkan Pasien dan Alat Untuk Tindakan Manual Placenta',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Kegiatan membantu menyiapkan pasien dan alat untuk tindakan manual placenta.',
+    icon: 'fa-procedures',
+    tags: ['Manual Placenta', 'Obstetri', 'Persalinan', 'Tindakan Medis'],
+    noDokumen: '445/SPO.3547/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan membantu menyiapkan pasien dan alat untuk tindakan manual placenta.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah untuk menyiapkan  pasien dan alat yang akan dilakukan tindakan manual placenta.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan Alat',
+                    detail: [
+                        { text: '1) Kassa steril' },
+                        { text: '2) Kom kecil berisi bethadine' },
+                        { text: '3) Sarung tangan ginek steril sesuai ukuran' },
+                        { text: '4) Barakscort / apron' },
+                        { text: '5) Set infus (jika diperlukan)' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan Pasien',
+                    detail:
+                        '1) Pasien dan keluarga diberikan penjelasan tentang tujuan dan prosedur tindakan yang akan dilakukan\n' +
+                        '2) Pasien dan keluarga menandatangani formulir informed consent dan surat izin tindakan'
+                },
+                {
+                    desc: 'Persiapan Lingkungan',
+                    detail: [
+                        { text: '1) Skherm ditutup (bila perlu) untuk menjaga privasi pasien' },
+                        { text: '2) Bedplang tempat tidur disesuaikan sesuai kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Mencocokkan nama pasien dengan gelang identitas' },
+                { desc: 'Alat-alat disiapkan dan diletakkan secara ergonomis' },
+                { desc: 'Menggunakan alat pelindung diri (APD)' },
+                { desc: 'Pasien ditidurkan pada tempat tidur tindakan dengan posisi lithotomi' },
+                { desc: 'Berdoa bersama' },
+                { desc: 'Dokter melakukan tindakan manual placenta' },
+                { desc: 'Perawat melakukan asistensi selama tindakan berlangsung' },
+                { desc: 'Merapikan pasien setelah tindakan selesai' },
+                { desc: 'Alat-alat dibereskan dan dicuci' },
+                { desc: 'Perawat mencuci tangan kembali' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi TTV, tingkat kesadaran, adanya sesak nafas, perdarahan'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan yang dilakukan pada lembar catatan perawatan'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap (Ruang Kebidanan)', 'Instalasi Bedah Sentral']
+     },
+     {
+    id: 1208,
+    title: 'Menyiapkan Pasien Untuk Tindakan Hecting Perineum',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Kegiatan membantu menyiapkan pasien untuk tindakan hecting perineum.',
+    icon: 'fa-procedures',
+    tags: ['Hecting Perineum', 'Perineum', 'Obstetri', 'Tindakan Medis'],
+    noDokumen: '445/SPO.3548/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan membantu menyiapkan pasien untuk tindakan hecting perineum.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah untuk menyiapkan pasien yang akan dilakukan tindakan hekting perineum.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        {
+                            text: '1) Bak instrument steril sedang berisi :',
+                            subDetail: [
+                                '- Kom kecil berisi bethadine',
+                                { text: '- Kassa steril 7 - 10 buah atau sesuai kebutuhan', formula: false },
+                                '- Nach foelder',
+                                '- Pinset anatomis',
+                                '- Gunting benang',
+                                '- Benang chromic',
+                                '- Doek bolong',
+                                '- Sarung tangan 1 pasang'
+                            ]
+                        },
+                        {
+                            text: '2) Alat pelindung diri :',
+                            subDetail: [
+                                '- Sepatu bot',
+                                '- Kacamata google',
+                                '- Topi',
+                                '- Barak schort',
+                                '- Masker'
+                            ]
+                        }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberikan penjelasan tentang tindakan yang akan dilakukan'
+                },
+                {
+                    desc: 'Persiapan Lingkungan',
+                    detail: [
+                        { text: '1) Skherm ditutup (bila perlu) untuk menjaga privasi pasien' },
+                        { text: '2) Bedplang tempat tidur disesuaikan sesuai kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas' },
+                { desc: 'Alat-alat disiapkan, letakkan secara ergonomis' },
+                { desc: 'Pakai APD' },
+                { desc: 'Pasien ditidurkan pada tempat tidur tindakan dengan posisi lithotomic' },
+                { desc: 'Berdo’a bersama' },
+                { desc: 'Dokter melakukan tindakan hecting perineum' },
+                { desc: 'Membersihkan dan mengompres daerah perineum dengan kassa bethadine setelah selesai di hecting' },
+                { desc: 'Merapikan pasien setelah selesai tindakan' },
+                { desc: 'Alat-alat dibereskan dan dicuci' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi adanya perdarahan'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan pada lembar catatan   perawatan'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap ( Ruang Kebidanan )', 'Instalasi Gawat Darurat']
+    },
+    {
+    id: 1209,
+    title: 'Menyiapkan Pasien Untuk Tindakan Vaccum Extraksi',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Kegiatan membantu menyiapkan pasien untuk tindakan vaccum extraksi.',
+    icon: 'fa-procedures',
+    tags: ['Vacuum Extraksi', 'Persalinan', 'Obstetri', 'Tindakan Medis'],
+    noDokumen: '445/SPO.3549/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan membantu menyiapkan pasien untuk tindakan vaccum extraksi.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah untuk menyiapkan pasien yang akan dilakukan tindakan vacuum extraksi.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: '1) Set vacuum lengkap' },
+                        {
+                            text: '2) Bak instrument steril berisi :',
+                            subDetail: [
+                                '- Kom kecil berisi bethadine',
+                                { text: '- Kassa steril 7 - 10 buah atau sesuai kebutuhan', formula: false },
+                                '- Nach foelder',
+                                '- Pinset anatomis',
+                                '- Gunting benang',
+                                '- Benang chromic',
+                                '- Doek bolong',
+                                '- Sarung tangan 1 pasang'
+                            ]
+                        },
+                        {
+                            text: '3) Alat pelindung diri ( sesuai kebutuhan ) :',
+                            subDetail: [
+                                '- Sepatu boot',
+                                '- Kacamata google',
+                                '- Topi',
+                                '- Barak schort',
+                                '- Masker'
+                            ]
+                        }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: '1) Pasien dan keluarga diberikan penjelasan tentang tindakan yang dilakukan' },
+                        { text: '2) Pasien / keluarga menandatangani surat persetujuan tindakan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan Lingkungan',
+                    detail: [
+                        { text: '1) Skherm ditutup (bila perlu) untuk menjaga privasi pasien' },
+                        { text: '2) Bedplang tempat tidur disesuaikan sesuai kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas' },
+                { desc: 'Alat-alat disiapkan, letakkan secara ergonomis' },
+                { desc: 'Pakai APD' },
+                { desc: 'Pasien ditidurkan pada tempat tidur tindakan dengan posisi lithotomi' },
+                { desc: 'Berdo’a bersama' },
+                { desc: 'Dokter melakukan tindakan vacuum extraksi' },
+                { desc: 'Merapikan pasien setelah selesai tindakan' },
+                { desc: 'Alat-alat dibereskan dan dicuci' },
+                { desc: 'Perawat cuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi respon pasien selama dan sesudah dilakukan tindakan'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan pada lembar catatan perawatan'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap ( Ruang Kebidanan )', 'Instalasi Gawat Darurat', 'Instalasi Bedah Sentral']
+    },
+    {
+    id: 1210,
+    title: 'Menyiapkan Pasien Untuk Tindakan Hidrotubasi Tanpa Kontras',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Kegiatan membantu menyiapkan pasien untuk tindakan hidrotubasi tanpa kontras.',
+    icon: 'fa-procedures',
+    tags: ['Hidrotubasi', 'Ginekologi', 'Obstetri', 'Tindakan Medis'],
+    noDokumen: '445/SPO.3550/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan membantu menyiapkan pasien untuk tindakan hidrotubasi tanpa kontras.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah untuk menyiapkan pasien yang akan dilakukan tindakan hidrotubasi tanpa kontras.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        {
+                            text: '1) Obat-obatan',
+                            subDetail: [
+                                '- Antibiotik ( Ex: Gentamycin  2 amp )',
+                                '- Cairan NaCl 0,9 % sesuai kebutuhan',
+                                '- Obat Kortikosteroid 1 Amp'
+                            ]
+                        },
+                        {
+                            text: '2) Bak instrument steril sedang berisi :',
+                            subDetail: [
+                                '- Kom kecil berisi bethadine, 1 buah',
+                                '- Kassa steril sesuai kebutuhan',
+                                '- Kom untuk cairan NaCl 0,9 %, 1 buah',
+                                '- Spekulum cocor bebek',
+                                '- Tampon tang',
+                                '- Disposible 10 cc, 1 buah',
+                                '- Disposible  5 cc, 1 buah',
+                                '- Catheter no. 10, 1 buah',
+                                '- Sarung tangan 1 pasang'
+                            ]
+                        },
+                        {
+                            text: '3) Alat pelindung diri :',
+                            subDetail: [
+                                '- Sepatu bot',
+                                '- Kacamata google',
+                                '- Topi',
+                                '- Barak schort',
+                                '- Masker'
+                            ]
+                        }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: '1) Informed consent, pasien dan keluarga diberitahu dan    dijelaskan tentang tujuan tindakan dan prosedur tindakan yang  akan dilakukan' },
+                        { text: '2) Pasien dan keluarga menandatangani formulir informed consent dan surat izin tindakan' },
+                        { text: '3) Posisi pasien diatur lithotomic' },
+                        { text: '4) Pasien disuruh untuk BAK terlebih dahulu' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan Lingkungan',
+                    detail: [
+                        { text: '1) Skherm ditutup (bila perlu) untuk menjaga privasi pasien' },
+                        { text: '2) Bedplang tempat tidur disesuaikan sesuai kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan' },
+                { desc: 'Cocokkan nama pasien dengan gelang identitas' },
+                { desc: 'Alat-alat disiapkan, letakkan secara ergonomis' },
+                { desc: 'Pakai APD' },
+                { desc: 'Membantu pasien untuk membuka pakaian dalamnya' },
+                { desc: 'Pasien ditidurkan pada tempat tidur tindakan dengan posisi lithotomi' },
+                { desc: 'Berdo’a bersama sebelum tindakan hidrotubasi tanpa kontras' },
+                { desc: 'Dokter melakukan tindakan hidrotubasi tanpa kontras.' },
+                { desc: 'Merapikan pasien setelah selesai tindakan tindakan hidrotubasi tanpa kontras' },
+                { desc: 'Alat-alat dibereskan dan dicuci' },
+                { desc: 'Perawat cuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi tanda-tanda vital, adanya mual muntah'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medik keperawatan'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap ( ruang Kebidanan )', 'Instalasi Bedah Sentral']
+    },
+    {
+    id: 1211,
+    title: 'Pemberian Mg SO4',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Merupakan tindakan pemberian Mg SO4 yang diberikan pada pasien-pasien yang membutuhkan.',
+    icon: 'fa-procedures',
+    tags: ['MgSO4', 'Eklamsia', 'Obstetri', 'Tindakan Medis'],
+    noDokumen: '445/SPO.3551/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Merupakan tindakan pemberian Mg SO4 yang diberikan pada pasien-pasien yang membutuhkan',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah pemberian Mg S04 untuk mengurangi dampak lebih buruk pada ibu dan bayi dari serangan kejang eklamsia.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan Alat',
+                    detail: [
+                        { text: '1) Obat MgSO4 40% dan 20%' },
+                        { text: '2) Set infus : infus set, IV cateter, cairan infus D5W' },
+                        { text: '3) DC set : folley cateter, urine bag, jelly, aquabides, disp 10cc,handscoon steril' },
+                        { text: '4) Spuit 10 cc + niddle 23' },
+                        { text: '5) Oksigen set' },
+                        { text: '6) Suctioning set' },
+                        { text: '7) Mayo' },
+                        { text: '8) Obat-obatan : diazepam' },
+                        { text: '9) Restrain ( bila diperlukan )' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Penatalaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas' },
+                { desc: 'Tentukan dengan pasti bahwa pasien akan mendapatkan MgSO4 sesuai dengan indikasi' },
+                { desc: 'Membeerikan MgSO4 40% atau MgSO4 20 %sesuai dengan Standar Prosedur Operasional' },
+                { desc: 'Bila terjadi kejang berulang segera lapor dokter untuk terapi lanjutan / pemberian obat tambahan anti kejang ( misalnya : diazepam )' },
+                { desc: 'Kolaborasi dengan tim medis untuk penangan selanjutnya bila terjadi tanda-tanda keracunan seperti paralysis total, depresi pernafasan dan atau hipotensi berikan anti dotum: Ca gluconas 10% sebanyak 10cc IV selama 3 menit' },
+                {
+                    desc: 'Hal-hal yang perlu diperhatikan',
+                    detail: [
+                        { text: '1) Selama pemberian MgSO4 set O2 harus tersedia.' },
+                        { text: '2) Di dalam pemberian MgSO4 produksi urine harus cukup (± 5cc/menit)' },
+                        { text: '3) Awasi tanda-tanda vital dan kesadaran' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'A. Observasi dan hitung jumlah darah yang keluar.' },
+                { desc: 'B. Observai gejala-gejala syok hypovolemik (tekanan darah menurun, nadi melemah dan cepat, kulit dingin dan paien gelisah).' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan dalam Status pasien'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Gawat Darurat', 'Instalasi Pelayanan Intensif', 'Instalasi Bedah Sentral']
+    },
+    {
+    id: 1212,
+    title: 'Menghitung Denyut Jantung Janin (DJJ)',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Suatu kegiatan memeriksa dan menghitung denyut jantung bayi dengan menggunakan alat doppler.',
+    icon: 'fa-heartbeat',
+    tags: ['DJJ', 'Denyut Jantung Janin', 'Obstetri', 'Monitoring Janin'],
+    noDokumen: '445/SPO.3552/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memeriksa dan menghitung denyut jantung bayi dengan menggunakan alat doppler',
+    tujuan: 'Menentukan frekuensi denyut jantung janin',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: '1) Tensimetem' },
+                        { text: '2) Stetoscope' },
+                        { text: '3) Jam tangan / jam dinding' },
+                        { text: '4) Format observasi' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas' },
+                { desc: 'Membaca basmallah' },
+                { desc: 'Pakaian bawah diturunkan' },
+                { desc: 'Tentukan titik tertentu pada dinding abdomen dimana DJJ terdengar paling kuat. Jika DJJ sulit ditemukan palpasi abdomen dan tentukan dataran punggung bayi' },
+                { desc: 'Berikan jelly pada ujung doppler, letakan doppler padatitik yang telah ditentukan, pastikan bahwa bunyi yang terdengar adalah bunyi jantung janin.' },
+                { desc: 'Hitung denyut jantung janin selama 60 detik ( 1 menit )' },
+                {
+                    desc: 'Untuk pasien inpartu :',
+                    detail: [
+                        { text: '1) Nilai DJJ selama dan segera setelah kontraksi uterus' },
+                        { text: '2) Mulailah penilaian sebelum / setelah puncak kontraksi' },
+                        { text: '3) Lakukan penilaian DJJ pada lebih dari 1 kontraksi' }
+                    ]
+                },
+                { desc: 'Bersihkan sisa jelly dengan menggunakan tissue' },
+                { desc: 'Mengucapkan hamdallah' },
+                { desc: 'Pasien dirapihkan, alat dibersihkan dan dikembalikan ke tempat semula' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'A. Pantau respon pasien selama dan setelah tindakan dilakukan.' },
+                { desc: 'B. Jika DJJ kurang dari 120 atau lebih dari 160 pertimbangkan adanya gangguan sirkulasi, segera lapor dokter.' },
+                { desc: 'C. Jika DJJ<100 x/menit atau >180 x/menit baringkan ibu ke sisi kiri dan anjurkan untuk santai, lakukan penilaian ulang DJJ 5 menit kemudian.' }
+
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam Status pasien'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap ( Ruang Kebidanan )', 'Instalasi GAwat Darurat', 'Instalasi Pelayanan Intensif']
+    },
+    {
+    id: 1213,
+    title: 'Monitoring Perdarahan Masa Nifas',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Suatu kegiatan memantau / monitoring perdarahan pasien pada masa nifas.',
+    icon: 'fa-procedures',
+    tags: ['Nifas', 'Perdarahan', 'Monitoring', 'Obstetri'],
+    noDokumen: '445/SPO.3553/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memantau / monitoring perdarahan pasien pada masa nifas',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam monitoring perdarahan pasien pada masa nifas',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: '1) Tensimeter' },
+                        { text: '2) Stetoscope' },
+                        { text: '3) Jam tangan / jam dinding dengan penunjuk detik' },
+                        { text: '4) Alat pencatat' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: '1) Berikan penjelasan kepada pasien tentang tujuan dan prosedur tindakan yang akan dilakukan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan Lingkungan',
+                    detail: [
+                        { text: '1) Skherm ditutup (bila perlu) untuk menjaga privasi pasien' },
+                        { text: '2) Bedplang tempat tidur disesuaikan sesuai kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas' },
+                { desc: 'Ukur tanda-tanda vital secara teratur ( minimal tiap 5 – 7 jam)' },
+                { desc: 'Lihat dan catat perdarahan pervagina ( banyaknya, bau )' },
+                { desc: 'Ukur tinggi fundus uteri' },
+                {
+                    desc: 'Monitoring tanda-tanda perdarahan :',
+                    detail: [
+                        { text: '1) Warna conjungtiva' },
+                        { text: '2) Periksa kadar Hb, jika diperlukan' },
+                        { text: '3) Tanyakan adanya keluhan pusing dan lemah badan' }
+                    ]
+                },
+                { desc: 'Mengucapkan hamdallah' },
+                { desc: 'Pasien dirapihkan, alat dibersihkan dan dikembalikan ke tempat semula' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Pantau respon pasien secara teratur : laporkan segera bila perdarahan banyak dan aktif'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam Status pasien'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap ( Ruang Kebidanan )', 'Instalasi Gawat Darurat']
+    },
+    {
+    id: 1214,
+    title: 'Membantu Ibu Menyusui Bayi',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Adalah kegiatan antara ibu dan bayi dalam pemenuhan kebutuhan nutrisi bayinya dimana kegiatan tersebut dapat meningkatkan kualitas hubungan antara bayi dan ibu.',
+    icon: 'fa-baby',
+    tags: ['ASI', 'Menyusui', 'Neonatal', 'Obstetri'],
+    noDokumen: '445/SPO.3554/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Adalah kegiatan antara ibu dan bayi dalam pemenuhan kebutuhan nutrisi bayinya  dimana kegiatan tersebut dapat meningkatkan kualitas hubungan antara bayi dan ibu',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam membantu ibu menyusui bayinya, untuk:\nMemenuhi kebutuhan nutrisi yang siap saji\nMeningkatkan bounding attachment antara ibu dan bayi',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: '1) Popok bersih ( jika diperlukan )' },
+                        { text: '2) Waslap (jika diperlukan )' },
+                        { text: '3) Buku catatan minum' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan klien',
+                    detail: [
+                        { text: '1) Mengidentifikasi bayi yang yang akan diberi minum' },
+                        { text: '2) Lingkungan jaga privasi' },
+                        { text: '3) Ibu bayi diminta untuk mencuci tangan sebelum dan sesudah menyusui' },
+                        { text: '4) Kebersihan payu dara ibu' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan Lingkungan',
+                    detail: [
+                        { text: '1) Skherm ditutup (bila perlu) untuk menjaga privasi pasien' },
+                        { text: '2) Bedplang tempat tidur disesuaikan sesuai kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas' },
+                { desc: 'Mengucapakan basmallah' },
+                { desc: 'Alat alat didekatkan pada pasien' },
+                { desc: 'Mengidentifikasi bayi yang akan disusukan pada klien' },
+                { desc: 'Mengidentifikasi popok bayi bila BAK / BAB' },
+                { desc: 'Menggendong bayi dan membawa bayi ke ibu' },
+                { desc: 'Memperhatikan nomor bayi dan klien' },
+                { desc: 'Memanggil nama yang tertera pada gelang bayi' },
+                { desc: 'Menganjurkan ibu untuk mencuci tangannya' },
+                { desc: 'Membantu ibu untuk membersihkan area payudara dan area putting susu' },
+                { desc: 'Mengamati apakah putting susu lecet' },
+                { desc: 'Menganjurkan ibu untuk mengoleskan ASI pada putting susu ibu' },
+                { desc: 'Membantu ibu duduk dengan posisi yang nyaman, letakkan bantal di pangkuan ibu untuk menopang bayi.' },
+                { desc: 'Membantu ibu memeluk/ memegang bayi, leher bayi bersandar di lekuk siku ibu, lengan ibu menopang punggung bayi dan tangan ibu memegang pantat bayi.' },
+                { desc: 'Memastikan perut bayi menghadap perut ibu' },
+                { desc: 'Memastikan ibu memeluk bayi, sehingga tubuh bayi seperti membungkus perut ibu, kepala dan leher bayi lurus dengan tubuh bayi dan payudara ibu tepat berada di depan mulut bayi' },
+                { desc: 'Mengajari ibu untuk memegang payudara dengan ibu jari di atas dan jari yang lain menopang di bawah serta jangan menekan puting susu dan aerolanya.' },
+                { desc: 'Membantu ibu menyentuhkan puting sususnya ke mulut bayi, dan ketika bayi membuka mulutnya, bantu ibu memasukkan puting susu ke dalam mulut bayi agar sebagian besar dari aerola payudara ibu berada dalam mulut bayi' },
+                { desc: 'Memastikan bahwa bayi sudah melekat dengan baik ke payudara ibu dan telah mulai menghisap dan menelan ASI.' },
+                { desc: 'Menyusui 15-20 menit' },
+                { desc: 'Membuat bayi bersendawa dengan cara : bayi diangkat, letakan posisi kepala bayi di pundak ibu kemudian ditepuk-tepuk hingga bersendawa.' },
+                { desc: 'Mengatur posisi bayi dalam box untuk miring kanan' },
+                { desc: 'Pasien dan alat-alat dibersihkan' },
+                { desc: 'Perawat mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'A. Kaji keadaan umum bayi  setelah minum tampak tidur dengan tenang' },
+                { desc: 'B. Jumlah ASI yang diminum' },
+                { desc: 'C. Devekasi dan miksi' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan dalam catatan asuhan keperawatan : Catat kondisi dan respon bayi'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalai Rawat Inap', 'Instalasi Rawat Jalan', 'Instalasi Gawat darurat']
+    },
+    {
+    id: 1215,
+    title: 'Melaksanakan Rawat Gabung ( Rooming In )',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Kegiatan melaksanakan perawatan ibu dan bayi baru lahir dalam satu ruangan yang sama.',
+    icon: 'fa-procedures',
+    tags: ['Rooming In', 'Rawat Gabung', 'Bayi Baru Lahir', 'Perawatan Ibu dan Bayi'],
+    noDokumen: '445/SPO.3555/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan melaksanakan perawatan ibu dan bayi baru lahir dalam satu ruangan yang sama',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melaksanakan perawatan ibu dan bayi baru lahir dalam satu ruangan yang sama ( rooming in )',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Popok bersih ( jika diperlukan )' },
+                        { text: 'Waslap (jika diperlukan )' },
+                        { text: 'Buku catatan minum' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan klien',
+                    detail: 'Berikan penjelasan kepada ibu dan keluarga tentang tujuan dan prosedur tindakan yang akan dilakukan'
+                },
+                {
+                    desc: 'Persiapan Lingkungan',
+                    detail: [
+                        { text: '1) Skherm ditutup (bila perlu) untuk menjaga privasi pasien' },
+                        { text: '2) Bedplang tempat tidur disesuaikan sesuai kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas' },
+                { desc: 'Pastikan bahwa bayi dan ibu telah siap untuk dilakukan rooming in' },
+                { desc: 'Petugas perinatologi mengantarkan bayi ke ruangan ibu' },
+                { desc: 'Memberikan bimbingan dan pendidikan kepada ibu / keluarga tentang perawatan bayi yang dapat dilakukan' },
+                { desc: 'Menyampaikan kepada ibu/keluarga bila memerlukan bantuan dapat menghubungi perawat/bidan melalui bel.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Pantau kemampuan ibu/keluarga dalam perawatan bayi secara tertatur'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasiskan tindakan yang dilakukan dalam Status pasien'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap']
+    },
+    {
+    id: 1216,
+    title: 'Senam Nifas',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Kegiatan senam yang dilakukan ibu setelah melahirkan untuk pemulihan kondisi tubuh.',
+    icon: 'fa-procedures',
+    tags: ['Senam Nifas', 'Postpartum', 'Pemulihan Ibu', 'Latihan Fisik'],
+    noDokumen: '445/SPO.3556/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Senam nifas adalah senam yang dilakukan ibu-ibu setelah melahirkan setelah keadaan tubuhnya pulih kembali',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah senam nifas untuk:\nMempercepat penyembuhan\nMencegah timbulnya komplikasi\nMemulihkan dan menguatkan otot-otot punggung, otot dasar panggul dan otot perut.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan Alat',
+                    detail: [
+                        { text: 'Matras' },
+                        { text: 'Pakaian Senam Nifas ( jika ada )' },
+                        { text: 'Alat Pengukur Vital Sign (Tensi Meter, Termometer, dan Jam tangan)' },
+                        { text: 'Tissue dalam wadahnya' },
+                        { text: 'Alkohol pada wadahnya' },
+                        { text: 'Nierbeken / Bengkok' },
+                        { text: 'Air Minum (sesuai dengan kebutuhan)' },
+                        { text: 'Wastafel (untuk cuci tangan dan kumur-kumur) + handsoap' },
+                        { text: 'Handuk Kecil ( untuk Lap Tangan)' },
+                        {
+                            text: 'Bila diperlukan pada hari pertama postpartum siapkan Alat-alat untuk pemeriksaan genitalia (vulva hygiene + check lochea):',
+                            subDetail: [
+                                '- Handscoen bersih 1 pasang',
+                                '- Masker',
+                                '- Celemek',
+                                '- Kapas cebok dalam kom tertutup',
+                                '- Air DTT dalam kom tertutup',
+                                '- Nierbeken',
+                                '- Softex (pembalut)',
+                                '- Waskom berisi larutan chlorin 0,5%',
+                                '- Tempat sampah 2 jenis'
+                            ]
+                        }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Lakukan Komunikasi, Informasi dan Edukasi (KIE) tentang Senam Nifas dan masalah-masalah yang berhubungan dengan perubahan fisik postpartum' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Skherm ditutup (bila perlu) agar privasi pasien terjaga, bedplang tempat tidur pasien dibuka atau ditutup sesuai dengan kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan' },
+                { desc: 'Cocokkan nama pasien dengan gelang identitas' },
+                { desc: 'Ukur terlebih dahulu vital sign (tekanan darah, Respirasi, denyut nadi dan temperature) ibu, kemudian lakukan pemeriksaan fisik ibu post partum dan periksa genetalia eksterna (check luka dan Kebersihan vulva serta pengeluaran lochea)' },
+                { desc: 'Mulailah dengan membaca Bismillahirrahmanirahim.' },
+                { desc: 'Lakukan Persiapan pasien (pakaian) dan mengatur posisi berbaring yang nyaman di atas matras' },
+                { desc: 'Tahapan Pelaksanaan Senam Nifas Hari Pertama:',
+                    detail: [
+                        { text: 'Sikap tubuh terlentang dan rileks, kemudian lakukan pernafasan perut, diawali dengan mengambil nafas melalui hidung dan tahan hingga hitungan ke 5 kemudian buang melalui mulut, lakukan hingga 5 kali', marker: false }
+                    ]
+                },
+                { desc: 'Hari Kedua:',
+                    detail: [
+                        { text: 'Sikap tubuh terlentang tapi kedua tangan dibuka lebar hingga sejajar dengan bahu kemudian pertemukan kedua tangan tersebut tetap di atas muka, lakukan hingga berkali-kali', marker: false }
+                    ]
+                },
+                { desc: 'Hari Ketiga:',
+                    detail: [
+                        { text: 'Sikap tubuh terlentang tetapi kedua kaki agak dibengkokkan sehingga kedua telapak kaki menyentuh lantai, lalu angkat bokong ibu dan tahan hingga hitungan ke 5 (1, 2, 3, 4, 5) lalu turunkan bokong ke posisi semula. Lakukan gerakan ini berulang sebanyak 5 kali', marker: false }
+                    ]
+                },
+                { desc: 'Hari Keempat:',
+                    detail: [
+                        { text: 'Sikap tubuh dengan bagian atas terlentang dan kaki ditekuk 45 derajat, lalu salah satu tangan memegang perut setelah itu angkat kepala sehingga tubuh ibu membentuk posisi dengan sudut 45 derajat dan tahan hingga hitungan ke 5 (1, 2, 3, 4, 5) lakukan gerakan ini berulang sebanyak 5 kali', marker: false }
+                    ]
+                },
+                { desc: 'Hari Kelima:',
+                    detail: [
+                        { text: 'Sikap tubuh masih terlentang kemudian salah satu kaki ditekuk membentuk sudut 45 derajat lalu angkat tubuh dan tangan dari bagian kaki yang tidak ditekuk ke arah yang berseberangan (berlawanan) dengan kaki yang ditekuk. Upayakan agar tangan menyentuh lutut. Lakukan gerakan ini secara bergantian dengan posisi kaki dan tangan yang lain. Lakukan gerakan ini sebanyak 5 kali.', marker: false }
+                    ]
+                },
+                { desc: 'Hari Keenam:',
+                    detail: [
+                        { text: 'Sikap tubuh terlentang kemudian tarik kaki sehingga paha membentuk sudut 90 derajat. Lakukan gerakan ini dengan kaki yang lain secara bergantian sebanyak 5 kali.', marker: false }
+                    ]
+                },
+                { desc: 'Hari Ketujuh:',
+                    detail: [
+                        { text: 'Sikap tubuh terlentang dan gerakan kaki secara bergantian dengan mengangkat kaki 20 – 30 cm dari permukaan lantai, lakukan gerakan ini sebanyak 5 kali.', marker: false }
+                    ]
+                },
+                { desc: 'Hari Kedelapan:',
+                    detail: [
+                        { text: 'Sikap tubuh seperti bayi merangkak kemudian gerakan perut ke atas dan ke bawah sebanyak 5 kali', marker: false }
+                    ]
+                },
+                { desc: 'Hari Kesembilan:',
+                    detail: [
+                        { text: 'Sikap tubuh terlentang kemudian angkat kedua kaki lurus ke atas sehingga membentuk sudut 90 derajat, lakukan gerakan ini sebanyak 5 kali.', marker: false }
+                    ]
+                },
+                { desc: 'Hari Kesepuluh:',
+                    detail: [
+                        { text: 'Sikap tubuh tidur terlentang kemudian lakukan gerakan sit-up;', marker: false }
+                    ]
+                },
+                { desc: 'yaitu mengangkat tubuh hingga posisi seperti orang duduk, posisi kedua tangan berada di bawah kepala, lakukan hingga 5 kali gerakan' },
+                { desc: 'Setelah selesai tanyakan pada ibu tentang apa yang dirasakan dari hasil gerakan yang telah dilakukan' },
+                { desc: 'Catat hasil pemeriksaan dan evaluasi keadaan ibu setelah melakukan senam nifas' },
+                { desc: 'Bereskan kembali semua peralatan yang telah digunakan untuk dibersihkan dan dikeringkan' },
+                { desc: 'Cucilah tangan setelah menyelesaikan pekerjaan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Pantau respon pasien selama dan setelah tindakan dilakukan'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan dalam Status pasien'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Rawat Jalan']
+    },
+    {
+    id: 1217,
+    title: 'Senam Hamil',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Terapi latihan gerak untuk mempersiapkan fisik dan mental ibu hamil.',
+    icon: 'fa-procedures',
+    tags: ['Senam Hamil', 'Kehamilan', 'Persalinan', 'Latihan Fisik'],
+    noDokumen: '445/SPO.3557/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Senam hamil adalah terapi latihan gerak untuk mempersiapkan fisik dan mental ibu hamil untuk mempersiapkan masa kehamilan dan proses persalinan sehingga berjalan normal, lancar, dan aman',
+    tujuan: 'Menjaga kesehatan ibu dan bayi selama hamil\nMempersiapkan fisik dan mental menghadapi persalinan\nMemberikan rasa nyaman',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Matras' },
+                        { text: 'Bantal 2 buah' },
+                        { text: 'Pakaian Senam Hamil' },
+                        { text: 'Alat Pengukur Vital Sign (Tensi Meter, Termometer, dan Jam tangan)' },
+                        { text: 'Dopler / Monoaural' },
+                        { text: 'Tissue dalam wadahnya' },
+                        { text: 'Alkohol Pad' },
+                        { text: 'Nierbeken' },
+                        { text: 'Air Minum' },
+                        { text: 'Handuk kecil (untuk lap tangan/keringat)' },
+                        { text: 'Wastafel (untuk cuci tangan dan kumur-kumur)' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Lakukan Komunikasi, Informasi dan Edukasi (KIE) tentang Senam hamil dan masalah-masalah yang berhubungan dengan proses kehamilan, proses persalinan dan kesehatan ibu hamil sesuai dengan umur kehamilan ibu saat ini.' },
+                        { text: 'Jelaskan tujuan dan prosedur yang akan dilakukan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan Lingkungan',
+                    detail: [
+                        { text: '1) Skherm ditutup (bila perlu) untuk menjaga privasi pasien' },
+                        { text: '2) Bedplang tempat tidur disesuaikan sesuai kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Perawat cuci tangan' },
+                { desc: 'B. Cocokan nama pasien dengan gelang identitas' },
+                { desc: 'C. Berdoa sebelum melakukan tindakan' },
+                { desc: 'D. Sikap Tubuh yang benar (berdiri tegak lurus)' },
+                { desc: 'E. Berikan senyum, ucapkan salam dan sapa ibu dengan ramah' },
+                { desc: 'F. Palpasi Leopold I s/d IV dan check denyut jantung janin, sebelum melakukan senam hamil.' },
+                { desc: 'G. Ukur terlebih dahulu vital sign (Tekanan darah, Respirasi, Denyut nadi, dan Temperatur) ibu, kemudian lakukan pemeriksaan' },
+                { desc: 'H. Latihan senam hamil dilakukan selama 30 menit dengan tahapan sebagai berikut latihan pendahuluan, latihan inti dan latihan pendinginan/penenangan' },
+
+                { desc: 'I. Gerakan untuk latihan pendahuluan warming up',
+                    detail: [
+                        { text: '1) Duduk tegak bersandar pada kedua lengan, kedua tungkai kaki diluruskan dan dibuka sedikit, seluruh tubuh lemas' },
+                        { text: '2) Telapak kaki kiri dan kanan digerakkan ke depan dan ke belakang secara bergantian. Dimulai dengan telapak kaki kiri ke depan dan kaki kanan ke belakang. Hitungan 1 s/d 8' },
+                        { text: '3) Kedua telapak kaki digerakkan ke depan dan ke belakang secara bersamaan dengan 8 kali hitungan. Dimulai dengan gerakan ke depan... ke belakang... dan seterusnya' },
+                        { text: '4) Gerakan kaki kiri dan kanan bersama-sama ke kiri dan ke kanan 8 kali hitungan. Dimulai dengan gerakan kiri, ... kanan... dst.' },
+                        { text: '5) Gerakan kaki kiri dan kanan bersama-sama ke dalam (endorotasi) sampai jari menyentuh lantai, lalu gerakan kedua kaki tersebar keluar (exorotasi) dengan 8 kali hitungan. Dimulai dengan gerakan arah ke dalam, .. keluar... dan seterusnya.' },
+                        { text: '6) Putarkan kedua kaki bersama-sama (Circumduction) ke kiri 4 kali dan ke kanan 4 kali. Mulai putar ke arah kiri sebanyak 4 kali dan putar ke arah kanan 4 kali.' },
+                        { text: '7) Angkat kedua lutut tanpa menggeser kedua tumit dan pantat, lalu tekankan kedua tungkai ke lantai sambil mengerutkan dubur (Spincter ani externus) dan tarik otot-otot perut ke dalam (kempiskan perut) kemudian relaks kembali.' },
+                        { text: '8) Sikap duduk tetap tegak, kedua tangan di samping. Letakkan tungkai kanan di atas tungkai kiri, lalu tekan tungkai kiri dengan seluruh kekuatan tungkai kanan sambil mengempiskan dinding perut dan mengerutkan liang dubur.' },
+                        { text: '9) Angkat tungkai kiri ke atas, lalu letakkan kembali. Bergantian dengan tungkai kanan, hitungan 8 kali.' },
+                        { text: '10) Peregangan paha. Kedua telapak kaki dipertemukan (berhadapan), hitungan 8 kali aba-aba. Tutup, ... buka...' },
+                        { text: '11) Duduk bersila, badan tetap tegak, kedua tangan ke atas, lalu tarik tangan kiri lebih tinggi dari tangan kanan, lalu kendurkan. Gerakan bergantian dengan tangan kanan. Mulai kiri... kanan... dst. sampai hitungan 8 kali.' },
+                        { text: '12) Sikap duduk tetap bersila, kedua tangan di atas bahu dan kedua lengan di samping payudara. Kemudian putarkan kedua lengan ke depan, ke atas (tangan di samping telinga), ke belakang dan kembali ke sikap semula. Diulang sampai hitungan 8 kali; tekan... angkat... putar... tekan... angkat... putar' },
+                        { text: '13) Sikap duduk tetap bersila dengan posisi tegak lurus, kedua tangan ke atas, lalu gerakkan ke kiri dan ke kanan serta ke atas masing-masing 2 kali. Mulai ke kiri... ke kanan... ke atas... dan seterusnya.' },
+                        { text: '14) Tangan tetap di atas, mulai dari kiri diputar ke belakang sejauh mungkin, lalu gerakkan kebalikannya. Mulai... putar... dibalik... putar ... sampai 4 kali' }
+                    ]
+                },
+
+                { desc: 'J. Latihan Inti (untuk usia kehamilan 26 – 30 minggu) Latihan Dasar Panggul',
+                    detail: [
+                        { text: '1) Ibu tidur terlentang, kedua lutut ditekuk, kedua lengan di samping badan dan relaks. Angkat panggul sampai badan bertumpu pada punggung, tahan sebentar kemudian turun lagi seperti semula. Angkat.. Tahan.. Turun. 4 kali cukup' },
+                        { text: '2) Angkat pinggang ke atas, tekan bokong ke lantai sambil kerutkan dubur (anus). Kempiskan perut, lemaskan/relaks. Angkat... Tekan... kerutkan... kempiskan ... Lemaskan... Sebanyak 4 kali.' },
+                        { text: '3) Sikap tubuh berbaring terlentang, posisi kaki lurus, kedua lengan di samping badan, kedua tungkai lurus dan relaks. Panjangkan tungkai kanan dengan menarik tungkai kiri mendekati bahu kiri dan kembali ke posisi semula., hitungan 4 kali. Mulai kaki kanan angkat... turun... kaki kiri... angkat... turun sampai 4 kali' },
+                        { text: '4) Sikap merangkak, jarak antara kedua tangan sama dengan jarak antara kedua bahu. Tundukkan kepala lihat ke arah vulva dan pinggang diangkat (cembung) sambil mengempiskan perut dan mengerutkan lubang dubur. Kemudian datarkan pinggang, pandangan lurus ke depan, dengan mengangkat kepala ke arah atas cekungkan pinggang sambil melemaskan otot-otot perut dan otot dasar panggul, dihitung 8 kali.' },
+                        { text: '5) Lakukan gerakan cembung... datar... cekung... cembung... datar ... cekung sampai 8 kali' }
+                    ]
+                },
+
+                { desc: 'K. Latihan pernafasan perut', 
+                    detail: [
+                    { text: '1) Berbaring terlentang, kedua lutut ditekuk, letakkan tangan kiri di atas perut.' },
+                    { text: '2) Lakukan pernafasan perut, tarik nafas melalui hidung, lalu tiupkan melalui celah-celah bibir sambil kempiskan perut lakukan sebanyak 8 kali.' },
+                    { text: '3) Tarik... tahan... Tiup... dst. 8 kali. Ini digunakan untuk mengatasi setiap kontraksi dan nyeri his di kala I.' },
+                    { text: '4) Sikap tubuh masih tetap terlentang, kedua lutut ditekuk, kedua lengan di samping badan dan relaks.' },
+                    { text: '5) Dalam keadaan relaksasi seluruh tubuh. Kepalkan kedua tangan dan tegangkan selama beberapa detik kemudian lemaskan kembali dan lakukan sebanyak 8 kali. Tegang... Lemas.. Tegang... Lemas ... dst' }
+                ]},
+
+                { desc: 'L. Pendinginan (untuk usia kehamilan 26 – 30 minggu)',
+                    detail: 'Tidur miring ke kiri, arah disesuaikan dengan letak punggung bayi. Letak kaki sesuai arah miring, kaki bawah diluruskan, kaki sebelah atas diganjal bantal sambil ditekuk. Tangan yang di bawah diletakkan di belakang, tangan sebelah atas ke depan dilipat ganjal bantal. Mata dipejamkan, lakukan relaksasi, lemaskan seluruh tubuh. Berusaha mengatasi suara dari luar, waktunya 5 menit' },
+
+                { desc: 'M. Latihan Untuk Usia Kehamilan 31 – 36 Minggu',
+                    detail: [
+                        { text: '1) Dimulai dengan pembentukan sikap tubuh, hal ini dimaksudkan untuk memperoleh sikap tubuh yang baik menyebabkan letak panggul naik, istilahnya Pelvic Tilting' },
+                        { text: '2) Kegiatan: Warming Up, latihan kontraksi dan relaksasi, latihan pernafasan, pendinginan.' },
+                        { text: '3) Gerakan dimulai ... Naik... Turun... Naik... Turun... dst' },
+                        { text: '4) Berdiri tegak, kedua kaki agak dibuka, telapak tangan bertumpu ke tembok/dinding, kemudian tumit diangkat lalu diturunkan badan perlahan-lahan sampai jongkok. Usahakan badan tetap tegak, lalu berdiri lagi sambil tumit diangkat kembali, kemudian perlahan-lahan tumit diturunkan sambil berdiri tegak kembali.' },
+                        { text: '5) Sikap awal: berbaring terlentang, kedua lutut ditekuk, kedua lengan di samping badan dan relaks.' },
+                        { text: '6) Kegiatan pernafasan diafragma: tarik napas melalui hidung dan keluarkan di antara celah-celah bibir, dilakukan selama 1,5 menit. Pada saat menarik nafas yang ketiga kalinya, kembangkan dinding perut setinggi mungkin, lalu tahan nafas beberapa detik, lalu tiup perlahan. Aba-aba; tarik... Tiuup... dst...' },
+                        { text: '7) Pernafasan badan: tangan diletakkan di dada sampai mencapai pernafasan maksimal 26 – 28 kali per menit' }
+                    ]
+                },
+
+                { desc: 'N. Latihan Pernafasan Dada dan Pernafasan Perut',
+                    detail: [
+                        { text: '1) Tangan diletakkan di atas perut, untuk pernafasan perut, kemudian kombinasikan antara pernafasan dada dan pernafasan perut. Tarik... Tahan... Hitung... 1... 2... 3...... tiuup.' },
+                        { text: '2) Untuk latihan diafragma atau latihan pernafasan dada hanya untuk pemula, tetapi untuk latihan pernafasan dada dan perut harus dilakukan dengan benar-benar' }
+                    ]
+                },
+
+                { desc: 'O. Latihan Kontraksi dan Relaksasi',
+                    detail: [
+                        { text: '1) Tidur terlentang, kedua tungkai lurus dan terbuka sedikit, tangan dikepalkan.' },
+                        { text: '2) Gerakan kaki ditekankan, tangan dikepal, kempiskan perut, kerutkan dubur dan tahan nafas, begitu aba-aba kerutkan,... tahan lemaskan, tangan dibuka. Aba-aba Tegang... Lemas... lakukan sebanyak 8 kali.' },
+                        { text: '3) Sikap tubuh berbaring terlentang, kedua lutut ditekuk, kedua lengan di samping badan dan relaks.' },
+                        { text: '4) Angkat badan dengan mengangkat bahu, letakkan dagu di atas dada dan lihat ke arah perut.' },
+                        { text: '5) Tahan beberapa saat, kemudian kembali ke sikap awal dan relaks kembali, lakukan sampai hitungan 8 kali.' }
+                    ]
+                },
+
+                { desc: 'P. Pendinginan: Usia Kehamilan 31 – 36 Minggu',
+                    detail: [
+                        { text: '1) Tidur miring ke kiri, arah disesuaikan dengan letak punggung bayi (puka/puki) kaki sesuai arah miring di belakang bawah diluruskan, kaki sebelah atas diganjal bantal sambil ditekuk.' },
+                        { text: '2) Tangan yang bawah diletakkan di belakang, tangan sebelah atas ke depan dilipat, diganjal bantal, mata dipejamkan lakukan relaksasi.' },
+                        { text: '3) Lemaskan seluruh tubuh, pejamkan mata dan berusaha mengatasi suara dari luar.' },
+                        { text: '4) Latihan ini dilakukan selama 5 menit' }
+                    ]
+                },
+
+                { desc: 'Q. Latihan Untuk Kehamilan Usia 37 – 40 Minggu',
+                    detail: [
+                        { text: '1) Kegiatan: Warming Up, Teknik Pernafasan dan Peregangan Paha diperjelas.' },
+                        { text: '2) Latihan Kontraksi dan Relaksasi; Posisi Lithotomi latihan dalam pernafasan.' },
+                        { text: '3) Aba-aba; tarik... tahan... (disimpan dalam rongga dada) tutup mulut rapat-rapat' },
+                        { text: '4) Latihan pernafasan untuk mengejan',
+                            subDetail: [
+                                '- Posisi lithotomy',
+                                '- Buka mulut secukupnya, tarik nafas dalam semaksimal mungkin, kemudian tutup mulut sambil angkat badan dan dagu diletakkan di dada, lalu mengejan seperti gerakan BAB, gerakannya ke bawah badan dan ke depan, setelah lelah, lalu ke posisi semula, lakukan 3 – 4 kali dengan interval 2 menit.',
+                                '- Hitung kembali seluruh vital sign ibu di akhir gerakan'
+                            ]
+                        }
+                    ]
+                },
+
+                { desc: 'R. Akhiri setiap tindakan dengan mengucapkan hamdallah' },
+                { desc: 'S. Ucapkan terima kasih dan perhatikan kondisi fisik klien' },
+                { desc: 'T. Persilahkan Ibu untuk minum air putih' },
+                { desc: 'U. Bereskan kembali peralatan yang telah dipergunakan.' },
+                { desc: 'V. Cucilah tangan setelah menyelesaikan pekerjaan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Pantau respon pasien selama dan setelah tindakan dilakukan'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan dalam Status pasien'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: ['Instalasi Rawat Jalan', 'Instalasi Rawat Inap ( Ruang Kebidanan )']
+    },
+    {
+    id: 1218,
+    title: 'Penanganan Perdarahan Post Partum Primer',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Penanganan perdarahan setelah melahirkan lebih dari 500 cc atau disertai tanda syok.',
+    icon: 'fa-procedures',
+    tags: ['Perdarahan Post Partum', 'Obstetri', 'Kegawatdaruratan', 'Maternitas'],
+    noDokumen: '445/SPO.4826/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Memberikan pertolongan pada perdarahan per vaginam setelah melahirkan lebih dari 500 cc atau perdarahan disertai dengan gejala dan tanda-tanda syok.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam menangani pasien perdarahan post partum, untuk menstabilisasi kondisi pasien untuk segera dirujuk ke Rumah Sakit',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Alat Pelindung Diri (Masker, Kacamata Safety, handscoon, barakschort, sepatu boat)' },
+                        { text: 'Obat-obatan anti perdarahan dan urotonica, obat anestesi' },
+                        { text: 'Set infuse: infuse set/blood set, IV cateter 16/18, cairan infuse, plester' },
+                        { text: 'Tampon, kassa steril' },
+                        { text: 'DC Set: Folley cateter, urine bag, disp 10 cc, aquabidest, handscoen steril' },
+                        { text: 'Lampu sorot' },
+                        { text: 'Hecting set, speculum' },
+                        { text: 'O2 set sesuai kebutuhan pasien' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien diberi penjelasan tentang tujuan dan prosedur tindakan yang akan dilakukan.' },
+                        { text: 'Keluarga/penanggung jawab pasien menandatangani surat izin tindakan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Skherm ditutup (bila perlu) agar privasi pasien terjaga, bedplang tempat tidur pasien dibuka atau ditutup sesuai dengan kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Segera setelah plasenta dan selaput ketuban dilahirkan, lakukan massage uterus supaya berkontraksi (selama maksimal 15 detik) untuk mengeluarkan gumpalan darah. Sambil melakukan masase fundus uteri, periksa plasenta dan selaput ketuban untuk memastikan plasenta utuh dan lengkap.' },
+                { desc: 'B. Jika perdarahan terus terjadi dan uterus teraba berkontraksi baik, berikan 10 unit oksitosin IM' },
+                { desc: 'C. Jika kandung kemih ibu bisa dipalpasi, pasang kateter ke dalam kantung kemih.' },
+                { desc: 'D. Periksa laserasi pada perineum, vagina dan serviks dengan seksama menggunakan lampu yang terang. Jika sumber perdarahan sudah diidentifikasi, klem dengan forcep arteri dan jahit laserasi Dengan menggunakan anestesi lokal (lidokain 1%)' },
+                { desc: 'E. Jika uterus mengalami atoni, atau perdarahan terus terjadi, berikan masase uterus untuk mengeluarkan gumpalan darah.' },
+                { desc: 'F. Periksa lagi apakah plasenta utuh, usap vagina dan ostium serviks untuk menghilangkan jaringan plasenta atau selaput ketuban yang tertinggal.' },
+                { desc: 'G. Jika kandung kemih ibu bisa dipalpasi, pasang kateter ke dalam kandung kemih' },
+                { desc: 'H. Lakukan kompresi bimanual internal maksimal lima menit atau hingga perdarahan bisa dikendalikan dan uterus berkontraksi dengan baik.' },
+                { desc: 'I. Anjurkan keluarga untuk memulai mempersiapkan kemungkinan rujukan', },
+                { desc: 'J. Jika perdarahan dapat dikendalikan dan uterus berkontraksi dengan baik:',
+                    detail: [
+                        { text: '1) Teruskan kompresi bimanual selama 1 – 2 menit atau lebih' },
+                        { text: '2) Keluarkan tangan dari vagina dengan hati-hati' },
+                        { text: '3) Pantau kala empat persalinan dengan seksama, termasuk sering melakukan masase uterus untuk memeriksa atoni, mengamati perdarahan dari vagina, tekanan darah dan nadi' }
+                    ]
+                 },
+                { desc: 'K. Jika perdarahan tidak terkendali dan uterus tidak berkontraksi dalam waktu lima menit setelah dimulainya kompresi bimanual pada uterus maka, keluarkan tangan dari vagina dengan hati-hati. Jika tidak ada tanda hipertensi pada ibu, berikan metergin 0,2 mg IM' },
+                { desc: 'L. Mulai IV Ringer Laktat 500 cc + 20 Unit Oksitosin menggunakan jarum berlubang besar (16 atau 18 G) dengan teknik aseptik. Berikan 500 cc pertama secepat mungkin, dan teruskan dengan IV Ringer Laktat + 20 Unit Oksitosin yang kedua.' },
+                { desc: 'M. Jika uterus tetap atoni dan/atau perdarahan terus berlangsung, ulangi kompresi bimanual internal',
+                    detail: [
+                        { text: '1) Jika uterus berkontraksi, lepaskan tangan anda perlahan-lahan dan pantau kala empat persalinan dengan cermat' },
+                        { text: '2) Jika uterus tidak berkontraksi, rujuk segera ke tempat dimana operasi bias dilakukan' }
+                    ]
+
+                 },
+                { desc: 'N. Bila perdarahan tetap berlangsung dan kontraksi uterus tetap tidak ada, maka kemungkinan terjadi rupture uteri (syok cepat terjadi tidak sebanding dengan darah yang nampak keluar, abdomen teraba keras dan fundus mulai naik), lakukan kolaborasi dengan Obgyn' },
+                { desc: 'O. Bila kompresi bimanual pada uterus tidak berhasil, cobalah kompresi aorta. Cara ini dilakukan pada keadaan darurat, sementara penyebab perdarahan sedang dicari.' },
+                { desc: 'P. Perkirakan jumlah darah yang keluar dan cek dengan teratur denyut nadi, pernafasan dan tekanan darah.' },
+                { desc: 'Q. Siapkan darah untuk transfusi bila Hb < 8 gr%, sebelum darah tersedia berikan cairan pengganti darah (hemacel, fimahes)' },
+                { desc: 'R. Buat catatan yang seksama tentang semua penilaian tindakan yang dilakukan dan pengobatan yang dilakukan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'A. Observasi dan hitung jumlah darah yang keluar.' },
+                { desc: 'B. Observasi gejala-gejala syok hypovolemik (tekanan darah menurun, nadi melemah dan cepat, kulit dingin dan pasien gelisah).' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan dalam status pasien'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat (Kebidanan)',
+        'Instalasi Rawat Inap (Kebidanan)',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral'
+    ]
+    },
+    {
+    id: 1219,
+    title: 'Penanganan Perdarahan Post Partum Sekunder',
+    category: 'tindakan',
+    subCategory: 'maternitas',
+    description: 'Penanganan perdarahan pervaginam atau lochea berlebihan pada 24 jam hingga 42 hari setelah persalinan.',
+    icon: 'fa-procedures',
+    tags: ['Perdarahan Post Partum', 'Obstetri', 'Kegawatdaruratan', 'Maternitas'],
+    noDokumen: '445/SPO.4827/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Memberikan pertolongan pada korban dengan perdarahan pervaginum atau lochea berlebihan pada 24 jam – 42 hari setelah persalinan.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam menangani pasien dengan perdarahan post partum sekunder, untuk menstabilisasi kondisi pasien untuk segera mendapat penanganan',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Alat pelindung diri (Masker, Handscoon, Barak schort)' },
+                        { text: 'Obat emergensi' },
+                        { text: 'Obat anti perdarahan' },
+                        { text: 'Set infuse: infuse set/blood set, IV cateter 16/18, cairan infus' },
+                        { text: 'Tampon, kassa steril, speculum' },
+                        { text: 'Hecting set' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien diberi penjelasan tentang tujuan dan prosedur tindakan yang akan dilakukan.' },
+                        { text: 'Keluarga/penanggungjawab pasien menandatangani surat ijin tindakan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Skherm ditutup (bila perlu) agar privasi pasien terjaga, bedplang tempat tidur pasien dibuka atau ditutup sesuai dengan kebutuhan' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Segera setelah plasenta dan selaput ketuban dilahirkan, lakukan massage uterus supaya berkontraksi (selama maksimal 15 detik) untuk mengeluarkan gumpalan darah. Sambil melakukan masase fundus uteri, periksa plasenta dan selaput ketuban untuk memastikan plasenta utuh dan lengkap.' },
+                { desc: 'B. Jika perdarahan terus terjadi dan uterus teraba berkontraksi baik, berikan 10 unit oksitosin IM' },
+                { desc: 'C. Jika kandung kemih ibu bisa dipalpasi, pasang kateter ke dalam kantung kemih.' },
+                { desc: 'D. Periksa laserasi pada perineum, vagina dan serviks dengan seksama menggunakan lampu yang terang. Jika sumber perdarahan sudah diidentifikasi, klem dengan forcep arteri dan jahit laserasi dengan menggunakan anestesi lokal (lidokain 1 %).' },
+                { desc: 'E. Jika uterus mengalami atoni, atau perdarahan terus terjadi, berikan masase uterus untuk mengeluarkan gumpalan darah.' },
+                { desc: 'F. Periksa lagi apakah plasenta utuh, usap vagina dan ostium serviks untuk menghilangkan jaringan plasenta atau selaput ketuban yang tertinggal.' },
+                { desc: 'G. Jika kandung kemih ibu bisa dipalpasi, pasang kateter ke dalam kandung kemih' },
+                { desc: 'H. Lakukan kompresi bimanual internal maksimal lima menit atau hingga perdarahan bisa dikendalikan dan uterus berkontraksi dengan baik.' },
+                { desc: 'I. Anjurkan keluarga untuk memulai mempersiapkan kemungkinan rujukan' },
+                { desc: 'J. Jika perdarahan dapat dikendalikan dan uterus berkontraksi dengan baik:',
+                    detail: [
+                        { text: '1) Teruskan kompresi bimanual selama 1 – 2 menit atau lebih' },
+                        { text: '2) Keluarkan tangan dari vagina dengan hati-hati' },
+                        { text: '3) Pantau kala empat persalinan dengan seksama, termasuk sering melakukan masase uterus untuk memeriksa atoni, mengamati perdarahan dari vagina, tekanan darah dan nadi' }
+                    ]
+                },
+                { desc: 'K. Jika perdarahan tidak terkendali dan uterus tidak berkontraksi dalam waktu lima menit setelah dimulainya kompresi bimanual pada uterus maka, keluarkan tangan dari vagina dengan hati-hati. Jika tidak ada tanda hipertensi pada ibu, berikan metergin 0,2 mg IM' },
+                { desc: 'L. Mulai IV Ringer Laktat 500 cc + 20 Unit Oksitosin menggunakan jarum berlubang besar (16 atau 18 G) dengan teknik aseptik. Berikan 500 cc pertama secepat mungkin, dan teruskan dengan IV Ringer Laktat + 20 Unit Oksitosin yang kedua.' },
+                { desc: 'M. Jika uterus tetap atoni dan/atau perdarahan terus berlangsung, ulangi kompresi bimanual internal',
+                    detail: [
+                        { text: '1) Jika uterus berkontraksi, lepaskan tangan anda perlahan-lahan dan pantau kala empat persalinan dengan cermat' },
+                        { text: '2) Jika uterus tidak berkontraksi, rujuk segera ke tempat dimana operasi bisa dilakukan' }
+                    ]
+                },
+                { desc: 'N. Bila perdarahan tetap berlangsung dan kontraksi uterus tetap tidak ada, maka kemungkinan terjadi rupture uteri (syok cepat terjadi tidak sebanding dengan darah yang nampak keluar, abdomen teraba keras dan fundus mulai naik), lakukan kolaborasi dengan Obgyn' },
+                { desc: 'O. Bila kompresi bimanual pada uterus tidak berhasil, cobalah kompresi aorta. Cara ini dilakukan pada keadaan darurat, sementara penyebab perdarahan sedang dicari.' },
+                { desc: 'P. Perkirakan jumlah darah yang keluar dan cek dengan teratur denyut nadi, pernafasan dan tekanan darah.' },
+                { desc: 'Q. Siapkan darah untuk transfusi bila Hb < 8 gr%, sebelum darah tersedia berikan cairan pengganti darah (hemacel, fimahes)' },
+                { desc: 'R. Buat catatan yang seksama tentang semua penilaian tindakan yang dilakukan dan pengobatan yang dilakukan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'A. Observasi dan hitung jumlah darah yang keluar.' },
+                { desc: 'B. Observasi gejala-gejala syok hypovolemik (tekanan darah menurun, nadi melemah dan cepat, kulit dingin dan pasien gelisah).' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan dalam status pasien'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat (Kebidanan)',
+        'Instalasi Rawat Inap (Kebidanan)',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral'
+    ]
+    },
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
