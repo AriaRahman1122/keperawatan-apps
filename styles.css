@@ -96,7 +96,7 @@ body {
 }
 
 .logo {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 800;
     background: linear-gradient(135deg, #4300FF, #0065F8, #00CAFF);
     -webkit-background-clip: text;
@@ -146,7 +146,7 @@ body {
 
 .nav-links {
     display: flex;
-    gap: 40px;
+    gap: 5px;
 }
 
 .nav-links a {
