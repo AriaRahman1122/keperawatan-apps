@@ -98,6 +98,7 @@ body {
 .logo {
     font-size: 1.6rem;
     font-weight: 800;
+    text-decoration: none;
     background: linear-gradient(135deg, #4300FF, #0065F8, #00CAFF);
     -webkit-background-clip: text;
     background-clip: text;
@@ -147,6 +148,25 @@ body {
 .nav-links {
     display: flex;
     gap: 5px;
+}
+
+@media (min-width: 1281px) {
+    .nav-links {
+        flex: 1;
+        align-items: center;
+    }
+
+    .nav-links > a:first-child {
+        margin-left: auto;
+    }
+
+    .nav-links > a:last-of-type {
+        margin-right: auto;
+    }
+
+    .nav-links .user-info {
+        margin-left: 0;
+    }
 }
 
 .nav-links a {
@@ -1078,6 +1098,14 @@ body {
     color: #7a94b5;
     font-size: 0.88rem;
     line-height: 1.55;
+}
+
+.step-detail-item-indexed.no-marker {
+    grid-template-columns: minmax(2.5ch, max-content) 1fr;
+}
+
+.step-detail-marker.marker-hidden {
+    visibility: hidden;
 }
 
 .step-subdetail-item.is-formula {

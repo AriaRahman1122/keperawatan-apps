@@ -469,52 +469,52 @@ const sopDataPerawatManajemen = [
         dokumenTerkait: ['Surat keterangan tidak mampu'],
         instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Bedah Sentral', 'Instalasi Rawat Jalan', 'Instalasi Laboratorium', 'Instalasi Radiologi']
     },
-    {
-        id: 612,
-        title: 'Timbang Terima / Operan Antar Shift',
-        category: 'manajemen',
-        subCategory: 'keperawatanDasar',
-        description: 'Proses komunikasi dalam manajemen antar staf keperawatan untuk kesinambungan pelayanan.',
-        icon: 'fa-handshake',
-        tags: ['Operan', 'Serah Terima', 'Timbang Terima', 'Komunikasi'],
-        noDokumen: '445/ SPO.3400/ Bidper',
-        tanggalTerbit: '04 Maret 2019',
-        pengertian: 'Proses komunikasi dalam manajemen antar staf keperawatan dalam rangka kesinambungan pelayanan serta proses interaksi staf dengan pasien, keluarga dan petugas lain dalam melaksanakan asuhan keperawatan.',
-        tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melaksanakan timbang terima/operan shift jaga di ruang rawat untuk kesinambungan pelayanan.',
-        kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
-        prosedur: [
-            { step: 'Persiapan', items: [
-                { desc: 'Buku komunikasi' },
-                { desc: 'Status Pasien' },
-                { desc: 'Hal-hal lain yang diperlukan' },
-                { desc: 'Semua petugas sudah siap di nurse station' }
-            ]},
-            { step: 'Pelaksanaan di Nurse Station', items: [
-                { desc: 'Kepala Ruangan/PP/Penanggungjawab shift memimpin operan' },
-                { desc: 'Sebelum kegiatan dimulai diawali membaca ayat suci Al-Quran atau kultum' },
-                { desc: 'PP/Pgj shift sebelumnya menyampaikan laporan kegiatan shift sebelumnya: jumlah pasien, pasien yang perlu pengawasan/konsultasi/observasi ketat serta kondisi lain' },
-                { desc: 'Serah terima inventaris ruangan: nama barang, jumlah, kondisi barang dan hal-hal lain yang perlu diketahui' },
-                { desc: 'Perawat yang menerima laporan melakukan klarifikasi dan tanya jawab terhadap hal-hal yang kurang jelas' },
-                { desc: 'Kepala Ruangan/PP/Pgj shift berikutnya menerima laporan dan menandatangani buku komunikasi' },
-                { desc: 'Berdoa untuk kelancaran kegiatan dipimpin oleh seorang staf yang ditunjuk' }
-            ]},
-            { step: 'Timbang Terima di Sisi Pasien', items: [
-                { desc: 'Kepala Ruangan/PP/Pgj Shift melakukan timbang terima pasien secara berkeliling sesuai timnya' },
-                { desc: 'Mengucapkan salam "Assalamualaikum… selamat pagi/siang/sore…. (panggil nama pasien dengan sopan dan jelas)"' },
-                { desc: 'Menyapa pasien "Maaf bapak/ibu kami mengganggu sebentar, karena akan serah terima dinas dengan shift berikutnya"' },
-                { desc: 'Mengenalkan perawat pengganti shift berikutnya' },
-                { desc: 'Perawat yang akan berdinas menyapa pasien dan menganalisa keadaan umum serta lingkungan pasien' },
-                { desc: 'Sampaikan terima kasih dan ucapkan salam' },
-                { desc: 'Khusus operan malam ke pagi, pada saat keliling ada perawat yang memimpin berdoa di depan pasien dan keluarga secara bergiliran' }
-            ]},
-            { step: 'Pasca Operan', items: [
-                { desc: 'Setelah selesai operan keliling, semua perawat kembali ke nurse station' },
-                { desc: 'Masuk ke kelompok timnya masing-masing' }
-            ]}
-        ],
-        dokumenTerkait: ['Buku komunikasi perawat', 'Rekam medik pasien'],
-        instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', 'Instalasi Bedah Sentral', 'Instalasi Laboratorium', 'Instalasi Radiologi']
-    },
+    // {
+    //     id: 612,
+    //     title: 'Timbang Terima / Operan Antar Shift',
+    //     category: 'manajemen',
+    //     subCategory: 'keperawatanDasar',
+    //     description: 'Proses komunikasi dalam manajemen antar staf keperawatan untuk kesinambungan pelayanan.',
+    //     icon: 'fa-handshake',
+    //     tags: ['Operan', 'Serah Terima', 'Timbang Terima', 'Komunikasi'],
+    //     noDokumen: '445/ SPO.3400/ Bidper',
+    //     tanggalTerbit: '04 Maret 2019',
+    //     pengertian: 'Proses komunikasi dalam manajemen antar staf keperawatan dalam rangka kesinambungan pelayanan serta proses interaksi staf dengan pasien, keluarga dan petugas lain dalam melaksanakan asuhan keperawatan.',
+    //     tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melaksanakan timbang terima/operan shift jaga di ruang rawat untuk kesinambungan pelayanan.',
+    //     kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    //     prosedur: [
+    //         { step: 'Persiapan', items: [
+    //             { desc: 'Buku komunikasi' },
+    //             { desc: 'Status Pasien' },
+    //             { desc: 'Hal-hal lain yang diperlukan' },
+    //             { desc: 'Semua petugas sudah siap di nurse station' }
+    //         ]},
+    //         { step: 'Pelaksanaan di Nurse Station', items: [
+    //             { desc: 'Kepala Ruangan/PP/Penanggungjawab shift memimpin operan' },
+    //             { desc: 'Sebelum kegiatan dimulai diawali membaca ayat suci Al-Quran atau kultum' },
+    //             { desc: 'PP/Pgj shift sebelumnya menyampaikan laporan kegiatan shift sebelumnya: jumlah pasien, pasien yang perlu pengawasan/konsultasi/observasi ketat serta kondisi lain' },
+    //             { desc: 'Serah terima inventaris ruangan: nama barang, jumlah, kondisi barang dan hal-hal lain yang perlu diketahui' },
+    //             { desc: 'Perawat yang menerima laporan melakukan klarifikasi dan tanya jawab terhadap hal-hal yang kurang jelas' },
+    //             { desc: 'Kepala Ruangan/PP/Pgj shift berikutnya menerima laporan dan menandatangani buku komunikasi' },
+    //             { desc: 'Berdoa untuk kelancaran kegiatan dipimpin oleh seorang staf yang ditunjuk' }
+    //         ]},
+    //         { step: 'Timbang Terima di Sisi Pasien', items: [
+    //             { desc: 'Kepala Ruangan/PP/Pgj Shift melakukan timbang terima pasien secara berkeliling sesuai timnya' },
+    //             { desc: 'Mengucapkan salam "Assalamualaikum… selamat pagi/siang/sore…. (panggil nama pasien dengan sopan dan jelas)"' },
+    //             { desc: 'Menyapa pasien "Maaf bapak/ibu kami mengganggu sebentar, karena akan serah terima dinas dengan shift berikutnya"' },
+    //             { desc: 'Mengenalkan perawat pengganti shift berikutnya' },
+    //             { desc: 'Perawat yang akan berdinas menyapa pasien dan menganalisa keadaan umum serta lingkungan pasien' },
+    //             { desc: 'Sampaikan terima kasih dan ucapkan salam' },
+    //             { desc: 'Khusus operan malam ke pagi, pada saat keliling ada perawat yang memimpin berdoa di depan pasien dan keluarga secara bergiliran' }
+    //         ]},
+    //         { step: 'Pasca Operan', items: [
+    //             { desc: 'Setelah selesai operan keliling, semua perawat kembali ke nurse station' },
+    //             { desc: 'Masuk ke kelompok timnya masing-masing' }
+    //         ]}
+    //     ],
+    //     dokumenTerkait: ['Buku komunikasi perawat', 'Rekam medik pasien'],
+    //     instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', 'Instalasi Bedah Sentral', 'Instalasi Laboratorium', 'Instalasi Radiologi']
+    // },
     {
         id: 613,
         title: 'Supervisi Asuhan Keperawatan dalam Konteks MPKP',
@@ -675,7 +675,7 @@ const sopDataPerawatManajemen = [
     {
         id: 617,
         title: 'Permintaan Darah ke Bank Darah RSUD Al Ihsan',
-        category: 'tindakan',
+        category: 'manajemen',
         subCategory: 'keperawatanDasar',
         description: 'Kegiatan menyiapkan permintaan darah ke bank darah internal dengan sampel dan formulir.',
         icon: 'fa-tint',
@@ -713,7 +713,7 @@ const sopDataPerawatManajemen = [
     {
         id: 618,
         title: 'Permintaan Darah ke PMI',
-        category: 'tindakan',
+        category: 'manajemen',
         subCategory: 'keperawatanDasar',
         description: 'Kegiatan menyiapkan permintaan darah ke Palang Merah Indonesia (PMI) dengan sampel dan formulir.',
         icon: 'fa-hand-holding-heart',
@@ -749,5 +749,654 @@ const sopDataPerawatManajemen = [
         ],
         dokumenTerkait: ['Format permintaan darah ke PMI'],
         instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Bedah Sentral', 'Instalasi Rawat Jalan', 'Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif']
+    },
+    {
+    id: 619,
+    title: 'Menerima Pasien Baru',
+    category: 'manajemen',
+    subCategory: 'keperawatanDasar',
+    description: 'Kegiatan menerima pasien baru yang akan dirawat di ruang perawatan.',
+    icon: 'fa-user-plus',
+    tags: ['Pasien Baru', 'Rawat Inap', 'Orientasi', 'Asesmen Awal'],
+    noDokumen: '445/SPO.3378/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan menerima pasien baru yang akan dirawat di ruang perawatan.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam menerima pasien baru yang akan dirawat di ruang perawatan.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        { step: 'Persiapan', 
+            items: [
+                {
+                    desc: 'Persiapan Alat',
+                    detail: [
+                        { text: '1) Bak instrumen steril sedang berisi:'} ,
+                        { text: '2) Tempat tidur dalam keadaan siap pakai' },
+                        { text: '3) Oksigen lengkap sesuai kebutuhan' },
+                        { text: '4) Standar infus sesuai kebutuhan' },
+                        { text: '5) Timbangan berat badan sesuai kebutuhan' },
+                        { text: '6) Format orientasi pasien baru' },
+                        { text: '7) Alat pemeriksaan tanda-tanda vital (tensimeter, stetoskop, termometer, jam dengan penunjuk detik)' }
+                    ]
+                }
+]},
+        { step: 'Pelaksanaan', items: [
+            { desc: 'Perawat ruangan menyiapkan tempat tidur untuk pasien baru' },
+            { desc: 'Pasien dan keluarga diterima dengan ramah' },
+            { desc: 'Pasien diantar ke kamar perawatan' },
+            { desc: 'Mengatur posisi pasien yang nyaman di tempat tidur dan memasang alat sesuai kebutuhan (oksigen, dll)' },
+            { desc: 'Memperkenalkan diri' },
+            { desc: 'Melakukan serah terima pasien dengan petugas IRJ / IGD' },
+            { desc: 'Perawat ruangan melakukan orientasi untuk pasien baru sesuai SOP' },
+            { desc: 'Bila memungkinkan ukur BB dan TB ( terutama pasien bayi dan anak )' },
+            { desc: 'Melakukan anamnesa keperawatan dan pemeriksaan tanda-tanda vital ( tekanan darah, nadi respirasi dan suhu tubuh )' },
+            { desc: 'Perawat ruangan melaporkan adanya pasien baru kepada kepala tim/kepala ruangan dan dokter ruangan' },
+            { desc: 'Data pasien baru dicatat dalam buku register ruangan' }
+        ]},
+        { step: 'Evaluasi',
+            desc: 'Memantau respon pasien selama proses penerimaan dan pemeriksaan'
+        },
+        { step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan yang telah dilakukan dalam rekam medis pasien'
+        }
+    ],
+    dokumenTerkait: ['Rekam Medik Pasien', 'Form Penerimaan Pasien Baru'],
+    instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif']
+    },
+    {
+    id: 620,
+    title: 'Orientasi Pasien Baru',
+    category: 'manajemen',
+    subCategory: 'keperawatanDasar',
+    description: 'Kegiatan melakukan orientasi kepada pasien baru dan keluarga yang di rawat di RSUD Al-Ihsan, agar pasien dan keluarga memahami dan mengetahui tata tertib serta peraturan yang berlaku di RSUDAl-Ihsan.',
+    icon: 'fa-clipboard-list',
+    tags: ['Pasien Baru', 'Orientasi', 'Edukasi Pasien', 'Rawat Inap'],
+    noDokumen: '445/SPO.3379/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan melakukan orientasi kepada pasien baru dan keluarga yang di rawat di RSUD Al-Ihsan, agar pasien dan keluarga memahami dan mengetahui tata tertib serta peraturan yang berlaku di RSUDAl-Ihsan.',
+    tujuan: '1. Sebagai acuan penerapan langkah-langkah dalam melakukan orientasi kepada pasien baru.\nPasien mendapatkan informasi yang dibutuhkan tentang pelayanan, sarana dan prasarana serta hak dan kewajiban pasien.\nTercapainya kepuasan pasien.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        { step: 'Persiapan', 
+            items: [
+                {
+                    desc: 'Persiapan Alat',
+                    detail: [
+                        { text: '1) Daftar fasilitas yang ada' },
+                        { text: '2) Peraturan atau tata tertib yang tertulis' }
+                    ]
+                },
+                {
+                    desc: 'Hal-hal yang harus diorientasikan',
+                    detail: [
+                        { text: '1) Fasilitas ruangan' },
+                        { text: '2) Pelayanan dokter dan perawat' },
+                        { text: '3) Pelayanan gizi' },
+                        { text: '4) Pelayanan obat-obatan dan alat kesehatan' },
+                        { text: '5) Perlengkapan sehari-hari' },
+                        { text: '6) Administrasi dan keuangan' },
+                        { text: '7) Peraturan dan tata tertib' },
+                        { text: '8) Hak dan kewajiban pasien' }
+                    ]
+                }
+        ]},
+        { step: 'Pelaksanaan', 
+            items: [
+                {
+                desc: 'A. Menyambut pasien baru di ruangan dengan ramah dan penuh perhatian',
+                detail: [
+                    { text: '1) Mengucapkan salam' },
+                    { text: '2) Perawat memperkenalkan diri' },
+                    { text: '3) Menanyakan nama pasien dan memanggil dengan nama kesukaannya' }
+                ]
+                },
+                {
+                desc: 'B. Melakukan orientasi pasien baru',
+                detail: [
+                    { 
+                    text: '1) Menjelaskan fasilitas ruangan',
+                    subDetail: [
+                        '- Nama ruangan dan nomor kamar',
+                        '- Tempat tidur dan cara menggunakannya',
+                        '- Lemari pasien dan kursi',
+                        '- Bel pasien dan cara menggunakannya',
+                        '- Air panas',
+                        '- Arah kiblat'
+                    ]
+                    },
+                    { 
+                    text: '2) Pelayanan dokter dan perawat',
+                    subDetail: [
+                        '- Tim keperawatan yang merawat / bertanggungjawab / kepala tim',
+                        '- Perawat yang dapat dihubungi bila membutuhkan informasi',
+                        '- Dokter yang menangani',
+                        '- Waktu visite dan konsultasi dokter',
+                        '- Pengganti dokter spesialis bila berhalangan visite'
+                    ]
+                    },
+                    { 
+                    text: '3) Pelayanan gizi',
+                    subDetail: [
+                        '- Waktu pemberian makan pagi, siang dan sore',
+                        '- Waktu pemberian snack',
+                        '- Tempat pengambilan air minum (jika memerlukan)'
+                    ]
+                    },
+                    { 
+                    text: '4) Tempat pelayanan obat-obatan dan alat kesehatan',
+                    subDetail: [
+                        '- Ketentuan obat-obatan dan alat kesehatan untuk pasien (askes, kontraktor, umum,  jamkesmas/gakinda)',
+                        '- Pengambilan resep untuk pasien sesuai ketentuan',
+                        '- Pengecekan ulang obat yang telah dibeli dari apotek disesuaikan dengan kuitansi'
+                    ]
+                    },
+                    { 
+                    text: '5) Perlengkapan sehari-hari',
+                    subDetail: [
+                        '- Kebutuhan pakaian, peralatan mandi dan peralatan makan yang diperlukan',
+                        '- Paket yang disediakan dari rumah sakit (bila diperlukan/bila tersedia)',
+                        '- Tempat penyimpanan barang'
+                    ]
+                    },
+                    { 
+                    text: '6) Administrasi dan keuangan',
+                    subDetail: [
+                        '- Pelayanan administrasi dan keuangan untuk pasien askes, kontraktor, umum,gakinda dan jamkesmas',
+                        '- Deposit biaya perawatan (khusus untuk pasien umum)'
+                    ]
+                    },
+                    { 
+                    text: '7) Menjelaskan Tata tertib',
+                    subDetail: [
+                        '- Jam kunjungan / Bezuk: pagi (jam 10.30–12.30) dan sore (jam 15.30–17.30)',
+                        '- Jumlah penunggu pasien'
+                    ]
+                    },
+                    { 
+                    text: '8) Hak dan kewajiban pasien',
+                    }
+                ]
+                },
+                { desc: 'Menanyakan kepada pasien / keluarga jika ada hal-hal yang belum jelas atau yang akan ditanyakan' },
+                { desc: 'Isi lembar cek list orientasi pasien baru yang telah disampaikan, ditandatangani oleh pasien / keluarga dan perawat yang memberikan orientasi' },
+                { desc: 'Berpamitan dan mengucapkan salam' }
+        ]},
+        { step: 'Evaluasi',
+            desc: 'Tanyakan kembali kepada pasien atau keluarga mengenai kejelasan informasi yang telah disampaikan'
+        },
+        { step: 'Dokumentasi',
+            desc: 'Mendokumentasikan kegiatan yang telah dilaksanakan di dalam status pasien'
+        }
+    ],
+    dokumenTerkait: ['Rekam medik pasien', 'Form orientasi pasien baru'],
+    instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Anesthesi dan Perawatan Intensif']
+    },
+    {
+    id: 621,
+    title: 'Pre dan Post Conference',
+    category: 'manajemen',
+    subCategory: 'keperawatanDasar',
+    description: 'Kegiatan pertemuan tim yang dilakukan setiap hari, setelah melakukan operan dinas pagi, sore atau malam sesuai dengan jadwal dinas kepala tim / PP.',
+    icon: 'fa-users',
+    tags: ['Conference', 'Pre Conference', 'Post Conference', 'Manajemen Keperawatan'],
+    noDokumen: '445/SPO.3382/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Conference merupakan pertemuan tim yang dilakukan setiap hari, setelah melakukan operan dinas pagi, sore atau malam sesuai dengan jadwal dinas kepala tim / PP.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melaksanakan conference pengelolaan asuhan keperawatan di ruang rawat dengan tujuan:\n1. Membahas masalah setiap klien berdasarkan renpra yang telah dibuat PP.\n2. Menetapkan klien yang menjadi tanggung jawab masing-masing PA.\n3. Membahas rencana tindakan keperawatan untuk setiap klien.\n4. Mengidentifikasi tugas PA untuk setiap klien yang menjadi tanggung jawabnya.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        { step: 'Persiapan', 
+            items: [
+                { desc: 'Rekam medik pasien' },
+                { desc: 'Buku komunikasi' },
+                { desc: 'Konferensi dilakukan setiap hari setelah pergantian dinas pagi/sore sesuai jadwal dinas PP' },
+                { desc: 'Konferensi dihadiri oleh PP dan PA dalam tim masing-masing' }
+        ]},
+        { step: 'Pelaksanaan', 
+            items: [
+                {
+                desc: 'A. Pre Conference',
+                detail: [
+                    { 
+                    text: '1) PP menyampaikan perkembangan dan masalah klien',
+                    subDetail: [
+                        '- Keadaan umum klien',
+                        '- Keluhan klien',
+                        '- Tanda-tanda vital dan kesadaran',
+                        '- Hasil pemeriksaan laboratorium/diagnostik terbaru',
+                        '- Masalah keperawatan',
+                        '- Rencana keperawatan hari ini',
+                        '- Perubahan terapi medis',
+                        '- Rencana medis'
+                    ]
+                    },
+                    { 
+                    text: '2) PP mendiskusikan dan mengarahkan PA',
+                    subDetail: [
+                        '- Keluhan klien terkait pelayanan (keterlambatan, kesalahan pemberian makan, kebisingan, ketidakhadiran dokter)',
+                        '- Ketepatan pemberian infus',
+                        '- Ketepatan pemantauan intake dan output cairan (I/O)',
+                        '- Ketepatan pemberian obat oral atau injeksi',
+                        '- Ketepatan pelaksanaan tindakan lain',
+                        '- Ketepatan dan kebenaran dokumentasi'
+                    ]
+                    },
+                    { text: '3) Mengingatkan kembali standar prosedur yang ditetapkan' },
+                    { text: '4) Mengingatkan kedisiplinan, ketelitian, kejujuran, dan kemajuan masing-masing PA' },
+                    { text: '5) Membantu PA menyelesaikan masalah yang tidak dapat diselesaikan' }
+                ]
+                },
+                {
+                desc: 'B. Post Conference',
+                detail: [
+                    { text: '1) Mendiskusikan hasil evaluasi tindakan yang telah dilakukan PA' },
+                    { text: '2) Membahas perkembangan pasien kelolaan' },
+                    { text: '3) Membahas kesulitan saat tindakan / mengelola pasien' },
+                    { text: '4) Mengarahkan PA' },
+                    { text: '5) Memberikan reinforcement' },
+                    { text: '6) Menyusun rencana / tindak lanjut untuk shift berikutnya' },
+                    { text: '7) Persiapan operan dinas' },
+                    { text: '8) Menentukan hal-hal yang akan dioperkan' }
+                ]
+                }
+        ]},
+        { step: 'Evaluasi',
+            desc: 'Menilai efektivitas pelaksanaan conference serta kejelasan pembagian tugas dan rencana tindak lanjut'
+        },
+        { step: 'Dokumentasi',
+            desc: 'Mendokumentasikan hasil conference dalam buku komunikasi atau rekam medik sesuai ketentuan'
+        }
+    ],
+    dokumenTerkait: ['Rekam medik pasien', 'Rencana kerja harian'],
+    instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', 'Instalasi Hemodialisa']
+    },
+    {
+    id: 622,
+    title: 'Supervisi Keperawatan',
+    category: 'manajemen',
+    subCategory: 'keperawatanDasar',
+    description: 'Kegiatan pengawasan dan pembinaan keperawatan untuk meningkatkan mutu pelayanan secara efektif dan berkesinambungan.',
+    icon: 'fa-user-check',
+    tags: ['Supervisi', 'Manajemen Keperawatan', 'Pengawasan', 'Mutu Pelayanan'],
+    noDokumen: '445/SPO.3383/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertianFormat: 'paragraph',
+    pengertian: 'Supervisi merupakan upaya untuk membantu pembinaan dan peningkatan kemampuan pihak yang disupervisi agar mereka dapat melaksanakan tugas kegiatan yang telah ditetapkan secara efisien dan efektif (Sudjana D, 2004).' + '\n' + 'Supervisi keperawatan adalah kegiatan pengawasan dan pembinaan yang dilakukan secara berkesinambungan oleh supervisor mencakup masalah pelayanan keperawatan, masalah ketenagaan, dan peralatan agar pasien mendapat pelayanan yang bermutu setiap saat (Depkes, 2000).',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melaksanakan supervisi asuhan keperawatan di ruang rawat guna pemenuhan dan peningkatan pelayanan pada klien dan keluarga yang berfokus pada kebutuhan, keterampilan, dan kemampuan perawat.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        { step: 'Mengadakan persiapan pengawasan', 
+            items: [
+                { desc: 'Menentukan tujuan' },
+                { desc: 'Menentukan metode pengawasan' },
+                { desc: 'Menentukan standar dan kriteria pengukuran' },
+        ]},
+        { step: 'Menjalankan pengawasan', 
+            items: [
+                { desc: 'Membuat dan menentukan rencana pengawasan' },
+                { desc: 'Pelaksanaan pengawasan' },
+                { desc: 'Penilaian dari pelaksanaan pengawasan' }, 
+        ]},
+         { step: 'Memperbaiki penyimpangan', 
+            items: [
+                { desc: 'Mengumpulkan informasi' },
+                { desc: 'Mengidentifikasi masalah' },
+                { desc: 'Menganalisis masalah' },
+                { desc: 'Mencari dan menetapkan alternatif pemecahan masalah' },
+                { desc: 'Melaksanakan upaya pemecahan masalah' }  
+        ]},
+    ],
+    dokumenTerkait: ['Rekam Medik Pasien', 'Format Penilaian Kinerja Perawat'],
+    instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', 'Instalasi Rawat Jalan', 'Instalasi Hemodialisa']
+    },
+    {
+    id: 623,
+    title: 'Menyiapkan Pasien Pulang',
+    category: 'manajemen',
+    subCategory: 'keperawatanDasar',
+    description: 'Kegiatan mempersiapkan pasien pulang melalui edukasi, administrasi, dan kelengkapan medis agar pasien dapat melanjutkan perawatan di rumah.',
+    icon: 'fa-hospital-user',
+    tags: ['Pasien Pulang', 'Discharge Planning', 'Edukasi Pasien', 'Rawat Inap'],
+    noDokumen: '445/SPO.3388/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Proses interaksi dengan pasien, keluarga dan petugas lain dalam kegiatan menjelaskan proses memulangkan pasien.',
+    tujuan: '1. Terlaksananya kegiatan pelayanan di ruang rawat inap.\n2. Tersampaikannya hak dan kewajiban pasien selama proses pemulangan.\n3. Terciptanya keamanan dan kenyamanan pasien.\n4. Tercapainya kepuasan pasien.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        { step: 'Persiapan', 
+            items: [
+                {
+                    desc: 'A. Persiapan Kelengkapan',
+                    detail: [
+                        { text: '1) Surat kontrol untuk ke poliklinik' },
+                        { text: '2) Resep untuk di rumah' },
+                        { text: '3) Keterangan istirahat sakit (bila diperlukan)' },
+                        { text: '4) Hasil pemeriksaan penunjang yang boleh dibawa pulang' },
+                        { text: '5) Obat-obatan yang masih dilanjutkan' },
+                        { text: '6) Leaflet perawatan penyakit di rumah sesuai kasus' }
+                    ]
+                },
+                {
+                    desc: 'B. Persiapan Pasien',
+                    detail: [
+                        { text: '1) Pasien dan keluarga diberikan penjelasan bahwa pasien sudah bisa pulang' }
+                    ]
+                }
+        ]},
+        { step: 'Pelaksanaan', 
+            items: [
+                {
+                desc: 'A. Pasien Pulang Sembuh',
+                detail: [
+                    { text: '1) Menyiapkan seluruh keperluan pasien (surat kontrol, resep, surat istirahat, hasil pemeriksaan, dll)' },
+                    { text: '2) Menginformasikan keluarga untuk menyelesaikan administrasi sesuai ketentuan' },
+                    { 
+                    text: '3) Memberikan penyuluhan kepada pasien/keluarga',
+                    subDetail: [
+                        '- Keadaan kesehatan pasien saat pulang',
+                        '- Perawatan yang harus dilakukan di rumah',
+                        '- Obat-obatan yang masih diberikan dan cara pemakaian',
+                        '- Pentingnya kontrol ulang sesuai kasus',
+                        '- Diet pasien',
+                        '- Aktivitas yang boleh dan tidak boleh dilakukan',
+                        { text: '  Untuk bayi ditambah hal – hal yang lebih khusus antara lain:', marker: false },
+                        '- Pentingnya pemeriksaan bayi secara teratur',
+                        '- Perawatan tali pusat',
+                        '- Cara memandikan bayi',
+                        '- Imunisasi',
+                        '- Cara pemberian obat – obatan kepada bayi',
+                        '- Cara menjemur bayi'
+                    ]
+                    },
+                    { text: '4) Pasien disiapkan untuk pulang dalam keadaan rapih' },
+                    { text: '5) Bila bukti pembayaran administrasi telah diselesaikan, pasien dipersilahkan pulang     dan diberikan kesempatan kepada keluarga untuk berpamitan dengan sesama pasien atau petugas sesuai kebutuhan' },
+                    { text: '6) Pasien dan keluarga diantar sampai pintu keluar' },
+                    { text: '7) Pasien pulang dicatat dalam buku register pasien' },
+                    { text: '8) Catatan rekam medik dilengkapi (catatan dokter/perawat atau unit  terkait lainnya)setelah lengkap status pasien diantar ke rekam medik' },
+                    { text: '9) Tempat tidur dibereskan' },
+                ]
+                },
+                {
+                desc: 'B. Pasien Pulang Atas Permintaan Sendiri (Pulang Paksa)',
+                detail: [
+                    { text: '1) Pasien/keluarga diberikan penjelasan bahwa kondisi kesehatan pasien belum memungkinkan untuk pulang' },
+                    { text: '2) Bila pasien/keluarga memaksa, maka pasien/keluarga harus menandatangani surat keterangan permintaan pulang atas kemauan sendiri/pulang paksa pada rekam medik pasien' },
+                    { text: '3) Hal – hal lain sama dengan prosedur pasien pulang sembuh' }
+                ]
+                }
+        ]},
+    ],
+    dokumenTerkait: ['Rekam medik pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif']
+    },
+    {
+    id: 624,
+    title: 'Timbang Terima / Operan Antar Shift',
+    category: 'manajemen',
+    subCategory: 'keperawatanDasar',
+    description: 'Kegiatan komunikasi antar staf keperawatan untuk memastikan kesinambungan pelayanan melalui operan antar shift.',
+    icon: 'fa-exchange-alt',
+    tags: ['Operan', 'Timbang Terima', 'Shift', 'Komunikasi Keperawatan'],
+    noDokumen: '445/SPO.3400/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Proses komunikasi dalam manajemen antar staf keperawatan dalam rangka kesinambuingan pelayanan serta proses interaksi staf dengan pasien, keluarga dan petugas lain dalam melaksanakan tasuhan keperawatan.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melaksanakan timbang terima/operan shift jaga di ruang rawat untuk menjamin kesinambungan pelayanan.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        { step: 'Persiapan', 
+            items: [
+                {
+                    desc: 'A. Persiapan Kelengkapan Operan',
+                    detail: [
+                        { text: '1) Buku komunikasi' },
+                        { text: '2) Status pasien' },
+                        { text: '3) Hal-hal lain yang diperlukan' }
+                    ]
+                },
+                {
+                    desc: 'B. Persiapan Petugas',
+                    detail: [
+                        { text: '1) Semua petugas siap di nurse station' }
+                    ]
+                }
+        ]},
+        { step: 'Pelaksanaan', 
+            items: [
+                { desc: 'A. Kepala Ruangan/PP/Penanggungjawab shift memimpin operan' },
+                { desc: 'B. Sebelum kegiatan dimulai diawali membaca ayat suci Al-Quran atau kultum' },
+                { desc: 'C. PP/Pgj shift sebelumnya menyampaikan laporan kegiatan shift sebelumnya, meliputi : jumlah pasien, pasien yang perlu pengawasan/konsultasi/observasi ketat serta kondisi lain yang perlu disampaikan' },
+                { desc: 'D. Serah terima inventaris ruangan meliputi : nama barang, jumlah, kondisi barang dan hal-hal lain yang perlu diketahui oleh petugas berikutnya (sesuai petugas yg ditunjuk)' },
+                { desc: 'E. Perawat yang menerima laporan melakukan klarifikasi dan tanya jawab terhadap hal-hal yang kurang jelas' },
+                { desc: 'F. Kepala Ruangan/PP/Pgj shift berikutnya menerima laporan dan menandatangani buku komunikasi' },
+                { desc: 'G. Berdoa untuk kelancaran kegiatan hari ini dipimpin oleh seorang staf yang ditunjuk' },
+                { desc: 'H. Kepala Ruangan/PP/Pgj Shift melakukan timbang terima pasien secara berkeliling sesuai dengan timnya masing-masing dengan cara', 
+                    detail: [
+                        { text: '1) Mengucapkan salam “Contoh : Assalamualaikum... selamat pagi/siang/sore... (panggil nama pasien dengan sopan dan jelas)' },
+                        { text: '2) Menyapa pasien “Contoh : Maaf bapak/ibu kami mengganggu sebentar, karena akan serah terima dinas dengan shift berikutnya' },
+                        { text: '3) Mengenalkan  perawat pengganti shift berikutnya “ Contoh : Bapak/Ibu, kenalkan ini Sr/Br ... yang akan merawat bapak/ibu di shift pagi/siang/sore ini. Jika bapak/ibu perlu bantuan/ membutuhkan sesuatu hubungi saja Sr/Br ...' },
+                        { text: '4) Perawat yang akan berdinas menyapa pasien dan menganalisa keadaan umum serta lingkungan pasien  “Contoh : Bapak/Ibu ... (sebutkan nama) nanti saya yang akan merawat bapak/ibu dari pukul ... s.d. ...' },
+                        { text: '5) Sampaikan terima kasih dan ucapkan salam “Contoh : Baiklah Bapak/ibu, terimakasih atas waktunya, sekarang kami permisi dulu. Wassalamualaikum' },
+                        { text: '6) Khusus operan malam ke pagi, pada saat keliling ada perawat yang memimpin berdoa di depan pasien dan keluarga secara bergiliran' },
+                        { text: '7) Jika telah selesai operan keliling, semua perawat kembali ke nurse station dan masuk ke kelompok timnya masing-masing' }
+                    ]}
+            ]
+        }
+    ],
+    dokumenTerkait: ['Buku komunikasi perawat', 'Rekam medik pasien'],
+    instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', 'Instalasi Bedah Sentral', 'Instalasi Laboratorium', 'Instalasi Radiologi']
+    },
+    {
+    id: 625,
+    title: 'Ronde Keperawatan',
+    category: 'manajemen',
+    subCategory: 'keperawatanDasar',
+    description: 'Kegiatan diskusi kasus pasien untuk meningkatkan kemampuan klinis perawat dalam pengambilan keputusan asuhan keperawatan.',
+    icon: 'fa-stethoscope',
+    tags: ['Ronde', 'Diskusi Kasus', 'Asuhan Keperawatan', 'Clinical Reasoning'],
+    noDokumen: '445/SPO.3403/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Kegiatan yang bertujuan untuk mengatasi masalah keperawatan/kebidanan pasien yang dilaksanakan oleh perawat/bidan disamping melibatkan pasien untuk membahas dan melaksanakan asuhan keperawatan/kebidanan.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melaksanakan ronde keperawatan di ruang rawat untuk: \nMenumbuhkan cara berpikir kritis dan sistematis.\nMeningkatkan kemampuan validasi data pasien.\nMeningkatkan kemampuan menentukan diagnosis keperawatan/kebidanan.\nMenumbuhkan pemikiran tentang tindakan keperawatan/kebidanan yang berorientasi pada masalah pasien.\nMeningkatkan kemampuan memodifkasi rencana asuhan keperawatan/kebidanan.\nMeningkatkan kemampuan justifikasi. \nMeningkatkan kemampuan menilai hasil kerja',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        { step: 'Pra-Ronde', 
+            items: [
+                { desc: 'A. Menentukan kasus dan topik (masalah yang tidak teratasi dan masalah yang langka)' },
+                { desc: 'B. Menetukan tim ronde' },
+                { desc: 'C. Mencari sumber atau literatur' },
+                { desc: 'D. Membuat proposal' },
+                { desc: 'E. Mempersiapkan pasien : informed consent dan pengkajian' },
+                { desc: 'F. Diskusi :',
+                    detail: [
+                        { text: 'Apa diagnosis keperawatan/kebidanan? Apa data yg mendukung?' },
+                        { text: 'Bagaimana intervensi yang sudah dilakukan dan apa hambatan yang ditemukan selama perawatan?' }
+                    ]
+                }
+            ]
+        },
+        { step: 'Pelaksanaan Ronde', 
+            items: [
+                { desc: 'A. Penjelasan tentang pasien oleh perawat/bidan primer yang difokuskan pada masalah keperawatan/kebidanan dan rencana tindakan yang akan dilaksanakan dan atau telah dilaksanakan serta memilih prioritas yang perlu didiskusikan' },
+                { desc: 'B. Diskusi antar anggota tim tentang kasus tersebut'},
+                { desc: 'C. Pemberian justifikasi oleh perawat/bidan primer atau konselor atau kepala ruangan tentang rnasalah pasien serta rencana tindakan yang akan dilakukan' }
+            ]
+        },
+        { step: 'Pasca-ronde', 
+            items: [
+                { desc: 'A. Evaluasi, revisi, dan perbaikan' },
+                { desc: 'B. Kesimpulan dan rekomendasi penegakkan diagnosis; intervensi keperawatan/kebidanan selanjutnya'},
+            ]
+        },
+        { step: 'Peran Perawat/Bidan Primer dan Perawat/bidan Associate', 
+            items: [
+                { desc: 'A. Menjelaskan data pasien yang mendukung masalah pasien.' },
+                { desc: 'B. Menjelaskan diagnosis keperawatan/kebidanan.'},
+                { desc: 'C. Menjelaskan intervensi yang dilakukan.' },
+                { desc: 'D. Menjelaskan hasil yang didapat.' },
+                { desc: 'E. Menjelaskan rasional (alasan ilmiah) dari tindakan yang diambil.' },
+                { desc: 'F. Menggali masalah-masalah pasien yang belum terkaji.' }
+            ]
+        },
+        { step: 'Peran Perawat Konselor', 
+            items: [
+                {desc: 'A. Memberikan justifikasi.'},
+                {desc: 'B. Memberikan reinforcement.'},
+                {desc: 'C. Memvalidasi kebenaran dari masalah dan intervensi keperawatan serta rasional tindakan.'},
+                {desc: 'D. Mengarahkan dan koreksi.'},
+                {desc: 'E. Mengintegrasikan konsep dan teori yang telah dipelajari.'}
+            ]
+        },
+        { step: 'Kriteria Evaluasi', 
+            items: [
+                {desc: 'A. Struktur.', 
+                    detail: [
+                        { text: '1) Persyaratan administratif (Informed consent, alat, dan lainnya).' },
+                        { text: '2) Tim ronde keperawatan hadir di tempat pelaksanaan ronde keperawatan.' },
+                        { text: '3) Persiapan dilakukan sebelumnya.' }
+                    ]
+                },
+                {desc: 'B. Proses.', 
+                    detail: [
+                        { text: '1) Peserta mengikuti kegiatan dari awal hingga akhir.' },
+                        { text: '2) Seluruh peserta berperan aktif dalam kegiatan ronde sesuai peran yang telah ditentukan.' },
+                    ]
+                },                
+                {desc: 'C. Hasil.', 
+                    detail: [
+                        { text: '1) Pasien merasa puas dengan hasil pelayanan.' },
+                        { text: '2) Masalah pasien dapat teratasi.' },
+                        { text: '3) Perawat dapat:',
+                            subDetail: [
+                                '- Menumbuhkan cara berpikir yang kritis',
+                                '- Meningkatkan cara berpikir yang sistematis.',
+                                '- Meningkatkan kemampuan validitas data pasien.',
+                                '- Meningkatkan kemampuan menentukan diagnosis keperawatan.',
+                                '- Menumbuhkan pemikiran tentang tindakan keperawatan yang berorientasi pada masalah pasien.',
+                                '- Meningkatkan kemampuan memodifikasi rencana asuhan keperawatan.',
+                                '- Meningkatkan kemampuan justifikasi.',
+                                '- Meningkatkan kemampuan menilai hasil kerja.'
+                            ]
+                         }
+                    ]
+                }, 
+            ]
+        },
+    ],
+    dokumenTerkait: ['Laporan Ronde Keperawatan'],
+    instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Bedah Sentral', 'Instalasi Rawat Jalan', 'Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif']
+    },
+    {
+    id: 626,
+    title: 'Penulisan Rencana Harian Kerja',
+    category: 'manajemen',
+    subCategory: 'keperawatanDasar',
+    description: 'Kegiatan penyusunan rencana kerja harian untuk pengelolaan asuhan keperawatan.',
+    icon: 'fa-calendar-check',
+    tags: ['RKH', 'Perencanaan', 'Manajemen Keperawatan'],
+    noDokumen: '445/SPO.3404/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Merupakan proses pendefinisian tujuan organisasi dan kemudian menyusun strategi, taktik, dan rancangan tindakan yang diperlukan untuk mencapai tujuan.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam menyusun rencana kerja harian  pengelolaan asuhan keperawatan di ruang rawat.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        { step: 'Setelah melaksanakan operan', 
+            desc: 'Setelah melaksanakan operan, pada saat pre comference, Kepala Ruangan , Perawat Primer dan Perawat Assoasiate menyusun Rencana Kerja Harian sesuai dengan format yang telah ditetapkan' 
+        },
+        { step: 'Rencana Kerja Harian Kepala Ruangan',
+            items: [
+                { desc: 'A. Berisi tentang :',
+                    detail: [
+                    {text: '1) Kegiatan Rutin'},
+                    {text: '2) Supervisi Asuhan Keperawatan'},
+                    {text: '3) Supervisi Ka. Tim dan Perawat Pelaksana'},
+                    {text: '4) Supervisi SDM lain'},
+                    {text: '5) Supervisi lingkungan, dll.'}
+
+            ]},
+            {   desc: 'B. Panduan pengisian format sebagai berikut :',
+                detail: [
+                    { text: '1) Nama Kepala Ruangan' }, 
+                    { text: '2) Hari dan tanggal' },
+                    { text: '3) Persiapan' },
+                    { text: '4) Operan' },
+                    { text: '5) Pre Conference' },
+                    { text: '6) Cek SDM' },
+                    { text: '7) Cek kebutuhan pasien' },
+                    { text: '8) Interaksi dgn pasien' },
+                    { text: '9) Supervisi Tim I' },
+                    { text: '10) Supervisi Tim II' },
+                    { text: '11) Supervisi Tim Iii' },
+                    { text: '12) Rapat Koordinasi dgn...' },
+                    { text: '13) Istirahat' },
+                    { text: '14) Cek ulang pasien' },
+                    { text: '15) Buat RTL harian' },
+                    { text: '16) Buat laporan' },
+                    { text: '17) Operan' }
+
+                ]
+            }
+        ]},
+        { step: 'Rencana Kerja Harian Perawat Primer',
+            items: [
+                { desc: 'A. Berisi tentang :',
+                    detail: [
+                    {text: '1) Penyelenggaraan asuhan keperawatan pada pasien yang menjadi tanggung jawabnya.'},
+                    {text: '2) Supervisi anggota tim (Ronde PP pada PA)'},
+                    {text: '3) Kolaborasi dgn tim kesehatan'},
+                    {text: '4) Alokasi pasien kepada anggotanya'}
+            ]},
+            {   desc: 'B. Panduan pengisian format sebagai berikut :',
+                detail: [
+                    { text: '1) Melihat jadwal dinas pagi, siapa PA dalam tim' },
+                    { text: '2) Operan' },
+                    { text: '3) Pre comference dengan PA' },
+                    { text: '4) Merapihkan tempat tidur /perbeden' },
+                    { text: '5) Mengidentifikasi pemeriksaandiagnostik/laboratorium/rontgen' },
+                    { text: '6) Melengkapi pengkajian klien baru' },
+                    { text: '7) Mengidentifikasi/mengatur konsul' },
+                    { text: '8) Mengevaluasi /membuat renpra/ membaca status' },
+                    { text: '9) Diskusi dengan dokter tentang perkembangan pasien' },
+                    { text: '10) Melaksanakan tindakan mencatat hasil visite dokter' },
+                    { text: '11) Monitoring pelaksanaan tindakan dan membimbing PA (Ronde/supervisi PP ke PA)' },
+                    { text: '12) Membantu PA dalam tindakan yang bersifat Kritikal' },
+                    { text: '13) Dokumentasi /Membuat laporan perkembangan klien (SOAP)' },
+                    { text: '14) Menyusun RTL untuk sore dan malam' },
+                    { text: '15) Isoma bergantian dengan PA' },
+                    { text: '16) Pendidikan kesehatan bagi klien dan keluarga' },
+                    { text: '17) Post comference' },
+                    { text: '18) Operan dengan PA Sore' },
+                    { text: '19) Mengarahkan PA Sore' }
+                ]
+            },
+        ]},
+        { step: 'Rencana Kerja Harian Perawat Assosiate',
+            items: [
+                { desc: 'A. Berisi tentang :',
+                    detail: [
+                    { text: '1) Kegiatan Rutin' },
+                    { text: '2) Pelaksanaan Asuhan Keperawatan' },
+                    { text: '3) Evaluasi Formatif' }
+            ]},
+            {   desc: 'B. Panduan pengisian format sebagai berikut :',
+                detail: [
+                    { text: '1) Nama PA' },
+                    { text: '2) Hari dan tanggal' },
+                    { text: '3) Persiapan' },
+                    { text: '4) Operan' },
+                    { text: '5) Pre Conference' },
+                    { text: '6) Interaksi dgn pasien dalam melaksanakan tindakan keperawatan pasien 1,2,3,... Dst sesuai tanggungjawabnya.' },
+                    { text: '7) Evaluasi Formatif' },
+                    { text: '8) Post Comference' },
+                    { text: '9) Istirahat' }
+                ]
+            },
+        ]},
+    ],
+    dokumenTerkait: ['Rencana Kerja Harian', 'Rekam medik pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', 'Instalasi Hemodialisa']
     }
+
+
+
+
+    
 ];

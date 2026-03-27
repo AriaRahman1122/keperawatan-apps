@@ -65,7 +65,20 @@ function openModal(sop) {
 
         if (Array.isArray(input)) {
             return input
-                .map((line) => (typeof line === 'string' ? line.trim() : ''))
+                .map((line) => {
+                    if (typeof line === 'string') {
+                        const text = line.trim();
+                        return text ? { text, marker: undefined } : null;
+                    }
+
+                    if (line && typeof line === 'object') {
+                        const text = (line.text || line.desc || line.detail || '').trim();
+                        if (!text) return null;
+                        return { text, marker: line.marker, formula: line.formula };
+                    }
+
+                    return null;
+                })
                 .filter(Boolean);
         }
 
@@ -73,7 +86,8 @@ function openModal(sop) {
             return input
                 .split('\n')
                 .map((line) => line.trim())
-                .filter(Boolean);
+                .filter(Boolean)
+                .map((text) => ({ text, marker: undefined, formula: undefined }));
         }
 
         return [];
@@ -87,7 +101,7 @@ function openModal(sop) {
                 .split('\n')
                 .map((line) => line.trim())
                 .filter(Boolean)
-                .map((line) => ({ text: line, subDetail: [] }));
+                .map((line) => ({ text: line, subDetail: [], marker: undefined }));
         }
 
         const entries = Array.isArray(detailInput) ? detailInput : [detailInput];
@@ -95,7 +109,7 @@ function openModal(sop) {
         return entries
             .map((entry) => {
                 if (typeof entry === 'string') {
-                    return { text: entry.trim(), subDetail: [] };
+                    return { text: entry.trim(), subDetail: [], marker: undefined };
                 }
 
                 if (!entry || typeof entry !== 'object') {
@@ -109,7 +123,7 @@ function openModal(sop) {
                     return null;
                 }
 
-                return { text, subDetail };
+                return { text, subDetail, marker: entry.marker };
             })
             .filter(Boolean);
     };
@@ -126,13 +140,15 @@ function openModal(sop) {
 
         const renderedEntries = entries.map((entry) => {
             const parsed = splitListMarker(entry.text || '');
-            const lineMarker = indexed ? (parsed.marker || `${++autoNumber})`) : '';
+            const shouldHideMainMarker = entry.marker === false;
+            const lineMarker = indexed && !shouldHideMainMarker ? (parsed.marker || `${++autoNumber})`) : '';
             const lineContent = parsed.content || entry.text;
+            const mainMarkerClass = shouldHideMainMarker ? ' no-marker' : '';
 
             const mainLine = indexed
                 ? `
-                    <div class="step-detail-item step-detail-item-indexed">
-                        <span class="step-detail-marker">${lineMarker}</span>
+                    <div class="step-detail-item step-detail-item-indexed${mainMarkerClass}">
+                        <span class="step-detail-marker${shouldHideMainMarker ? ' marker-hidden' : ''}">${shouldHideMainMarker ? '&nbsp;' : lineMarker}</span>
                         <span class="step-detail-text">${lineContent}</span>
                     </div>
                 `
@@ -144,8 +160,16 @@ function openModal(sop) {
                         ${(() => {
                             const rows = [];
                             let formulaGroup = [];
-                            const isFormulaExpression = (text = '') => /=/.test(text)
-                                || (/[()]/.test(text) && /[xX×*\/+-]/.test(text));
+                            const isFormulaExpression = (text = '') => {
+                                const hasEquality = /=/.test(text);
+                                const hasNumericOperation =
+                                    /\b\d+(?:[.,]\d+)?\s*[xX×*\/+\-]\s*[A-Za-z0-9]+\b/.test(text)
+                                    || /\b[A-Za-z0-9]+\s*[xX×*\/+\-]\s*\d+(?:[.,]\d+)?\b/.test(text);
+                                const hasParenthesizedNumericOperation =
+                                    /\([^)]*\d[^)]*[xX×*\/+\-][^)]*\)/.test(text);
+
+                                return hasEquality || hasNumericOperation || hasParenthesizedNumericOperation;
+                            };
                             const isGivenValueLine = (text = '') => /^diberikan\b/i.test(text)
                                 && /\bbb\b/i.test(text)
                                 && /\d/.test(text);
@@ -169,14 +193,22 @@ function openModal(sop) {
                                 formulaGroup = [];
                             };
 
-                            entry.subDetail.forEach((subLine, idx, allLines) => {
+                            entry.subDetail.forEach((subEntry, idx, allLines) => {
+                                const subLine = typeof subEntry === 'string' ? subEntry : (subEntry?.text || '');
+                                const markerMode = typeof subEntry === 'object' ? subEntry.marker : undefined;
+                                const formulaMode = typeof subEntry === 'object' ? subEntry.formula : undefined;
+
                                 const subParsed = splitListMarker(subLine);
                                 const hasExplicitMarker = Boolean(subParsed.marker);
                                 const subMarker = hasExplicitMarker ? subParsed.marker : '';
                                 const subContent = subParsed.content || subLine;
 
-                                const previousRaw = idx > 0 ? allLines[idx - 1] : '';
-                                const nextRaw = idx < allLines.length - 1 ? allLines[idx + 1] : '';
+                                const previousRaw = idx > 0
+                                    ? (typeof allLines[idx - 1] === 'string' ? allLines[idx - 1] : (allLines[idx - 1]?.text || ''))
+                                    : '';
+                                const nextRaw = idx < allLines.length - 1
+                                    ? (typeof allLines[idx + 1] === 'string' ? allLines[idx + 1] : (allLines[idx + 1]?.text || ''))
+                                    : '';
                                 const previousParsed = splitListMarker(previousRaw || '');
                                 const nextParsed = splitListMarker(nextRaw || '');
                                 const previousContent = previousParsed.content || previousRaw;
@@ -186,7 +218,9 @@ function openModal(sop) {
                                 const isFormulaNote = /^keterangan\s*:/i.test(subContent);
                                 const isContextFormulaValue = isGivenValueLine(subContent)
                                     && (isFormulaExpression(previousContent) || isFormulaExpression(nextContent));
-                                const isFormulaRelated = isFormulaExpr || isFormulaNote || isContextFormulaValue;
+                                const isFormulaRelated = formulaMode === false
+                                    ? false
+                                    : (isFormulaExpr || isFormulaNote || isContextFormulaValue);
 
                                 if (isFormulaRelated) {
                                     formulaGroup.push({
@@ -199,11 +233,13 @@ function openModal(sop) {
 
                                 flushFormulaGroup();
 
-                                const displayMarker = subMarker || '-';
+                                const shouldHideMarker = markerMode === false;
+                                const displayMarker = shouldHideMarker ? '' : (subMarker || '-');
+                                const markerClass = shouldHideMarker ? ' no-marker' : '';
 
                                 rows.push(`
-                                    <div class="step-subdetail-item step-detail-item-indexed">
-                                        <span class="step-detail-marker">${displayMarker}</span>
+                                    <div class="step-subdetail-item step-detail-item-indexed${markerClass}">
+                                        <span class="step-detail-marker${shouldHideMarker ? ' marker-hidden' : ''}">${shouldHideMarker ? '&nbsp;' : displayMarker}</span>
                                         <span class="step-detail-text">${subContent}</span>
                                     </div>
                                 `);
@@ -283,12 +319,20 @@ function openModal(sop) {
         );
     };
 
-    const renderPengertian = (pengertianText) => {
+    const renderPengertian = (pengertianText, mode = 'auto') => {
         const value = (pengertianText || 'Tidak ada data').trim();
         const lines = value.split('\n').map((line) => line.trim()).filter(Boolean);
 
         if (lines.length <= 1) {
             return `<p>${value}</p>`;
+        }
+
+        if (mode === 'paragraph') {
+            return lines.map((line) => `<p>${line}</p>`).join('');
+        }
+
+        if (mode === 'list') {
+            return renderPointList(value, 'Tidak ada data');
         }
 
         const isAlphaItem = (line) => /^[a-zA-Z][\.)]\s+/.test(line);
@@ -369,7 +413,7 @@ function openModal(sop) {
 
         <div class="sop-detail-section">
             <div class="sop-detail-title"><i class="fas fa-info-circle"></i> Pengertian</div>
-            ${renderPengertian(sop.pengertian)}
+            ${renderPengertian(sop.pengertian, sop.pengertianFormat || 'auto')}
         </div>
 
         <div class="sop-detail-section">
