@@ -524,17 +524,37 @@ document.querySelectorAll('.faq-question').forEach(q => {
 });
 
 // Initialize all
+// document.addEventListener('DOMContentLoaded', function() {
+//     renderNews();
+//     renderAnnouncements();
+//     renderDokterPage();
+//     renderPasienPage();
+//     renderPerawatUmum();
+//     renderPerawatManajemen();
+//     renderTindakanCategories();
+    
+//     initDokterSearch();
+//     initPasienSearch();
+//     initPerawatSearches();
+//     initPerawatTabs();
+// });
+
+// Initialize all pages
 document.addEventListener('DOMContentLoaded', function() {
+    // Render berita dan pengumuman
     renderNews();
     renderAnnouncements();
-    renderDokterPage();
-    renderPasienPage();
-    renderPerawatUmum();
-    renderPerawatManajemen();
-    renderTindakanCategories();
     
-    initDokterSearch();
-    initPasienSearch();
-    initPerawatSearches();
-    initPerawatTabs();
+    // Inisialisasi halaman Umum, Manajemen, dan Tindakan
+    if (typeof initUmumPage === 'function') {
+        initUmumPage();
+    }
+    
+    if (typeof initManajemenPage === 'function') {
+        initManajemenPage();
+    }
+    
+    if (typeof initTindakanPage === 'function') {
+        initTindakanPage();
+    }
 });

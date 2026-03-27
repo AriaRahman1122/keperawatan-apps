@@ -48,12 +48,6 @@
                     </div>
                     <button class="login-btn" id="loginBtn">Login</button>
                     <div class="login-error" id="loginError"></div>
-                    <!-- <div class="demo-credentials">
-                        <p><i class="fas fa-info-circle"></i> Demo Credentials:</p>
-                        <p>Username: <strong>admin</strong> | Password: <strong>admin123</strong></p>
-                        <p>Username: <strong>perawat</strong> | Password: <strong>nurse123</strong></p>
-                        <p>Username: <strong>dokter</strong> | Password: <strong>doctor123</strong></p>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -77,8 +71,10 @@
 
             <div class="nav-links" id="navLinks">
                 <a class="nav-item active" data-page="beranda">Beranda</a>
-                <a class="nav-item" data-page="dokter">Dokter</a>
-                <a class="nav-item" data-page="perawat">Perawat</a>
+                <!-- Menu Keperawatan langsung dengan 3 pilihan -->
+                <a class="nav-item" data-page="umum">Umum</a>
+                <a class="nav-item" data-page="manajemen">Manajemen</a>
+                <a class="nav-item" data-page="tindakan">Tindakan</a>
                 <div class="user-info">
                     <i class="fas fa-user-circle"></i>
                     <span id="currentUser">User</span>
@@ -220,11 +216,11 @@
                 </div>
                 <div class="faq-item">
                     <div class="faq-question">
-                        Bagaimana cara mengakses SOP Perawat?
+                        Bagaimana cara mengakses SOP?
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
-                        Pilih menu Perawat, lalu pilih tab "Umum", "Manajemen Keperawatan", atau "Tindakan Keperawatan".
+                        Pilih menu "Umum", "Manajemen Keperawatan", atau "Tindakan Keperawatan" di navbar untuk melihat berbagai panduan prosedur.
                     </div>
                 </div>
                 <div class="faq-item">
@@ -257,102 +253,71 @@
             </div>
         </div>
 
-        <div id="dokter" class="page">
+        <!-- Page: Umum -->
+        <div id="umum" class="page">
             <div class="page-intro" data-aos="fade-up">
-                <h3><i class="fas fa-stethoscope"></i> SOP untuk Dokter</h3>
-                <p>Kumpulan Standar Operasional Prosedur yang dirancang khusus untuk praktik klinis dokter. Setiap SOP dilengkapi dengan alur detail, panduan langkah demi langkah, dan referensi terkini.</p>
+                <h3><i class="fas fa-hand-holding-heart"></i> SOP Umum Keperawatan</h3>
+                <p>Kumpulan Standar Operasional Prosedur umum yang berlaku untuk semua area keperawatan. Setiap SOP dilengkapi dengan alur detail, panduan langkah demi langkah, dan referensi terkini.</p>
             </div>
             
             <div class="page-search">
                 <div class="search-box">
                     <i class="fas fa-search"></i>
-                    <input type="text" class="page-search-input" data-page="dokter" placeholder="Cari SOP Dokter...">
+                    <input type="text" id="searchUmumPage" placeholder="Cari SOP Umum...">
                 </div>
             </div>
 
-            <div class="sop-grid" id="dokterGrid"></div>
+            <div class="sop-grid" id="umumGrid"></div>
         </div>
 
-        <div id="perawat" class="page">
+        <!-- Page: Manajemen Keperawatan -->
+        <div id="manajemen" class="page">
             <div class="page-intro" data-aos="fade-up">
-                <h3><i class="fas fa-hand-holding-heart"></i> Panduan Keperawatan</h3>
-                <p>Pilih tab di bawah untuk mengakses berbagai panduan prosedur keperawatan.</p>
+                <h3><i class="fas fa-clipboard-list"></i> Manajemen Keperawatan</h3>
+                <p>Kumpulan Standar Operasional Prosedur untuk manajemen keperawatan, termasuk administrasi, pengelolaan pasien, dan koordinasi tim.</p>
             </div>
-
-            <!-- Tabs - Centered -->
-            <div class="tabs-container">
-                <div class="tabs">
-                    <button class="tab-btn active" data-tab="umum">Umum</button>
-                    <button class="tab-btn" data-tab="manajemen">Manajemen Keperawatan</button>
-                    <button class="tab-btn" data-tab="tindakan">Tindakan Keperawatan</button>
-                </div>
-            </div>
-
-            <!-- Tab Content: Umum -->
-            <div class="tab-content active" id="tab-umum">
-                <div class="page-search">
-                    <div class="search-box">
-                        <i class="fas fa-search"></i>
-                        <input type="text" id="searchUmum" placeholder="Cari SOP Umum...">
-                    </div>
-                </div>
-                <div class="sop-grid" id="umumGrid"></div>
-            </div>
-
-            <!-- Tab Content: Manajemen Keperawatan -->
-            <div class="tab-content" id="tab-manajemen">
-                <div class="page-search">
-                    <div class="search-box">
-                        <i class="fas fa-search"></i>
-                        <input type="text" id="searchManajemen" placeholder="Cari SOP Manajemen...">
-                    </div>
-                </div>
-                <div class="sop-grid" id="manajemenGrid"></div>
-            </div>
-
-            <!-- Tab Content: Tindakan Keperawatan -->
-            <div class="tab-content" id="tab-tindakan">
-                <!-- Search untuk kategori -->
-                <div class="page-search">
-                    <div class="search-box">
-                        <i class="fas fa-search"></i>
-                        <input type="text" id="categorySearch" placeholder="Cari kategori...">
-                    </div>
-                </div>
-                
-                <!-- Tampilan kategori -->
-                <div id="categoryContainer">
-                    <div class="category-grid" id="categoryGrid"></div>
-                </div>
-                
-                <!-- Tampilan SOP berdasarkan kategori -->
-                <div id="sopByCategoryContainer" style="display: none;">
-                    <button class="back-btn" id="backToCategories"><i class="fas fa-arrow-left"></i> Kembali ke Kategori</button>
-                    <div class="page-search">
-                        <div class="search-box">
-                            <i class="fas fa-search"></i>
-                            <input type="text" id="categorySearchInput" placeholder="Cari dalam kategori ini...">
-                        </div>
-                    </div>
-                    <div class="sop-grid" id="tindakanSopGrid"></div>
-                </div>
-            </div>
-        </div>
-
-        <div id="pasien" class="page">
-            <div class="page-intro" data-aos="fade-up">
-                <h3><i class="fas fa-users"></i> Panduan untuk Pasien</h3>
-                <p>Informasi dan prosedur yang perlu diketahui pasien sebelum, selama, dan setelah menjalani perawatan. Disusun dengan bahasa yang mudah dipahami agar pasien lebih siap dan nyaman.</p>
-            </div>
-
+            
             <div class="page-search">
                 <div class="search-box">
                     <i class="fas fa-search"></i>
-                    <input type="text" class="page-search-input" data-page="pasien" placeholder="Cari Panduan Pasien...">
+                    <input type="text" id="searchManajemenPage" placeholder="Cari SOP Manajemen...">
                 </div>
             </div>
 
-            <div class="sop-grid" id="pasienGrid"></div>
+            <div class="sop-grid" id="manajemenGrid"></div>
+        </div>
+
+        <!-- Page: Tindakan Keperawatan -->
+        <div id="tindakan" class="page">
+            <div class="page-intro" data-aos="fade-up">
+                <h3><i class="fas fa-route"></i> Tindakan Keperawatan</h3>
+                <p>Kumpulan Standar Operasional Prosedur untuk tindakan keperawatan spesifik berdasarkan kategori. Pilih kategori di bawah untuk melihat prosedur yang tersedia.</p>
+            </div>
+            
+            <!-- Search untuk kategori -->
+            <div class="page-search">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="categorySearch" placeholder="Cari kategori...">
+                </div>
+            </div>
+            
+            <!-- Tampilan kategori -->
+            <div id="categoryContainer">
+                <div class="category-grid" id="categoryGrid"></div>
+            </div>
+            
+            <!-- Tampilan SOP berdasarkan kategori -->
+            <div id="sopByCategoryContainer" style="display: none;">
+                <button class="back-btn" id="backToCategories"><i class="fas fa-arrow-left"></i> Kembali ke Kategori</button>
+                <div class="page-search">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="categorySearchInput" placeholder="Cari dalam kategori ini...">
+                    </div>
+                </div>
+                <div class="sop-grid" id="tindakanSopGrid"></div>
+            </div>
         </div>
 
         <!-- Modal -->
@@ -380,9 +345,9 @@
                     <h4>Navigasi</h4>
                     <ul class="footer-links">
                         <li><a href="#" class="nav-footer" data-page="beranda"><i class="fas fa-chevron-right"></i> Beranda</a></li>
-                        <li><a href="#" class="nav-footer" data-page="dokter"><i class="fas fa-chevron-right"></i> Dokter</a></li>
-                        <li><a href="#" class="nav-footer" data-page="perawat"><i class="fas fa-chevron-right"></i> Perawat</a></li>
-                        <!-- <li><a href="#" class="nav-footer" data-page="pasien"><i class="fas fa-chevron-right"></i> Pasien</a></li> -->
+                        <li><a href="#" class="nav-footer" data-page="umum"><i class="fas fa-chevron-right"></i> Umum</a></li>
+                        <li><a href="#" class="nav-footer" data-page="manajemen"><i class="fas fa-chevron-right"></i> Manajemen Keperawatan</a></li>
+                        <li><a href="#" class="nav-footer" data-page="tindakan"><i class="fas fa-chevron-right"></i> Tindakan Keperawatan</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -428,17 +393,15 @@
     <!-- Data Modules -->
     <script src="js/data/newsData.js"></script>
     <script src="js/data/announcementsData.js"></script>
-    <script src="js/data/sopDataDokter.js"></script>
-    <script src="js/data/sopDataPasien.js"></script>
     <script src="js/data/sopDataPerawatUmum.js"></script>
     <script src="js/data/sopDataPerawatManajemen.js"></script>
     <script src="js/data/sopDataPerawatTindakan.js"></script>
     <script src="js/data/categoryData.js"></script>
     
     <!-- Page Modules -->
-    <script src="js/pages/dokter.js"></script>
-    <script src="js/pages/pasien.js"></script>
-    <script src="js/pages/perawat.js"></script>
+    <script src="js/pages/perawatUmum.js"></script>
+    <script src="js/pages/perawatManajemen.js"></script>
+    <script src="js/pages/perawatTindakan.js"></script>
     
     <!-- Login & Main App -->
     <script src="js/auth.js"></script>
