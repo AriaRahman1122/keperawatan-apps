@@ -6287,23 +6287,6 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
 
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -6789,6 +6772,4896 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
         dokumenTerkait: ['Status Pasien'],
         instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif']
     },
+    {
+    id: 1408,
+    title: 'Memasang Selang Penduga Lambung (NGT)',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Tindakan keperawatan memasukan selang melalui hidung sampai ke lambung / Naso Gastrik Tube (NGT).',
+    icon: 'fa-lungs',
+    tags: ['NGT', 'Nasogastric Tube', 'Selang Lambung', 'Pemasangan NGT', 'Lambung'],
+    noDokumen: '445/SPO.3415/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu tindakan keperawatan memasukan selang melalui hidung sampai ke lambung / Naso Gastrik Tube (NGT).',
+    tujuan: 'Sebagai acuan penerapan langkah – langkah dalam hal pemasangan selang selang NGT.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Selang NGT, dengan nomor sesuai  kebutuhan' },
+                        { text: 'Bak instrumen' },
+                        { text: 'Sepasang sarung tangan' },
+                        { text: 'Jelly' },
+                        { text: 'kassa dan atau pinset' },
+                        { text: 'Plester dan gunting' },
+                        { text: 'Stetoscope' },
+                        { text: 'Air dalam gelas/cangkir/mangkuk' },
+                        { text: 'Bengkok' },
+                        { text: 'Perlak dan alas perlak' },
+                        { text: 'Spuit 50 cc' },
+                        { text: 'Baki' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien dan keluarga diberi penjelasan tentang prosedur dan tujuan tindakan yang akan dilakukan.' },
+                        { text: 'Mengatur posisi pasien, terlentang tanpa bantal atau duduk bagi pasien yang sesak.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Skherm disekitar pasien ditutup, bedplang tempat tidur pasien dibuka agar memudahkan perawat bekerja maksimal.', marker: false }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Cuci tangan' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas' },
+                { desc: 'Pasang perlak dan alasnya didada pasien' },
+                { desc: 'Pakai sarung tangan' },
+                { desc: 'Ucapkan Bismillahirrohmanirrohiim' },
+                { desc: 'Tentukan panjang NGT yang masuk ke dalam lambung dengan cara mengukur dari procesus xypoides ke dahi/hidung dan dari hidung ke telinga kemudian beri tanda.' },
+                { desc: 'Beri jelly secukupnya di ujung selang yang akan masuk ke lambung.' },
+                { desc: 'Tutup pangkal NGT dengan cara ditekuk / diklem.' },
+                { desc: 'Masukan NGT pelan-pelan ke dalam lambung melalui lubang hidung hingga mencapai batas yang telah diberi tanda, atur posisi pasien dengan posisi kepala flexi sampai terlihat pasien menelan selang / selang masuk ke saluran oesopagus, kemudian ekstensikan kepala, agar selang betul-betul masuk saluran cerna dan mencegah agar tidak masuk saluran napas lalu  flexi kembali sesuai dengan anatomi mulut, faryng dan oesofagus. Bagi pasien sadar dianjurkan untuk menelan selang NGT perlahan-lahan.' },
+                {
+                    desc: 'Pastikankan NGT masuk ke dalam lambung dengan cara :',
+                    detail: [
+                        { text: 'Masukan ujung NGT sampai terendam dalam mangkuk berisi air, jika tidak mengeluarkan gelembung udara berarti NGT masuk ke dalam lambung dan jika air bergelembung udara berarti NGT masuk saluran pernafasan sehingga harus dicabut lagi.' },
+                        { text: 'Cara kedua adalah dengan memasukkan udara melalui spuit ke dalam selang NGT, jika terdengar suara “blub” (melalui stetoscope pada daerah lambung) berarti NGT posisinya tepat ada di dalam lambung.' },
+                        { text: 'Cara ketiga adalah dengan melihat/meretensi adanya cairan yang keluar dari selang NGT dari lambung.' }
+                    ]
+                },
+                { desc: 'Fiksasi selang NGT di ujung lubang hidung dan pipi.' },
+                { desc: 'Beri label tanggal dan jam pemasangan NGT di selang NGT.' },
+                { desc: 'Atur posisi pasien kembali  sampai pasien merasa nyaman.' },
+                { desc: 'Alat – alat dirapihkan kembali di atas baki.' },
+                { desc: 'Sarung tangan dilepaskan.' },
+                { desc: 'Bedplang dipasang kembali.' },
+                { desc: 'Ucapkan alhamdulillah.' },
+                { desc: 'Buang sampah sesuai jenisnya.' },
+                { desc: 'Cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Perawat mengevaluasi reaksi pasien setelah pemasangan NGT meliputi produksi cairan lambung yang keluar dan adanya keluhan mual atau muntah.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Perawat mencatat respon pasien setelah terpasang NGT di buku rekam medik pasien beserta tanggal dan jam pemasangan NGT.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif']
+    },
+    {
+    id: 1408,
+    title: 'Merawat Selang NGT',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu tindakan keperawatan merawat pemasangan selang penduga lambung / Naso Gastrik Tube (NGT).',
+    icon: 'fa-lungs',
+    tags: ['NGT', 'Selang NGT', 'Naso Gastrik Tube'],
+    noDokumen: '445/SPO.3416 /Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu tindakan keperawatan merawat pemasangan selang penduga lambung / Naso Gastrik Tube (NGT).',
+    tujuan: 'Sebagai acuan penerapan langkah – langkah tindakan merawat selang NGT.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki' },
+                        { text: 'Bak instrumen' },
+                        { text: 'Sepasang sarung tangan' },
+                        { text: 'Plester dan gunting' },
+                        { text: 'Stetoscope' },
+                        { text: 'Air dalam gelas/cangkir/mangkuk' },
+                        { text: 'Bengkok' },
+                        { text: 'Perlak dan alas perlak' },
+                        { text: 'Spuit 50 cc' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien dan keluarga diberi penjelasan tentang prosedur dan tutjuan tindakan yang akan dilakukan.' },
+                        { text: 'Mengatur posisi pasien, terlentang ataupun duduk.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Skherm disekitar pasien ditutup, bedplang tempat tidur pasien dibuka agar memudahkan perawat bekerja maksimal.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan Bismillahirrohmaniirrohiim.' },
+                { desc: 'Memasang perlak dan alasnya didada pasien.' },
+                { desc: 'Pakai sarung tangan.' },
+                {
+                    desc: 'Pastikankan NGT ada di dalam lambung dengan cara :',
+                    detail: [
+                        { text: 'Masukkan ujung NGT sampai terendam dalam mangkuk berisi air, jika tidak mengeluarkan gelembung udara berarti NGT ada di dalam lambung dan jika air bergelembung udara berarti NGT masuk saluran pernafasan harus segera dicabut.' },
+                        { text: 'Cara ketiga adalah dengan melihat/meretensi adanya cairan yang keluar dari selang NGT dari lambung.' },
+                        { text: 'Cara kedua adalah dengan memasukkan udara melalui spuit ke dalam selang NGT, jika terdengar suara “blub” (melalui Stetoskop pada daerah lambung) berarti NGT posisinya tept' }
+                    ]
+                },
+                { desc: 'Buka plester fiksasi NGT kemudian ganti dengan yang baru' },
+                { desc: 'Alat-alat dirapihkan, bedplang dipasang kembali.' },
+                { desc: 'Ucapkan Alhamdulillah.' },
+                { desc: 'Buang sampah sesuai jenisnya.' },
+                { desc: 'Cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Perawat mengevaluasi reaksi pasien setelah perawatan NGT meliputi produksi cairan lambung yang keluar dan adanya keluhan mual atau muntah.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Catat respon pasien setelah NGT dirawat di buku rekam medik pasien beserta tanggal dan jam perawatan NGT.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif'
+    ]
+    },
+    {
+    id: 1409,
+    title: 'Melepas / Mencabut Selang NGT',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu tindakan keperawatan pelepasan / pencabutan selang penduga lambung / Naso Gastrik Tube (NGT).',
+    icon: 'fa-lungs',
+    tags: ['NGT', 'Pelepasan NGT', 'Pencabutan NGT'],
+    noDokumen: '445/SPO. 3417/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu tindakan keperawatan pelepasan / pencabutan selang penduga lambung / Naso Gastrik Tube (NGT).',
+    tujuan: 'Sebagai acuan penerapan langkah – langkah tindakan keperawatan pelepasan / pencabutan selang penduga lambung (NGT).',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki' },
+                        { text: 'Bak instrumen' },
+                        { text: 'Sepasang sarung tangan on steril' },
+                        { text: 'Kapas wash bensin' },
+                        { text: 'Stetoscope' },
+                        { text: 'Bengkok' },
+                        { text: 'Perlak dan alas perlak' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien dan keluarga diberi penjelasan tentang prosedur dan tujuan tindakan yang akan dilakukan.' },
+                        { text: 'Mengatur posisi pasien, terlentang ataupun duduk.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Skherm disekitar pasien ditutup, bedplang tempat tidur pasien dibuka agar memudahkan perawat bekerja maksimal.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bissmillahirrohmanirrohiim.' },
+                { desc: 'Pasang perlak dan alasnya didada pasien.' },
+                { desc: 'Pakai sarung tangan.' },
+                { desc: 'Observasi bising usus dan reflek menelan pasien.' },
+                { desc: 'Buka plester fiksasi NGT dengan cara diolesi dulu kapas wash bensin.' },
+                { desc: 'Lipat ujung NGT sehingga selang tertutup.' },
+                { desc: 'Cabut perlahan – lahan selang NGT sampai selesai.' },
+                { desc: 'Letakan NGT bekas di bengkok.' },
+                { desc: 'Bersihkan bekas pemasangan plester fiksasi di hidung dan pipi.' },
+                { desc: 'Alat – alat dirapihkan, bedplang dipasang kembali.' },
+                { desc: 'Ucapkan alhamdulillah.' },
+                { desc: 'Buang sampah sesuai jenisnya.' },
+                { desc: 'Cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Pantau reaksi pasien setelah pencabutan selang NGT meliputi keluhan nyeri menelan, mual atau muntah.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan dalam rekam medik pasien meliputi reaksi setelah tindakan, tanggal dan jam pencabutan NGT.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif'
+    ]
+},
+{
+    id: 1410,
+    title: 'Memberi Makan Peroral',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Adalah suatu kegiatan memberikan nutrisi berupa makanan kepada pasien melalui oral / mulut untuk memenuhi kebutuhan nutrisi pasien.',
+    icon: 'fa-utensils',
+    tags: ['Makan Peroral', 'Nutrisi', 'Feeding'],
+    noDokumen: '445/SPO.3418/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Adalah suatu kegiatan memberikan nutrisi berupa makanan kepada pasien melalui oral / mulut untuk memenuhi kebutuhan nutrisi pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah – langkah dalam melaksanakan tindakan keperawatan memberi nutrisi berupa makanan kepada pasien per oral untuk memenuhi kebutuhan nutrisinya.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Makanan sesuai diet pasien pada tempatnya.' },
+                        { text: 'Air minum pada tempatnya.' },
+                        { text: 'Serbet makan/tissue.' },
+                        { text: 'Bengkok (bila diperlukan).' },
+                        { text: 'Meja makan pasien.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien atau keluarga diberi penjelasan tentang tindakan yang akan dilakukan' },
+                        { text: 'pasien diposisikan kepala lebih tinggi / setengah duduk.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Skherm disekitar pasien ditutup, bedplang tempat tidur pasien dibuka agar memudahkan perawat bekerja maksimal.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Cuci tangan sebelum tindakan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Pasang serbet makan dibawah dagu pasien.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim dan pasien dibimbing untuk berdoa sebelum makan.' },
+                { desc: 'Suapi pasien makanan dengan tidak terburu-buru.' },
+                { desc: 'Beri minum setelah selesai makan.' },
+                { desc: 'Bersihkan daerah sekitar mulut dengan tissue atau serbet makan.' },
+                { desc: 'Ucapkan alhamdulillah dan doa setelah makan.' },
+                { desc: 'Alat-alat dikembalikan ke tempat semula.' },
+                { desc: 'Cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi reaksi pasien setelah makan meliputi mual, muntah atau perasaan tidak nyaman.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan dalam catatan rekam medik pasien meliputi : jam pelaksanaan, porsi makan dan reaksi setelah makan.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif'
+    ]
+    },
+    {
+    id: 1411,
+    title: 'Menyiapkan Obat Injeksi dari Ampul dan Vial',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan menyiapkan obat suntikan (injeksi) dari ampul atau vial, secara aman dan benar.',
+    icon: 'fa-syringe',
+    tags: ['Obat Injeksi', 'Ampul', 'Vial'],
+    noDokumen: '445/SPO.3419 /Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan menyiapkan obat suntikan (injeksi) dari ampul atau vial, secara aman dan benar.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan keperawatan menyiapkan obat suntikan, untuk memperlancar pelayanan keperawatan.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Obat-obat yang akan diberikan dalam tempatnya.' },
+                        { text: 'Bak spuit yang telah diberi alas kassa steril.' },
+                        { text: 'Cairan pelarut (aquabidest) atau normal saline.' },
+                        { text: 'Spuit dan needle dissposible sesuai kebutuhan.' },
+                        { text: 'Kapas alcohol.' },
+                        { text: 'Kikir ampul dan kassa 1 lembar.' },
+                        { text: 'Label untuk etiket obat.' },
+                        { text: 'Bengkok.' },
+                        { text: 'Kartu obat / Rencana Kegiatan Harian (RKH) yang mencantumkan secara lengkap ; nama pasien, nomor medrek, nama dan dosis obat, jadwal pemberian obat.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien atau keluarga diberi penjelasan tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Dilakukan di ruang tindakan atau di meja dekat pasien.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Cuci tangan.' },
+                { desc: 'B. Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'C. Baca etiket obat untuk mencegah kekeliruan.' },
+                { desc: 'D. Perawat membaca bismillahirrohmanirrohiim.' },
+                {
+                    desc: 'E. Siapkan obat injeksi dari :',
+                    detail: [
+                        { text: '1) OBAT AMPUL',
+                            subDetail: [
+                                { text: 'a) Gerakan ampul secara memutar agar obat seluruhnya berada pada bagian bawah.' },
+                                { text: 'b) Patahkan leher ampul kearah menjauhi perawat dan orang lain dengan cara : pegang bagian atas ampul dengan kain kassa, pegang bagian bawah ampul oleh tangan yang lain, lalu tarik kedua bagian ampul tersebut kearah berlawanan, gunakan kikir ampul jika proses pematahan terasa sulit.' },
+                                { text: 'c) Masukan cairan pelarut ke dalam ampul, kocok hingga larut' },
+                                { text: 'd) Aspirasi obat sesuai kebutuhan dengan spuit.' },
+                                { text: 'e) Keluarkan sisa udara yang ada dalam spuit.' },
+                                { text: 'f) Beri Label pada spuit yang telah diisi obat, meliputi ; nama pasien, nama obat dan dosis.' },
+                                { text: 'g) Buang ampul bekas ketempat khusus yang telah di sediakan.' },
+                            ]
+                         },
+                        { text: '2) OBAT VIAL',
+                            subDetail: [
+                                { text: 'Buka kap plastik / metal pada vial.' },
+                                { text: 'Masukan cairan pelarut sesuai kebutuhan, kemudian tarik udara dalam vial, tarik spuit.' },
+                                { text: 'Kocok-kocok vial sampai dengan homogen dengan tutup karet di tahan oleh kapas alkohol.' },
+                                { text: 'Aspirasi obat sesuai kebutuhan, dengan rumus pengoplosan sebagai berikut ;' },
+                                { text: 'D/H x V = A', formula: false, marker: false },
+                                { text: 'Keterangan :', formula: false, marker: false },
+                                { text: 'D = dosis yang diinginkan', formula: false, marker: false },
+                                { text: 'H = sediaan yang ada', formula: false, marker: false },
+                                { text: 'V = pelarut', formula: false, marker: false },
+                                { text: 'A = jumlah dalam ml', formula: false, marker: false },
+                                { text: 'Contoh :' },
+                                { text: 'Pasien memperoleh dosis obat 400 mg (D)', marker: false },
+                                { text: 'Obat yang tersedia 1000 mg (H)', marker: false },
+                                { text: 'Obat dioplos sebanyak 5 ml (H)', marker: false },
+                                { text: 'Jadi :', marker: false },
+                                { text: '(400 mg/1000 mg) x 5 ml = 2 ml', formula: false, marker: false },
+                                { text: 'Keluarkan sisa udara yang ada dalam spuit.' },
+                                { text: 'Ganti niddle spuit (untuk pemberian intravena langsung).' },
+                                { text: 'Beri Label pada spuit yang telah diisi obat, meliputi ; nama pasien, nama obat, dan dosis.' },
+                                { text: 'Buang vial dan niddle bekas ketempat khusus yang telah di sediakan.' }
+                            ]
+                         },
+                    ]
+                },
+                { desc: 'Perawat membaca Hamdalah.' },
+                { desc: 'Alat-alat dirapikan dan dibereskan ketempat semula.' },
+                { desc: 'Perawat cuci tangan, selanjutnya obat diberikan kepada pasien sesuai prosedur.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Respon pasien setelah diberikan obat.' },
+                { desc: 'tanda-tanda vital'},
+                { desc: 'Reaksi alergi.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan di rekam medis pasien meliputi : jenis obat, jam pelaksanaan, dosis obat.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Rawat jalan',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1412,
+    title: 'Pemberian Obat Parenteral (Intracutan, Subcutan, Intravena, Intramuskuler)',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan memberikan obat tertentu ke dalam jaringan tubuh dengan menyuntikan (injeksi), secara intravena, intramuskuler, intracutan, dan subcutan.',
+    icon: 'fa-syringe',
+    tags: ['Obat Parenteral', 'Injeksi', 'Intracutan', 'Subcutan', 'Intravena', 'Intramuskuler'],
+    noDokumen: '445/SPO.3420/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memberikan obat tertentu kedalam jaringan tubuh dengan menyuntikan (injeksi), secara : intravena, intramuskuler, intracutan, subcutan, dengan memperhatikan prinsip-prinsip :\nPrinsip aseptik\nMembaca etiket nama obat dengan benar\nMembaca dosis obat dengan benar\nMemastikan obat yang diberikan kepada orang dengan benar\nMemberikan obat pada jadwal yang telah ditentukan\nMemberikan obat dengan cara yang benar\nmendokumentasikan obat yang telah diberikan dengan benar.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan keperawatan dalam memberikan obat melalui suntikan, untuk memperlancar tindakan dalam pelayanan keperawatan.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Meja atau baki' },
+                        { text: 'Obat-obat yang siap diberikan' },
+                        { text: 'Bak spuit yang telah diberi alas kassa steril' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Kapas alcohol' },
+                        { text: 'Torniket / karet pembendung (intravena)' },
+                        { text: 'Plester dan gunting (intravena)' },
+                        { text: 'Alas kerja' },
+                        { text: 'Bengkok' },
+                        { text: 'Kartu obat / Rencana Kegiatan Harian (RKH) yang mencantumkan secara lengkap ; nama pasien, nomor medrek, jenis dan nama obat, dosis obat, jadwal pemberian obat' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberikan penjelasan tentang tindakan yang akan dilakukan'
+                },
+                {
+                    desc: 'Persiapan Lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Perawat cuci tangan' },
+                { desc: 'B. Memberikan salam dan tersenyum' },
+                { desc: 'C. Cocokan nama pasien dengan gelang identitas' },
+                { desc: 'D. Baca etiket obat untuk mencegah kekeliruan (nama obat, dosis dan rute pemberian)' },
+                { desc: 'E. Dekatkan alat-alat' },
+                { desc: 'F. Perawat membaca Basmalah' },
+                { desc: 'G. Atur posisi pasien sesuai kebutuhan' },
+                { desc: 'H. Gunakan sarung tangan' },
+                { desc: 'I. Pasang alas kerja' },
+                {
+                    desc: 'J. Pemberian Intra Kutan',
+                    detail: [
+                        { text: '1) Desinfeksi area yang akan ditusuk, lalu tegangkan dengan tangan kiri, area yang lajim digunakan ; Permukaan ventral lengan bawah, dada bagian atas area klavikula, punggung dada area skapula, dan permukaan medial paha.' },
+                        { text: '2) Jarum ditusukan dengan lubang jarum menghadap keatas dan membentuk sudut 15 0 sampai 20 0 dengan permukaan kulit (Jarum yang digunakan biasanya no 26, 27)' },
+                        { text: '3) Masukan obat sampai permukaan kulit yang disuntik mengembung sesuai kebutuhan' },
+                        { text: '4) Tarik jarum dengan cepat, bekas tusukan jarum tidak boleh ditekan dan dihapus dengan kapas alkohol' },
+                        { text: '5) Buat lingkaran dengan ballpoint diameter 2, cm di sekitar tempat yang menggembung' },
+                        { text: '6) Setelah jangka waktu yang telah ditentukan, lihat dan catat reaksi pasien yang terjadi pada area penusukan. hasilnya segera laporkan kepada penanggung jawab ruangan / dokter yang bersangkutan untuk menentukan tindakan selanjutnya.' }
+                    ]
+                },
+                {
+                    desc: 'K. Pemberian Subkutan',
+                    detail: [
+                        { text: '1) Desinfeksi area yang akan ditusuk, lalu angkat sedikit dengan tangan kiri (seperti dicubit). area tempat penyuntikan ; abdomen, paha atas, paha sisi lateral, lengan atas.' },
+                        { text: '2) Jarum ditusukan dengan lubang jarum menghadap keatas dan membentuk sudut 45 0 – 90 0 dengan permukaan kulit' },
+                        { text: '3) Tarik plunger spuit untuk menentukan tidak mengenai pembuluh darah, jika tidak ada darah, masukan obat dengan perlahan-lahan' },
+                        { text: '4) Setelah obat masuk semua, tarik jarum dengan cepat, bekas tusukan jarum ditekan dengan kapas alkohol' }
+                    ]
+                },
+                {
+                    desc: 'L. Pemberian Intra Vena',
+                    detail: [
+                        { text: '1) Pasang torniket 15 cm diatas area penusukan' },
+                        { text: '2) Pilih pembuluh darah vena yang akan ditusuk, lokasi penyuntikan yang lajim antara lain pada lengan ; V mediana cubiti, V chepalika, V basilika, V radialis. pada tungkai ; V saphenous. pada kepala ;  V frontalis, V temporalis (anak)' },
+                        { text: '3) Desinfeksi area yang akan ditusuk dengan kapas alkohol tunggu sampai kering dan ditegangkan' },
+                        { text: '4) Jarum ditusukan dengan lubang jarum menghadap keatas pada posisi 300, tusukan kedalam pembuluh darah vena, Tarik plunger spuit untuk menentukan mengenai pembuluh darah, jika ada darah, rendahkan posisi jarum sejajar kulit, bukalah karet pembendung, masukan obat dengan per lahan sampai habis' },
+                        { text: '5) Jika obat diberikan melalui selang infus',
+                            subDetail: [
+                                { text: 'Cek kepatenan infus, jika darah tempak keluar dari slang infus maka obat bisa dimasukan' },
+                                { text: 'Lakukan desinfeksi area karet untuk penyuntikan' },
+                                { text: 'Hentikan tetesan infus dengan memutar stopcock ke arah pasien' },
+                                { text: 'Masukan obat secara perlahan-lahan' },
+                                { text: 'Setelah obat masuk semua, tarik jarum agak cepat, teteskan kembali cairan infus yang tersedia sesuai dengan program' },
+                                { text: 'Setelah obat masuk semua, tarik jarum agak cepat dengan sudut yang sama ketika jarum dimasukan, bekas tusukan jarum ditekan beberapa saat dengan kapas alkohol.' }
+                            ]
+                        },
+                    ]
+                },
+                {
+                    desc: 'M. Pemberian Intra Muskuler',
+                    detail: [
+                        { text: 'Tentukan area yang akan disuntik, yaitu muskulus deltoid, dorso gluteal, ventro gluteal dan vastus lateralis (1/3 SIAS illiaka psoas mayor, 1/3 muskulus femoralis bagian luar), pastikan nidlle pada spuit obat adalah baru' },
+                        { text: 'Desinfeksi area yang akan ditusuk dengan kapas alkohol' },
+                        { text: 'Tusukan jarum tegak lurus dengan posisi 90 0' },
+                        { text: 'Tarik plunger spuit untuk menentukan mengenai otot, jika ada darah, tarik sedikit, tarik kembali planger, jika tidak terdapat darah, masukan obat dengan perlahan' },
+                        { text: 'Setelah obat masuk semua, tarik jarum dengan cepat, bekas tusukan jarum ditekan dengan kapas alkohol' },
+                    ]
+                },
+                { desc: 'N. Perhatikan reaksi pasien setelah obat dimasukan' },
+                { desc: 'O. Perawat membaca Hamdalah, Memberikan Salam dan tersenyum' },
+                { desc: 'P. Alat-alat dirapikan dan dibereskan ketempat semula' },
+                { desc: 'Q. Perawat cuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Respon pasien setelah diberikan obat.' },
+                { desc: 'tanda-tanda vital'},
+                { desc: 'Reaksi alergi.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            items: [
+                {
+                    desc: 'Dokumentasikan kegiatan dalam catatan asuhan keperawatan dan kartu obat :', 
+                    detail: [
+                        { text: 'jenis obat'},
+                        { text: 'jam pemberian'},
+                        { text: 'cara pemberian'},
+                        { text: 'dosis obat'}
+                    ]
+                }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Rawat jalan',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1413,
+    title: 'Skin Test',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan memasukan test obat secara benar dan efektif untuk menghindari terjadinya alergi obat.',
+    icon: 'fa-syringe',
+    tags: ['Skin Test', 'Tes Alergi', 'Obat Injeksi'],
+    noDokumen: '445/SPO.3421/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memasukan test obat secara benar dan efektif untuk menghindari terjadinya alergi obat.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah melaksanakan tindakan test obat suntik (skin test), untuk mengetahui reaksi alergi pasien terhadap obat injek.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki' },
+                        { text: 'Aquabidest' },
+                        { text: 'Obat-obat yang akan diberikan dalam tempatnya' },
+                        { text: 'Bak spuit berisi : kapas alcohol' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Spuit 1 cc disposible' },
+                        { text: 'Nidle (nomor 25 / 26 / 27)' },
+                        { text: 'Perlak dan alas perlak' },
+                        { text: 'Bengkok' },
+                        { text: 'Kartu obat / Rencana Kegiatan Harian (RKH) yang mencantumkan secara lengkap ; nama pasien, nomor medrek, jenis, dosis dan nama obat, jadwal pemberian obat.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien diberikan penjelasan tentang tindakan yang akan dilakukan.', marker: false },
+                    ]
+                        
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.', marker: false }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Baca etiket obat untuk mencegah kekeliruan.' },
+                { desc: 'Perawat membaca basmalah.' },
+                { desc: 'Gunakan sarung tangan.' },
+                { desc: 'Pasang perlak dengan alasnya.' },
+                { desc: 'Ambil 0,1 ml obat yang telah di oplos dengan spuit, campur dengan 0,9 ml aquabidest sehingga diperoleh perbandingan 1 : 9 (untuk obat-obat tertentu perbandingannya 1 : 99, sesuai advice dokter, sehingga obat di ambil 0,01 ml, dan aquabidest 0,99 ml).' },
+                { desc: 'Atur posisi pasien sesuai kebutuhan.' },
+                { desc: 'Pasang perlak dan alas perlak dibawah tangan yang akan dilakukan skin test.' },
+                { desc: 'Lakukan skin test seperti prosedur penyuntikan intracutan (IC) masukan obat sampai terjadi undulasi di area tersebut.' },
+                { desc: 'Lingkari area penyuntikan dengan pulpen diameter 2,5 cm, tuliskan nama obat yang ditest, waktu pelaksanaan dan waktu pembacaan hasil.' },
+                { desc: 'Perawat membaca hamdalah.' },
+                { desc: 'Alat-alat dirapikan dan dibereskan ketempat semula.' },
+                { desc: 'Perawat cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Observasi reaksi obat ± 15 menit, Jika hasilnya negatif (lingkaran area penyuntikan tidak membesar, tidak memerah  dan pasien tidak mengeluh gatal) obat bisa diberikan, tetapi jika hasilnya positif (lingkaran area penyuntikan membesar / memerah dan / pasien mengeluh gatal) obat tidak boleh diberikan.' },
+                { desc: 'Jika hasilnya positif, segera laporkan kepada penanggung jawab ruangan / dokter yang bersangkutan untuk menentukan tindakan selanjutnya.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan dalam rekam medik pasien meliputi : jenis obat, waktu pemberian, petugas yang melakukan skin test dan reaksi yang terjadi.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Rawat jalan',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1414,
+    title: 'Pemberian Obat Supositoria Melalui Anus',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan memasukan obat berupa cairan atau supositoria kedalam anus pasien.',
+    icon: 'fa-capsules',
+    tags: ['Supositoria', 'Obat Anus', 'Pemberian Obat'],
+    noDokumen: '445/SPO.3422/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memasukan obat berupa cairan atau supositoria kedalam anus pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah memberikan obat supositoria melalui anus, untuk memperlancar tindakan pelayanan keperawatan.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki.' },
+                        { text: 'Obat yang akan diberikan dalam tempatnya.' },
+                        { text: 'Bak steril berisi ; kassa.' },
+                        { text: 'Sarung tangan on steril.' },
+                        { text: 'Perlak dan alas perlak.' },
+                        { text: 'Bengkok.' },
+                        { text: 'Kartu obat / Rencana Kegiatan Harian (RKH) yang mencantumkan : nama pasien, nomor medrek, jenis dan nama obat, dosis obat, jadwal pemberian obat.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien diberikan penjelasan tentang tindakan yang akan dilakukan.', marker: false }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.', marker: false }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Baca etiket obat untuk mencegah kekeliruan.' },
+                { desc: 'Baca bismilahirrohmanirrohiim.' },
+                { desc: 'Perawat memakai sarung tangan.' },
+                { desc: 'Buka pakaian bawah pasien, kemudian diselimuti.' },
+                { desc: 'Atur posisi pasien miring ke sisi terjauh perawat.' },
+                { desc: 'Pasang perlak dan alas perlak.' },
+                { desc: 'Buka bungkus suppositoria, pegang dengan kain kassa.' },
+                { desc: 'Anjurkan pasien untuk menarik nafas perlahan melalui mulut, lalu masukan obat kedalam anus.' },
+                { desc: 'Anjurkan pasien untuk menahan suppositoria agar tidak keluar, dengan cara menarik nafas panjang dan tidak mengedan, minta klien untuk tetap pada posisi semula selama ± 5 menit sementara itu perawat menahan bokong pasien sekurang-kurangnya 20 menit.' },
+                { desc: 'Rapihkan kembali pasien dan perhatikan reaksi pasien.' },
+                { desc: 'Perawat membaca hamdalah.' },
+                { desc: 'Alat-alat dirapikan dan dibereskan ketempat semula.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Laporkan segera pada dokter penanggung jawab yang merawat jika terdapat reaksi / efek samping.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan dalam rekam medis pasien meliputi waktu tindakan dan reaksi pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif'
+    ]
+    },
+    {
+    id: 1415,
+    title: 'Pemberian Obat Pada Mata',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan memberikan obat berupa zalf / cair secara local kepada pasien melalui mata.',
+    icon: 'fa-eye',
+    tags: ['Obat Mata', 'Tetes Mata', 'Salep Mata'],
+    noDokumen: '445/SPO.3423/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memberikan obat berupa zalf / cair secara local kepada pasien melalui mata.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan keperawatan dalam memberikan obat mata, untuk memperlancar tindakan dalam pelayanan keperawatan.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Meja atau Baki' },
+                        { text: 'Obat-obat yang akan diberikan dalam tempatnya' },
+                        { text: 'Bak steril berisi ; vinset anatomi, kapas bulat yang dibasahi cairan NaCl 0,9 % hangat khusus untuk mata, dan kassa steril' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Alas kerja' },
+                        { text: 'Gunting dan plester' },
+                        { text: 'Bengkok' },
+                        { text: 'Kartu obat / Rencana Kegiatan Harian (RKH) yang mencantumkan secara lengkap ; nama pasien, nomor tempat tidur, jenis dan nama obat, dosis obat, jadwal pemberian obat' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien diberikan penjelasan tentang tindakan yang akan dilakukan.', marker: false }
+                    ]
+                },
+                {
+                    desc: 'Persiapan Lingkungan',
+                    detail: [
+                        { text: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.', marker: false }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Perawat cuci tangan.' },
+                { desc: 'B. Memberi Salam dan tersenyum.' },
+                { desc: 'C. Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'D. Baca etiket obat untuk mencegah kekeliruan (nama obat, dosis, rute pemberian dan mata bagian mana yang akan diobati).' },
+                { desc: 'E. Perawat membaca Basmalah.' },
+                { desc: 'F. Atur posisi klien duduk atau terlentang.' },
+                { desc: 'G. Pasang alas kerja.' },
+                { desc: 'H. Bersihkan mata pasien dengan kapas basah dari bagian dalam keluar kantus mata, buang pada bengkok.' },
+                { desc: 'I. Posisikan wajah pasien sejajar dengan langit-langit, tarik kelopak mata bawah pasien kearah bawah.',
+                    detail: [
+                        { text: '1) Pemberian obat cair / tetes :',
+                            subDetail: [
+                                { text: 'Pegang penetes mata yang terisi obat ± 1-2 cm diatas kantus konjungtiva.', formula: false },
+                                { text: 'Teteskan obat pada konjungtiva palpebra bawah sebanyak yang telah ditentukan dalam program pengobatan' },
+                                { text: 'Anjurkan pasien untuk menutup mata secara perlahan' },
+                                { text: 'Berikan tekanan yang lembut pada duktus lakrimalis pasien selama 30-60 detik.', formula: false },
+                                { text: 'Bersihkan sisa obat yang ada dimata pasien dengan kapas basah.' }
+                            ]
+                        },
+                        { text: '2) Pemberian obat zalf :',
+                            subDetail: [
+                                { text: 'Oleskan zalp dari arah kanthus dalam ke kanthus luar pada konjungtiva bagian dalam.' },
+                                { text: 'Anjurkan pasien untuk memejamkan mata.' },
+                                { text: 'Gosok kelopak mata secara perlahan dengan gerakan sirkuler menggunakan bola kapas.' },
+                                { text: 'Bersihkan sisa obat yang ada dimata pasien dengan kapas basah.' },
+                                { text: 'Jika perlu mata ditutup dengan kain kassa steril dan di plester.' },
+                                { text: 'Perhatikan reaksi pasien.' }
+                            ]
+                        }
+
+                    ]
+                },
+                { desc: 'J. Perawat membaca Hamdalah, memberikan salam dan tersenyum.' },
+                { desc: 'K. Alat-alat dirapikan dan dibereskan ketempat semula.' },
+                { desc: 'L. Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Laporkan segera pada dokter penanggung jawab yang merawat jika terdapat reaksi / efek samping.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan dalam catatan asuhan keperawatan dan kartu obat.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Rawat Jalan'
+    ]
+    },
+    {
+    id: 1416,
+    title: 'Pemberian Obat Topikal',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan memberikan obat untuk pasien melalui kulit sesuai kebutuhan.',
+    icon: 'fa-pump-soap',
+    tags: ['Obat Topikal', 'Obat Kulit', 'Perawatan Kulit'],
+    noDokumen: '445/SPO.3424/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memberikan obat untuk pasien melalui kulit sesuai kebutuhan.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan keperawatan dalam memberikan obat topical.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Meja atau baki' },
+                        { text: 'Obat-obat yang akan diberikan dalam tempatnya' },
+                        { text: 'NaCl 0,9 %' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Sabun (jika perlu), handuk, waslap, dan baskom berisi air hangat/bak steril berisi ; vinset anatomi, kom kecil, lidi waten, kassa' },
+                        { text: 'Perlak dan alas perlak' },
+                        { text: 'Bengkok' },
+                        { text: 'Gunting dan plester (jika diperlukan)' },
+                        { text: 'Kartu obat/Rencana Kegiatan Harian (RKH) yang mencantumkan secara lengkap ; nama pasien, nomor medrek, nama obat, dosis dan jadwal pemberian obat.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberikan penjelasan tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Baca etiket obat untuk mencegah kekeliruan (nama obat, dosis dan rute pemberian).' },
+                { desc: 'Baca basmalah.' },
+                { desc: 'Atur posisi pasien sesuai kebutuhan.' },
+                { desc: 'Dekatkan alat-alat.' },
+                { desc: 'Pakai sarung tangan.' },
+                { desc: 'Pasang perlak dan alas perlak.' },
+                { desc: 'Bersihkan area yang akan diberikan obat dengan air hangat menggunakan sabun (jika perlu), lalu keringkan tetapi jika terdapat luka, bersihkan sesuai dengan langkah-langkah membersihkan luka pada prosedur mengganti balutan luka.' },
+                {
+                    desc: 'Berikan obat topikal merata ke seluruh area/luka searah pertumbuhan bulu/rambut, pemberian obat melalui kulit, dapat dilakukan dengan cara :',
+                    detail: [
+                        { text: 'Dioleskan dengan obat berupa sediaan ; cream, zalf, jelly, glyserin, gentian violet dan lain-lain.' },
+                        { text: 'Dikompres dengan obat berupa ; rivanol, bethadine, dan lain-lain dengan kondisi hangat atau dingin.' },
+                        { desc: 'Tutup area yang sudah diobati dengan kassa lembab lalu fiksasi (jika diperlukan).' }
+                    ]
+                },
+                { desc: 'Perawat membaca hamdalah.' },
+                { desc: 'Alat-alat dirapikan dan dibereskan ketempat semula.' },
+                { desc: 'Perawat cuci tangan setelah tindakan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Observasi kondisi kulit sebelum dan setelah diobati meliputi keluhan nyeri, gatal, seperti terbakar atau adanya kulit yang mengelupas.' },
+                { desc: 'Laporkan segera pada dokter penanggung jawab jika terdapat reaksi / efek samping.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan dalam catatan asuhan keperawatan dan kartu obat meliputi waktu tindakan, obat yang diberikan dan reaksi yang timbul.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Haemodialisa',
+        'Instalasi Bedah Sentral'
+    ]
+    },
+    {
+    id: 1417,
+    title: 'Pemberian Obat Tetes Hidung',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan memberikan obat dengan cara diteteskan kedalam hidung pasien.',
+    icon: 'fa-head-side-cough',
+    tags: ['Obat Hidung', 'Tetes Hidung', 'Pemberian Obat'],
+    noDokumen: '445/SPO.3425/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memberikan obat dengan cara diteteskan kedalam hidung pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan keperawatan dalam memberikan obat melalui hidung.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'A. Persiapan alat',
+                    detail: [
+                        { text: '1) Baki' },
+                        { text: '2) Obat yang akan diberikan dalam tempatnya' },
+                        { text: '3) Pipet obat' },
+                        { text: '4) Sarung tangan' },
+                        { text: '5) Tissue' },
+                        { text: '6) Bengkok' },
+                        { text: '7) Kartu obat / Rencana Kegiatan Harian (RKH) berisi ; nama pasien, nomor medrek, nama obat, dosis, jadwal pemberian.' }
+                    ]
+                },
+                {
+                    desc: 'B. Persiapan pasien',
+                    detail: 'Pasien diberikan penjelasan tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'C. Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Perawat cuci tangan.' },
+                { desc: 'B. Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'C. Baca etiket obat untuk mencegah kekeliruan (nama obat, dosis, rute pemberian dan hidung bagian mana yang akan diobati).' },
+                { desc: 'D. Dekatkan alat-alat.' },
+                { desc: 'E. Perawat membaca basmalah.' },
+                { desc: 'F. Pakai sarung tangan.' },
+                { desc: 'G. Atur posisi pasien tidur dengan kepala ekstensi (hiperekstensi untuk sinus etmoid dan sphenoid, hiperekstensi miring untuk sinus maksilaris).' },
+                { desc: 'H. Bersihkan lubang hidung terlebih dahulu, teteskan obat sesuai program pengobatan.' },
+                { desc: 'I. Pertahankan posisi tidur pasien dengan kepala ekstensi selama 2 menit.' },
+                { desc: 'J. Bersihkan area sekitar hidung dengan tissue.' },
+                { desc: 'K. Perawat membaca hamdalah.' },
+                { desc: 'L. Alat-alat dirapikan dan dibereskan ketempat semula.' },
+                { desc: 'M. Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Laporkan segera pada dokter penanggung jawab jika terdapat reaksi / efek samping.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan dalam catatan asuhan keperawatan dan kartu obat.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Haemodialisa',
+        'Instalasi Bedah Sentral'
+    ]
+    },
+    {
+    id: 1418,
+    title: 'Pemberian Obat Tetes Telinga',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan memberikan obat dengan cara diteteskan kelubang telinga pasien.',
+    icon: 'fa-ear-listen',
+    tags: ['Obat Telinga', 'Tetes Telinga', 'Pemberian Obat'],
+    noDokumen: '445/SPO.3426/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memberikan obat dengan cara diteteskan kelubang telinga pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan keperawatan dalam memberikan obat tetes telinga',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki' },
+                        { text: 'Obat yang akan diberikan dalam tempatnya' },
+                        { text: 'Mangkok berisi air panas' },
+                        { text: 'Bak steril berisi : lidi waten, kapas' },
+                        { text: 'Pipet obat' },
+                        { text: 'Sarung tangan on steril' },
+                        { text: 'Perlak dan alas perlak' },
+                        { text: 'Bengkok' },
+                        { text: 'Kartu obat / Rencana Kegiatan Harian (RKH) yang mencantumkan secara lengkap : nama pasien, nomor medrek, jenis, nama obat, dosis, jadwal pemberian obat.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberikan penjelasan tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar pripasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Baca etiket obat untuk mencegah kekeliruan (nama obat, dosis, rute pemberian dan telinga bagian mana yang akan diobati).' },
+                { desc: 'Baca bismillahirohmanirrohiim.' },
+                { desc: 'Pakai sarung tangan.' },
+                { desc: 'Masukan obat kedalam air panas dalam mangkok agar hangat.' },
+                { desc: 'Tes suhu obat dengan cara diteteskan di punggung tangan petugas.' },
+                { desc: 'Pasien diatur dalam posisi miring dengan telinga yang akan diobati menghadap keatas dengan sudut 60 0' },
+                { desc: 'Pasang perlak dan alas perlak.' },
+                { desc: 'Bersihkan dan keringkan kanal telinga luar dengan lidi waten.' },
+                { desc: 'Tarik daun telinga ke atas lalu ke belakang.' },
+                { desc: 'Teteskan obat pada telinga pasien sebanyak yang telah ditentukan dalam program pengobatan.' },
+                { desc: 'Tutup lubang telinga pasien dengan kapas.' },
+                { desc: 'Bersihkan sisa obat disekitar telinga.' },
+                { desc: 'Anjurkan pasien tetap miring setelah di beri obat selama 5 menit' },
+                { desc: 'Baca hamdalah.' },
+                { desc: 'Alat-alat dirapikan dan dibereskan ketempat semula.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Perhatikan reaksi pasien setelah pemberian obat, laporkan segera pada dokter penanggung jawab jika terdapat reaksi / efek samping.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan dalam rekam medis meliputi : jenis obat, waktu pemberian, petugas yang melakukan dan reaksi yang terjadi bila ada.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Rawat jalan'
+    ]
+    },
+    {
+    id: 1419,
+    title: 'Pemberian Obat-Obatan Inhaler Melalui Saluran Pernafasan (Nebulaizer)',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan memasukan obat-obatan inhaler kedalam saluran pernafasan dengan menggunakan alat nebulaizer.',
+    icon: 'fa-lungs',
+    tags: ['Nebulaizer', 'Inhaler', 'Pernafasan'],
+    noDokumen: '445/SPO.3427/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memasukan obat-obatan inhaler kedalam saluran pernafasan dengan menggunakan alat nebulaizer.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah memberikan obat-obat inhaler dengan alat nebulaizer, untuk memperlancar tindakan pelayanan keperawatan.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki' },
+                        { text: 'Alat nebulaizer lengkap, siap pakai' },
+                        { text: 'Obat-obat inhaler yang akan diberikan dalam tempatnya' },
+                        { text: 'NaCl 0,9 %' },
+                        { text: 'Sputum pot yang berisi cairan desinfektan' },
+                        { text: 'Bak spuit berisi ; kassa / tissue' },
+                        { text: 'Kabel terminal listrik (jika diperlukan)' },
+                        { text: 'Perlak dan alas perlak' },
+                        { text: 'Bengkok' },
+                        { text: 'Kartu obat / Rencana Kegiatan Harian (RKH) berisi ; nama pasien, nomor medrek, nama obat, obat, jadwal pemberian.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberikan penjelasan tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Baca etiket obat untuk mencegah kekeliruan (nama obat, dosis dan rute pemberian).' },
+                { desc: 'Dekatkan alat-alat.' },
+                { desc: 'Perawat membaca bismillahirrohmanirrohiim.' },
+                { desc: 'Isi mangkok dalam alat nebulaizer dengan NaCl 0,9% sebanyak 3 – 5 cc dan obat sesuai program therapy.' },
+                { desc: 'Sambungkan alat nebulaizer ke pusat listrik.' },
+                { desc: 'Atur posisi pasien sesuai kebutuhan.' },
+                { desc: 'Pasang perlak dan alas perlak.' },
+                { desc: 'Nyalakan mesin, atur waktu pemakaian, tekanan uap, dan volumenya (disesuaikan dengan jenis mesin).' },
+                { desc: 'Pasang masker/mouth pace pada pasien, anjurkan pasien menghirup obatnya tunggu sampai selesai.' },
+                { desc: 'Buka masker/mouth pace, keringkan area wajah pasien dengan kassa/tissue.' },
+                { desc: 'Bantu pasien mengeluarkan sputum dengan teknik batuk efektif.' },
+                { desc: 'Perawat membaca hamdalah.' },
+                { desc: 'Alat-alat dirapikan dan dibereskan ketempat semula, bersihkan alat nebulaizer, rendam masker / mouth pace dengan cairan desinfektan.' },
+                { desc: 'Perawat cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Laporkan segera pada dokter penanggung jawab jika terdapat reaksi / efek samping.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan dalam rekam medik pasien meliputi waktu pelaksanaan, lama pemberian nebulizer dan reaksi pasien bila ada.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Haemodialisa',
+        'Instalasi Bedah Sentral'
+    ]
+    },
+    {
+    id: 1420,
+    title: 'Pemberian Obat Oral',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan menyiapkan dan memberikan obat untuk pasien melalui mulut dan selanjutnya ditelan, dalam bentuk obat cair, tablet, puyer, capsul atau kaplet.',
+    icon: 'fa-pills',
+    tags: ['Obat Oral', 'Pemberian Obat', 'Obat Mulut'],
+    noDokumen: '445/SPO.3428/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan menyiapkan dan memberikan obat untuk pasien melalui mulut dan selanjutnya ditelan, dalam bentuk obat cair, tablet, puyer, capsul atau kaplet.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah memberikan obat oral, untuk memperlancar tindakan pelayanan keperawatan.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki.' },
+                        { text: 'Obat-obat yang akan diberikan dalam tempatnya.' },
+                        { text: 'Amalgam + martil (jika pasien ada kesulitan menelan, hancurkan obat dan tambahkan sedikit air).' },
+                        { text: 'Air minum dalam tempatnya.' },
+                        { text: 'Tissue.' },
+                        { text: 'Bengkok.' },
+                        { text: 'Kartu obat / Rencana Kegiatan Harian (RKH) berisi : nama pasien, nomor medrek, jenis, nama obat, dosis obat, jadwal pemberian.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien diberikan penjelasan tentang tindakan yang akan dilakukan.' },
+                        { text: 'Kaji kemampuan klien dalam menelan obat.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar pripasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Baca etiket obat untuk mencegah.' },
+                { desc: 'Perawat membaca basmalah.' },
+                { desc: 'Atur posisi pasien.' },
+                { desc: 'Berikan obat kepada pasien dan tunggu sampai obat ditelan habis.' },
+                { desc: 'Perhatikan reaksi pasien.' },
+                { desc: 'Perawat membaca hamdalah.' },
+                { desc: 'Alat-alat dirapikan dan dibereskan ketempat semula' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Laporkan segera pada penanggung jawab ruangan / dokter yang merawat jika terdapat reaksi / efek samping.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan dalam rekam medik pasien meliputi : waktu pelaksanaan, obat dan dosis yang diberikan dan reaksi pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Rawat jalan',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1421,
+    title: 'Pemberian Obat Melalui Vagina',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan memberikan obat-obatan suppositoria kedalam vagina pasien.',
+    icon: 'fa-capsules',
+    tags: ['Obat Vagina', 'Suppositoria', 'Pemberian Obat'],
+    noDokumen: '445/SPO.3429/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memberikan obat-obatan suppositoria kedalam vagina pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah memberikan obat-obat melalui vagina, untuk memperlancar tindakan pelayanan keperawatan atau kebidanan.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki.' },
+                        { text: 'Obat yang akan diberikan dalam tempatnya.' },
+                        { text: 'Aplikator untuk krim vagina (jika diperlukan).' },
+                        { text: 'Bak steril berisi ; kassa dan pelumas larut air.' },
+                        { text: 'Kapas sublimate dalam tempatnya.' },
+                        { text: 'Sarung tangan.' },
+                        { text: 'Perlak dan alas perlak.' },
+                        { text: 'Bengkok.' },
+                        { text: 'Kartu obat / Rencana Kegiatan Harian (RKH) berisi ; nama pasien, nomor medrek, nama obat, dosis dan jadwal pemberian' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien diberi penjelasan tentang tindakan yang akan dilakukan.' },
+                        { text: 'Anjurkan pasien untuk berkemih terlebih dahulu.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Baca etiket obat untuk mencegah kekeliruan (nama obat, dosis dan rute pemberian).' },
+                { desc: 'Baca bismillahirohmanirrohiim.' },
+                { desc: 'Pakai sarung tangan.' },
+                { desc: 'Buka pakaian bawah pasien, lalu selimuti.' },
+                { desc: 'Atur posisi pasien sesuai kebutuhan.' },
+                { desc: 'Pasang perlak dan alas perlak.' },
+                { desc: 'Bersihkan area labia dengan kapas sublimate, sesuai dengan prosedur perineal care, buang sampahnya ke bengkok.' },
+                { desc: 'Buka bungkus suppositoria, pegang dengan kain kassa, berikan pelumas larut air pada sekitar ujungnya, ibu jari dan teluntuk kiri petugas di balut dengan kapas sublimate.' },
+                { desc: 'Buka vulva dengan tangan kanan petugas' },
+                { desc: 'Masukan obat kedalam lubang vagina, masukan obat sekitar 8–10 cm sepanjang dinding vagina posterior.' },
+                { desc: 'Ajarkan pasien menahan supositoria agar tidak keluar, dengan cara menarik nafas panjang tidak mengedan selama (± 5-10 menit)' },
+                { desc: 'Rapihkan kembali pasien dan perhatikan reaksi pasien.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Alat-alat dirapikan dan dibereskan ketempat semula.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Laporkan segera pada penanggung jawab ruangan / dokter yang merawat jika terdapat reaksi / efek samping.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan dalam rekam medik pasien meliputi waktu pelaksanaan, obat yang diberikan, dosis, dan reaksi pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral'
+    ]
+},
+{
+    id: 1422,
+    title: 'Memindahkan Pasien ke Kereta Dorong (Brankar)',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan memindahkan pasien dari tempat tidur ke brankar.',
+    icon: 'fa-bed-pulse',
+    tags: ['Brankar', 'Transport Pasien', 'Pemindahan Pasien'],
+    noDokumen: '445/SPO.3430/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memindahkan pasien dari tempat tidur ke brankar.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah memindahkan pasien ke kereta dorong (brankar).',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Brankar' },
+                        { text: 'Alat pemindah pasien' },
+                        { text: 'Selimut' },
+                        { text: 'Bantal' },
+                        { text: 'Alas brankar' },
+                        { text: 'Bengkok, bila perlu' },
+                        { text: 'Oksigen lengkap bila diperlukan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Jelaskan kepada pasien dan keluarga tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas cuci tangan' },
+                { desc: 'Letakan brankar sejajar tempat tidur.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Satu atau dua perawat berdiri di sisi tempat tidur dan dua orang perawat lainnya berdiri di sisi brankar.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Letakan alat pemindah pasien disalah satu sisi tempat tidur.' },
+                { desc: 'Pasien dimiringkan.' },
+                { desc: 'Masukan alat pemindah pasien ke bawah badan pasien.' },
+                { desc: 'Posisikan pasien terlentang kembali.' },
+                { desc: 'Letakan lengan pasien menyilang didada pasien.' },
+                { desc: 'Dorong badan pasien untuk memindahkan pasien ke brankar pada hitungan ketiga.' },
+                { desc: 'Setelah pasien berada di atas brankar, posisikan kembali pasien untuk miring.' },
+                { desc: 'Cabut alat pemindah pasien dari bawah tubuh pasien.' },
+                { desc: 'Posisikan kembali pasien dalam posisi terlentang.' },
+                { desc: 'Tutup sisi brankar dan pindahkan brankar menjauh dari tempat tidur.' },
+                { desc: 'Pakaikan selimut, gunakan sabuk pengaman menyilang didada pasien dan panggul pasien.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin' },
+                { desc: 'Cuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Perhatikan keadaan umum pasien, reaksi pasein selama dan setelah dipindahkan.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan reaksi pasien selama dan setelah dipindahkan.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Radiologi'
+    ]
+},
+{
+    id: 1423,
+    title: 'Mengatur Posisi Berbaring Pasien : Posisi Fowler’s',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Mengatur posisi pasien terlentang di tempat tidur dengan bagian kepala ditinggikan 45 - 90° dan bagian lutut dapat difleksikan.',
+    icon: 'fa-bed',
+    tags: ['Posisi Fowler', 'Posisi Pasien', 'Berbaring'],
+    noDokumen: '445/SPO.3431/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Mengatur posisi pasien terlentang di tempat tidur dengan bagian kepala ditinggikan 45 - 90° dan bagian lutut dapat difleksikan.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah mengatur posisi tubuh pasien di atas tempat tidur dengan kepala ditinggikan 45-90°.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Bantal' },
+                        { text: 'Balok penahan kaki tempat tidur ( footboard) bila perlu' },
+                        { text: 'Gulungan kain' },
+                        { text: 'Tempat tidur yang bisa diatur posisinya' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Jelaskan kepada pasien dan keluarga tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Tinggikan tempat tidur pada posisi yang nyaman untuk bekerja, pindahkan bantal dan dekatkan alat footboard dan gulungan kain.' },
+                { desc: 'Datarkan tempat tidur, bantu pasien bergeser ke atas tempat tidur.' },
+                { desc: 'Tinggikan bagian kepala tempat tidur pasien 45 - 90°.' },
+                { desc: 'Letakan bantal tipis menyokong kepala, leher dan bahu.' },
+                { desc: 'Gunakan bantal untuk mendukung lengan pasien bila tubuh bagian atas pasien diimobilisasikan.' },
+                { desc: 'Letakan bantal kecil atau gulungan kain dibawah paha, hindari penekanan pada area popliteal.' },
+                { desc: 'Ucapkan alhamdulillahirobil alamin.' },
+                { desc: 'Cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Perhatikan keadaan umum pasien.' },
+                { desc: 'Bila posisi pasien berubah harus segera dibetulkan.' },
+                { desc: 'Khusus untuk pasien pasca bedah dilarang meletakan bantal dibawah lutut.' },
+                { desc: 'Inspeksi kulit pada area yang tertekan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan meliputi : waktu perubahan posisi, kondisi kulit pada area yang tertekan.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Hemodialisa'
+    ]
+    },
+    {
+    id: 1424,
+    title: 'Mengatur Posisi Berbaring Pasien: Posisi Supine',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Mengatur posisi tidur pasien terlentang di atas tempat tidur dengan posisi anatomi.',
+    icon: 'fa-bed',
+    tags: ['Posisi Supine', 'Posisi Pasien', 'Mobilisasi Pasien'],
+    noDokumen: '445/SPO.3432/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Mengatur posisi tidur pasien terlentang di atas tempat tidur dengan posisi anatomi.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah memposisikan tidur pasien terlentang di atas tempat tidur dengan posisi anatomi.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Bantal.' },
+                        { text: 'Balok penahan kaki tempat tidur (footboard) bila perlu.' },
+                        { text: 'Gulungan kain (bila diperlukan).' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Jelaskan kepada pasien dan keluarga tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Tinggikan tempat tidur pada posisi nyaman untuk bekerja, pindahkan bantal dan dekatkan alat yang dibutuhkan untuk mengatur posisi tidur.' },
+                { desc: 'Datarkan tempat tidur, bantu pasien bergeser ke atas tempat tidur.' },
+                { desc: 'Letakan bantal tipis menyokong kepala, leher dan bahu.' },
+                { desc: 'Letakan bantal kecil atau gulungan kain dibawah paha.' },
+                { desc: 'Letakan bantal tipis atau gulungan kain dibawah pergelangan kaki untuk menaikan tumit.' },
+                { desc: 'Letakan bantal dibawah lengan yang pronasi, pertahankan lengan atas sejajar dengan lengan pasien.' },
+                { desc: 'Ucapkan alhamduliilahirobil alamin.' },
+                { desc: 'Petugas mencuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Perhatikan keadaan umum pasien.' },
+                { desc: 'Bila posisi pasien berubah harus segera dibetulkan.' },
+                { desc: 'Khusus untuk pasien pasca bedah dilarang meletakan bantal dibawah lutut.' },
+                { desc: 'Inspeksi kulit pada area yang tertekan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan : catat waktu perubahan posisi, kondisi kulit pada area yang tertekan.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral'
+    ]
+    },
+    {
+    id: 1425,
+    title: 'Mengatur Posisi Berbaring Pasien: Posisi Lateral (Side Lying)',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Mengatur posisi tidur pasien miring atau bertumpu pada salah satu sisi tubuh (kanan atau kiri).',
+    icon: 'fa-bed',
+    tags: ['Posisi Lateral', 'Side Lying', 'Posisi Pasien'],
+    noDokumen: '445/SPO.3433/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Mengatur posisi tidur pasien miring atau bertumpu pada salah satu sisi tubuh (kanan atau kiri).',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah mengatur posisi tidur pasien miring atau bertumpu pada salah satu sisi tubuh.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Bantal.' },
+                        { text: 'Balok penahan kaki tempat tidur (footboard) bila perlu.' },
+                        { text: 'Gulungan kain (bila diperlukan).' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Jelaskan kepada pasien dan keluarga tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Tinggikan tempat tidur pada posisi nyaman untuk bekerja, pindahkan bantal dan dekatkan alat yang dibutuhkan.' },
+                { desc: 'Datarkan tempat tidur, bantu pasien bergeser ke atas tempat tidur.' },
+                { desc: 'Naikan pengaman tempat tidur yang berlawanan dengan posisi perawat.' },
+                { desc: 'Geser pasien ke sisi tempat tidur yang berlawanan dengan arah posisi lateral.' },
+                { desc: 'Letakan tangan dimana pasien akan miring menjauh dari tubuh pasien dan tangan lain menyilang didada.' },
+                { desc: 'Tekuk lutut pasien yang tidak bersentuhan dengan tempat tidur atau silangkan kaki pasien.' },
+                { desc: 'Letakan tangan perawat pada pinggul dan bahu pasien. Tarik / gulingkan pasien kearah perawat.' },
+                { desc: 'Letakan bantal dibawah kepala dan leher pasien.' },
+                { desc: 'Fleksikan kedua tangan, tangan bagian atas disokong bantal.' },
+                { desc: 'Letakan bantal/guling di punggung pasien.' },
+                { desc: 'Letakan bantal dibawah kaki yang semifleksi mulai dari pangkal paha sampai kaki.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Mencuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Perhatikan keadaan umum pasien.' },
+                { desc: 'Bila posisi pasien berubah harus segera dibetulkan.' },
+                { desc: 'Khusus untuk pasien pasca bedah dilarang meletakan bantal dibawah lutut.' },
+                { desc: 'Inspeksi kulit pada area yang tertekan.' },
+                { desc: 'Rubah posisi pasien setelah dua jam dalam posisi yang sama.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan meliputi : waktu perubahan posisi, kondisi kulit pada area yang tertekan.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral'
+    ]
+    },
+    {
+    id: 1426,
+    title: 'Mengatur Posisi Pasien Logrolling',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Teknik yang digunakan untuk memindahkan / menggeser pasien dalam satu waktu dengan mempertahankan posisi tubuh tetap lurus.',
+    icon: 'fa-people-arrows',
+    tags: ['Logrolling', 'Mobilisasi Pasien', 'Posisi Pasien'],
+    noDokumen: '445/SPO.3434/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Teknik yang digunakan untuk memindahkan / menggeser pasien dalam satu waktu dengan mempertahankan posisi tubuh tetap lurus.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan mempertahankan posisi tidur pasien dengan kepala dan leher tidak berubah.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Bantal.' },
+                        { text: 'Balok penahan kaki tempat tidur (footboard) bila perlu.' },
+                        { text: 'Gulungan kain (bila diperlukan).' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Jelaskan kepada pasien dan keluarga tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Atur tempat tidur pada posisi nyaman untuk bekerja, pindahkan bantal dan dekatkan semua alat yang dibutuhkan.' },
+                { desc: 'Semua perawat berdiri disisi tempat tidur yang sama dengan kaki ditekuk, satu kaki berada didepan kaki yang lain.' },
+                { desc: 'Geser pasien ke satu sisi tempat tidur bersamaan dengan menggunakan alat bantu. Naikan penghalang tempat tidur yang berlawanan dengan posisi perawat.' },
+                { desc: 'Gunakan 1 bantal untuk menyokong kepala pasien selama dan sesudah mengubah posisi.' },
+                { desc: 'Letakan bantal diantara kaki pasien.' },
+                { desc: 'Intruksikan pasien untuk meletakan tangan diatas dada.' },
+                { desc: 'Pegang/sokong bagian kepala, bahu, panggul, lengan dan kaki.' },
+                { desc: 'Gulingkan pasien secara bersamaan pada posisi lateral pada hitungan ketiga.' },
+                { desc: 'Support pasien dengan bantal seperti pada posisi “side lying”. Pasien yang dicurigai atau mengalami spinal injury harus menggunakan collar cervical.' },
+                { desc: 'Rapihkan alat tenun pasien.' },
+                { desc: 'Ucapkan alhamdulillahirobil alamin.' },
+                { desc: 'Mencuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Perhatikan keadaan umum pasien.' },
+                { desc: 'Bila posisi pasien berubah harus segera dibetulkan.' },
+                { desc: 'Khusus untuk pasien pasca bedah dilarang meletakan bantal dibawah lutut.' },
+                { desc: 'Inspeksi kulit pada area yang tertekan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan meliputi : waktu perubahan posisi, kondisi kulit pada area yang tertekan.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral'
+    ]
+    },
+    {
+    id: 1427,
+    title: 'Mengatur Posisi Berbaring Pasien: Posisi Sim’s (Semi Prone)',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan mengatur posisi berbaring pasien dengan posisi miring dan setengah telungkup yang bertumpu pada salah satu sisi anterior dada.',
+    icon: 'fa-bed',
+    tags: ['Posisi Sims', 'Semi Prone', 'Posisi Pasien'],
+    noDokumen: '445/SPO.3435/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan mengatur posisi berbaring pasien dengan posisi miring dan setengah telungkup yang bertumpu pada salah satu sisi anterior dada.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah mengatur posisi berbaring pasien miring dan setengah telungkup bertumpu pada salah satu sisi anterior dada.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Bantal.' },
+                        { text: 'Sampiran.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberi penjelasan tentang hal-hal yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas cuci tangan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Pasang sampiran / tutup gordyn.' },
+                { desc: 'Atur kepala pasien pada posisi datar.' },
+                { desc: 'Posisikan pasien untuk tidur berbaring.' },
+                { desc: 'Posisikan pasien dalam posisi lateral di bagian abdomen.' },
+                { desc: 'Letakan bantal dibawah kepala.' },
+                { desc: 'Letakan bantal dibawah lengan atas yang difleksikan, mensupport lengan sejajar bahu.' },
+                { desc: 'Letakan bantal dibawah kaki atas yang difleksikan, sokong kaki sejajar pinggul.' },
+                { desc: 'Rapihkan alat tenun pasien.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Perhatikan keadaan umum pasien.' },
+                { desc: 'Bila posisi pasien berubah harus segera dibetulkan.' },
+                { desc: 'Khusus untuk pasien pasca bedah dilarang meletakan bantal dibawah lutut.' },
+                { desc: 'Inspeksi kulit pada area yang tertekan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan meliputi : waktu perubahan posisi, kondisi kulit pada area yang tertekan.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1428,
+    title: 'Mengatur Posisi Berbaring Pasien: Posisi Dorsal Recumbent',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan membaringkan pasien dengan posisi terlentang dengan lutut dan telapak kaki menapak di atas tempat tidur, sedangkan kedua belah kaki direnggangkan / terbuka.',
+    icon: 'fa-bed',
+    tags: ['Dorsal Recumbent', 'Posisi Pasien', 'Posisi Tidur'],
+    noDokumen: '445/SPO.3436/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan membaringkan pasien dengan posisi terlentang dengan lutut dan telapak kaki menapak di atas tempat tidur, sedangkan kedua belah kaki direnggangkan / terbuka.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah mengatur posisi tidur pasien terlentang dengan lutut dan telapak kaki menapak di atas tempat tidur dengan kedua kaki direnggangkan.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Bantal.' },
+                        { text: 'Selimut.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberi penjelasan tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Atur posisi pasien berbaring terlentang, lutut ditekuk, paha direnggangkan dan telapak kaki menapak pada tempat tidur.' },
+                { desc: 'Bantu pasien menekuk lutut dan melebarkan kedua kaki.' },
+                { desc: 'Posisikan kedua telapak kaki tetap menapak di tempat tidur.' },
+                { desc: 'Simpan bantal di bawah kepala pasien.' },
+                { desc: 'Pakaian bawah dibuka, selimuti tubuh pasien lalu rapihkan.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Perhatikan keadaan umum pasien.' },
+                { desc: 'Hindari tindakan yang menimbulkan rasa malu dan lelah pada pasien serta tetap menjaga kesopanan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medik pasien meliputi waktu pelaksanaan dan reaksi pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1429,
+    title: 'Mengatur Posisi Berbaring Pasien: Posisi Trendelenburg',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan mengatur posisi tidur pasien dengan posisi kepala lebih rendah dari kaki.',
+    icon: 'fa-bed',
+    tags: ['Trendelenburg', 'Posisi Pasien', 'Posisi Tidur'],
+    noDokumen: '445/SPO.3437/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan mengatur posisi tidur pasien dengan posisi kepala lebih rendah dari kaki.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah mengatur posisi tidur pasien dengan kepala lebih rendah daripada kaki untuk mencegah peningkatan tekanan intracranial.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Balok penopang.' },
+                        { text: 'Bantal.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberi penjelasan tentang hal-hal yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Luruskan tubuh pasien dalam posisi terlentang.' },
+                { desc: 'Tinggikan bagian kaki tempat tidur, berikan balok penyangga di bagian kepala tempat tidur.' },
+                { desc: 'Letakan bantal di bawah tangan atau kaki.' },
+                { desc: 'Bereskan alat tenun pasien.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Perawat mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Catat respon pasien selama dilakukan tindakan.' 
+
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medik pasien meliputi waktu pelaksanaan dan reaksi pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1430,
+    title: 'Mengatur Posisi Berbaring Pasien: Posisi Anti Trendelenburg',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan mengatur posisi tidur pasien terlentang lurus dengan posisi kepala lebih tinggi dari kaki.',
+    icon: 'fa-bed',
+    tags: ['Anti Trendelenburg', 'Posisi Pasien', 'Posisi Tidur'],
+    noDokumen: '445/SPO.3438/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan mengatur posisi tidur pasien terlentang lurus dengan posisi kepala lebih tinggi dari kaki.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan mengatur posisi tidur pasien dengan kepala lebih tinggi dari posisi kaki.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Balok penopang kaki tempat tidur.' },
+                        { text: 'Bantal.' },
+                        { text: 'Tempat tidur khusus, bila ada.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberi penjelasan tentang hal-hal yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Posisikan pasien terlentang lurus di tempat tidur.' },
+                { desc: 'Atur posisi kepala tempat tidur ditinggikan 15º–45º.' },
+                { desc: 'Atur tempat tidur di bagian kaki direndahkan.' },
+                { desc: 'Pasien dibaringkan lurus tanpa bantal.' },
+                { desc: 'Di antara kepala pasien dan ujung tempat tidur diberi bantal sebagai penahan.' },
+                { desc: 'Rapihkan alat tenun pasien.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Catat respon pasien selama dilakukan tindakan, rasa nyaman dan tanda-tanda vital.'
+
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medik pasien meliputi waktu pelaksanaan dan reaksi pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1431,
+    title: 'Mengatur Posisi Berbaring Pasien: Posisi Lithotomi',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan membaringkan pasien dengan posisi terlentang lutut dan telapak kaki menapak di atas tempat tidur, sedangkan kedua belah kaki direnggangkan, kedua paha diangkat dan ditarik ke arah perut, sedangkan tungkai bawah membuat sudut 90 derajat terhadap paha.',
+    icon: 'fa-bed',
+    tags: ['Lithotomi', 'Posisi Pasien', 'Posisi Pemeriksaan'],
+    noDokumen: '445/SPO.3439/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan membaringkan pasien dengan posisi terlentang lutut dan telapak kaki menapak di atas tempat tidur, sedangkan kedua belah kaki direnggangkan, kedua paha diangkat dan ditarik ke arah perut, sedangkan tungkai bawah membuat sudut 90 derajat terhadap paha.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan mengatur posisi tidur pasien posisi terlentang dengan kedua paha diangkat dan ditarik ke arah perut, sedangkan tungkai bawah membuat sudut 90 derajat terhadap paha.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Selimut atau kain penutup.' },
+                        { text: 'Tempat tidur khusus pemeriksaan kebidanan (gynecology bed).' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberi penjelasan tentang hal-hal yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas cuci tangan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Posisikan pasien berbaring terlentang dan pakaian bagian bawah dibuka.' },
+                { desc: 'Kedua kaki ditekuk, kedua paha diangkat dan ditarik ke arah perut, sedangkan tungkai bawah membuat sudut 90 derajat terhadap paha dan dibantu oleh perawat untuk meletakkannya pada penahan lutut.' },
+                { desc: 'Pakaikan selimut pasien.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Petugas cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Perhatikan keadaan umum pasien.' },
+                { desc: 'Hindari tindakan yang menimbulkan rasa malu dan lelah pada pasien serta tetap menjaga kesopanan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilaksanakan dalam rekam medik pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1432,
+    title: 'Mengatur Posisi Berbaring Pasien: Genu Pectoral (Knee Chest)',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan membaringkan pasien dengan posisi menungging kedua kaki ditekuk dan dada menempel pada kasur.',
+    icon: 'fa-bed',
+    tags: ['Genu Pectoral', 'Knee Chest', 'Posisi Pasien'],
+    noDokumen: '445/SPO.3440/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan membaringkan pasien dengan posisi menungging kedua kaki ditekuk dan dada menempel pada kasur.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah mengatur posisi berbaring pasien dengan posisi menungging kedua kaki ditekuk dan dada menempel pada kasur.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Selimut / kain penutup.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberikan penjelasan tentang hal-hal yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas cuci tangan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Bantal disingkirkan dari tempat tidur.' },
+                { desc: 'Posisi pasien diatur menungging, kedua kaki ditekuk dan dada menempel pada kasur, pakaian bawah dibuka bila perlu.' },
+                { desc: 'Setelah selesai tindakan, pasien dirapihkan.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Petugas cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Catat respon pasien setelah dilakukan tindakan.' },
+                { desc: 'Hindari tindakan yang menimbulkan rasa malu dan lelah pada pasien serta tetap menjaga kesopanan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan dalam rekam medik pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1433,
+    title: 'Memindahkan Pasien dari Tempat Tidur ke Kursi / Kursi Roda',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Tindakan membantu memindahkan pasien dari tempat tidur ke kursi/kursi roda.',
+    icon: 'fa-wheelchair',
+    tags: ['Pindah Pasien', 'Kursi Roda', 'Transfer Pasien'],
+    noDokumen: '445/SPO.3441/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Tindakan membantu memindahkan pasien dari tempat tidur ke kursi/kursi roda.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah membantu memindahkan pasien dari tempat tidur ke kursi / kursi roda.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Kursi / kursi roda dalam keadaan terkunci.' },
+                        { text: 'Sabuk untuk berpindah posisi.' },
+                        { text: 'Alas kaki.' },
+                        { text: 'Bantal.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberikan penjelasan tentang hal-hal yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien tetap terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Posisikan tempat tidur sejajar dengan kursi/kursi roda dan naikan penyangga kaki / alas kaki pada kursi roda.' },
+                { desc: 'Tutup sisi pengaman tempat tidur yang berlawanan dengan pasien dan anjurkan pasien untuk bergeser ke arah perawat.' },
+                { desc: 'Bantu pasien untuk duduk.' },
+                { desc: 'Intruksikan pasien untuk tarik nafas dalam. Dorong untuk melakukan pergerakan bahu, kaki, jari kaki, dan duduk selama 1–2 menit.' },
+                { desc: 'Bantu pasien untuk menggunakan alas kaki / sepatu dan letakan kaki menapak di lantai.' },
+                { desc: 'Gunakan sabuk untuk berpindah bila diperlukan.' },
+                { desc: 'Gunakan penyangga lengan bila flaccid / lumpuh.' },
+                { desc: 'Sokong pasien lewat axial dan letakan tangan di scapula pasien atau pegang sabuk pengaman. Pasien dapat meletakan tangan di bahu perawat (bukan di sekitar leher perawat).' },
+                { desc: 'Intruksikan pasien untuk berdiri tegak pada hitungan ketiga. Bila perlu stabilkan pasien dengan meletakan lutut di depan lutut pasien.' },
+                { desc: 'Arahkan pasien ke kursi roda, anjurkan untuk memegang sisi kursi / kursi roda.' },
+                { desc: 'Dudukan pasien di atas kursi / kursi roda dengan hati-hati.' },
+                { desc: 'Fleksikan panggul dan lutut ketika menurunkan pasien ke kursi / kursi roda.' },
+                { desc: 'Letakan kaki pasien pada alas kaki di kursi roda.' },
+                { desc: 'Rapihkan alat tenun pasien.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Catat respon pasien setelah tindakan.' },
+                { desc: 'Hindari tindakan yang menimbulkan rasa lelah pada pasien serta tetap menjaga kesopanan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan dalam rekam medik pasien meliputi waktu tindakan dan reaksi setelah tindakan.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1434,
+    title: 'Menyiapkan Pemeriksaan Laboratorium: Pengambilan Darah Perifer',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Pengambilan darah melalui pembuluh darah tepi pada ujung jari, daun telinga bagian bawah, ibu jari kaki dan bagian tumit pasien.',
+    icon: 'fa-droplet',
+    tags: ['Darah Perifer', 'Laboratorium', 'Pengambilan Darah'],
+    noDokumen: '445/SPO.3443/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Pengambilan darah melalui pembuluh darah tepi pada ujung jari, daun telinga bagian bawah, ibu jari kaki dan bagian tumit pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan pengambilan darah melalui pembuluh darah tepi pada ujung jari, daun telinga bagian bawah, ibu jari kaki dan bagian tumit pasien.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Pinset darah.' },
+                        { text: 'Jarum khusus atau pena cacar yang steril.' },
+                        { text: 'Kapas alkohol.' },
+                        { text: 'Kapas kering.' },
+                        { text: 'Alat pengukur gula darah / stick gula darah set.' },
+                        { text: 'Kaca objek (object glass).' },
+                        { text: 'Botol pemeriksaan sesuai kebutuhan.' },
+                        { text: 'Bengkok.' },
+                        { text: 'Perlak dan alas perlak.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Pasien diberi penjelasan tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Perawat mencuci tangan.' },
+                { desc: 'B. Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'C. Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'D. Gunakan sarung tangan.' },
+                { desc: 'E. Atur posisi tidur klien sesuai kebutuhan.' },
+                { desc: 'F. Pasang perlak dan alas perlak.' },
+                { desc: 'G. Permukaan kulit daerah yang akan ditusuk didesinfeksi dengan kapas alkohol. Biarkan supaya kering, baru kemudian cepat-cepat ditusuk dengan lanset darah dengan posisi tegak dan dalam.' },
+                { desc: 'H. Untuk menghilangkan rasa sakit, pegang secara kencang bagian tubuh yang akan ditusuk.' },
+                { desc: 'I. Darah yang pertama keluar segera diambil untuk pemeriksaan.' },
+                { desc: 'J. Setelah selesai, bekas tusukan ditekan dengan kapas alkohol.' },
+                { desc: 'K. Peralatan dibersihkan, dibereskan ke tempat semula.' },
+                { desc: 'L. Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'M. Cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Hindari pengambilan darah pada ujung jari yang mengalami gangguan peredaran darah, misalnya cyanosis setempat, hematoma, peradangan, dan lain-lain.' },
+                { desc: 'Pengambilan darah harus dilakukan secara cepat dan tepat untuk menghindari pembekuan darah.' },
+                { desc: 'Untuk menghindari bercampurnya darah dengan cairan jaringan, dilarang menekan bagian darah yang ditusuk.' },
+                { desc: 'Pengambilan darah untuk filaria harus dilakukan pada malam hari, antara pukul 22.00 sampai 24.00 WIB.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Catat tindakan yang telah dilakukan pada catatan keperawatan, meliputi: identitas pasien, waktu pelaksanaan, jenis sample darah yang diambil, reaksi dan respon klien saat dan setelah tindakan serta perawat yang melakukan tindakan.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1435,
+    title: 'Mengambil Sampel Darah Vena',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan pengambilan sampel darah pasien dari pembuluh darah vena.',
+    icon: 'fa-syringe',
+    tags: ['Darah Vena', 'Laboratorium', 'Sampel Darah'],
+    noDokumen: '445/SPO.3444/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan pengambilan sampel darah pasien dari pembuluh darah vena.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan pengambilan sampel darah pasien dari pembuluh darah vena.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Disposable steril sesuai kebutuhan.' },
+                        { text: 'Tempat darah/vacum sesuai jenis pemeriksaan.' },
+                        { text: 'Kapas alkohol dalam tempatnya.' },
+                        { text: 'Plester bulat penutup luka.' },
+                        { text: 'Perlak dan alas perlak.' },
+                        { text: 'Sarung tangan.' },
+                        { text: 'Torniquet.' },
+                        { text: 'Bengkok.' },
+                        { text: 'Baki.' },
+                        { text: 'Etiket dan format pemeriksaan.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Berikan penjelasan kepada pasien/keluarga tentang tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Perawat cuci tangan.' },
+                { desc: 'B. Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'C. Atur posisi tidur/duduk klien sesuai kebutuhan.' },
+                { desc: 'D. Pasang perlak dan alas perlak di bawah organ tubuh yang akan diambil sample darah.' },
+                { desc: 'E. Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'F. Pakai sarung tangan.' },
+                { desc: 'G. Pastikan daerah vena yang akan ditusuk.' },
+                { desc: 'H. Pasang tourniquet di atas vena.' },
+                { desc: 'I. Instruksikan pasien jangan menggerakkan organ yang akan ditusuk.' },
+                { desc: 'J. Desinfeksi area sekitar vena dengan kapas alkohol secara melingkar.' },
+                { desc: 'K. Tusukkan jarum ke vena dengan posisi ujung jarum spuit menghadap ke atas, tarik plunger spuit dan ambil darah sesuai kebutuhan.' },
+                { desc: 'L. Buka tourniquet.' },
+                { desc: 'M. Tarik jarum dengan cepat, tekan bekas tusukan dengan kapas alkohol.' },
+                { desc: 'N. Pasang plester bulat di atas bekas tusukan.' },
+                { desc: 'O. Pindahkan sample darah dari spuit ke vacum.' },
+                { desc: 'P. Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Q. Beri etiket di tabung vacum.' },
+                { desc: 'R. Peralatan dibereskan dan dikembalikan ke tempat semula, sampah dibuang sesuai jenisnya.' },
+                { desc: 'S. Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'T. Perawat mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Catat respon pasien selama dan setelah tindakan dilakukan.' },
+                { desc: 'Lengkapi format permintaan pemeriksaan laboratorium.' },
+                { desc: 'Segera kirimkan sample darah ke instalasi laboratorium.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan pada rekam medik pasien meliputi: waktu pelaksanaan, identitas pasien, reaksi dan respon klien, serta perawat yang melakukan.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1436,
+    title: 'Memasang Infus',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Sebuah teknik memasukan jarum atau kanula ke dalam vena untuk memasukan cairan infus ke dalam tubuh pasien dalam jumlah dan waktu tertentu.',
+    icon: 'fa-droplet',
+    tags: ['Infus', 'Pemasangan Infus', 'IV Cath'],
+    noDokumen: '445/SPO.3520/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Sebuah teknik memasukan jarum atau kanula ke dalam vena untuk memasukan cairan infus ke dalam tubuh pasien dalam jumlah dan waktu tertentu.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah melaksanakan pemasangan infus untuk kebutuhan pemberian cairan baik maintenance atau resusitasi, elektrolit, obat dan nutrisi parenteral.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Cairan infus sesuai program.' },
+                        { text: 'Infus set / transfuse set sesuai kebutuhan.' },
+                        { text: 'IV cath sesuai dengan ukuran yang dibutuhkan.' },
+                        { text: 'Kassa steril atau plester penutup infus khusus.' },
+                        { text: 'Kapas alkohol dalam tempatnya.' },
+                        { text: 'Sarung tangan steril.' },
+                        { text: 'Perlak dan alas perlak.' },
+                        { text: 'Tourniquet.' },
+                        { text: 'Bak spuit.' },
+                        { text: 'Plester dan gunting.' },
+                        { text: 'Bengkok.' },
+                        { text: 'Bidai / spalk / kassa gulung (jika diperlukan).' },
+                        { text: 'Standar infus.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pastikan program infus yang direncanakan oleh dokter penanggung jawab.' },
+                        { text: 'Pasien diberi penjelasan tentang prosedur yang akan dilakukan.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Perawat cuci tangan.' },
+                { desc: 'B. Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'C. Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'D. Mengisi selang infus.',
+                    detail: [
+                        { desc: 'Buka kemasan infus set dengan benar.' },
+                        { desc: 'Tusukkan ujung atas infus set pada port penutup cairan infus.' },
+                        { desc: 'Gantungkan cairan infus pada standar infus.' },
+                        { desc: 'Buka rolling infus set kemudian alirkan cairan infus ke selang infus set, cegah jangan sampai udara masuk ke selang infus.' },
+                        { desc: 'Tutup rolling infus, ujung selang infus tetap ditutup untuk mempertahankan kesterilan.' },
+                    ]},
+                { desc: 'Pasang perlak dan pengalas di bawah bagian tubuh yang akan dilakukan insersi IV cath.' },
+                { desc: 'Tentukan pembuluh darah vena yang akan ditusuk.' },
+                { desc: 'Pasang tourniquet di atas area vena yang akan dipilih.' },
+                { desc: 'Pakai sarung tangan steril.' },
+                { desc: 'Desinfeksi vena dengan alkohol (menggunakan teknik sirkuler atau dari atas ke bawah sekali hapus).' },
+                { desc: 'Buka kemasan IV cath dan periksa apakah ada kerusakan pada alat.' },
+                { desc: 'Tusukkan IV cath pada vena yang telah dipilih dengan posisi 10–30°.' },
+                { desc: 'Perhatikan bila ada darah dalam kompartemen IV cath, maka mandrin ditarik keluar sedikit-sedikit sambil kateter dimasukan perlahan-lahan.' },
+                { desc: 'Buang jarum IV cath ke bengkok.' },
+                { desc: 'Sambungkan IV cath dengan ujung selang infus.' },
+                { desc: 'Buka tourniquet dengan tangan kanan, tahan kepatenan IV cath dengan tangan kiri perawat.' },
+                { desc: 'Alirkan cairan infus dengan membuka rolling infus set.' },
+                { desc: 'Fiksasi IV cath dengan plester disilang / kupu-kupu.' },
+                { desc: 'Tutup tempat insersi dengan kassa steril kering / penutup infus khusus.' },
+                { desc: 'Lakukan fiksasi dengan plester secara benar dan mempertahankan keamanan IV cath agar tidak tercabut.' },
+                { desc: 'Atur tetasan infus sesuai dengan program.' },
+                { desc: 'Pasang label di botol infus meliputi jam pemasangan, jumlah tetesan atau isi kandungan obat.' },
+                { desc: 'Alat-alat dibereskan, sampah dibuang sesuai jenisnya.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Perhatikan kelancaran infus dan perhatikan juga respon pasien terhadap pemberian tindakan.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan di rekam medik pasien meliputi: waktu pelaksanaan, hasil tindakan, reaksi / respon pasien terhadap pemasangan infus, cairan dan tetesan yang diberikan, nomor IV cath, vena yang diinfus, dan perawat yang melakukan.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1437,
+    title: 'Mengganti Cairan Infus',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Kegiatan mengganti cairan infus yang sedang terpasang pada pasien.',
+    icon: 'fa-droplet',
+    tags: ['Infus', 'Cairan Infus', 'Pergantian Infus'],
+    noDokumen: '445/SPO.3521/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Kegiatan mengganti cairan infus yang sedang terpasang pada pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan mengganti cairan infus.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki tindakan.' },
+                        { text: 'Cairan infus sesuai program.' },
+                        { text: 'Label berisi jam pemasangan, jumlah tetesan atau jenis obat yang terkandung dalam cairan infus.' },
+                        { text: 'Jam tangan yang ada detiknya.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Beritahu klien tentang tindakan yang akan dilakukan.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Tutup rolling infus yang terpasang.' },
+                { desc: 'Siapkan cairan infus baru: buka penutup botol, jaga jangan menyentuh area penusukan.' },
+                { desc: 'Ganti cairan lama dari selang infus, cepat tusukkan selang infus ke dalam botol baru, pertahankan kesterilan area penusukan botol infus.' },
+                { desc: 'Gantungkan botol infus yang baru, pastikan bebas udara dalam selang infus.' },
+                { desc: 'Buka klem rolling lalu tetesan infus diatur kembali sesuai program.' },
+                { desc: 'Cairan infus diberi label (seperti: labu 1, labu 2 dan selanjutnya), serta program jumlah tetes/menit.' },
+                { desc: 'Bereskan alat-alat, sampah dibuang sesuai jenisnya.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Perhatikan kelancaran infus dan respon pasien.'
+
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan dalam rekam medik pasien meliputi: waktu mengganti cairan infus, jenis cairan infus yang diganti, jumlah tetesan, serta respon pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1438,
+    title: 'Melepas Cairan Infus (Up Infus)',
+    category: 'tindakan',
+    subCategory: 'terapiCairan',
+    description: 'Tindakan untuk melepaskan atau mencabut IV catheter dan selang infus dari vena.',
+    icon: 'fa-droplet',
+    tags: ['Infus', 'Melepas Infus', 'IV Catheter', 'Terapi Cairan'],
+    noDokumen: '445/SPO.3522/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Tindakan untuk melepaskan atau mencabut IV catheter dan selang infus dari vena.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah melepas infus untuk menghentikan program terapi cairan sesuai program.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Sarung tangan.' },
+                        { text: 'Bak spuit berisi kasa steril.' },
+                        { text: 'Kapas alkohol.' },
+                        { text: 'Wash bensin (jika diperlukan).' },
+                        { text: 'Perlak dan alas perlak.' },
+                        { text: 'Plester dan gunting.' },
+                        { text: 'Bengkok.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Beritahu klien tentang tindakan yang akan dilakukan.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Pakai sarung tangan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Pasang perlak dan alas di bawah area insersi IV catheter.' },
+                { desc: 'Simpan bengkok di dekat area yang terpasang infus.' },
+                { desc: 'Tutup klem tetesan infus.' },
+                { desc: 'Buka plester pelan-pelan menggunakan wash bensin, pertahankan posisi IV catheter dan selang infus dengan tangan tidak dominan.' },
+                { desc: 'Cabut IV catheter keluar dari vena.' },
+                { desc: 'Tekan area bekas penusukan dengan kapas alkohol 1–2 menit (tunggu sampai darah tidak keluar lagi).' },
+                { desc: 'Buang kapas alkohol ke dalam bengkok.' },
+                { desc: 'Beri kasa steril di bekas pemasangan infus, lalu difiksasi plester.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Bereskan alat dan buang sampah sesuai jenisnya.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Evaluasi kondisi pasien pasca pencabutan infus.' },
+                { desc: 'Catat respon pasien.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan dalam rekam medis pasien meliputi: waktu tindakan dan kondisi area yang telah dilepas infus.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1439,
+    title: 'Observasi Intake–Output Cairan Tubuh Pasien',
+    category: 'observasi',
+    subCategory: 'terapiCairan',
+    description: 'Suatu kegiatan menghitung jumlah cairan tubuh pasien yang masuk (intake) dan keluar (output) serta jumlah keseimbangannya.',
+    icon: 'fa-droplet',
+    tags: ['Intake Output', 'Balance Cairan', 'Observasi Cairan', 'Keperawatan'],
+    noDokumen: '445/SPO.3523/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan menghitung jumlah cairan tubuh pasien yang masuk (intake) dan keluar (output) serta jumlah keseimbangannya.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah mengobservasi intake-output cairan tubuh pasien untuk mengetahui keseimbangannya.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Format observasi.' },
+                        { text: 'Sarung tangan non steril.' },
+                        { text: 'Gelas ukur.' },
+                        { text: 'Bahan yang akan diukur.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Beritahu pasien tentang tindakan yang akan dilakukan.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Pakai sarung tangan.' },
+                { desc: 'Buka penutup urine bag tempat menampung cairan output berupa urine, drain, WSD atau NGT.' },
+                { desc: 'Buang cairan dari urine bag ke gelas ukur.' },
+                { desc: 'Tutup kembali saluran pembuangan di urine bag.' },
+                { desc: 'Buang limbah ke spoelhok, buka sarung tangan lalu buang ke tempat sampah.' },
+                { desc: 'Bereskan alat dan kembalikan ke tempat semula.' },
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Hitung jumlah cairan yang masuk baik oral maupun parenteral (makanan cair, air minum dan cairan infus).' },
+                { desc: 'Hitung jumlah cairan output yang dibuang.' },
+                { desc: 'Lakukan penghitungan balance cairan yaitu intake-output = balance.' },
+                { desc: 'Catat hasil penghitungan.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Evaluasi TTV pasien.' },
+                { desc: 'Evaluasi status cairan dan elektrolit.' },
+                { desc: 'Evaluasi kondisi klinis status hidrasi pasien.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan hasil tindakan dalam rekam medis pasien meliputi jumlah intake, output dan balance cairan, sisa cairan infus yang terpasang dan kondisi klinis pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1440,
+    title: 'Mengganti Balutan Infus',
+    category: 'tindakan',
+    subCategory: 'terapiCairan',
+    description: 'Tindakan penggantian balutan infus sebagai upaya pencegahan terhadap kontaminasi atau infeksi pada area penusukan vena dan pemakaian infus set.',
+    icon: 'fa-bandage',
+    tags: ['Balutan Infus', 'Perawatan Infus', 'Plebitis', 'Infus'],
+    noDokumen: '445/SPO.3524/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Tindakan penggantian balutan infus sebagai upaya pencegahan terhadap kontaminasi atau infeksi pada area penusukan vena dan pemakaian infus set.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah perawatan infus pada pasien yang terpasang infus.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki berisi kit balutan baru.' },
+                        { text: 'Bak spuit.' },
+                        { text: 'Kasa infus steril.' },
+                        { text: 'Kapas alkohol.' },
+                        { text: 'Wash bensin bila perlu.' },
+                        { text: 'Sarung tangan.' },
+                        { text: 'Plester non alergis dan gunting.' },
+                        { text: 'Perlak dan alas perlak.' },
+                        { text: 'Bengkok.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Beritahu pasien tentang tindakan yang akan dilakukan.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Periksa tanggal penggunaan infus set dan penggunaan IV Cath.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Pasang perlak di bawah organ yang terpasang infus.' },
+                { desc: 'Pakai sarung tangan.' },
+                { desc: 'Buka balutan lama menggunakan wash bensin.' },
+                { desc: 'Bersihkan area penusukan vena secara steril dengan larutan antiseptik dan pertahankan fiksasi agar tetap adekuat.' },
+                { desc: 'Oleskan tempat penusukan dengan zalf anti mikroba.' },
+                { desc: 'Tutup area insersi dengan kasa steril lalu fiksasi dengan plester.' },
+                { desc: 'Sesuaikan kecepatan tetesan infus sesuai kebutuhan.' },
+                { desc: 'Pasang label di atas kasa penutup infus berisi informasi waktu penggantian.' },
+                { desc: 'Alat dirapihkan dan dibereskan, sampah dibuang sesuai jenisnya.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Evaluasi kepatenan tetesan infus.' },
+                { desc: 'Evaluasi tanda-tanda infeksi di lokasi insersi.' },
+                { desc: 'Evaluasi respon pasien terhadap tindakan yang dilakukan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan di rekam medik pasien meliputi: waktu tindakan, keadaan lokasi insersi, tanda-tanda plebitis, kecepatan tetesan infus dan respon pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif'
+    ]
+},
+{
+    id: 1441,
+    title: 'Menilai Tingkat Kesadaran Menggunakan Glasgow Coma Scale (GCS)',
+    category: 'observasi',
+    subCategory: 'pemeriksaanFisik',
+    description: 'Kegiatan untuk mengukur tingkat kesadaran pasien dewasa secara kuantitas menggunakan indikator penghitungan kesadaran menurut Glasgow Coma Scale (GCS).',
+    icon: 'fa-brain',
+    tags: ['GCS', 'Glasgow Coma Scale', 'Kesadaran', 'Neurologi'],
+    noDokumen: '445/SPO.3525/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Kegiatan untuk mengukur tingkat kesadaran pasien dewasa secara kuantitas menggunakan indikator penghitungan kesadaran menurut Glasgow Coma Scale (GCS).',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam menilai tingkat kesadaran pasien dewasa dengan menggunakan indikator Glasgow Coma Scale (GCS).',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Formulir GCS.' },
+                        { text: 'Alat tulis.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien / keluarga',
+                    detail: 'Pasien/keluarga diberikan penjelasan tentang tindakan yang akan dilakukan.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Atur posisi pasien.' },
+                {
+                    desc: 'Nilai kesadaran pasien dengan menggunakan GCS (Glasgow Coma Scale), dengan panduan nilai:',
+                    detail: [
+                        { text: 'Respon membuka mata (E = Eye / Mata).',
+                            subDetail: [
+                                { text: 'Nilai 4 jika: pasien mampu membuka mata tanpa rangsangan/spontan.' },
+                                { text: 'Nilai 3 jika: pasien membuka mata bila diperintah dengan suara.' },
+                                { text: 'Nilai 2 jika: pasien mampu membuka mata bila ada rangsangan nyeri.' },
+                                { text: 'Nilai 1 jika: pasien tidak mampu membuka mata sama sekali meskipun ada rangsangan verbal atau nyeri.' },
+                            ]
+                         },
+
+                        { text: 'Respon verbal (V = Verbal / Bicara).',
+                            subDetail: [
+                                { text: 'Nilai 5 jika: pasien mempunyai orientasi baik, dapat menjawab pertanyaan dengan tepat.' },
+                                { text: 'Nilai 4 jika: pasien menjawab pertanyaan kacau.' },
+                                { text: 'Nilai 3 jika: pasien menjawab pertanyaan dengan kata yang tidak dapat dimengerti.' },
+                                { text: 'Nilai 2 jika: pasien merespon pertanyaan dengan erangan.' },
+                                { text: 'Nilai 1 jika: pasien tidak ada respon.' }
+                            ]
+                        },
+
+                        { text: 'Respon motorik (M = Motorik / Gerakan).',
+                            subDetail: [
+                                { text: 'Nilai 6 jika: pasien dapat menggerakkan ekstremitas sesuai perintah.' },
+                                { text: 'Nilai 5 jika: pasien dapat melokalisir rasa nyeri.' },
+                                { text: 'Nilai 4 jika: pasien dapat menarik fleksi.' },
+                                { text: 'Nilai 3 jika: pasien melakukan fleksi abnormal.' },
+                                { text: 'Nilai 2 jika: pasien melakukan ekstensi abnormal.' },
+                                { text: 'Nilai 1 jika: pasien tidak ada respon.' }
+                            ]
+                        }
+                    ]
+                },
+                { desc: 'Catat hasil penilaian GCS dengan menjumlahkan nilai E + V + M.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Kaji adanya perubahan tingkat kesadaran secara rutin.' },
+                {
+                    desc: 'Perlu diperhatikan kondisi pasien dengan trauma kepala:',
+                    detail: [
+                        { text: 'Jika nilai GCS ≤ 8 termasuk trauma kepala berat / severe.' },
+                        { text: 'Jika nilai GCS 9–12 atau 9–11 dengan adanya lesi intrakranial sesuai hasil CT-Scan termasuk trauma kepala sedang / moderate.' },
+                        { text: 'Jika nilai GCS 13–15 atau 12–15 dengan adanya lesi intrakranial sesuai hasil CT-Scan termasuk trauma kepala ringan / mild.' }
+                    ]
+                },
+                {
+                    desc: 'Penurunan kesadaran yang lain:',
+                    detail: [
+                        { text: 'Jika nilai GCS 15: compos mentis.' },
+                        { text: 'Jika nilai GCS 12–14: somnolen.' },
+                        { text: 'Jika nilai GCS 8–11: soporus.' },
+                        { text: 'Jika nilai GCS 3–7: coma.' }
+                    ]
+                },
+                { desc: 'Identifikasi GCS sebelumnya dan penggunaan obat-obatan yang mempengaruhi tingkat kesadaran.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan hasil dan waktu penilaian dalam rekam medis pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1442,
+    title: 'Memandikan Pasien di Tempat Tidur',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Kegiatan memelihara kebersihan dan kesehatan tubuh pasien untuk kesejahteraan fisik dan psikisnya.',
+    icon: 'fa-bath',
+    tags: ['Memandikan Pasien', 'Bed Bath', 'Kebersihan Pasien'],
+    noDokumen: '445/SPO.3526/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Merupakan kegiatan memelihara kebersihan dan kesehatan tubuh pasien untuk kesejahteraan fisik dan psikisnya.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah tindakan keperawatan memelihara kebersihan dan kesehatan pasien dalam rangka: 
+    membersihkan kulit, memberikan rasa nyaman
+    merangsang sirkulasi darah
+    membersihkan sekresi keringat
+    memberikan aktivitas ringan
+    serta memelihara mobilitas persendian, kondisi kulit, dan kekuatan otot.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Waskom mandi 2 buah.' },
+                        { text: 'Waslap 2 buah.' },
+                        { text: 'Air hangat dengan suhu 43–46°C.' },
+                        { text: 'Sabun mandi pada tempatnya.' },
+                        { text: 'Pasta gigi dan sikat gigi.' },
+                        { text: 'Pakaian bersih.' },
+                        { text: 'Handuk 2 buah.' },
+                        { text: 'Selimut mandi / kain penutup.' },
+                        { text: 'Sarung tangan.' },
+                        { text: 'Alas meja.' },
+                        { text: 'Tempat alat tenun kotor.' },
+                        { text: 'Bedak, deodorant, lotion (sesuai kebutuhan).' },
+                        { text: 'Urinal / pispot (sesuai kebutuhan).' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan yang akan dilakukan.' },
+                        { text: 'Minta persetujuan dari pasien / keluarga untuk dimandikan.' },
+                        { text: 'Tutup scherm di sekeliling tempat tidur, pintu dan jendela.' },
+                        { text: 'Atur ketinggian tempat tidur agar memudahkan perawat dalam bekerja.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Perawat mencuci tangan.' },
+                { desc: 'B. Dekatkan alat-alat ke sebelah pasien.' },
+                { desc: 'C. Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'D. Jelaskan maksud dan tujuan.' },
+                { desc: 'E. Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'F. Pakai sarung tangan.' },
+                { desc: 'G. Lipat selimut dan letakkan di kaki tempat tidur, singkirkan bantal dan barang-barang yang tidak diperlukan.' },
+                { desc: 'H. Bantu pasien untuk bergerak ke sisi dekat perawat dan tutup bedplang pada bagian sisi tempat tidur yang berlawanan.' },
+                { desc: 'I. Bentangkan handuk di bawah kepala pasien.' },
+                { desc: 'J. Bersihkan muka dan leher.',
+                    detail: [
+                        { desc: '1) Cuci mata dengan waslap dari bagian luar ke dalam.' },
+                        { desc: '2) Cuci daerah muka, telinga, leher, kemudian keringkan dengan handuk, tanyakan terlebih dahulu apakah akan menggunakan sabun atau tidak.' }
+                    ]
+                },
+                { desc: 'K. Lepaskan handuk dari bawah kepala pasien.' },
+                { desc: 'L. Bersihkan lengan. dengan cara:',
+                    detail: [
+                        { desc: '1) Lepaskan pakaian bagian atas dan tutup dengan handuk. Bila pasien menggunakan infus, lepaskan pakaian mulai dari bagian lengan yang tidak terpasang infus.' },
+                        { desc: '2) Bentangkan handuk atas memanjang di bawah lengan kanan dan handuk bawah di sisi kiri lengan sehingga menutup bagian depan pasien.' },
+                        { desc: '3) Cuci lengan dan ketiak dari arah ujung jari ke pangkal axilla. Angkat lengan ke atas sewaktu membersihkan area axilla. Sabuni terlebih dahulu, kemudian bilas dan keringkan.' },
+                    ]
+                 },
+                { desc: 'M. Bersihkan dada dan perut. dengan cara:',
+                    detail: [
+                        { desc: '1) Kedua lengan diangkat ke atas dan disimpan di sisi kepala, handuk diletakkan menyilang sehingga dada dan perut tampak.' },
+                        { desc: '2) Cuci dada dan perut kemudian keringkan dengan handuk atas.' },
+                        { desc: '3) Berikan bedak pada leher, ketiak dan perut.' },
+                    ]
+                },
+                { desc: 'N. Bersihkan punggung. dengan cara:',
+                    detail: [
+                        { desc: '1)Tutupi bagian dada dengan handuk bawah, anjurkan pasien miring ke arah terjauh dari perawat atau tengkurap. Letakkan handuk atas di bawah punggung pasien.' },
+                        { desc: '2) Cuci daerah punggung dengan waslap atas, anjurkan pasien miring ke kiri kemudian ke kanan. Bila pasien tengkurap, perawat dapat mencuci punggung seluruhnya, kemudian keringkan.' },
+                        { desc: '3) Gosok punggung dengan lotion mulai dari area sakral dengan gerakan sirkular, gosok ke atas dari bokong ke bahu dan lengan bagian atas, lalu melewati scapula dengan lembut selama 3–4 menit.' },
+                        { desc: '4) Remas kulit dengan memegang jaringan menggunakan ibu jari dan jari-jari, remas ke arah atas pada sisi spina dan sekitar otot-otot leher, hindari tulang yang menonjol.' },
+                        { desc: '5) Akhiri massage dengan memberikan pukulan perlahan.' },
+                        { desc: '6) Observasi kulit dari kemerahan dan integritas kulit yang tidak utuh.' },
+                        { desc: '7) Kenakan pakaian atas. Bila pasien menggunakan infus, dahulukan lengan yang menggunakan infus.' }
+                    ]
+                 },
+                { desc: 'O. Bersihkan paha dan kaki. dengan cara:',
+                    detail: [
+                        { desc: '1) Tanggalkan pakaian bawah pasien dan tutup bagian bawah dengan handuk atas secara melintang.' },
+                        { desc: '2) Bentangkan handuk di bawah kedua tungkai, anjurkan pasien menekuk tungkai.' },
+                        { desc: '3) Cuci tungkai dari arah mata kaki ke arah paha kemudian keringkan dengan handuk bawah.' },
+                    ]
+                },
+                { desc: 'P. Bersihkan bokong dan genital. dengan cara:',
+                    detail: [
+                        { desc: '1) Letakkan handuk bawah melintang di bawah bokong, sebagian menutupi bokong dan sebagian menutupi bagian depan.' },
+                        { desc: '2) Cuci daerah genitalia dengan waslap bawah.',
+                            subDetail: [
+                                { desc: 'Untuk pasien wanita: buka daerah labia, bersihkan dari orifisium uretra ke arah anus.' },
+                                { desc: 'Untuk pasien pria: buka preputium, bersihkan melingkar dari ujung ke pangkal.' },
+                    ]},
+                        { desc: '3) Anjurkan pasien untuk miring atau tengkurap, kemudian cuci bagian bokong, terakhir cuci bagian anus dari arah perineum ke anus dengan waslap bawah.' },
+                        { desc: '4) Kenakan pakaian bawah pasien.' },
+                    ]
+                },
+                { desc: 'Sisir rambut pasien dan rapikan tempat tidur.' },
+                { desc: 'Atur posisi yang nyaman untuk pasien.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Bereskan alat-alat dan masukkan pakaian kotor pasien ke tempatnya.' },
+                { desc: 'Perawat mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Kemampuan pasien dalam berpartisipasi terhadap prosedur memandikan pasien di tempat tidur.' },
+                { desc: 'Kaji integritas dan kondisi kulit serta tingkat mobilitas, kenyamanan, atau adanya nyeri.' },
+                { desc: 'Kulit pasien harus bebas dari keringat berlebihan, sekresi, dan bau tidak enak.' },
+                { desc: 'Kemampuan pasien mengubah posisi tubuh, melatih persendian otot secara aktif dan pasif selama mandi.' },
+                { desc: 'TTV sebelum dan sesudah tindakan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medis pasien meliputi waktu pelaksanaan tindakan, toleransi pasien terhadap prosedur memandikan, kondisi kulit pasien, intervensi yang dilakukan untuk menangani masalah integritas kulit, kemampuan range of motion, serta hal-hal penting lainnya pada saat memandikan.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+
+{
+    id: 1443,
+    title: 'Mencukur Rambut',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Tindakan membersihkan rambut kepala sebagai persiapan sebelum operasi atau sebelum tindakan.',
+    icon: 'fa-cut',
+    tags: ['Mencukur Rambut', 'Persiapan Operasi', 'Kebersihan'],
+    noDokumen: '445/SPO.3527/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Mencukur rambut adalah tindakan membersihkan rambut kepala sebagai persiapan sebelum operasi atau sebelum tindakan.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan mencukur rambut untuk membersihkan area yang akan dioperasi atau dilakukan tindakan dari rambut sehingga mengurangi mikroorganisme.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Pisau cukur manual atau elektrik.' },
+                        { text: 'Sarung tangan.' },
+                        { text: 'Handuk.' },
+                        { text: 'Sabun / larutan pembersih / bedak (bila perlu).' },
+                        { text: 'Bengkok.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan tentang tindakan yang akan dilakukan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Pakai sarung tangan.' },
+                { desc: 'Atur posisi tidur pasien yang memudahkan tindakan pencukuran.' },
+                { desc: 'Letakkan handuk di bawah kepala.' },
+                { desc: 'Basahi kulit yang akan dicukur dengan sabun / bedak.' },
+                { desc: 'Regangkan kulit yang halus dengan tangan kiri dan cukur searah dengan tumbuhnya rambut.' },
+                { desc: 'Bersihkan sabun dan keringkan, observasi kembali daerah cukurannya.' },
+                { desc: 'Bereskan peralatan.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Lokasi pencukuran rambut dari adanya lesi atau kelainan kulit.' },
+                { desc: 'Bila terjadi penyimpangan baik secara fisik maupun emosional dapat teridentifikasi lebih dini sebelum operasi.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medis pasien meliputi waktu pelaksanaan tindakan, area operasi, kondisi kulit sebelum dan sesudah pencukuran.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+
+{
+    id: 1444,
+    title: 'Perawatan Kebersihan Genitalia Eksterna (Perineal)',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Tindakan membersihkan daerah perineum dan genitalia pasien, biasanya sebagai bagian dari prosedur memandikan atau setelah BAB dan BAK.',
+    icon: 'fa-hand-sparkles',
+    tags: ['Perineal Care', 'Genitalia Eksterna', 'Kebersihan Pasien'],
+    noDokumen: '445/SPO.3528/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Membersihkan daerah perineum dan genitalia pasien dan biasanya merupakan bagian dari prosedur memandikan atau setelah BAB dan BAK.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah tindakan membersikan daerah perineum dan genitalia pasien dan biasanya merupakan bagian dari prosedur memandikan atau setelah BAB dan BAK untuk :
+            Mengurangi pertumbuhan bakteri. 
+            Menghilangkan kelebihan sekresi.
+            Mencegah pencegahan MO dengan pasien yang terpasang kateter.
+            Meningkatkan kenyamanan pasien.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baskom berisi air hangat.' },
+                        { text: 'Sabun.' },
+                        { text: 'Handuk.' },
+                        { text: 'Tisu gulung.' },
+                        { text: 'Sarung tangan bersih.' },
+                        { text: 'Washlap atau kapas bulat.' },
+                        { text: 'Perlak dan alas perlak.' },
+                        { text: 'Handuk.' },
+                        { text: 'Pispot.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan prosedur tindakan kepada pasien atau keluarga.' },
+                        { text: 'Menyiapkan lingkungan yang nyaman dengan menutup scherm di sekeliling tempat tidur, pintu atau jendela.' },
+                        { text: 'Atur ketinggian tempat tidur supaya perawat nyaman dalam bekerja.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Perawat mencuci tangan.' },
+                { desc: 'B. Pakai sarung tangan bersih.' },
+                { desc: 'C. Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'D. Lepaskan pakaian bawah dan letakkan handuk melintang menutupi bagian depan.' },
+                { desc: 'E. Pasang perlak di bawah bokong pasien.' },
+                { desc: 'F. Pasang pispot di atas perlak.' },
+                { desc: 'G. Siram perineum dengan air hangat dan cuci dengan sabun.' },
+                { desc: 'H. Bersihkan area perineal menggunakan waslap / kapas bulat memakai sabun.',
+                    detail: [
+                        { desc: '1) Untuk pasien wanita dengan posisi dorsal recumbent: bersihkan labia mayora, kemudian dengan tangan non dominan buka labia mayora, bersihkan daerah sekitar labia minora, lalu bersihkan orifisium uretra dan vagina dari atas ke bawah (jangan dibolak-balik).' },
+                        { desc: '2) Untuk pasien pria dengan posisi supine: buka daerah preputium, bersihkan daerah meatus uretra secara melingkar dari gland penis ke arah pangkal dan daerah scrotum.' },
+                    ]
+                 },
+                { desc: 'I. Keringkan daerah perineum, sebaiknya tidak memakai bedak.' },
+                { desc: 'J. Kenakan pakaian bawah pasien dan atur posisi yang nyaman.' },
+                { desc: 'K. Rapikan dan bersihkan peralatan.' },
+                { desc: 'L. Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'M. Perawat mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Area perineal bersih, kering, dan bebas dari bau tidak nyaman.' },
+                { desc: 'Genitalia tidak iritasi dan bebas discharge / sekret.' },
+                { desc: 'Pada pasien yang menggunakan kateter lakukan perawatan kateter dua kali sehari.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan di rekam medis pasien meliputi waktu pelaksanaan, hasil tindakan, reaksi pasien setelah tindakan, kondisi kulit sekitar perineum, adanya bau atau cairan, serta perawatan lanjutan bila perlu.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+},
+
+{
+    id: 1445,
+    title: 'Memberikan Kompres Es',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Tindakan pemberian kompres es untuk menimbulkan vasokonstriksi lokal, menghambat sirkulasi lokal, dan mengurangi kongesti vaskular.',
+    icon: 'fa-snowflake',
+    tags: ['Kompres Es', 'Terapi Dingin', 'Nyeri', 'Edema'],
+    noDokumen: '445/SPO.3529/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan pemberian kompres es untuk membuat pembuluh darah menjadi mengecil (kontriksi), menghambat sirkulasi lokal, dan menghilangkan kongesti vaskular.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah tindakan keperawatan memberikan kompres es dalam rangka :
+            Mengurangi edema.
+            Mengurangi nyeri.
+            Menurunkan temperature.
+            Mencegah atau menghentikan perdarahan.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Kirbat es / es kap.' },
+                        { text: 'Sarung kirbat es.' },
+                        { text: 'Kom berisi potongan es.' },
+                        { text: 'Washlap.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Jelaskan maksud dan tujuan tindakan yang akan dilakukan.' },
+                { desc: 'Periksa kirbat es apakah bocor / tidak dan pastikan penutup kirbat es dalam keadaan baik.' },
+                { desc: 'Isi kirbat es ½–2/3 bagian dengan potongan es.' },
+                { desc: 'Letakkan kirbat es pada lokasi dengan pembuluh darah besar (axilla, lipat paha, leher).' },
+                { desc: 'Observasi reaksi yang timbul pada pasien seperti bercak-bercak biru, pucat, atau mati rasa.' },
+                { desc: 'Ukur kembali suhu pasien.' },
+                { desc: 'Isi kembali kirbat es bila es telah mencair.' },
+                { desc: 'Rapikan pasien dan bereskan alat-alat.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Perawat mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Catat reaksi pasien setelah dilakukan tindakan.' },
+                { desc: 'Observasi TTV dan kondisi pasien (bercak-bercak biru, pucat, atau mati rasa).' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan yang dilakukan pada rekam medis pasien meliputi waktu pelaksanaan, respon pasien, dan TTV.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1446,
+    title: 'Memberikan Kompres Panas',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Tindakan pemberian kompres panas dimana yang dibutuhkan oleh tubuh untuk meningkatkan temperature jaringan dan menurunkan proses inflamasi.',
+    icon: 'fa-fire',
+    tags: ['Kompres Panas', 'Terapi Panas', 'Relaksasi', 'Inflamasi'],
+    noDokumen: '445/SPO.3530/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan pemberian kompres panas dimana yang dibutuhkan oleh tubuh untuk meningkatkan temperature jaringan dan menurunkan proses inflamasi dengan cara vasodilatasi dan meningkatkan sirkulasi lokal.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah melakukan tindakan keperawatan pemberian kompres panas dalam rangka :
+            Memberikan rasa nyaman dan relaksasi.
+            Menghangatkan bagian tubuh tertentu.
+            Membantu penyembuhan.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Kantong air panas (Warm Water Zack/WWZ)' },
+                        { text: 'Sarung kantong air panas (kantong WWZ)' },
+                        { text: 'Kom berisi air panas' },
+                        { text: 'Washlap' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan tindakan yang akan dilakukan.'
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.'
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Isi kantong air panas/WWZ dengan air panas 1/3 bagian.' },
+                { desc: 'Keluarkan udara dari kantong air panas/WWZ.' },
+                { desc: 'Periksa apakah kantong air panas bocor atau tidak.' },
+                { desc: 'Pasang kantong sarung air panas.' },
+                { desc: 'Letakan kantong air panas di area yang perlu dihangatkan seperti : perut, kaki atau tangan.' },
+                { desc: 'Ganti air panas bila telah dingin.' },
+                { desc: 'Observasi jaringan kulit jangan sampai terbakar.' },
+                { desc: 'Rapihkan pakaian pasien setelah selesai tindakan kompres.' },
+                { desc: 'Bereskan alat-alat.' },
+                { desc: 'Keluarkan air dari kantung air panas/WWZ, kemudian kantung air panas/WWZ di gantung terbalik.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Catat reaksi pasien setelah dilakukan tindakan.' },
+                { desc: 'Observasi Tanda-tanda vital sebelum dan setelah tindakan.' },
+                { desc: 'Kondisi kulit dan organ di tempat kompres air panas.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan yang dilakukan pada rekam medis pasien meliputi : respon pasien, waktu pelaksanaan, TTV, kondisi kulit sebelum dan sesudah dilakukan kompres.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1447,
+    title: 'Mengajarkan Latihan Napas Dalam',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Adalah metode latihan napas yang diajarkan kepada pasien dengan mengatur pola inspirasi dan ekspirasi.',
+    icon: 'fa-lungs',
+    tags: ['Napas Dalam', 'Latihan Pernapasan', 'Paru', 'Relaksasi'],
+    noDokumen: '445/SPO.3531/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Adalah metode latihan napas yang diajarkan kepada pasien dengan mengatur pola inspirasi dan ekspirasi.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah tindakan keperawatan latihan napas dalam dalam rangka :
+            Membantu ekspansi paru.
+            Mengurangi skala nyeri.
+            Menurunkan resiko pneumonia, atelektasis dan emboli paru.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Bantal' },
+                        { text: 'Kursi bila perlu' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan latihan yang akan dilakukan.'},
+                        { text: 'Siapkan lingkungan yang tenang tidak bising.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Jelaskan maksud dan tujuan tindakan.' },
+                { desc: 'Anjurkan pasien untuk duduk ditepi tempat tidur atau di kursi dengan bantal di pangkuan.' },
+                { desc: 'Perawat berdiri dihadapan pasien.' },
+                { desc: 'Intruksikan pada pasien untuk menyilangkan kedua lengannya didepan dada dan jari-jari terbuka menempel pada dinding thorax.' },
+                { desc: 'Pasien mengambil napas dalam perlahan-lahan melalui hidung, tahan 1 – 2 detik dengan hitungan 1-2-3, lalu buang melalui mulut.' },
+                { desc: 'Anjurkan pasien untuk melakukan latihan napas 10 kali setiap 2 jam atau sesuai kondisi.' },
+                { desc: 'Atur kembali posisi tidur setelah sesi latihan selesei.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Kemampuan pasien melakukan teknik batuk efektif.' },
+                { desc: 'Respon pasien setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medis pasien meliputi: waktu pelaksanaan tindakan, kemampuan pasien untuk melakukan latihan napas dalam dan reaksi pasien terhadap tindakan yang dilakukan.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1448,
+    title: 'Memasang Kondom Kateter',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Memasukan alat non invasif yang digunakan untuk menampung urine pada pasien pria yang mengalami inkontinensia urine tanpa menimbulkan resiko infeksi saluran perkemihan.',
+    icon: 'fa-procedures',
+    tags: ['Kateter', 'Urine', 'Inkontinensia'],
+    noDokumen: '445/SPO.3532/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Memasukan alat non invasif yang digunakan untuk menampung urine pada pasien pria yang mengalami inkontinensia urine tanpa menimbulkan resiko infeksi saluran perkemihan.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah melakukan tindakan pemasangan condom kateter untuk :
+            Mengumpulkan urine pada pasien laki-laki inkontinensia tanpa menimbulkan resiko terhadap infeksi
+            Mencegah kerusakan integritas kulit akibat adanya inkontinensia.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Kondom kateter dengan ukuran sesuai kebutuhan dan perekatnya.' },
+                        { text: 'Sarung tangan bersih.' },
+                        { text: 'Urine bag.' },
+                        { text: 'Gantungan urine bag.' },
+                        { text: 'Perlak dan alas perlak.' },
+                        { text: 'Kom air hangat, waslap, sabun dan handuk.' },
+                        { text: 'Plester.' },
+                        { text: 'Bengkok.' },
+                        { text: 'Alat cukur jika diperlukan.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan tindakan yang akan dilakukan.'},
+                        { text: 'Siapkan lingkungan : tutup scherm pasien, jika perlu tutup pintu.' },
+                        { text: 'Atur ketinggian tempat tidur sejajar dengan daerah kerja perawat untuk memudahkan tindakan.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Pakai sarung tangan bersih.' },
+                { desc: 'Bantu pasien untuk posisi supine.' },
+                { desc: 'Buka pakaian bawah pasien, tutupi dengan selimut / handuk.' },
+                { desc: 'Letakan perlak + alas perlak dibawah bokong pasien.' },
+                { desc: 'Bersihkan daerah genitalia dengan air hangat + sabun + bilas keringkan dengan handuk. Jika perlu cukur rambut yang ada disekitar genitelia.' },
+                { desc: 'Pasang kondom kateter dengan cara :',
+                    detail: [
+                        { desc: '1) Sambungkan ujung selang urine bag dengan ujung kondom kateter.' },
+                        { desc: '2) Tempelkan plastic tipis pelindung kulit penis (ada didalam kondom kateter set) tunggu kering selama ± 30 detik.' },
+                        { desc: '3) Pegang penis dengan tangan yang tidak dominan, letakan kondom kateter di gland penis, dengan tangan yang dominan buka gulungan kondom cateter sepanjang penis sampai dengan batas perekat.' },
+                        { desc: '4) Tempelkan plester perekat dengan cara melingkar membentuk spiral di penis, pastikan plester tidak terlalu kencang.' },
+                    ]
+                },
+                { desc: 'Gantung urine bag ditempat yang aman dan posisi yang baik, usahakan selang urine bag tidak menggulung atau terjepit.' },
+                { desc: 'Atur posisi pasien nyaman, fiksasi selang urine bag dengan baik.' },
+                { desc: 'Bereskan alat-alat.' },
+                { desc: 'Buka sarung tangan.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Perawat mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Catat reaksi pasien setelah dilakukan tindakan.' },
+                { desc: 'Tanda-tanda vital.' },
+                { desc: 'Tanda dan gejala terjadinya lecet atau iritasi.' },
+                { desc: 'Kelancaran aliran urine pada selang urine bag, jumlah dan karakteristik urine yang keluar.' },
+                { desc: 'Observasi daerah penis setiap 15 – 30 menit setelah pemasangan kondom kateter, dari pembengkakan atau perubahan warna kulit.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan yang dilakukan pada rekam medic pasien meliputi : waktu pelaksanaan, konsistensi, warna, bau dan jumlah urine, respon pasien dan kondisi kulit sepanjang batang penis.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1449,
+    title: 'Memasang Kateter Urine',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Adalah tindakan memasukan selang kateter urine melalui uretra ke dalam kandung kemih pasien.',
+    icon: 'fa-procedures',
+    tags: ['Kateter', 'Urine', 'Perkemihan'],
+    noDokumen: '445/SPO.3533/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Adalah tindakan memasukan selang kateter urine melalui uretra ke dalam kandung kemih pasien.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah pelaksanaan tindakan keperawatan memasukan kateter urine untuk :
+            Memonitor fungsi saluran perkemihan, mencegah/mengurangi ketegangan/distensi kandung kemih.
+            Memelihara aliran atau drainase urine dari kandung kemih secara terus menerus.
+            Mengambil bahan urine steril untuk pemeriksaan.
+            Irigasi kandung kemih dengan cairan atau obat.
+            Memelihara keutuhan sistem perkemihan.
+            Mengukur jumlah residu urine yang ada di dalam kandung kemih.
+            Mengukur fungsi kandung kemih secara akurat.
+            Memonitor output pasien sakit berat.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Set kateter didalam bak/pembungkus kain steril, terdiri dari :',
+                            subDetail: [
+                                { text: 'Doek bolong steril 1buah' },
+                                { text: 'Kom kecil 1 buah' },
+                                { text: 'Pinset anatomis 1 buah' },
+                                { text: 'Kapas 5 buah' },
+                                { text: 'Sarung tangan steril 1 pasang' },
+                            ]
+                         },
+                        { text: 'Kateter urine sesuai ukuran Nomor 8 – 22F',
+                            subDetail: [
+                                { text: 'Pria  : 18 – 20F' },
+                                { text: 'Wanita  : 14 – 16F' },
+                                { text: 'Anak -anak : 8 – 10F (1F : 0,33 mm)' },
+                            ]
+                         },
+                        { text: 'Urine bag' },
+                        { text: 'Jell atau xylocain jell' },
+                        { text: 'Spuit steril 10 atau 20cc' },
+                        { text: 'NaCl 0,9%' },
+                        { text: 'Sarung tangan steril sesuai ukuran tangan petugas' },
+                        { text: 'Sarung tangan on steril 1 pasang' },
+                        { text: 'Larutan antiseptic (iodine)' },
+                        { text: 'Perlak dan alas perlak' },
+                        { text: 'Plester dan gunting' },
+                        { text: 'Bengkok' },
+                        { text: 'Gantungan urine bag' },
+                        { text: 'Handuk / selimut' },
+                        { text: 'Handrub untuk cuci tangan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan tindakan yang akan dilakukan.' },
+                        { text: 'Atur ketinggian tempat tidur sejajar dengan daerah kerja perawat.' },
+                    ]
+                },
+                { desc: 'Siapkan lingkungan : tutup scherm pasien, jika perlu tutup pintu.' }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan maksud dan tujuan tindakan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Pakai sarung tangan bersih.' },
+                { desc: 'Buka pakaian bawah pasien, tutupi dengan handuk / selimut.' },
+                { desc: 'Pasang perlak dan alas perlak dibawah bokong pasien.' },
+                { desc: 'Atur posisi tidur pasien :',
+                    detail: [
+                        { text: '1) Untuk pasien wanita : dorsal recumbent atau posisi sim’s (pada pasien tua atau mengalami kontraktur berat pada kaki bagian atas fleksi).' },
+                        { text: '2) Untuk pasien pria : supine.' }
+                    ]
+                },
+                { desc: 'Bersihkan perineum dengan air hangat + sabun + waslap kemudian keringkan dengan handuk bawah.' },
+                { desc: 'Pasangi lampu penerangan yang difokuskan pada perineal.' },
+                { desc: 'Letakkan set kateter dekat pasien (kalau mungkin diantara tungkai bawah pasien dengan jarak ± 45 cm dari perineum).' },
+                { desc: 'Letakan bengkok di di dekat pasien, buka sarung tangan on steril lalu cuci tangan dengan handrub.' },
+                { desc: 'Buka kemasan kateter, spuit, xylocain jell letakan di atas bak steril, isi kom dengan larutan desinfectan (iodine) dan kapas steril.' },
+                { desc: 'Pakai sarung tangan steril.' },
+                { desc: 'Lakukan pengetesan balon catheter dan aspirasi kembali cairannya.' },
+                { desc: 'Pasang doek bolong di daerah genitalia pasien.' },
+                { desc: 'Lumasi ujung catheter dengan dengan xylocain jell.',
+                    detail: [
+                        { text: 'Untuk pasien wanita : 3 – 4 inci (± 2,5 – 5 cm).' },
+                        { text: 'Untuk pasien pria 6 – 7 inci (± 12,5 – 17,5 cm).' },
+                    ]
+                 },
+                { desc: 'Bersihkan daerah genitelia :',
+                    detail: [
+                        { text: 'Untuk pasien wanita :',
+                            subDetail: [
+                                { text: 'Letakan tangan yang tidak dominan pada labia mayora, buka labia mayora lalu lebarkan sehingga spicter meatus uretra terlihat jelas.' },
+                                { text: 'Bersihkan daerah meatus uretra dengan menggunakan kapas antiseptic (iodine) dengan menggunakan pincet.' },
+                                { text: 'Bersihkan daerah labia mayora, labia minora dan terakhir adalah bagian meatus urethra dari arah depan kebelakang (1 kapas untuk 1 kali usapan).' }
+                            ]
+                        },
+                        { text: 'Untuk pasien pria :',
+                            subDetail: [
+                                { text: 'Dengan tangan yang tidak dominan letakan penis dengan sudut 90° dari tubuh, jika pasien tidak disirkumsisi (disunat) tarik prepucium ke bawah untuk melihat meatus uretra.' },
+                                { text: 'Bersihkan penis dengan arah melingkar dengan kapas antiseptic (iodine), mulai dari meatus uretra keluar sampai ke batang penis dengan menggunakan pincet (1 kapas untuk 1 kali usapan).' }
+                            ]
+                        }
+                    ]
+                },
+                { desc: 'Masukkan kateter ke dalam meatus uretra :',
+                    detail: [
+                        { text: 'Untuk pasien wanita :',
+                            subDetail: [
+                                { text: 'Anjurkan pasien menarik napas dalam, masukan kateter perlahan melalui meatus uretra (± 2,5/5-7 cm pada orang dewasa, dan ± 2,5 cm padad anak-anak) sampai urine keluar melalui kateter.', formula: false },
+                                { text: 'Bila kateter masuk ke vagina, lepaskan kateter yang ada didalam vagina lalu ambil kateter baru kemudian lakukan pemasangan ke uretra.' },
+                            ]
+                         },
+                        { text: 'Untuk pasien pria :',
+                            subDetail: [
+                                { text: 'Anjurkan pasien menarik napas dalam.' },
+                                { text: 'Posisi penis 90°, masukan kateter dengan pelan ke dalam urethra (dewasa ± 17,5 – 22,5 cm dan anak-anak ± 5–7,5 cm) sampai urine keluar, bila ada tahanan tarik kembali.', formula: false }
+                            ]
+                        }
+                    ]
+                },
+                { desc: 'Untuk kateter sementara (single use) : lepaskan kateter dengan pelan-pelan bila urine sudah keluar semua, tampung urine dalam tempat yang sudah disiapkan, sambil tangan yang lain agak menekan diatas pubis biarkan urine keluar sampai habis.' },
+                { desc: 'Untuk kateter tetap : masukan lagi kateter sepanjang ± 2,5 – 5 cm, jangan dipaksakan bila ada tekanan.' },
+                { desc: 'Pertahankan posisi kateter didepan meatus urinarius urethra (untuk kateter menetap) sambungkan ujung cateter dengan selang urine bag.' },
+                { desc: 'Kembangkan balon dengan cairan steril (NaCl 0,9%) menggunakan spuit, jangan melebihi ukuran balon.' },
+                { desc: 'Cek posisi balon dengan menarik kateter perlahan-lahan.' },
+                { desc: 'Fiksasi kateter pada bagian luar dengan menggunakan plester.',
+                    detail: [
+                        { text: 'Untuk pasien wanita : fiksasi di paha bagian dalam, jangan terlalu kencang atau tegang.' },
+                        { text: 'Untuk pasien pria : fiksasi di abdomen bagian bawah atau dipuncak paha dengan posisi penis mengarah ke abdomen.' }
+                    ]
+                 },
+                { desc: 'Gantungkan urine bag dengan posisi lebih rendah dari vesika urinaria.' },
+                { desc: 'AA. Rapihkan pakaian pasien.' },
+                { desc: 'BB. Bereskan alat-alat simpan kembali alat bekas pakai pada tempatnya.' },
+                { desc: 'CC. Lepaskan sarung tangan dan buang sampah sesuai jenisnya.' },
+                { desc: 'DD. Atur posisi tidur pasien yang nyaman.' },
+                { desc: 'EE. Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'FF. Perawat mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Catat reaksi pasien setelah dilakukan tindakan.' },
+                { desc: 'Tanda-tanda vital sebelum dan sesudah tindakan.' },
+                { desc: 'Palpasi kandung kemih dan tanyakan rasa tidak nyaman yang timbul.' },
+                { desc: 'Posisi kateter, drainage urine ke urine bag.' },
+                { desc: 'Observasi karakteristik dan jumlah urine yang keluar.' },
+                { desc: 'Keadaan sekitar kulit tempat masuk kateter urine.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan yang dilakukan pada rekam medis pasien meliputi : waktu pelaksanaan, konsistensi, warna, bau dan jumlah urine, respon pasien, kondisi meatus urethra, tipe dan ukuran kateter serta jumlah cairan yang dipasang dalam balon.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1450,
+    title: 'Merawat Kateter Urine',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Adalah tindakan untuk membersihkan daerah meatus urethra pada pasien yang menggunakan kateter, untuk mencegah infeksi saluran perkemihan.',
+    icon: 'fa-procedures',
+    tags: ['Kateter', 'Perawatan Kateter', 'Urine', 'Infeksi'],
+    noDokumen: '445/SPO.3524/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Adalah tindakan untuk membersihkan daerah meatus urethra pada pasien yang menggunakan kateter, untuk mencegah infeksi saluran perkemihan.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah pelaksanaan tindakan merawat kateter urine dalam rangka :
+            Mengurangi resiko terjadinya infeksi pada saluran perkemihan.
+            Mengkaji pengaliran / drainage atau adanya encrustasi pada daerah genitalia.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Sarung tangan bersih' },
+                        { text: 'Baskom berisi air hangat' },
+                        { text: 'Sabun' },
+                        { text: 'Waslap' },
+                        { text: 'Handuk' },
+                        { text: 'Kapas lidi steril' },
+                        { text: 'Pincet steril' },
+                        { text: 'Sarung tangan steril' },
+                        { text: 'Bak spuit berisi kapas' },
+                        { text: 'Perlak dan alas perlak' },
+                        { text: 'Bengkok dan kantung plastik' },
+                        { text: 'Salep antibiotika (sesuai intruksi)' },
+                        { text: 'Handrub untuk cuci tangan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan tindakan yang akan dilakukan.' },
+                        { text: 'Atur ketinggian tempat tidur sejajar dengan daerah kerja perawat.' },
+                        { text: 'Siapkan lingkungan : tutup scherm pasien, jika perlu tutup pintu.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan maksud dan tujuan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Pakai sarung tangan bersih.' },
+                { desc: 'Buka pakaian bawah pasien lalu tutupi dengan handuk/selimut.' },
+                { desc: 'Pasang perlak dan alasnya dibagian bawah bokong.' },
+                { desc: 'Atur posisi pasien :',
+                    detail: [
+                        { desc: '1) Untuk pasien wanita : dorsal recumbent atau posisi sim’s (pada pasien tua atau mengalami kontraktur berat pada kaki bagian atas fleksi).' },
+                        { desc: '2) Untuk pasien pria : supine.' }
+                    ]
+                },
+                { desc: 'Rawat perineum dengan air hangat + sabun + waslap lalu keringkan dengan handuk (bila pasien mampu, lakukan secara mandiri).' },
+                { desc: 'Observasi area meatus urethra dan jaringan sekitar perineum (adakah perasaan perih, radang, pembengkakan atau discharge).' },
+                { desc: 'Buka sarung tangan bersih kemudian cuci tangan.' },
+                { desc: 'Siapkan kom + kapas + pinset steril dan masukan cairan antiseptic (betahadine 2%) gunakan prinsip surgical antiseptic.' },
+                { desc: 'Pakai sarung tangan steril.' },
+                { desc: 'Dengan tangan yang tidak dominan buka labiya mayora dan minora atau menarik preputium sehingga spincter meataus urethra tampak terlihat.' },
+                { desc: 'Bersihkan daerah meatus urethra dengan cairan antiseptic menggunakan pincet.' },
+                { desc: 'Bersihkan ujung kateter dekat meatus urethra sepanjang ± 10 cm dengan cairan antiseptic dengan arah melingkar keluar.' },
+                { desc: 'Berikan antiseptic (salep antibiotika) pada daerah meatus urethra dan ujung kateter sepanjang ± 2,5 cm.' },
+                { desc: 'Ganti plester yang ada pada kateter dan bersihkan bekas plester yang menempel pada kulit.' },
+                { desc: 'Periksa kembali aliran urine dalam selang tidak boleh tertekuk/menggulung.' },
+                { desc: 'Bila diperlukan ganti urine bag.' },
+                { desc: 'Buka sarung tangan.' },
+                { desc: 'Rapikan pasien dan peralatan bekas pakai.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Catat reaksi pasien setelah dilakukan tindakan.' },
+                { desc: 'Observasi tanda-tanda vital.' },
+                { desc: 'Tanda dan gejala terjadinya lecet atau iritasi.' },
+                { desc: 'Kelancaran aliran urine pada selang urine bag.' },
+                { desc: 'Jumlah dan karakteristik urine yang keluar.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan kegiatan yang dilakukan pada rekam medsc pasien meliputi : respon pasien, waktu pelaksanaan, konsistensi urine, warna, bau dan jumlah urine, kondisi meatus urethra.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1451,
+    title: 'Melepas Kateter Urine',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Adalah tindakan melepaskan selang kateter urine pada pasien setelah tujuan dari pemasangan kateter tercapai atau berdasarkan intruksi dokter.',
+    icon: 'fa-procedures',
+    tags: ['Kateter', 'Urine', 'Perkemihan'],
+    noDokumen: '445/SPO.3535/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Adalah tindakan melepaskan selang kateter urine pada pasien setelah tujuan dari pemasangan kateter tercapai atau berdasarkan intruksi dokter.',
+    tujuan: `Sebagai acuan penerapan langkah – langkah pelaksanaan tindakan melepas kateter urine untuk :
+            Mengembalikan fungsi eliminasi urine secara normal.
+            Meningkatkan fungsi kandung kemih yang normal.
+            Mencegah terjadinya trauma pada urethra.
+            Mengurangi risiko infeksi saluran kemih.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Spuit 10 cc' },
+                        { text: 'Sarung tangan bersih' },
+                        { text: 'Perlak dengan alas perlak' },
+                        { text: 'Tissue' },
+                        { text: 'Sabun' },
+                        { text: 'Washlap' },
+                        { text: 'Handuk' },
+                        { text: 'Baskom berisi air hangat' },
+                        { text: 'Bengkok dan kantung plastik' },
+                        { text: 'Gelas ukur sebagai penampung urine' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan tindakan yang akan dilakukan.' },
+                        { text: 'Pastikan bahwa bladder training telah dilakukan minimal 10 jam sebelum kateter dilepas (lihat prosedur bladder training).' },
+                        { text: 'Atur ketinggian tempat tidur sejajar dengan daerah kerja perawat.' },
+                        { text: 'Siapkan lingkungan : tutup scherm pasien, jika perlu tutup pintu.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan maksud dan tujuan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Pakai sarung tangan bersih.' },
+                { desc: 'Kosongkan urine bag sambil ukur jumlah urine yang keluar dengan gelas ukur.' },
+                { desc: 'Buka pakaian bawah pasien, tutup dengan handuk bawah atau selimut.' },
+                { desc: 'Pasang perlak dibagian bawah bokong pasien.' },
+                { desc: 'Atur posisi tidur pasien :',
+                    detail: [
+                        { text: 'Untuk pasien wanita : dorsal recumbent, atau sim’s.' },
+                        { text: 'Untuk pasien pria : supine.' }
+                    ]
+                },
+                { desc: 'Dekatkan bengkok ditempat yang mudah dijangkau.' },
+                { desc: 'Bersihkan area sekitar perineum menggunakan tissue.' },
+                { desc: 'Observasi daerah meatus urethra dan jaringan sekitar perineum (adakah perih, radang, pembengkakan atau discharge).' },
+                { desc: 'Lepaskan plester dari kulit pasien dan bersihkan bekas plester.' },
+                { desc: 'Aspirasi isi balon kateter menggunakan spuit 10 cc sampai habis (balon kateter sampai mengempis).' },
+                { desc: 'Tarik kateter secara perlahan-lahan sampai habis dengan tangan dominan.' },
+                { desc: 'Masukan selang kateter bekas ke dalam kantong plastik.' },
+                { desc: 'Rawat area perineum menggunakan air hangat + sabun + waslap dan keringkan dengan handuk bawah (bila pasien mampu lakukan secara mandiri).' },
+                { desc: 'Pakaikan kembali pakaian bawah.' },
+                { desc: 'Bereskan alat-alat, buang sampah sesuai jenisnya.' },
+                { desc: 'Buka sarung tangan.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Jumlah, warna dan karakteristik urine.' },
+                { desc: 'Rasa tidak nyaman saat kateter dicabut.' },
+                { desc: 'Kondisi kulit akibat plester yang menempel.' },
+                { desc: 'Kemampuan pasien bereliminasi secara spontan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Catat dalam rekam medis pasien meliputi waktu pelepasan kateter, jumlah dan karakteristik urine yang keluar serta kondisi meatus urethra.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1452,
+    title: 'Membantu Pasien Menggunakan Tongkat / Kruk dan Penyangga Tubuh',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Kruk adalah alat bantu yang digunakan untuk menyokong tubuh pasien yang membutuhkan bantuan berjalan karena adanya penyakit, injuri atau cacat bawaan.',
+    icon: 'fa-procedures',
+    tags: ['Kruk', 'Mobilisasi', 'Ambulasi'],
+    noDokumen: '445/SPO.3536/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Kruk adalah alat bantu yang digunakan untuk menyokong tubuh pasien yang membutuhkan bantuan berjalan karena adanya penyakit, injuri atau cacat bawaan. Kruk digunakan oleh pasien yang harus memindahkan beban tubuhnya ketangan.',
+    tujuan: `Sebagai acuan penerapan langkah – langkah tindakan keperawatan membantu pasien menggunakan tongkat / kruk untuk :
+            Membantu pasien dalam melakukan mobilitas.
+            Mempertahankan dan meningkatkan keseimbangan tubuh.
+            Menyokong berat badan pasien dari satu atau kedua kaki.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Kruk (alat untuk ambulasi)' },
+                        { text: 'Safety belt' },
+                        { text: 'Alas kaki yang tidak licin' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Jelaskan tujuan dan prosedur sebelum dilakukan latihan mobilisasi.' },
+                        { text: 'Diskusikan jadwal dan seberapa jauh kemampuan ambulasi pasien.' },
+                        { text: 'Ukur tinggi dan berat badan pasien sebelum memulai latihan mobilisasi.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Siapkan ruangan yang cukup luas tidak banyak barang.' },
+                        { text: 'Lakukan latihan di tempat yang bersih dan tidak licin, cukup pencahayaan tidak gelap.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Pastikan bahwa jenis kruk yang akan digunakan sudah disesuaikan dengan tinggi badan pasien.' },
+                { desc: 'Pasang safety belt jika merasa tidak yakin dengan keseimbangan tubuh pasien.' },
+                { desc: 'Bantu pasien dalam keadaan berdiri dan amati keseimbangan tubuh pasien jika pasien tampak lemah bawa pasien ketempat tidur.' },
+                { desc: 'Pilih kruk yang sesuai :',
+                    detail: [
+                        { text: 'Four point gait',
+                            subDetail: [
+                                { text: 'Mulai dalam posisi tripod. Kruk ditempatkan 15 cm didepan dan 15 cm disamping tiap kaki.' },
+                                { text: 'Gerakan kruk sebelah kanan 10-15 cm.', formula: false },
+                                { text: 'Gerakan kaki kiri ke depan sejajar dengan kruk sebelah kiri.' },
+                                { text: 'Gerakan kruk kiri kedepan sejauh 10 – 15 cm.' },
+                                { text: 'Gerakan kaki kanan kedepan sejauh kruk sebelah kanan.' },
+                                { text: 'Ulangi gerakan.' }
+                            ]
+                        },
+                        { text: 'Three point gait',
+                            subDetail: [
+                                { text: 'Mulai dengan posisi tripod.' },
+                                { text: 'Majukan kedua kruk dan kaki yang lumpuh.' },
+                                { text: 'Gerakan kaki yang kuat kearah depan.' },
+                                { text: 'Ulangi gerakan.' }
+                            ]
+                        },
+                        { text: 'Two point gait',
+                            subDetail: [
+                                { text: 'Mulai dengan posisi tripod.' },
+                                { text: 'Gerakan kruk kiri dan kaki kanan kedepan.' },
+                                { text: 'Gerakan kruk kanan dan kaki kiri kedepan.' },
+                                { text: 'Ulangi gerakan.' }
+                            ]
+                        }
+                    ]
+                },
+                { desc: 'Menaiki tangga dengan kruk :',
+                    detail: [
+                        { text: 'Mulai dalam posisi tripod.' },
+                        { text: 'Sarankan pasien memindahkan beban tubuh ke kruk.' },
+                        { text: 'Intruksikan kaki yang sehat bergerak maju kedepan.' },
+                        { text: 'Sejajarkan kedua kruk dengan kaki yang sehat.' },
+                        { text: 'Ulangi gerakan hingga pasien mencapai bagian atas tangga.' }
+                    ]
+                },
+                { desc: 'Menuruni tangga dengan kruk :',
+                    detail: [
+                        { text: 'Mulai dengan posisi tripod.' },
+                        { text: 'Pindahkan beban tubuh kekaki yang sehat.' },
+                        { text: 'Pindahkan kruk keanak tangga dibawahnya dan instruksikan pasien untuk memindahkan beban tubuh ke kruk dan pindahkan kaki yang sakit ke depan.' },
+                        { text: 'Pindahkan kaki yang sehat menuruni tangga dan letakkan sejajar dengan kedua kruk.' },
+                        { text: 'Ulangi gerakkan hingga pasien mencapai anak tangga terakhir.' }
+                    ]
+                },
+                { desc: 'Setelah selesai latihan kembalikan pasien ke posisi duduk atau berbaring.' },
+                { desc: 'Rapihkan alat tenun.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Observasi pasien saat menggunakan alat bantu kruk meliputi tangan dan aksila lihat adanya kemerahan, bengkak, atau iritasi kulit yang disebabkan karena penggunaan alat bantu.' },
+                { desc: 'Evaluasi rasa ketidaknyamanan yang dirasakan pasien setelah melakukan latihan.' },
+                { desc: 'Monitor adanya hipotensi postural, peningkatan HR, TD, RR, atau sesak setelah ambulasi.' },
+                { desc: 'Toleransi pasien terhadap aktivitas yang dilakukan.' },
+                { desc: 'Jarak yang dapat ditempuh pasien dalam latihan.' },
+                { desc: 'Pendidikan kesehatan yang diberikan pada pasien dan keluarga.' },
+                { desc: 'Segera lapor setiap injury yang terjadi selama latihan ambulasi, perubahan TTV, atau ketidakmampuan pasien melakukan ambulasi.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Catat dalam rekam medis pasien meliputi waktu pelaksanaan, kondisi pasien selama dan sesudah latihan.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Jalan',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1453,
+    title: 'Membantu Pasien Menggunakan Walker',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Walker adalah alat bantu ambulasi pasien yang sangat ringan dan dapat dibawa kemana – mana.',
+    icon: 'fa-procedures',
+    tags: ['Walker', 'Ambulasi', 'Mobilisasi'],
+    noDokumen: '445/SPO.3445/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Walker adalah alat bantu ambulasi pasien yang sangat ringan dan dapat dibawa kemana – mana. Tingginya kira – kira setinggi pinggang terbuat dari metal disertai adanya pegangan dengan empat kaki dan terdapat satu bagian sisi yang terbuka.',
+    tujuan: `Sebagai acuan penerapan langkah – langkah pelaksanaan tindakan keperawatan membantu pasien menggunakan walker untuk :
+            Menyokong tubuh pasien dengan stabilitas dan keamanan lebih besar dibandingkan alat bantu lainnya.
+            Dipilih untuk orang – orang yang memiliki kelemahan pada ekstremitas atas dan bawah, biasanya digunakan pada orang tua yang memiliki arthritis atau penyakit neuromuscular.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Alat untuk ambulasi (walker) yang sudah disesuaikan dengan tinggi badan pasien.' },
+                        { text: 'Kursi dengan sandaran.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan maksud dan tujuan melakukan latihan penggunaan walker pada pasien.' },
+                        { text: 'Siapkan lingkungan area latihan di tempat terbuka, penerangan cukup, tidak licin dan sempit.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan maksud dan tujuan latihan dengan walker.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Perawat berdiri dibelakang pasien.' },
+                { desc: 'Bantu pasien untuk berdiri ditengah walker, instruksikan untuk memegang handgrips dengan kuat.' },
+                { desc: 'Angkat walker pindahkan 15-20 cm kedepan badan pasien, pastikan keempat kaki walker telah tertumpu pada lantai.' },
+                { desc: 'Instruksikan dan bantu pasien melangkahkan kaki kedepan secara bergantian pertahankan langkah seimbang.' },
+                { desc: 'Jika pasien mengalami kelemahan unilateral, langkah kaki lemah terlebih dahulu kemudian kaki sehat.' },
+                { desc: 'Jika pasien mengalami hemiplegia/hemiparese, berdiri disamping sisi tubuh yang sehat dan dukung bagian panggul dan bahu pasien.' },
+                { desc: 'Lakukan beberapa langkah kedepan bersama pasien lalu kaji kekuatan dan keseimbangan.' },
+                { desc: 'Setelah selesai bimbing pasien duduk di kursi.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Observasi kondisi pasien saat dan sesudah menggunakan walker.' },
+                { desc: 'Evaluasi rasa ketidaknyamanan pasien.' },
+                { desc: 'Monitor hipotensi postural, HR, TD, RR, atau sesak.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan waktu pelaksanaan, tingkat toleransi pasien dan derajat bantuan perawat.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Jalan',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1454,
+    title: 'Melakukan Test Rumple Leed',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Pemeriksaan penunjang untuk pasien yang dicurigai menderita DHF.',
+    icon: 'fa-procedures',
+    tags: ['Rumple Leed', 'DHF', 'Pemeriksaan'],
+    noDokumen: '445/SPO.3446/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Adalah pemeriksaan penunjang untuk pasien yang dicurigai menderita DHF dengan menilai timbulnya petekie setelah tekanan darah dipertahankan pada nilai MAP.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah pelaksanaan tindakan keperawatan pemeriksaan test rumple leed untuk :
+            Membantu diagnosis dini DHF.
+            Mengetahui tanda perdarahan berupa petekie.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Formulir pemeriksaan.' },
+                        { text: 'Tensimeter dan manset.' },
+                        { text: 'Jam dengan detik.' },
+                        { text: 'Penggaris.' },
+                        { text: 'Lembar observasi.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Jelaskan tujuan dan prosedur tindakan.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Jelaskan maksud dan tujuan.' },
+                { desc: 'Cocokan identitas pasien.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Atur pasien posisi terlentang.' },
+                { desc: 'Ukur tekanan darah.' },
+                { desc: 'Hitung MAP (1 sistole + 2 diastole : 3).' },
+                { desc: 'Pompa manset sampai MAP dan tahan 5 menit.' },
+                { desc: 'Lepaskan manset perlahan.' },
+                { desc: 'Amati petekie pada lengan.' },
+                { desc: 'Nilai hasil positif/negatif ( >20 petekie/1 inchi persegi ).' },
+                { desc: 'Rapihkan pasien dan alat.' },
+                { desc: 'Ucapkan alhamdulillahirobbil’alamin.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Catat respon pasien.' },
+                { desc: 'Laporkan hasil ke dokter.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan waktu, hasil pemeriksaan dan kondisi pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Haemodialisa',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1455,
+    title: 'Mengeluarkan Feces Secara Manual',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Tindakan mengeluarkan feces yang keras (fekal impaksi) dalam jumlah besar yang berada dalam kolon.',
+    icon: 'fa-procedures',
+    tags: ['Feces', 'Impaksi', 'Eliminasi'],
+    noDokumen: '445/SPO.3447/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Tindakan mengeluarkan feces yang keras (fekal impaksi) dalam jumlah besar yang berada dalam kolon.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah pelaksanaan tindakan keperawatan mengeluarkan feces yang keras untuk :
+            Mengeluarkan fecal impaksi.
+            Bebas dari rasa nyeri dan tidak nyaman.
+            Pola defekasi pasien kembali normal dan peristaltic usus kembali normal.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Sarung tangan bersih' },
+                        { text: 'Jelly / vaselin' },
+                        { text: 'Perlak / alas karet' },
+                        { text: 'Tissue, handuk bawah' },
+                        { text: 'Kom air hangat + sabun + waslap' },
+                        { text: 'Bengkok' },
+                        { text: 'Pispot' },
+                        { text: 'Barakshort' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur tindakan dan tujuan yang akan dilakukan.' },
+                        { text: 'Atur ketinggian tempat tidur sejajar dengan daerah kerja perawat.' },
+                        { text: 'Siapkan lingkungan : tutup scherm pasien, jika perlu tutup pintu.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan maksud dan tujuan tindakan.' },
+                { desc: 'Ucapkan basmallah.' },
+                { desc: 'Gunakan barakshort.' },
+                { desc: 'Gunakan sarung tangan.' },
+                { desc: 'Lepaskan pakaian bawah pasien dan tutup dengan handuk bagian bawah.' },
+                { desc: 'Letakan perlak atau alas karet dibawah bokong pasien.' },
+                { desc: 'Atur posisi pasien miring kiri dan posisi kaki fleksi.' },
+                { desc: 'Olesi ujung jari perawat dengan menggunakan jelly / Vaseline.' },
+                { desc: 'Buka bokong pasien dengan menggunakan tangan non dominan dan masukan jari ke dalam anus sambil anjurkan pasien untuk menarik nafas dalam.' },
+                { desc: 'Buatlah gerakan sirkuler dan pelan-pelan pecah-pecahkan feses yang keras dan berada dalam rectum.' },
+                { desc: 'Keluarkan feces tersebut lalu buang ke pispot, ulangi sampai rectum kosong.' },
+                { desc: 'Bersihkan daerah anus dan bokong pasien dengan menggunakan tissue dan waslap + sabun, kemudian keringkan.' },
+                { desc: 'Buka sarung tangan.' },
+                { desc: 'Kenakan kembali pakaian bawah pasien.' },
+                { desc: 'Atur kembali posisi tidur yang nyaman.' },
+                { desc: 'Bereskan peralatan dan di bersihkan, buang sampah sesuai dengan jenisnya.' },
+                { desc: 'Ucapkan hamdallah.' },
+                { desc: 'Mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Impaksi fecal teratasi, pasien mampu mengeluarkan feces dengan pola yang konsisten, bebas nyeri, flatus dan ketidaknyamanan.' },
+                { desc: 'Observasi reaksi pasien setelah dilakukan tindakan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medic : jam pelaksanaan tindakan, area operasi, kondisi kulit sebelum dan sesudah tindakan pengeluaran feces.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Haemodialisa',
+        'Instalasi Rawat Jalan'
+    ]
+    },
+    {
+    id: 1456,
+    title: 'Melakukan Huknah / Cleansing Enema / Lavement',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Memasukan larutan pengencer feces kedalam rectum dan kolon.',
+    icon: 'fa-procedures',
+    tags: ['Enema', 'Lavement', 'Eliminasi'],
+    noDokumen: '445/SPO.3448/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Memasukan larutan pengencer feces kedalam rectum dan kolon.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah pelaksanaan tindakan keperawatan melakukan huknah/lavement untuk :
+            Mengurangi distensi abdomen dan rasa tidak nyaman pada pasien.
+            Merangsang peristaltic usus kembali normal.
+            Mengembalikan pola eliminasi normal.
+            Membersihkan dan mengosongkan isi kolon.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Sarung tangan bersih.' },
+                        { text: 'Cairan enema sesuai intruksi.' },
+                        { text: 'Jelly / vaselin.' },
+                        { text: 'Perlak / alas karet.' },
+                        { text: 'Tissue, handuk bawah.' },
+                        { text: 'Kom air hangat + sabun + waslap.' },
+                        { text: 'Rectal kanul + irrigator.' },
+                        { text: 'Pispot, bengkok.' },
+                        { text: 'Barakshort.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan  yang akan dilakukan.' },
+                        { text: 'Atur ketinggian tempat tidur sejajar dengan daerah kerja perawat.' },
+                        { text: 'Siapkan lingkungan : tutup scherm pasien, jika perlu tutup pintu.' }
+                    ]
+                },
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan maksud dan tujuan tindakan.' },
+                { desc: 'Ucapkan bismillah.' },
+                { desc: 'Gunakan barakshort.' },
+                { desc: 'Gunakan sarung tangan.' },
+                { desc: 'Persiapkan cairan enema.',
+                    detail: [
+                        { text: 'Suhu 105°-109F atau 40,5°C - 43°C untuk dewasa, 37°C untuk anak-anak.' },
+                        { text: 'Jumlah cairan infant 150 – 250 ml, toddler 250 – 350 ml, school age 300-500 ml, adolescent 500 – 750 ml, adult 750 – 1000ml.' }
+                    ]
+                },
+                { desc: 'Jenis cairan sesuai dengan indikasi dan intruksi dokter penanggung jawab.' },
+                { desc: 'Letakan perlak atau alas karet dibawah bokong pasien.' },
+                { desc: 'Siapkan pispot pada daerah yang mudah terjangkau oleh perawat.' },
+                { desc: 'Atur posisi pasien : huknah rendah posisi miring kiri, huknah tinggi miring kiri, tengah kemudian kanan bila memungkinkan.' },
+                { desc: 'Sambungkan kanul rectal dengan selang irrigator.' },
+                { desc: 'Beri jelly / Vaseline pada ujung kanul ± 3 – 4 inci / 7,5 – 10 cm.' },
+                { desc: 'Bebaskan selang irrigator dan kanul dari udara dengan cara mengalirkan cairan kemudian selang di klem.' },
+                { desc: 'Buka bokong pasien sampai rectum terlihat jelas sambil intruksikan pasien untuk rileks dengan cara menarik nafas panjang melalui mulut.' },
+                { desc: 'Masukan kanul ke dalam rectum dengan ujung kanul mengarah ke umbilical secara hati-hati sepanjang :',
+                    detail: [
+                        { text: 'Infant 2,5–4 cm.' },
+                        { text: 'Anak-anak 5–6,5 cm.' },
+                        { text: 'Dewasa 7,5–10 cm.' }
+                    ]
+                },
+                { desc: 'Atur ketinggian irrigator untuk huknah tinggi : 30–45 cm, huknah rendah 30 cm dari anus.' },
+                { desc: 'Buka klem dan alirkan cairan enema kedalam colon dengan kecepatan 75–100 cc/menit, sambil anjurkan pasien untuk menahan cairan sampai seluruh cairan masuk ke rectum.' },
+                { desc: 'Bila ada kram abdomen atau cairan yang keluar dari rectal canul rendahkan ketinggian irrigator.' },
+                { desc: 'Klem irrigator setelah semua cairan masuk kedalam colon.' },
+                { desc: 'Letakan kertas tissue pada rectal kanul kemudian cabut rectal kanul secara perlahan-lahan kemudian masukan ke dalam plastic sampah.' },
+                { desc: 'Anjurkan pasien untuk menahan cairan selama 5–10 menit sambil pasien berbaring diatas tempat tidur.' },
+                { desc: 'Jelaskan kepada pasien bahwa rasa tidak nyaman adalah normal.' },
+                { desc: 'Bila pasien ada keinginan untuk defekasi anjurkan pasien untuk BAB dikamar mandi, bila tidak memungkinkan bantu pasien untuk BAB di tempat tidur.' },
+                { desc: 'Observasi karakteristik, jumlah, warna feces dan cairan yang keluar.' },
+                { desc: 'Bersihkan daerah anus dan bokong pasien dengan menggunakan tissue dan waslap + sabun, kemudian keringkan.' },
+                { desc: 'AA. Buka sarung tangan.' },
+                { desc: 'BB. Kenakan kembali pakaian bawah pasien.' },
+                { desc: 'CC. Atur posisi tidur yang nyaman.' },
+                { desc: 'DD. Bereskan peralatan.' },
+                { desc: 'EE. Ucapkan hamdallah.' },
+                { desc: 'FF. Mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Impaksi fekal teratasi dengan dan feces menjadi lunak.' },
+                { desc: 'Pasien menyatakan rasa nyaman dan bebas dari distensi abdomen.' },
+                { desc: 'Cairan yang keluar menjadi bening jika untuk persiapan pemeriksaan dignostik atau persiapan pembedahan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan dalam rekam medic pasien meliputi : waktu pemberian enema, tipe dan jumlah cairan, karakteristik, warna cairan dan feces yang keluar, komplikasi yang terjadi selama dan sesudah pemberian enema dan toleransi pasien terhadap prosedur yang dilakukan.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif'
+    ]
+    },
+    {
+    id: 1457,
+    title: 'Menjaga Kebersihan Rongga Mulut dan Gigi pada Pasien yang Tidak Sadar',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Membantu memenuhi kebutuhan kebersihan rongga mulut dan gigi pada pasien tidak sadar.',
+    icon: 'fa-procedures',
+    tags: ['Mulut', 'Gigi', 'Higiene'],
+    noDokumen: '445/SPO.3449/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Membantu memenuhi kebutuhan kebersihan rongga mulut dan gigi pada pasien tidak sadar.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah pelaksanaan tindakan keperawatan membersihkan rongga mulut pada pasien tidak sadar, untuk :
+            Mencegah timbulnya masalah-masalah pada rongga mulut.
+            Memberi rasa nyaman pada pasien dan mengurangi bau mulut.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Tonge spatel 2 buah.' },
+                        { text: 'Kassa 2 buah.' },
+                        { text: 'Sarung tangan on steril.' },
+                        { text: 'Air dalam gelas.' },
+                        { text: 'Bengkok.' },
+                        { text: 'Tissue.' },
+                        { text: 'Handuk.' },
+                        { text: 'Pelembab bibir.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur tindakan dan tujuan yang akan dilakukan.' },
+                        { text: 'Atur ketinggian tempat tidur supaya perawat mudah dalam bekerja.' },
+                        { text: 'Menyiapkan lingkungan dengan menutup skherm di sekeliling tempat tidur.' }
+                    ]
+                },
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan maksud dan tujuan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Pakai sarung tangan.' },
+                { desc: 'Atur posisi tidur semi fowler dengan kepala dimiringkan ke arah perawat.' },
+                { desc: 'Letakkan handuk di bawah kepala dan bengkok di bawah dagu pasien.' },
+                { desc: 'Buka mulut pasien dengan menggunakan spatel yang dibungkus kassa, masukan spatel diantara rahang atas dan bawah melalui geraham belakang.' },
+                { desc: 'Bersihkan mulut pasien dengan menggunakan kassa basah yang dibalutkan pada tonge spatel sampai bersih.' },
+                { desc: 'Lumasi bibir pasien dengan pelembab bibir.' },
+                { desc: 'Bersihkan area sekitar mulut dengan tisue.' },
+                { desc: 'Bereskan alat.' },
+                { desc: 'Ucapkan alhamdulillahirobbil’alamin.' },
+                { desc: 'Perawat mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Status kesehatan rongga mulut pasien.' },
+                { desc: 'Adanya jamur atau bakteri penyebab plak.' },
+                { desc: 'Catat kondisi yang tidak normal seperti adanya perdarahan, edema, gigi bolong, bau mulut, sekresi berlebihan atau plak pada lidah.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medis pasien meliputi : tanggal dan waktu pelaksanaan perawatan mulut dan kondisi mulut pasien.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1458,
+    title: 'Memberikan Retention Enema',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Memasukan cairan obat / oil enema untuk membersihkan colon pasien.',
+    icon: 'fa-procedures',
+    tags: ['Enema', 'Retention', 'Eliminasi'],
+    noDokumen: '445/SPO.3450/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Memasukan cairan obat / oil enema untuk membersihkan colon pasien.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah pelaksanaan tindakan memberikan memberikan retention enema, untuk :
+            Mengurangi distensi abdomen dan rasa tidak nyaman pada pasien.
+            Merangsang peristaltic usus kembali normal.
+            Mengembalikan pola eliminasi normal.
+            Membersihkan dan mengosongkan isi kolon.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Cairan enema sesuai intruksi.' },
+                        { text: 'Spuit glyserine.' },
+                        { text: 'Cairan glyserine / minyak oil.' },
+                        { text: 'Sarung tangan on steril.' },
+                        { text: 'Perlak / alas karet.' },
+                        { text: 'Tissue/waslap.' },
+                        { text: 'Sabun mandi.' },
+                        { text: 'Handuk bawah.' },
+                        { text: 'Pispot.' },
+                        { text: 'Kom / bengkok.' },
+                        { text: 'Barakshort.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan tindakan yang akan dilakukan.' },
+                        { text: 'Atur ketinggian tempat tidur sejajar dengan daerah kerja perawat.' },
+                        { text: 'Siapkan lingkungan : tutup scherm pasien, jika perlu tutup pintu.' }
+                    ]
+                },
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan maksud dan tujuan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Pakai sarung tangan on steril.' },
+                { desc: 'Persiapkan cairan gliserine didalam spuit dengan perbandingan 1 : 1 antara glyserine dengan minyak oil (dewasa 15 – 20cc, anak-anak 10cc) atau cairan enema sesuai dengan intruksi dokter.' },
+                { desc: 'Lepaskan pakaian bawah pasien dan tutup dengan handuk bawah.' },
+                { desc: 'Letakan perlak atau alas karet di bawah bokong pasien.' },
+                { desc: 'Atur posisi pasien miring kiri dan posisi kaki fleksi atau posisi sim.' },
+                { desc: 'Keluarkan sedikit cairan dalam spuit glyserine untuk membasahi ujung kanul atau olesi ujung spuit glyserine dengan jelly/vaseline.' },
+                { desc: 'Buka bokong pasien dengan menggunakan tangan non dominan, kemudian masukan ujung spuit glyserine ke dalam rectum mengarah ke umbilical dan anjurkan pasien untuk relaks dengan cara menarik nafas panjang.' },
+                { desc: 'Semprotkan cairan secara perlahan-lahan kedalam rectum dan anjurkan pasien untuk menahan cairan.' },
+                { desc: 'Letakan kertas tissue diantara anus dan kanul kemudian pelan-pelan keluarkan spuit glyserin sambil menekan bokong.' },
+                { desc: 'Kembalikan posisi pasien pada posisi semula.' },
+                { desc: 'Anjurkan pasien untuk menahan cairan selama 5–10 menit sambil pasien berbaring diatas tempat tidur.' },
+                { desc: 'Jelaskan kepada pasien bahwa rasa tidak nyaman adalah normal.' },
+                { desc: 'Bila pasien ada keinginan untuk defekasi anjurkan pasien untuk BAB dikamar mandi, bila tidak memungkinkan bantu pasien untuk BAB di tempat tidur.' },
+                { desc: 'Observasi karakteristik, jumlah, warna feces dan cairan yang keluar.' },
+                { desc: 'Bersihkan daerah anus dan bokong pasien dengan menggunakan tissue atau waslap + sabun, kemudian keringkan.' },
+                { desc: 'Pakaikan kembali pakaian bawah pasien.' },
+                { desc: 'Lepaskan sarung tangan.' },
+                { desc: 'Atur posisi tidur yang nyaman.' },
+                { desc: 'Ucapkan alhamdulillahirobbil’alamin.' },
+                { desc: 'Bereskan dan bersihkan peralatan.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Karakteristik, jumlah, warna cairan dan feces yang keluar.' },
+                { desc: 'Pasien menyatakan rasa nyaman dan bebas dari distensi abdomen.' },
+                { desc: 'Adanya komplikasi yang terjadi selama dan sesudah pemberian enema.' },
+                { desc: 'Toleransi pasien terhadap prosedur yang dilakukan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan dalam rekam medis pasien meliputi : waktu dan tanggal pemberian enema, tipe dan jumlah cairan, respon pasien dan komplikasi bila ada.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Haemodialisa'
+    ]
+},
+{
+    id: 1459,
+    title: 'Memasang Restrain',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Restrain adalah alat yang digunakan untuk membatasi pergerakan secara fisik untuk seluruh tubuh maupun bagian tertentu dari tubuh pasien.',
+    icon: 'fa-procedures',
+    tags: ['Restrain', 'Keamanan', 'Pasien'],
+    noDokumen: '445/SPO.3451/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Restrain adalah alat yang digunakan untuk membatasi pergerakan secara fisik untuk seluruh tubuh maupun bagian tertentu dari tubuh pasien.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah pelksanaan tindakan memasang restrain, untuk :
+            Mempertahankan mobilisasi sendi.
+            Mencegah terjadinya kontraktur.
+            Mencegah pasien jatuh, cedera dan pasien mencabut alat medis/keperawatan yang sedang terpasang.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Jacket restrain.' },
+                        { text: 'Belt restrain.' },
+                        { text: 'Extremity restrain.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan tindakan  yang akan dilakukan.' },
+                        { text: 'Menandatangani surat ijin tindakan.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan maksud dan tujuan tindakan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Atur posisi pasien sesuai dengan pemasangan restrain.' },
+                { desc: 'Alasi bagian tubuh pasien yang akan dipasang restrain dengan kain lembut.' },
+                { desc: 'Pasang restrain (dengan ikatan kuat tetapi mudah dibuka).',
+                    detail: [
+                        { text: 'Untuk jacket restrain:',
+                            subDetail: [
+                                { text: 'Rompi restrain diletakan diatas pakaian pasien.' },
+                                { text: 'Tempatkan pasien diatas tempat tidur / kursi roda.' },
+                                { text: 'Agar pemasangan restrain tidak terbalik, baca intruksi dari bahan yang digunakan.' },
+                                { text: 'Bila pasien menggunakan kursi roda, restraint diikat ke belakang kursi roda.' }
+                            ]
+                        },
+                        { text: 'Belt restrain :',
+                            subDetail: [
+                                { text: 'Mengamankan pasien di tempat tidur / kursi roda.' },
+                                { text: 'Letakan restraint dipinggang pasien, bukan dibagian dada dan hindari pemasangan yang terlalu kencang.' }
+                            ]
+                        },
+                        { text: 'Ekstremitas restrain :',
+                            subDetail: [
+                                { text: 'Bantu pasien dalam posisi tidur lateral.' },
+                                { text: 'Gunakan alas dibawah restrain kalau perlu.' },
+                                { text: 'Pasang restrain dengan cara memasukkan 2 jari dibawah restrain jangan terlalu kencang.' },
+                            ]
+                        },
+                    ]
+                 },
+                { desc: 'Pastikan bel tempat tidur mudah dijangkau sebelum meninggalkan pasien.' },
+                { desc: 'Restrain harus di cek penempatannya setiap 15 – 20 menit, observasi nadi, temperature, warna dan sensasi bagian distal ekstremitas.' },
+                { desc: 'Lepaskan restrain selama 30 menit setiap 2 jam dan berikan latihan ROM.' },
+                { desc: 'Rapihkan kembali pakaian pasien.' },
+                { desc: 'Ucapkan alhamdulillahirobbil’alamin.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Observasi keefektifan penggunaan restrain untuk mencegah cedera pada pasien.' },
+                { desc: 'Observasi sirkulasi pada lokasi pemasangan restrain.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Observasi pemasangan restrain dan catat dalam lembar khusus observasi restrain. Dokumentasikan tindakan yang dilakukan dalam rekam medis pasien meliputi : waktu dan tanggal pemasangan, tipe restrain yang digunakan dan ukuran restrain.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Haemodialisa'
+    ]
+    },
+    {
+    id: 1460,
+    title: 'Perawatan Gigi Palsu',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Membantu membersihkan rongga mulut dan gigi palsu pasien.',
+    icon: 'fa-procedures',
+    tags: ['Gigi Palsu', 'Oral Hygiene'],
+    noDokumen: '445/SPO.3452/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Membantu membersihkan rongga mulut dan gigi palsu pasien.',
+    tujuan: `Sebagai acuan penerapan langkah-langkah pelaksanaan tindakan merawat gigi palsu, dalam rangka :
+            Mencegah timbulnya masalah-masalah pada rongga mulut.
+            Memberi rasa nyaman pada pasien.
+            Mengurangi bau mulut.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat.',
+                    detail: [
+                        { text: 'Sikat gigi' },
+                        { text: 'Pasta gigi' },
+                        { text: 'Gelas air kumur 2 buah' },
+                        { text: 'Sarung tangan on steril' },
+                        { text: 'Handuk atau tisue' },
+                        { text: 'Bengkok' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada pasien dan keluarga tentang prosedur dan tujuan tindakan  yang akan dilakukan.' },
+                        { text: 'Siapkan lingkungan dengan menutup tabir di sekeliling tempat tidur, lingkungan yang cukup penerangan.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan maksud dan tujuan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Gunakan sarung tangan on steril.' },
+                { desc: 'Anjurkan pasien untuk melepas gigi palsunya.' },
+                { desc: 'Bersihkan mulut, gusi dan sisa gigi yang ada dengan sikat yang lembut .' },
+                { desc: 'Bersihkan gigi palsu di bawah air mengalir dengan sikat dan pasta gigi.' },
+                { desc: 'Rendam gigi palsu dalam gelas kumur dan letakkan di atas meja pasien.' },
+                { desc: 'Bereskan alat-alat.' },
+                { desc: 'Ucapkan alhamdulillahirobbil’alamin.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Apakah ada bagian gigi yang retak atau patah' },
+                { desc: 'Apakah masih ada kotoran yang menempel pada gigi palsu' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan dalam rekam medic pasien meliputi : waktu pelaksanaan,  kondisi gigi palsu yang tidak normal, kondisi rongga mulut seperti perdarahan, edema, bau mulut, sekresi berlebihan atau plak pada lidah.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif'
+    ]
+    },{
+    id: 1461,
+    title: 'Memberikan Terapi Oksigen dengan Menggunakan Nasal Kanul',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Adalah suatu kegiatan memberikan oksigen tambahan dari luar ke paru-paru melalui saluran pernafasan dengan menggunakan alat nasal kanul.',
+    icon: 'fa-procedures',
+    tags: ['Oksigen', 'Nasal Kanul', 'Respirasi'],
+    noDokumen: '445/SPO.3453/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: `Adalah suatu kegiatan memberikan oksigen tambahan dari luar ke paru-paru melalui saluran pernafasan dengan menggunakan alat nasal kanul.
+                Aliran yang diberikan antara 1 sampai dengan 6 liter / menit.
+                1. Dilakukan oleh perawat atau bidan yang mendapat mandat atau delegasi.
+                2. Harus ada intruksi dari dokter penanggung jawab.
+                3. Dilakukan pada pasien-pasien dengan indikasi :
+                a. Frequensi pernafasan diatas 20 x / menit untuk dewasa.
+                b. Frequensi pernafasan diatas 40 x / menit untuk anak.
+                c. Frequensi pernafasan diatas 60 x / menit untuk bayi.
+                d. Pasien-pasien dengan masalah jantung.
+                e. Pasien-pasien yang mengalami trauma paru.
+                f. Pasien yang sedang dilakukan narcose umum.`,
+    tujuan: `Sebagai acuan penerapan langkah-langkah melaksanakan tindakan  pemenuhan kebutuhan oksigen dan mencegah hipoksia atau hipoksemia.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Nasal kanul.' },
+                        { text: 'Sumber O2.' },
+                        { text: 'Regulator oksigen / flow meter dengan humidifier.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien diberikan penjelasan tentang prosedur dan tujuan tindakan yang akan dilakukan.' },
+                        { text: 'Siapkan lingkungan dengan menutup skerm di sekeliling tempat tidur, lingkungan yang cukup penerangan.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Jelaskan maksud dan tujuan.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Atur posisi tidur pasien.' },
+                { desc: 'Sambungkan selang oksigen dengan humidifier.' },
+                { desc: 'Masukan kedua ujung kanul ke dalam lubang hidung pasien.' },
+                { desc: 'Atur flow meter untuk menentukan tekanan O2 sesuai kebutuhan.' },
+                { desc: 'Fiksasi selang oksigen dengan cara menyelipkan selang kebelakang telinga dan berakhir dibawah dagu pasien atau dengan cara fiksasi kebelakang kepala melalui bagian atas telinga.' },
+                { desc: 'Obserasi pola napas pasien.' },
+                { desc: 'Ucapkan alhamdulillahirobbilalamin.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Perhatikan respon pasien selama dan setelah pemberian oksigen.' },
+                { desc: 'Observasi tanda – tanda vital terutama RR secara kontinue.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang dilakukan dalam rekam medic pasien meliputi :  waktu pemberian oksigen, jumlah aliran dan tehnik pemasangan.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Haemodialisa',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Penunjang Medis'
+    ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  ===================================================================================
@@ -6851,7 +11724,10 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
             },
             {
                 step: 'Evaluasi',
-                desc: 'Respon klien\nHasil pengukuran'
+                items: [
+                    { desc: 'Respon klien.' },
+                    { desc: 'Hasil pengukuran.' }
+                ]
             },
             {
                 step: 'Dokumentasi',
@@ -6950,7 +11826,10 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
             },
             {
                 step: 'Evaluasi',
-                desc: 'Respon klien\nHasil pengukuran'
+                items: [
+                    { desc: 'Respon klien.' },
+                    { desc: 'Hasil pengukuran.' }
+                ]
             },
             {
                 step: 'Dokumentasi',
@@ -7110,7 +11989,10 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
             },
             {
                 step: 'Evaluasi',
-                desc: 'Respon klien\nHasil pengukuran'
+                items: [
+                    { desc: 'Respon klien.' },
+                    { desc: 'Hasil pengukuran.' }
+                ]
             },
             {
                 step: 'Dokumentasi',
@@ -7191,7 +12073,13 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
             },
             {
                 step: 'Evaluasi',
-                desc: 'Respon klien: kemungkinan hipotermi\nHasil pengukuran'
+                items: [
+                    { desc: 'Respon klien:', 
+                    detail: [
+                        'kemungkinan hipotermi',
+                        'Hasil pengukuran' 
+                    ]}
+                ]
             },
             {
                 step: 'Dokumentasi',
@@ -7249,7 +12137,10 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
             },
             {
                 step: 'Evaluasi',
-                desc: 'Respon klien\nHasil pengukuran'
+                items: [
+                    { desc: 'Respon klien.' },
+                    { desc: 'Hasil pengukuran.' }
+                ]
             },
             {
                 step: 'Dokumentasi',
@@ -7307,7 +12198,10 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
             },
             {
                 step: 'Evaluasi',
-                desc: 'Respon klien\nHasil pengukuran'
+                items: [
+                    { desc: 'Respon klien.' },
+                    { desc: 'Hasil pengukuran.' }
+                ]
             },
             {
                 step: 'Dokumentasi',
@@ -7366,7 +12260,10 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
             },
             {
                 step: 'Evaluasi',
-                desc: 'Respon klien\nHasil pengukuran'
+                items: [
+                    { desc: 'Respon klien.' },
+                    { desc: 'Hasil pengukuran.' }
+                ]
             },
             {
                 step: 'Dokumentasi',
