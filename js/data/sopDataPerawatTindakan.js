@@ -19,7 +19,7 @@ const sopDataPerawatTindakan = [
         id: 1001,
         title: 'Pemberian Koreksi Albumin',
         category: 'tindakan',
-        subCategory: 'medikalBedah',
+        subCategory: 'farmasi',
         description: 'Upaya memperbaiki jumlah albumin tubuh yang kurang dari kebutuhan melalui pemberian cairan albumin intravena.',
         icon: 'fa-tint',
         tags: ['Albumin', 'Infus', 'Koreksi', 'IV'],
@@ -69,7 +69,7 @@ const sopDataPerawatTindakan = [
         id: 1003,
         title: 'Pemberian Koreksi Bicnat',
         category: 'tindakan',
-        subCategory: 'medikalBedah',
+        subCategory: 'farmasi',
         description: 'Pemberian cairan intravena yang mengandung Sodium Bicarbonat 8,4% untuk koreksi asidosis.',
         icon: 'fa-flask',
         tags: ['Bicnat', 'Sodium Bicarbonat', 'Koreksi', 'Infus'],
@@ -250,7 +250,7 @@ const sopDataPerawatTindakan = [
         id: 1010,
         title: 'Pemberian Dosis Kalium',
         category: 'tindakan',
-        subCategory: 'medikalBedah',
+        subCategory: 'farmasi',
         description: 'Pemberian cairan intravena yang mengandung Potassium Chlorida 7,46% untuk koreksi hipokalemia.',
         icon: 'fa-flask',
         tags: ['Kalium', 'Potassium', 'Koreksi', 'IV'],
@@ -275,7 +275,7 @@ const sopDataPerawatTindakan = [
         id: 1011,
         title: 'Pemberian Obat Natrium 3%',
         category: 'tindakan',
-        subCategory: 'medikalBedah',
+        subCategory: 'farmasi',
         description: 'Pemberian cairan intravena yang mengandung Sodium Chloride 3% untuk koreksi hiponatremia.',
         icon: 'fa-tint',
         tags: ['Natrium', 'NaCl 3%', 'Koreksi', 'IV'],
@@ -7713,7 +7713,7 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
     category: 'tindakan',
     subCategory: 'keperawatanDasar',
     description: 'Suatu kegiatan memberikan obat dengan cara diteteskan kedalam hidung pasien.',
-    icon: 'fa-head-side-cough',
+    icon: 'fa-prescription-bottle-medical',
     tags: ['Obat Hidung', 'Tetes Hidung', 'Pemberian Obat'],
     noDokumen: '445/SPO.3425/Bidper',
     tanggalTerbit: '04 Maret 2019',
@@ -9348,7 +9348,7 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
     id: 1438,
     title: 'Melepas Cairan Infus (Up Infus)',
     category: 'tindakan',
-    subCategory: 'terapiCairan',
+    subCategory: 'keperawatanDasar',
     description: 'Tindakan untuk melepaskan atau mencabut IV catheter dan selang infus dari vena.',
     icon: 'fa-droplet',
     tags: ['Infus', 'Melepas Infus', 'IV Catheter', 'Terapi Cairan'],
@@ -9424,8 +9424,8 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
 {
     id: 1439,
     title: 'Observasi Intake–Output Cairan Tubuh Pasien',
-    category: 'observasi',
-    subCategory: 'terapiCairan',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
     description: 'Suatu kegiatan menghitung jumlah cairan tubuh pasien yang masuk (intake) dan keluar (output) serta jumlah keseimbangannya.',
     icon: 'fa-droplet',
     tags: ['Intake Output', 'Balance Cairan', 'Observasi Cairan', 'Keperawatan'],
@@ -9499,7 +9499,7 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
     id: 1440,
     title: 'Mengganti Balutan Infus',
     category: 'tindakan',
-    subCategory: 'terapiCairan',
+    subCategory: 'keperawatanDasar',
     description: 'Tindakan penggantian balutan infus sebagai upaya pencegahan terhadap kontaminasi atau infeksi pada area penusukan vena dan pemakaian infus set.',
     icon: 'fa-bandage',
     tags: ['Balutan Infus', 'Perawatan Infus', 'Plebitis', 'Infus'],
@@ -9574,8 +9574,8 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
 {
     id: 1441,
     title: 'Menilai Tingkat Kesadaran Menggunakan Glasgow Coma Scale (GCS)',
-    category: 'observasi',
-    subCategory: 'pemeriksaanFisik',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
     description: 'Kegiatan untuk mengukur tingkat kesadaran pasien dewasa secara kuantitas menggunakan indikator penghitungan kesadaran menurut Glasgow Coma Scale (GCS).',
     icon: 'fa-brain',
     tags: ['GCS', 'Glasgow Coma Scale', 'Kesadaran', 'Neurologi'],
@@ -10720,7 +10720,7 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
     category: 'tindakan',
     subCategory: 'keperawatanDasar',
     description: 'Kruk adalah alat bantu yang digunakan untuk menyokong tubuh pasien yang membutuhkan bantuan berjalan karena adanya penyakit, injuri atau cacat bawaan.',
-    icon: 'fa-procedures',
+    icon: 'fa-person-walking-with-cane',
     tags: ['Kruk', 'Mobilisasi', 'Ambulasi'],
     noDokumen: '445/SPO.3536/Bidper',
     tanggalTerbit: '04 Maret 2019',
@@ -10853,7 +10853,7 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
     category: 'tindakan',
     subCategory: 'keperawatanDasar',
     description: 'Walker adalah alat bantu ambulasi pasien yang sangat ringan dan dapat dibawa kemana – mana.',
-    icon: 'fa-procedures',
+    icon: 'fa-person-walking',
     tags: ['Walker', 'Ambulasi', 'Mobilisasi'],
     noDokumen: '445/SPO.3445/Bidper',
     tanggalTerbit: '04 Maret 2019',
@@ -10928,7 +10928,7 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
     category: 'tindakan',
     subCategory: 'keperawatanDasar',
     description: 'Pemeriksaan penunjang untuk pasien yang dicurigai menderita DHF.',
-    icon: 'fa-procedures',
+    icon: 'fa-stethoscope',
     tags: ['Rumple Leed', 'DHF', 'Pemeriksaan'],
     noDokumen: '445/SPO.3446/Bidper',
     tanggalTerbit: '04 Maret 2019',
@@ -11005,7 +11005,7 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
     category: 'tindakan',
     subCategory: 'keperawatanDasar',
     description: 'Tindakan mengeluarkan feces yang keras (fekal impaksi) dalam jumlah besar yang berada dalam kolon.',
-    icon: 'fa-procedures',
+    icon: 'fa-hand',
     tags: ['Feces', 'Impaksi', 'Eliminasi'],
     noDokumen: '445/SPO.3447/Bidper',
     tanggalTerbit: '04 Maret 2019',
@@ -11094,7 +11094,7 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
     category: 'tindakan',
     subCategory: 'keperawatanDasar',
     description: 'Memasukan larutan pengencer feces kedalam rectum dan kolon.',
-    icon: 'fa-procedures',
+    icon: 'fa-kit-medical',
     tags: ['Enema', 'Lavement', 'Eliminasi'],
     noDokumen: '445/SPO.3448/Bidper',
     tanggalTerbit: '04 Maret 2019',
@@ -11207,7 +11207,7 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
     category: 'tindakan',
     subCategory: 'keperawatanDasar',
     description: 'Membantu memenuhi kebutuhan kebersihan rongga mulut dan gigi pada pasien tidak sadar.',
-    icon: 'fa-procedures',
+    icon: 'fa-tooth',
     tags: ['Mulut', 'Gigi', 'Higiene'],
     noDokumen: '445/SPO.3449/Bidper',
     tanggalTerbit: '04 Maret 2019',
@@ -11289,7 +11289,7 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
     category: 'tindakan',
     subCategory: 'keperawatanDasar',
     description: 'Memasukan cairan obat / oil enema untuk membersihkan colon pasien.',
-    icon: 'fa-procedures',
+    icon: 'fa-syringe',
     tags: ['Enema', 'Retention', 'Eliminasi'],
     noDokumen: '445/SPO.3450/Bidper',
     tanggalTerbit: '04 Maret 2019',
@@ -11487,7 +11487,7 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
     category: 'tindakan',
     subCategory: 'keperawatanDasar',
     description: 'Membantu membersihkan rongga mulut dan gigi palsu pasien.',
-    icon: 'fa-procedures',
+    icon: 'fa-tooth',
     tags: ['Gigi Palsu', 'Oral Hygiene'],
     noDokumen: '445/SPO.3452/Bidper',
     tanggalTerbit: '04 Maret 2019',
@@ -11555,7 +11555,8 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
         'Instalasi Rawat Inap',
         'Instalasi Anestesi dan Perawatan Intensif'
     ]
-    },{
+    },
+    {
     id: 1461,
     title: 'Memberikan Terapi Oksigen dengan Menggunakan Nasal Kanul',
     category: 'tindakan',
@@ -11638,25 +11639,243 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
         'Instalasi Penunjang Medis'
     ]
     },
+    {
+    id: 1462,
+    title: 'Melatih ROM (Range of Motion) atau RPS (Rentang Pergerakan Sendi)',
+    category: 'tindakan',
+    subCategory: 'keperawatanDasar',
+    description: 'Suatu kegiatan melatih kemampuan pergerakan sendi anggota tubuh pasien.',
+    icon: 'fa-person-walking',
+    tags: ['ROM', 'Range of Motion', 'Mobilisasi'],
+    noDokumen: '445/SPO.3442/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan melatih kemampuan pergerakan sendi anggota tubuh pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan melatih kemampuan pergerakan sendi anggota tubuh pasien.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional   Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Kursi/kursi roda dalam keadaan terkunci.' },
+                        { text: 'Alas kaki.' },
+                        { text: 'Sabuk untuk berpindah posisi.' },
+                        { text: 'Bantal.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Pasien diberikan penjelasan tentang hal-hal yang akan dilakukan.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Siapkan lingkungan sekitar agar privasi pasien terjaga.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Petugas cuci tangan.' },
+                { desc: 'Cocokan nama pasien dengan gelang identitas.' },
+                { desc: 'Ucapkan bismillahirrohmanirrohiim.' },
+                { desc: 'Atur posisi tidur pasien untuk terlentang.' },
 
+                {
+                    desc: 'Latihan pergerakan sendi',
+                    detail: [
+                        {
+                            text: 'Leher - Fleksi dan ekstensi',
+                            subDetail: [
+                                'Letakan salah satu telapak tangan petugas dibawah kepala pasien dan telapak tangan lainnya dibawah dagu.',
+                                'Tekuk kepala kedepan hingga dagu menempel didada, kemudian kembali ke posisi tegak.'
+                            ]
+                        },
+                        {
+                            text: 'Leher - Fleksi lateral',
+                            subDetail: [
+                                'Letakan kedua tangan pada pipi kanan dan kiri pasien.',
+                                'Tekuk kepala kearah samping (kearah bahu) kanan dan kiri bergantian.'
+                            ]
+                        },
+                        {
+                            text: 'Bahu - Rotasi lateral',
+                            subDetail: [
+                                'Letakan kedua tangan pada pipi kanan dan kiri pasien.',
+                                'Palingkan muka kearah samping kanan dan kiri bergantian.'
+                            ]
+                        },
+                        {
+                            text: 'Bahu - Fleksi ekstensi',
+                            subDetail: [
+                                'Pegang tangan kiri dibawah siku dengan satu tangan, sementara tangan lain memegang pergelangan tangan.',
+                                'Angkat tangan keatas hingga mencapai bagian kepala tempat tidur, kembalikan ke posisi semula.'
+                            ]
+                        },
+                        {
+                            text: 'Bahu - Abduksi',
+                            subDetail: [
+                                'Angkat tangan pasien keatas hingga mencapai bagian kepala tempat tidur, kembalikan ke posisi semula.'
+                            ]
+                        },
+                        {
+                            text: 'Bahu - Abduksi anterior & posterior',
+                            subDetail: [
+                                'Gerakan tangan melewati tubuh hingga mencapai tangan pasien yang lain.',
+                                'Kembalikan ke posisi semula.'
+                            ]
+                        },
+                        {
+                            text: 'Bahu - Rotasi internal dan eksternal',
+                            subDetail: [
+                                'Gerakan tangan kesamping setinggi bahu hingga membentuk sudut 90º.',
+                                'Tekuk siku hingga jari menghadap ke atas.',
+                                'Gerakan tangan ke bawah hingga telapak menyentuh tempat tidur.',
+                                'Naikan hingga punggung tangan menyentuh tempat tidur.'
+                            ]
+                        },
+                        {
+                            text: 'Bahu - Fleksi eksternal',
+                            subDetail: [
+                                'Tekuk siku hingga jari menyentuh dagu kemudian luruskan.'
+                            ]
+                        },
+                        {
+                            text: 'Bahu - Supinasi pronasi',
+                            subDetail: [
+                                'Putar lengan bawah sehingga telapak tangan menghadap keatas.',
+                                'Putar kembali sehingga telapak tangan menghadap ke bawah.'
+                            ]
+                        },
+                        {
+                            text: 'Pergelangan tangan - Fleksi ekstensi',
+                            subDetail: [
+                                'Tekuk telapak tangan ke arah dalam lengan bawah.',
+                                'Luruskan kembali hingga sejajar dengan lengan.'
+                            ]
+                        },
+                        {
+                            text: 'Pergelangan tangan - Deviasi radial',
+                            subDetail: [
+                                'Bengkokkan telapak tangan ke arah ibu jari lalu luruskan.'
+                            ]
+                        },
+                        {
+                            text: 'Jari tangan - Fleksi ekstensi',
+                            subDetail: [
+                                'Kepalkan jari-jari tangan kemudian luruskan kembali.'
+                            ]
+                        },
+                        {
+                            text: 'Jari tangan - Hiperekstensi',
+                            subDetail: [
+                                'Bengkokkan jari-jari ke belakang sejauh mungkin.'
+                            ]
+                        },
+                        {
+                            text: 'Jari tangan - Abduksi adduksi',
+                            subDetail: [
+                                'Kembangkan jari kemudian rapatkan kembali.'
+                            ]
+                        },
+                        {
+                            text: 'Jari tangan - Oposisi',
+                            subDetail: [
+                                'Sentuhkan ibu jari dengan jari lainnya secara bergantian.'
+                            ]
+                        },
+                        {
+                            text: 'Ibu jari - Sirkumduksi',
+                            subDetail: [
+                                'Putar ibu jari dengan poros sendi metacarpal.'
+                            ]
+                        },
+                        {
+                            text: 'Panggul - Fleksi ekstensi',
+                            subDetail: [
+                                'Angkat kaki dan tekuk lutut ke arah dada.',
+                                'Luruskan kembali ke posisi semula.'
+                            ]
+                        },
+                        {
+                            text: 'Panggul - Abduksi adduksi',
+                            subDetail: [
+                                'Gerakan kaki menjauh dari tubuh dan kembali menyilang.'
+                            ]
+                        },
+                        {
+                            text: 'Panggul - Rotasi internal dan eksternal',
+                            subDetail: [
+                                'Putar kaki ke arah dalam dan ke arah luar.'
+                            ]
+                        },
+                        {
+                            text: 'Pergelangan kaki - Dorsifleksi dan plantar fleksi',
+                            subDetail: [
+                                'Dorong telapak kaki ke atas dan ke bawah.'
+                            ]
+                        },
+                        {
+                            text: 'Pergelangan kaki - Eversi dan inversi',
+                            subDetail: [
+                                'Putar telapak kaki ke luar dan ke dalam.'
+                            ]
+                        },
+                        {
+                            text: 'Pergelangan kaki - Sirkumduksi',
+                            subDetail: [
+                                'Putar telapak kaki dengan poros sendi tumit.'
+                            ]
+                        },
+                        {
+                            text: 'Jari kaki - Fleksi ekstensi',
+                            subDetail: [
+                                'Gerakan jari kaki ke atas dan ke bawah.'
+                            ]
+                        },
+                        {
+                            text: 'Jari kaki - Abduksi adduksi',
+                            subDetail: [
+                                'Lebarkan dan rapatkan jari kaki.'
+                            ]
+                        }
+                    ]
+                },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                { desc: 'Pantau respon pasien selama dan sesudah latihan.' },
+                { desc: 'Lakukan komunikasi selama latihan.' },
+                { desc: 'Ucapkan alhamdulillahirobbil alamin.' },
+                { desc: 'Cuci tangan setelah tindakan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Catat respon pasien selama dan setelah dilakukan tindakan.' },
+                { desc: 'Hindari tindakan yang menimbulkan rasa lelah pada pasien serta tetap menjaga kesopanan.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan dalam rekam medik pasien meliputi : sendi yang dilatih, adanya edema atau nyeri saat latihan, adanya keterbatasan ROM dan toleransi pasien terhadap latihan.'
+        }
+    ],
+    dokumenTerkait: ['Status pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral',
+        'Instalasi Haemodialisa'
+    ]
+    },
 
 
 
@@ -12272,6 +12491,3335 @@ Melihat lokasi batu, tumor, kiste, hidroneprosis, pyelonephritis, renovaskuler h
         ],
         dokumenTerkait: ['Status Pasien'],
         instalasiTerkait: ['Instalasi Gawat Darurat', 'Instalasi Rawat Jalan', 'Instalasi Rawat Inap', 'Instalasi Bedah Sentral', 'Instalasi Anestesi dan Perawatan Intensif']
-    }
+    },
+    {
+    id: 1509,
+    title: 'Menilai Tingkat Kesadaran Menggunakan Pediatric Coma Scale (PCS)',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Adalah suatu kegiatan untuk menilai tingkat kesadaran klien secara kuantitas dengan menggunakan indikator penghitungan Pediatric Coma Scale (PCS).',
+    icon: 'fa-brain',
+    tags: ['PCS', 'Kesadaran', 'Pediatric'],
+    noDokumen: '445/SPO.4757/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Adalah suatu kegiatan untuk menilai tingkat kesadaran klien secara kuantitas dengan menggunakan indikator penghitungan Pediatric Coma Scale (PCS).',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam menilai tingkat kesadaran dengan menggunakan indikator Pediatrik Coma Scale (PCS).',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Formulir PCS.' },
+                        { text: 'Alat tulis.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Pasien diberikan penjelasan tentang tindakan yang akan dilakukan.' },
+                        { text: 'Lingkungan aman dan nyaman.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan.' },
+                { desc: 'Mengucapkan basmallah.' },
+                { desc: 'Atur posisi pasien.' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien.' },
+
+                {
+                    desc: 'Observasi kesadaran menggunakan Pediatric Coma Scale (PCS)',
+                    detail: [
+                        {
+                            text: 'Respon membuka mata (E = Eye)',
+                            subDetail: [
+                                'Nilai 4 jika : anak membuka mata spontan.',
+                                'Nilai 3 jika : anak mampu membuka mata bila dikomando dengan suara.',
+                                'Nilai 2 jika : anak mampu membuka mata bila ada rangsangan nyeri.',
+                                'Nilai 1 jika : anak tidak mampu membuka mata sama sekali.'
+                            ]
+                        },
+                        {
+                            text: 'Respon motorik (M)',
+                            subDetail: [
+                                'Nilai 6 jika : anak dapat bergerak spontan.',
+                                'Nilai 5 jika : anak dapat melokalisasi nyeri.',
+                                'Nilai 4 jika : anak dapat bergerak saat diberikan stimulus nyeri.',
+                                'Nilai 3 jika : anak dapat menarik fleksi saat diberikan stimulus nyeri.',
+                                'Nilai 2 jika : anak melakukan extensi abnormal saat diberikan stimulus nyeri.',
+                                'Nilai 1 jika : anak tidak ada respon.'
+                            ]
+                        },
+                    ]
+                },
+                {
+                    desc: 'Gunakan hanya 1 dari 2 katagori dibawah ini',
+                    detail: [
+                        {
+                            text: 'Respon verbal (V) untuk anak > 2 tahun',
+                            subDetail: [
+                                'Nilai 5 jika : anak berorientasi baik.',
+                                'Nilai 4 jika : anak bingung.',
+                                'Nilai 3 jika : anak berkata-kata tidak dimengerti.',
+                                'Nilai 2 jika : anak mengerang.',
+                                'Nilai 1 jika : anak tidak berespon.'
+                            ]
+                        },
+                        {
+                            text: 'Respon pendengaran/penglihatan untuk anak < 2 tahun',
+                            subDetail: [
+                                'Nilai 5 jika : anak tersenyum, berorientasi terhadap suara, mengikuti objek.',
+                                'Nilai 4 jika : anak menangis, consolable.',
+                                'Nilai 3 jika : anak menangis terus menerus.',
+                                'Nilai 2 jika : anak agitasi / lemah.',
+                                'Nilai 1 jika : anak tidak berespon.'
+                            ]
+                        },
+                    ]
+                },
+                { desc: 'Perawat menghitung nilai kesadaran dengan :Nilai maksimal PCS  = 15' },
+                { desc: 'Cara penulisan hasil penilaian PCS = ...., E ...., M ...., V ..., titik-titik diisi dengan hasil penilaian. PCS untuk total semua respon, E untuk nilai respon mata, M untuk nilai motorik, V untuk nilai verbal' },
+                { desc: 'Mengucapkan hamdallah.' },
+                { desc: 'Perawat cuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Kaji perubahan tingkat kesadaran secara rutin.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            items: [
+                { desc: 'Dokumentasikan hasil penilaian dalam rekam medik pasien.' }
+            ]
+        },
+        {
+            step: 'Perlu Diperhatikan',
+            items: [
+                { desc: 'Identifikasi nilai PCS sebelumnya.' },
+                {
+                    desc: 'Untuk trauma kepala',
+                    detail: [
+                        { text: 'JIKA NILAI PCS ≤ 8 TERMASUK TRAUMA KEPALA BERAT / SEVERE.',
+                            subDetail: [
+                                { text: 'Jika nilai PCS 9 - 12 / 9 – 11 dengan adanya lesi intra kranial sesuai hasil CT-Scan termasuk trauma kepala sedang / moderate.', formula: false },
+                                { text: 'Jika nilai PCS 13 - 15 / 12 – 15 dengan adanya lesi intra kranial sesuai hasil CT-Scan termasuk trauma kepala ringan / mild.', formula: false }
+
+                            ]
+                         },
+                    ]
+                },
+                {
+                    desc: 'Untuk penurunan kesadaran lainnya',
+                    detail: [
+                        { text: 'Jika nilai PCS 15 : compos mentis.' },
+                        { text: 'Jika nilai PCS 12 - 14 : somnolen.' },
+                        { text: 'Jika nilai PCS 8 - 11 : soporus.' },
+                        { text: 'Jika nilai PCS 3 - 7 : coma.' }
+                    ]
+                }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien', 'Formulir PCS'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan',
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Bedah Sentral'
+    ]
+    },
+    {
+    id: 1510,
+    title: 'Mengganti Popok Bayi (BAB/BAK)',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu tindakan untuk menjaga keutuhan kulit atau integritas kulit bayi.',
+    icon: 'fa-baby',
+    tags: ['Popok', 'Bayi', 'Perawatan Kulit'],
+    noDokumen: '445/SPO.4758/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: `Suatu tindakan untuk menjaga keutuhan kulit/integritas kulit.`,
+    tujuan: `Menjaga kebersihan kulit daerah bokong dan perianal.
+             Mencegah terjadi ruam popok, rush, kemerahan.
+             Menjaga rasa nyaman.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Popok bersih.' },
+                        { text: 'Peniti sesuai kebutuhan.' },
+                        { text: 'Kapas bersih yang basah.' },
+                        { text: 'Tempat kapas kotor.' },
+                        { text: 'Ember tempat pakaian kotor.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Berikan penjelasan kepada keluarga tentang prosedur yang akan dilakukan.' },
+                        { text: 'Bayi diangkat dan dibaringkan di atas kasur kecil atau box bayi.' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah.' },
+                { desc: 'Mendekatkan peralatan.' },
+                { desc: 'Mencuci tangan.' },
+                {
+                    desc: 'Melepaskan popok',
+                    detail: [
+                        { text: 'Membuka dan menutup peniti ( letakan agak jauh dari bayi dan dalam keadaan tertutup ).' },
+                        { text: 'Popok dibuka, dilipat, diangkat, dan dimasukan kedalam ember ( bila bayi BAB, ujung popok dilipat ke bawah bokong, lalu bersihkan bokong dengan kapas dari arah depan ke belakang ).' },
+                    ]
+                },
+                {
+                    desc: 'Mengenakan popok',
+                    detail: [
+                        { text: 'Meletakan popok bersih di bawah bokong ( dengan lipatan sesuai jenis kelamin ).' },
+                        { text: 'Memakaikan popok dengan rapih.' },
+                        { text: 'Memasang peniti jika tidak menggunakan popok berperekat dengan cara meletakan 2 jari tangan kiri perawat diantara badan bayi dan popok.' }
+                    ]
+                },
+                { desc: 'Mengucapkan hamdallah.' },
+                { desc: 'Memuji bayi atas kerjasamanya.' },
+                { desc: 'Membereskan pasien dan peralatan.' },
+                { desc: 'Mencuci tangan.' },
+                { desc: 'Mencatat dalam dokumentasi keperawatan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Kaji respon bayi verbal dan non verbal.' },
+                { desc: 'Warna dan frekuensi defekasi/miksi.' },
+                { desc: 'Kerapihan popok dan fiksasi.' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Catat hasil kajian BAB/BAK dan ruam popok dalam status rekam medik bayi.'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap'
+    ]
+    },
+    {
+    id: 1511,
+    title: 'Memberikan Seka Hangat (Tapid Sponge)',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu kegiatan melakukan seka hangat sebagai salah satu cara untuk mengontrol suhu tubuh.',
+    icon: 'fa-thermometer-half',
+    tags: ['Suhu', 'Demam', 'Seka Hangat'],
+    noDokumen: '445/SPO.4759/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan melakukan seka hangat (tapid sponge) sebagai salah satu cara untuk mengontrol suhu tubuh.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melakukan tindakan seka hangat / tapid sponge.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Waskom.' },
+                        { text: 'Air hangat (37°C).' },
+                        { text: 'Termometer air.' },
+                        { text: 'Perlak dan selimut mandi.' },
+                        { text: 'Alkohol 70% (jika diperlukan).' },
+                        { text: 'Waslap.' },
+                        { text: 'Termometer.' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan keluarga',
+                    detail: [
+                        { text: 'Pasien dan keluarga diberitahu tentang tindakan yang akan dilakukan.' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan.' },
+                { desc: 'Menutup pintu atau gorden.' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien.' },
+                { desc: 'Mengukur suhu dan nadi pasien.' },
+                { desc: 'Memasang perlak dibawah pasien dan buka baju pasien.' },
+                { desc: 'Memasang selimut mandi diatas bagian tubuh yang tidak akan diseka.' },
+                { desc: 'Cek suhu air, tambahkan alkohol sama banyak (jika diperlukan).' },
+                { desc: 'Celupkan waslap pada air dan tempatkan pada daerah ketiak dan selangkangan.' },
+                { desc: 'Seka ekstremitas dengan lembut selama 5 menit, mulai dari ujung ke pangkal ektremitas. Catat respon klien.' },
+                { desc: 'Keringkan ekstremitas dan kaji kembali suhu dan nadi klien.' },
+                { desc: 'Lanjutkan menyeka ekstremitas yang lain, punggung dan bokong selama 3-5 menit. Kaji kembali suhu dan nadi setiap 15 menit.' },
+                { desc: 'Ganti air dan seka kembali pada aksila dan selangkangan jika diperlukan.' },
+                { desc: 'Saat suhu tubuh turun (38OC), prosedur dihentikan.' },
+                { desc: 'Keringkan ekstremitas dan badan dengan seksama, pakaikan kembali baju klien.' },
+                { desc: 'Bereskan alat-alat dan ukur suhu tubuh klien.' },
+                { desc: 'Memberikan pujian kepada anak atas kerjasamanya.' },
+                { desc: 'Perawat mencuci tangan.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Monitoring respon pasien selama tindakan, termasuk kemungkinan menggigil.'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Catat waktu, suhu awal, suhu setelah tindakan, dan respon pasien.' 
+
+        },
+        {
+            step: 'Perlu Diperhatikan',
+            items: [
+                { desc: 'Jika klien menggigil, hentikan prosedur. Menggigil menyebabkan peningkatan suhu tubuh.' },
+                { desc: 'Pada anak-anak, penambahan alkohol pada air harus setelah adanya instruksi medis. Penambahan alkohol ini dapat meningkatkan risiko keracunan alkohol melalui inhalasi.' }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap'
+    ]
+    },
+    {
+    id: 1512,
+    title: 'Melakukan Fisioterapi Dada : Perkusi, Vibrasi, dan Postural Drainage (PVD) pada Infant',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu kegiatan pembersihan secret pada jalan nafas dan segmen bronchus dengan cara perkusi, vibrasi dan dengan pengaruh gravitasi',
+    icon: 'fa-lungs',
+    tags: ['Fisioterapi Dada', 'PVD', 'Infant'],
+    noDokumen: '445/SPO.4760/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan pembersihan secret pada jalan nafas dan segmen bronchus dengan cara perkusi, vibrasi dan dengan pengaruh gravitasi',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam tindakan keperawatan PVD',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Nipple dot yang diisi dengan tissue dan ditutup dengan selotip pada bagian dasarnya (untuk infant)' },
+                        { text: 'Bantal tipis atau handuk tebal' },
+                        { text: 'Stetoskop' },
+                        { text: 'Bengkok' },
+                        { text: 'Tissue' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan keluarga',
+                    detail: [
+                        { text: 'Memberitahu keluarga tentang tujuan dan prosedur yang akan dilakukan' },
+                        { text: 'Pastikan bayi dalam keadaan bersih' },
+                        { text: 'Tindakan dilakukan saat anak bangun tidur, sebelum waktu tidur, sebelum makan siang, sebelum makan malam, dan tidak dilakukan apabila anak telah makan penuh' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Perawat mengucapkan salam' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Sebelum melakukan tindakan membaca basmalah' },
+                { desc: 'Kaji adanya secret pada area paru-paru dan tentukan area yang akan dilakukan PVD' },
+                { desc: 'Tempatkan infant diatas pangkuan perawat, gunakan bantal sebagai alas' },
+                { desc: 'Posisikan infant sesuai dengan tempat adanya ronkhi atau secret, pertahankan posisi selama 3-5 menit' },
+                { desc: 'Perkusi pada daerah ronkhi selama  1 menit dengan nipple atau telapak tangan yang ditelungkupkan (seperti menyimpan air di telapak tangan)' },
+                { desc: 'Setelah perkusi, ketika akhir inspirasi dan awal ekspirasi, lakukan vibrasi dengan lembut dengan cara menggetarkan menggunakan satu tangan atau 2-3 jari tangan. Tindakan ini dilakukan sampai 3 kali nafas' },
+                { desc: 'Untuk mengeluarkan secret pada infant, tempatkan infant pada posisi tengkurap dengan kepala lebih rendah, karena infant belum bisa batuk efektif.' },
+                {
+                    desc: 'Untuk segmen apical pada lobus kiri atas',
+                    detail: [
+                        { text: 'Posisikan infant dengan cara infant duduk bersandar kebelakang dengan  sudut 30 derajat' },
+                        { text: 'Lakukan perkusi diantara klavikula dan scapula sebelah kiri' },
+                        {text: 'Untuk segmen posterior pada lobus kiri atas: '},
+                        { text: 'Posisikan infant condong kedepan sambil memeluk bantal dengan sudut 30O. '},
+                        { text: 'Lakukan perkusi di atas scapula kiri' }
+
+                    ]
+                },
+                {
+                    desc: 'Untuk segmen anterior pada lobus kiri atas',
+                    detail: [
+                        { text: 'Infant ditidurkan miring ke kanan dengan lengan kiri di angkat menjauh  dari dada sehingga klavikula kiri terangkat' },
+                        { text: 'Lakukan perkusi dibawah klavikula kiri antara iga ke-2 dan ke-4' },
+                    ]
+                },
+                {
+                    desc: 'Untuk segmen superior pada lobus kanan bawah',
+                    detail: [
+                        { text: 'Tengkurapkan infant dengan tangan kiri perawat memegang kapal infant dan tangan kanan' },
+                        { text: 'Lakukan perkusi dibawah scapula kanan' },
+                        { text: 'Untuk segmen basal posterior pada lobus kanan bawah: ' },
+                        { text: 'Tengkurapkan infant dengan kepala diturunkan 30 derajat dan ' },
+                        { text: 'Lakukan perkusi pada iga ke-11 dan 12 sebelah kanan' }
+                    ]
+                },
+                {
+                    desc: 'Untuk segmen basal lateral pada lobus kanan bawah',
+                    detail: [
+                        { text: 'Tengkurapkan infant dengan sedikit dimiringkan ke kiri, kepala diturunkan 30 derajat, tangan kiri perawat memegang lengan kanan infant' },
+                        { text: 'Lakukan perkusi disisi dada kanan pada iga ke-8' },
+                    ]
+                },
+                {
+                    desc: 'Untuk segmen basal anterior pada lobus kanan',
+                    detail: [
+                        { text: 'Posisikan infant miring ke  kiri dengan kepala diturunkan 30 derajat. Tangan kiri perawat memegang kanan infant' },
+                        { text: 'Lakukan perkusi pada garis aksila di iga ke-11 dan 12' },
+                    ]
+                },
+                {
+                    desc: 'Untuk segmen medial lateral pada lobus kanan tengah',
+                    detail: [
+                        { text: 'Posisikan infant sedikit miring ke kiri dengan kepala diturunkan 15' },
+                        { text: 'Lakukan perkusi pada daerah putting kanan antara iga ke-4 dan ke-6' },
+                    ]
+                },
+                {
+                    desc: 'Untuk segmen lingular pada lobus kiri atas',
+                    detail: [
+                        { text: 'Posisikan infant sedikit miring ke kanan dengna kepala diturunkan 15' },
+                        { text: 'Lakukan perkusi di daerah putting sebelah kiri antara iga ke-4 dan 6.' },
+                    ]
+                },
+                { desc: 'Lap secret yang keluar dengan tissue dan buang ke bengkok' },
+                { desc: 'Ulangi langkah 2-9 untuk setiap posisi yang lain' },
+                { desc: 'Evaluasi dengan cara auskultasi pada paru-paru anak dan bandingkan dengan pemeriksaan sebelumnya' },
+                { desc: 'Berikan pujian kepada anak atas kerjasamanya' },
+                { desc: 'Rapikan anak, alat-alat dibereskan dan dibersihkan' },
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Sesudah melakukan tindakan mengucapkan hamdallah' }
+
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Monitoring respon pasien selama dan setelah tindakan : hentikan tindakan apabila tampak tanda-tanda kelelahan seperti pucat, diaforesis, dan lemah; serta tanda-tanda gangguan pernafasan seperti sesak, sianosis dan adanya pernafasan cuping hidung'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan dalam catatan asuhan keperawatan : waktu, jumlah, warna, dan karakteristik secret yang keluar.'
+        },
+        {
+            step: 'Perlu Diperhatikan',
+            items: [
+                { desc: 'Postural drainage dapat menyebabkan bronkospasme akibat mobilisasi secret ke jalan nafas yang lebih besar sehingga meningkatkan usaha nafas.' },
+                { desc: 'Kolaborasi dengan medis untuk pemberian terafi bronkodilator. Pemberian bronkodilator 20 menit sebelum postural drainage dapat mengurangi risiko bronkospasme.' },
+                { desc: 'Prioritaskan untuk melakukan 4 – 6 posisi. Lebih dari itu umumnya telah melebihi batas toleransi infant.' }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap'
+    ]
+    },
+    {
+    id: 1513,
+    title: 'Memandikan Anak dengan Cara Di Lap',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu kegiatan memandikan bayi / anak dengan cara di lap menggunakan air hangat atau minyak',
+    icon: 'fa-bath',
+    tags: ['Mandi Anak', 'Higiene', 'Perawatan'],
+    noDokumen: '445/SPO.4761/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memandikan bayi / anak dengan cara di lap menggunakan air hangat atau minyak',
+    tujuan: `Membersihkan kulit tubuh bayi / anak dari kotoran
+        Merangsang peredaran darah
+        Mencegah infeksi kulit
+        Memberikan rasa segar dan nyaman`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Scherm' },
+                        { text: 'Ember tertutup ( tempat pakaian kotor )  meja mandi khusus' },
+                        { text: 'Thermometer' },
+                        { text: 'Alat penghangat ( lampu sorot )' },
+                        { text: 'Barakschort' },
+                        { text: 'Sabun mandi' },
+                        { text: 'Kayu putih, talk' },
+                        { text: 'Sikat gigi anak' },
+                        { text: 'Pasta gigi anak' },
+                        { text: 'Washlap ( 2 buah )' },
+                        { text: 'Kain penutup atau selimut mandi' },
+                        { text: 'Set pakaian bersih' },
+                        { text: 'Handuk besar ( 1 )' },
+                        { text: '2 waskom mandi berisi air hangat ( 41O)' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Menjelaskan pada keluarga / ibu' },
+                        { text: 'Menjelaskan pada anak sesuai tahap usia' },
+                        { text: 'Mengukur suhu' },
+                        { text: 'Menayakan pada anak apakah mau mandi atau gosok gigi dulu' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan salam' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Mengucapkan basmallah sebelum melakukan tindakan' },
+                { desc: 'Pintu, jendela ditutup dan pasang scherm / menutup gordyn' },
+                { desc: 'Selimut dan bantal dipindahkan' },
+                { desc: 'Alat-alat mandi didekatkan' },
+                { desc: 'Perawat cuci tangan' },
+                { desc: 'Perawat memakai barakscort' },
+                { desc: 'Membuka pakaian bagian atas anak dan menutup dengan selimut' },
+                {
+                    desc: 'Memandikan anak dengan urutan',
+                    detail: [
+                        { text: 'Membersihkan wajah' },
+                        { text: 'Membersihkan lengan' },
+                        { text: 'Membersihkan dada dan perut' },
+                        { text: 'Membersihkan punggung' },
+                        { text: 'Membersihkan kaki' },
+                        { text: 'Membersihkan lipat paha dan genetelia' },
+                        { text: 'Memberi  kayu putih dan atau talk dan memassege daerah punggung' },
+                        { text: 'Memakaikan pakaian bersih' }
+                    ]
+                },
+                { desc: 'Mengukur suhu ulang' },
+                { desc: 'Membereskan alat – alat' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Suhu tubuh' },
+                { desc: 'Kebersihan rambut, gigi dan tubuh' },
+                { desc: 'Keadaan luka jika ada' },
+                { desc: 'Kerapihan dan kebersihan lingkungan' },
+                { desc: 'Respon anak' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            items: [
+                { desc: 'Waktu pelaksanaan' },
+                { desc: 'Respon pasien' },
+                { desc: 'Suhu tubuh' },
+                { desc: 'Kebersihan rambut, gigi dan tubuh' },
+                { desc: 'Keadaan luka jika ada' }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap'
+    ]
+    },
+    {
+    id: 1514,
+    title: 'Memandikan Bayi dengan Cara Mandi Rendam',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu kegitan membersihkan kulit tubuh bayi dari berbagai kotoran dengan memasukan tubuh bayi kedalam air hangat',
+    icon: 'fa-bath',
+    tags: ['Mandi Bayi', 'Higiene', 'Perawatan'],
+    noDokumen: '445/SPO.4762/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegitan membersihkan kulit tubuh bayi dari berbagai kotoran dengan memasukan tubuh bayi kedalam air hangat',
+    tujuan: `Membersihkan kulit tubuh bayi / anak dari kotoran
+        Merangsang peredaran darah
+        Memberikan rasa segar dan nyaman`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Meja mandi' },
+                        { text: 'Ember tertutup ( tempat pakaian kotor )' },
+                        { text: 'Tempat sampah tertutup' },
+                        { text: 'Timbangan berat badan bayi' },
+                        { text: 'Alat penghangat ( lampu sorot / radiant warmer )' },
+                        { text: 'Thermometer' },
+                        { text: 'Barakschort plastic' },
+                        { text: 'Kapas cebok/ waslap khusus untuk cebok' },
+                        { text: 'Kain kering ( pembungkus bayi )' },
+                        { text: 'Kapas mata (minimal 2 buah )' },
+                        { text: 'Handuk mandi yang lembut' },
+                        { text: 'Cottonbud (minimal 2buah )' },
+                        { text: 'Sabun & shampoo bayi' },
+                        { text: 'Kayu putih, talk,dan atau oil' },
+                        { text: 'Set perawatan tali pusat' },
+                        { text: 'Washlap ( 1 )' },
+                        { text: 'Set pakaian bayi' },
+                        { text: 'Handuk besar ( 1 )' },
+                        { text: '1 waskom dan 1 jolang  berisi air hangat (41O)' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Informasikan pada keluarga tentang tindakan yang akan dilakukan' },
+                        { text: 'Mengukur suhu dan menimbang BB bayi' },
+                        { text: 'Membuka seluruh pakaian bayi' },
+                        { text: 'Membersihkan bab/bak' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Ciptakan lingkungan yang bersih, aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Mematikan AC, menutup pintu, dan jendela' },
+                { desc: 'Memakai barakscort' },
+                { desc: 'Mendekatkan alat – alat mandi' },
+                { desc: 'Menyiapkan handuk' },
+                { desc: 'Memindahkan bayi ke meja perasat dengan kepala diatas handuk' },
+                {
+                    desc: 'Melaksanakan teknik',
+                    detail: [
+                        { text: 'Membersihkan mata, telinga dan hidung' },
+                        { text: 'Membersihkan wajah dengan washlap tanpa sabun' },
+                        { text: 'Membilas kepalabayi dengan shampoo' },
+                        { text: 'Membersihkan kepalabayi dengan teknik : angkat kepala bayi disimpan diatas tangan kiri (posisi football), bersihkan kepala bayi diatas Waskom' },
+                        { text: 'Mengeringkan kepala bayi' },
+                        { text: 'Membilas leher-dada-perut-lengan-punggung-bokong-kaki-anus-genetalia' },
+                        { text: 'Menyabuni leher-dada-perut-lengan-punggung-bokong-kaki-anus-genetalia' },
+                        { text: 'Membersihkan bayi dengan merendam dijolang' },
+                        { text: 'Mengeringkan bayi' },
+                        { text: 'Merawat tali pusat' },
+                        { text: 'Member oil / talk' },
+                        { text: 'Memakaikan pakaian bayi' }
+                    ]
+                },
+                { desc: 'Mengucapkan hamdallah' },
+                { desc: 'Memuji bayi, dan mengucapkan hamdalah' },
+                { desc: 'Membereskan dan membersihkan alat-alat' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Kaji ulang suhu tubuh, kebersihan tubuh bayi dan keadaan tali pusat bayi'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan semua hasil kegiatan yang dilakukan dalam catatan rekam medik pasien'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap'
+    ]
+},
+{
+    id: 1515,
+    title: 'Memberikan Makan Per Oral Pada Bayi dan Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu tindakan pemberian makan melalui mulut',
+    icon: 'fa-utensils',
+    tags: ['Nutrisi', 'Makan', 'Anak'],
+    noDokumen: '445/SPO.4763/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu tindakan pemberian makan melalui mulut',
+    tujuan: 'Pemenuhan kebutuhan nutrisi per oral  dapat dipenuhi sesuai kebutuhan pasien.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Gelas' },
+                        { text: 'Air masak' },
+                        { text: 'Tissue secukupnya' },
+                        { text: 'Piring' },
+                        { text: 'Sendok/garpu' },
+                        { text: 'Serbet/pengalas' },
+                        { text: 'Makanan sesuai diet' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Informasikan pada ibu/ anak yang lebih besar tetang tindakan yang akan dilakukan' },
+                        { text: 'Pasien disiapkan untuk makan dengan posisi kepala lebih tinggi dari badan/ setengah duduk atau digendong' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Ciptakan lingkungan yang bersih dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Memasang serbet/pengalas' },
+                { desc: 'Perawat duduk disamping kiri/kanan pasien' },
+                { desc: 'Pasien diingatkan untuk berdoa terlebih dahulu' },
+                { desc: 'Pasien ditawarkan untuk minum terlebih dahulu' },
+                { desc: 'Suapkan makanan sedikit demi sedikit sambil memperhatikan keadaan pasien' },
+                { desc: 'Setelah selesai makan pasien diberi minum' },
+                { desc: 'Mulut pasien dan sekitarnya dibersihkan' },
+                { desc: 'Mengucapkan hamdallah' },
+                { desc: 'Memuji anak atas kerjasamanya' },
+                { desc: 'Membereskan pasien dan alat-alat yang digunakan dengan bersih dan rapi' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi respon pasien, kemungkinan pedarahan dari bekas tusukan, nyeri'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan dalam catatan tindakan keperawatan meliputi : waktu pemberian, jumlah makanan'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap'
+    ]
+    },
+    {
+    id: 1516,
+    title: 'Memasang Naso Gastrik Tube ( NGT ) Pada Bayi dan Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu kegiatan memasukan selang penduga lambung / NGT melalui hidung atau mulut',
+    icon: 'fa-procedures',
+    tags: ['NGT', 'Selang Lambung', 'Anak'],
+    noDokumen: '445/SPO.4764/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memasukan selang penduga lambung / NGT melalui hidung atau mulut',
+    tujuan: `Membantu memasukan makanan / obat
+        Membilas lambung / lavage lambung
+        Mendekompresi (mengeluarkan udara dari abdomen ) karena terjadi distensi abdomen`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'NGT (infant: 5-8. Toddler 8-10, tergantung besarnya anak)' },
+                        { text: 'Spuit 5 – 10 cc' },
+                        { text: 'Air bersih' },
+                        { text: 'Kasa atau sarung tangan (untuk pasien menular)' },
+                        { text: 'Gunting verban' },
+                        { text: 'Bengkok' },
+                        { text: 'Plester non alergenik' },
+                        { text: 'Stetoskop' },
+                        { text: 'Perlak dan pengalas' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan kepada anak / keluarga ( Informed consent ) tentang tindakan yang akan dilakukan dengan bahasa yang mudah dipahami' },
+                        { text: 'Keluarga menandatangani formulir informed consent dan surat izin tindakan' },
+                        { text: 'Mengkaji kebersihan dan kepatenan hidung, bila kotor bersihkan dengan cutton bud' },
+                        { text: 'Mengatur posisi anak. Bila perlu melakukan restrain ( mummy restrain ) pada bayi, prinsip tidak mengganggu tindakan tersebut dan menghambat pernafasan. Miringkan kepala dan badan ke kanan/ dielevasikan. Jika anak masih kecil / bayi, dapat ditahan pada lengan orangtuanya dengan posisi kepala anak terletak dibahu orangtuanya. Pada anak yang lebih besar dapat dengan posisi duduk' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Mengatur posisi bayi dengan posisi terlentang dengan bantal di bawah kepala, untuk anak yang lebih besar posisi semi fowler, bayi hiperekstensi.' },
+                { desc: 'Memasang pengalas' },
+                { desc: 'Memasang sarung tangan' },
+                { desc: 'Ukur panjang selang NGT dari hidung – telinga – antara px dan umbilikal, beri tanda dengan spidol atau plester' },
+                { desc: 'Masukkan selang NGT secara perlahan melalui mulut atau hidung dengan ujung selang menyentuh dasar hidung. Pada saat memasukan selang, pegang selang seperti memegang pinsil, rasakan ada tekanan tatau tidak, jika ada tahanan selang sedikit ditarik kembali, kemudian masukan kembali' },
+                { desc: 'Fiksasi sementara selang tersebut bila selang sudah masuk seluruhnya.' },
+                {
+                    desc: 'Periksa ketepatan penempatan ujung selang NGT dengan salah satu dari 3 cara sbb',
+                    detail: [
+                        { text: 'Lakukan aspirasi dengan menggunakan spuit  5 - 10 cc secara hati-hati, perhatikan pengeluaran cairan (jumlah dan sifat).' },
+                        { text: 'Masukkan udara ke dalam lambung melalui tube dan bersamaan didengarkan dengan stetoskop di atas area lambung (1,5-1 cc untuk bayi prematur/sangat kecil dan sampai 5 cc untuk anak yang lebih besar). Aspirasi kembali sesuai jumlah yang dimasukkan.' },
+                        { text: 'Periksa dengan air, celupkan ujung selang NGT ke dalam air, bila ada udara mungkin masuk ke dalam paru-paru segera tarik selang' }
+                    ]
+                },
+                { desc: 'Pastikan selang sudah masuk seluruhnya dan fiksasi dengan benar yaitu fiksasi selang dengan plester ke pipi atau batang hidung' },
+                { desc: 'Ucapkan hamdallah' },
+                { desc: 'Puji anak atas kerjasamanya' },
+                { desc: 'Cuci tangan' },
+                { desc: 'Bereskan alat-alat dengan bersih dan rapi' },
+                { desc: 'Dokumentasikan tindakan pemasangan NGT' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi respon pasien, kemungkinan pedarahan dari bekas tusukan, nyeri'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentsiakan tindakan dalam catatan tindakan keperawatan meliputi : respon pasien, waktu pemasangan'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien', 'Formulir Informed Consent', 'Formulir Surat Izin Tindakan'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Bedah Sentral'
+    ]
+},
+{
+    id: 1517,
+    title: 'Memberikan Nutrisi Melalui Naso Gastrik Tube ( NGT ) Pada Bayi dan Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu kegiatan memberikan makanan melalui selang penduga lambung / NGT',
+    icon: 'fa-utensil-spoon',
+    tags: ['NGT', 'Nutrisi', 'Anak'],
+    noDokumen: '445/SPO.4765/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan memberikan makanan melalui selang penduga lambung / NGT',
+    tujuan: 'Pemenuhan kebutuhan nutrisi melalui NGT pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional  Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Gelas 2 buah' },
+                        { text: 'Makanan' },
+                        { text: 'Spuit Disposible ukuran 20 cc' },
+                        { text: 'Air' },
+                        { text: 'Tissue secukupnya' },
+                        { text: 'Bengkok' },
+                        { text: 'Stetoskop/ Stetoskop monoaural khusus untuk anak/spuit disposible ukuran 5 cc' },
+                        { text: 'Perlak dan alas' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Informasikan pada ibu/anak mengerti dan setuju  untuk  diberi nutrisi melalui NGT' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Memasang pengalas' },
+                { desc: 'Aspirasi cairan lambung, jika diaspirasi keluar cairan berwarna hijau maka cairan tersebut harus dibuang. Tetapi jika cairan berwarna kekuningan maka cairan tersebut dimasukkan kembali ke dalam lambung dan jumlah nutrisi yang diberikan sesuai dosis harus dikurangi dengan jumlah cairan dari aspirasi tersebut.' },
+                { desc: 'Masukkan makanan cair melalui NGT, dengan cara masukkan makanan cair ke dalam spuit, kemudian sambungkan spuit ke ujung selang NGT tube dan buka plunger. Pergunkan tissue pada sambungan antara spuit dan tube. Posisi selang jangan tegak, harus miring ke arah kiri/kanan agar aliran tidak terlalu cepat dan mengalir mengikuti gravitasi.' },
+                { desc: 'Hentikan pemberian nutrisi bila terjadi gangguan pada jalan nafas, cyanosis, distensi abdomen dan muntah.' },
+                { desc: 'Bilas selang NGT jika nutrisi sudah cukup dengan air masak (1-2 cc untuk ukuran kecil, 5 cc untuk ukuran besar)' },
+                { desc: 'Lepas spuit dan tutup kembali tube NGT' },
+                { desc: 'Atur posisi kepala Peragakan cara mengatur posisi kepala lebih tinggi dan miring ke kanan selama  30-60 menit, jika memungkinkan disendawakan.' },
+                { desc: 'Mengucapkan hamdallah' },
+                { desc: 'Memuji anak atas kerjasamanya' },
+                { desc: 'Bereskan semua alat-alat dengan bersih dan rapi' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi respon pasien, kemungkinan muntah'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Bedah Sentral'
+    ]
+},
+{
+    id: 1518,
+    title: 'Memberikan Minum Pada Bayi / Anak Dengan Sendok / Pipet / Feeding Cup',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Memberi makan bayi / anak dengan menggunakan sendok / pipet / feedeng cup',
+    icon: 'fa-bottle-water',
+    tags: ['Minum Bayi', 'Feeding', 'Nutrisi'],
+    noDokumen: '445/SPO.4766/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Memberi makan bayi / anak dengan menggunakan sendok / pipet / feedeng cup',
+    tujuan: 'Memenuhi kebutuhan tubuh akan zat makanan, cairan dan elektrolit',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Pipet / sendok / feedeng cup dalam keadaan bersih' },
+                        { text: 'Susu atau minuman dalam tempatnya' },
+                        { text: 'Air matang dalam tempatnya' },
+                        { text: 'Alas dada' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Atur posisi dalam keadaan nyaman' },
+                        { text: 'Dampingi oleh orangterdekat / orang tua' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Siapkan ruangan dalam keadaan bersih, aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Pasang alas dada' },
+                { desc: 'Bayi dipangku dalam posisi kepala lebih tinggi dari badan' },
+                { desc: 'Air susu diperiksa dengan cara meneteskan air susu dipunggung tangan' },
+                { desc: 'Air susu yang baik adalah hangat-hangat kuku, bayi diberi minum sedikit demi sedikit dengan kasih sayang dan perhatian' },
+                { desc: 'Selesai pemberian susu, bayi diberi air matang secukupnya untuk membilas sisa susu dalam mulut, selanjutnya mulut bayi dibersihkan dengan kapas pembersih' },
+                { desc: 'Bayi diangkat, kemudian ditelungkupkan dibahu perawat, sambil ditepuk-tepuk sekitar punggung agar sendawa' },
+                { desc: 'Bayi dibaringkan dengan posisi kepala dimiringkan' },
+                { desc: 'Ucapkan hamdalah' },
+                { desc: 'Puji anak atas kerjasamanya' },
+                { desc: 'Rapihkan alat' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien setelah pemberian makan/minum'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan pemberian minum'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Bedah Sentral'
+    ]
+},
+{
+    id: 1519,
+    title: 'Pemasangan Infus Pada Bayi / Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu tindakan melakukan pemasangan infuse pada bayi / anak',
+    icon: 'fa-syringe',
+    tags: ['Infus', 'IV', 'Cairan'],
+    noDokumen: '445/SPO.4767/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu tindakan melakukan pemasangan infuse pada bayi / anak',
+    tujuan: `Sebagai acuan penerapan langkah-langkah dalam melaksanakan pemasangan infus untuk kebutuhan pemberian cairan baik maintenance atau resusitasi, elektrolit, obat dan nutrisi parenteral.`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan Alat',
+                    detail: [
+                        { text: 'Standar infus' },
+                        { text: 'Cairan infuse sesuai kebutuhan' },
+                        { text: 'Infus set sesuai tingkat usia' },
+                        { text: 'IV cath sesuai dengan ukuran yang dibutuhkan (22/24/26)' },
+                        { text: 'Bidai / spalk/kassa gulung ( jika diperlukan)' },
+                        { text: 'Perlak dan torniquet' },
+                        { text: 'Plester dan gunting' },
+                        { text: 'Kassa infuse dan betadhin salep / hansaplast' },
+                        { text: 'Bengkok' },
+                        { text: 'Sarung tangan steril ( 1 pasang )' },
+                        { text: 'Kapas alkohol dalam tempatnya' },
+                        { text: 'Set restrain' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan Klien',
+                    detail: [
+                        { text: 'Cek perencanaan keperawatan klien' },
+                        { text: 'Memberitahu keluarga dan / anak tentang prosedur yang akan dilakukan (informed consent)' },
+                        { text: 'Atur posisi dan pasang sampiran bila perlu' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat cuci tangan' },
+                { desc: 'Perawat mengucapkan salam' },
+                { desc: 'Memberitahu tindakan yang akan dilakukan dan pasang sampiran' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Berdoa bersama dengan klien sebelum memulai tindakan' },
+                { desc: 'Melakukan restrain pada bayi/anak bila diperlukan' },
+                { desc: 'Mengisi selang infus' },
+                { desc: 'Membuka infus set dengan benar' },
+                { desc: 'Memasukan infus set pada cairan infus dengan posisi cairan infus mengarah keatas' },
+                { desc: 'Menggantung cairan infus pada standar infus' },
+                { desc: 'Mengisi selang infus dengan cairan yang benar' },
+                { desc: 'Menutup ujung selang dan tutup dengan mempertahankan kesterilan' },
+                { desc: 'Cek adanya udara dalam selang' },
+                { desc: 'Meletakan perlak/pengalas dibawah anggota tubuh yang akan dipasang' },
+                { desc: 'Memilih vena yang benar' },
+                { desc: 'Memasang tourniquet pada bagian atas area yang akan ditusuk' },
+                { desc: 'Mamakai sarung tangan' },
+                { desc: 'Desinfeksi vena dengan alkohol (tekhnik sirkuler atau dari atas ke bawah sekali hapus)' },
+                { desc: 'Buka IV cath dan periksa apakah ada kerusakan' },
+                { desc: 'Menusukan IV Cath pada vena yang telah dipilih 10-30°' },
+                { desc: 'Memperhatikan adanya darah dalam kompartemen IV Cath, bila ada maka mandrin sedikit demi sedikit ditarik keluar sambil kateter dimasukan perlahan-lahan' },
+                { desc: 'Torniquet dilepas' },
+                { desc: 'Fiksasi IV Cath dengan plester disilang/kupu-kupu' },
+                { desc: 'Menyambungkan IV Cath dengan ujung selang infuse' },
+                { desc: 'Pasang plester pada ujung IV Cath tapi tidak menyentuh area penusukan dan selang infus untuk fiksasi' },
+                { desc: 'Tutup tempat insersi dengan kassa steril kering / hansaplast / transparant dresing' },
+                { desc: 'AA. Melakukan fiksasi dengan plester secara benar dan mempertahankan keamanan IV Cath. agar tidak tercabut' },
+                { desc: 'BB. Mengatur tetasan infus sesuai dengan kebutuhan klien' },
+                { desc: 'CC. Memasang etiket pada plabot, slang infus dan IV Cath ( jumlah cairan, tetesan, tanggal, dan jam pemasangan )' },
+                { desc: 'DD. Perawat mengucapkan hamdalah' },
+                { desc: 'EE. Memberikan pujian pada anak' },
+                { desc: 'FF. Alat-alat dibereskan' },
+                { desc: 'GG. Perawat cuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Perhatikan kelancaran infuse, dan perhatikan juga respon klien terhadap pemberian tindakan'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mencatat tindakan yang telah dilakukan ( waktu pelaksanaan, hasil tindakan, reaksi / respon klien terhadap pemasangan Infus, cairan dan tetesan yang diberikan, nomor IV Cath. vena yang dipasang, dan perawat yang melakukan ) pada catatan keperawatan'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien', 'Formulir Informed Consent'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Bedah Sentral'
+    ]
+},
+{
+    id: 1520,
+    title: 'Perawatan Infus Pada Bayi / Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Melakukan perawatan infus pada pasien yang terpasang infus melalui penggantian balutan infus sebagai upaya pencegahan terhadap kontaminasi atau infeksi pada area penusukan vena, pemakaian infus set dan cairan',
+    icon: 'fa-bandage',
+    tags: ['Infus', 'Perawatan', 'IV'],
+    noDokumen: '445/SPO.4768/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Melakukan perawatan infus pada pasien yang terpasang infus melalui penggantian balutan infus sebagai upaya pencegahan terhadap kontaminasi atau infeksi pada area penusukan vena, pemakaian infus set dan cairan',
+    tujuan: `Sebagai acuan penerapan langkah-langkah perawatan infus pada pasien yang terpasang infus untuk :
+Mengidentifikasi alat dan cairan yang digunakan 
+Mengidentifikasi adanya tanda-tanda radang, bekuan darah, perdarahan, perforasi pada area penusukan 
+Mengidentifikasi kecepatan tetesan sesuai kebutuhan 
+Mengidentifikasi program pemberian cairan 
+Mengidentifikasi seluruh sistem untuk mengenali adanya masalah 
+Mengidentifikasi pasien dan instruksi penghentian infus dengan seksama 
+Mengidentifikasi waktu pemasangan slang infuse, cairan, IV Cath`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan Alat',
+                    detail: [
+                        { text: 'Bak spuit steril' },
+                        { text: 'Perlak pengalas' },
+                        { text: 'Sarung tangan steril' },
+                        { text: 'Kasa infus steril' },
+                        { text: 'Kapas alkohol' },
+                        { text: 'Plester non alergis' },
+                        { text: 'Gunting verband' },
+                        { text: 'Bengkok' },
+                        { text: 'Spalk / restrain bagi pasien anak bila perlu' },
+                        { text: 'Zalf anti mikroba/zalf betadhin' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan Pasien dan lingkungan',
+                    detail: [
+                        { text: 'Memberitahu keluarga dan/anak tentang tujuan dan prosedur yang akan dilakukan' },
+                        { text: 'Atur posisi pasien' },
+                        { text: 'Siapkan lingkungan yang nyaman dan aman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan.' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Perawat mengucapkan basmalah' },
+                { desc: 'Peralatan didekatkan dengan mempertahankan kesterilan.' },
+                { desc: 'Cek tanggal penggunaan infus set dan penggunaan IV Cath' },
+                { desc: 'Pasang sarung tangan steril' },
+                { desc: 'Balutan lama dibuka' },
+                { desc: 'Membersihkan area penusukan vena secara steril dengan larutan antiseptik dan pertahankan fiksasi agar tetap adekuat' },
+                { desc: 'Meletakkan kasa dibawah kanul' },
+                { desc: 'Mengolesi tempat penusukan dengan zalf anti mikroba' },
+                { desc: 'Menutup tempat penusukan dengan kasa steril dan memasang fiksasi dengan plester' },
+                { desc: 'Kalibrasi kecepatan tetesan infus sesuai kebutuhan' },
+                { desc: 'Berikan/ tuliskan tanda penggunaan pada botol cairan yang ke berapa, tetesan dan tanggal diganti' },
+                { desc: 'Perhatikan respon pasien selama tindakan' },
+                { desc: 'Pasien dirapihkan' },
+                { desc: 'Berikan pujian pada anak atas kerjasamanya' },
+                { desc: 'Alat dirapihkan dan dibereskan' },
+                { desc: 'Perawat cuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon pasien terhadap tindakan yang dilakukan'
+        },
+        {
+            step: 'Dokumentasi',
+            items: [
+                { desc: 'Mencatat semua tindakan yang dilakukan, keadaan tempat penusukan, kecepatan tetesan infus dan respon pasien selama penggantian balutan infus pada catatan perawatan' },
+                { desc: 'Mencatat dengan jelas, mudah dibaca, ditandatangani disertai nama jelas' }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: ['Instalasi Rawat Inap']
+},
+{
+    id: 1521,
+    title: 'Membantu Ibu Menyusui Bayinya',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Adalah kegiatan antara ibu dan bayi dalam pemenuhan kebutuhan nutrisi bayinya dimana kegiatan tersebut dapat meningkatkan kualitas hubungan antara bayi dan ibu',
+    icon: 'fa-baby',
+    tags: ['Menyusui', 'ASI', 'Bayi'],
+    noDokumen: '445/SPO.4769/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Adalah kegiatan antara ibu dan bayi dalam pemenuhan kebutuhan nutrisi bayinya dimana kegiatan tersebut dapat meningkatkan kualitas hubungan antara bayi dan ibu',
+    tujuan: `Memenuhi kebutuhan nutrisi yang siap saji
+Meningkatkan bounding attachment antara ibu dan bayi`,
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Popok bersih ( jika diperlukan )' },
+                        { text: 'Waslap (jika diperlukan )' },
+                        { text: 'Buku catatan minum' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan klien dan lingkungan',
+                    detail: [
+                        { text: 'Mengidentifikasi bayi yang yang akan diberi minum' },
+                        { text: 'Jaga privasi Lingkungan' },
+                        { text: 'Ibu bayi diminta untuk mencuci tangan sebelum dan sesudah menyusui' },
+                        { text: 'Kebersihan payudara ibu' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Mencocokkan nama pada gelang identitas bayi dan ibu' },
+                { desc: 'Mengucapakan basmallah' },
+                { desc: 'Alat alat didekatkan pada pasien' },
+                { desc: 'Mengidentifikasi bayi yang akan disusukan pada klien' },
+                { desc: 'Mengidentifikasi popok bayi bila BAK / BAB' },
+                { desc: 'Menggendong bayi dan membawa bayi ke ibu' },
+                { desc: 'Memperhatikan nomor bayi dan klien' },
+                { desc: 'Memanggil nama yang tertera pada gelang bayi' },
+                { desc: 'Menganjurkan ibu untuk mencuci tangannya' },
+                { desc: 'Membantu ibu untuk membersihkan area payudara dan area putting susu' },
+                { desc: 'Mengamati apakah putting susu lecet' },
+                { desc: 'Menganjurkan ibu untuk mengoleskan ASI pada putting susu ibu' },
+                { desc: 'Menganjurkan ibu untuk duduk pada posisi yang nyaman' },
+                { desc: 'Menyusukan bayi pada klien, mengamati apakah areola bagian bawah, dagu, menempel pada payudara, mulut bayi mencekap areola' },
+                { desc: 'Mengamati reflek hisap bayi' },
+                { desc: 'Menyusui 15-20 menit' },
+                { desc: 'Membuat bayi bersendawa dengan cara : bayi diangkat, letakan posisi kepala bayi di pundak ibu kemudian ditepuk-tepuk hingga bersendawa.' },
+                { desc: 'Mengatur posisi bayi dalam box untuk miring kanan' },
+                { desc: 'Pasien dan alat alat dibersihkan' },
+                { desc: 'Perawat mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Kaji keadaan umum bayi setelah minum tampak tidur dengan tenang' },
+                { desc: 'Jumlah ASI yang diminum' },
+                { desc: 'Defekasi dan miksi' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan dalam catatan asuhan keperawatan : Catat kondisi dan respon bayi'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat'
+    ]
+},
+{
+    id: 1522,
+    title: 'Memberi Minum Bayi Dengan Dot',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Memberikan nutrisi kepada bayi melalui botol susu',
+    icon: 'fa-baby',
+    tags: ['Minum Bayi', 'Dot', 'Nutrisi'],
+    noDokumen: '445/SPO.4770/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Memberikan nutrisi kepada bayi melalui botol susu',
+    tujuan: 'Pemenuhan kebutuhan nutrisi per oral dapat dipenuhi sesuai kebutuhan pasien.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'ASI/PASI' },
+                        { text: 'Botol susu' },
+                        { text: 'Dot' },
+                        { text: 'Gelas pengukur' },
+                        { text: 'Kain alas untuk tetesan susu' },
+                        { text: 'Masker ( Jika diperlukan )' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Mengidentifikasi bayi yang akan diberi minum' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Ciptakan lingkungan yang bersih, aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Memakai masker kalau perlu' },
+                { desc: 'Menghitung jumlah minum sesuai dengan umur bayi' },
+                { desc: 'Mencocokkan nama pada gelang identitas bayi' },
+                { desc: 'Mengisi botol susu sesuai dengan jumlah yang dibutuhkan' },
+                { desc: 'Memasang dot pada botol minum' },
+                { desc: 'Memerikasa panasnya susu dengan punggung tangan perawat' },
+                { desc: 'Mendinginkan atau memanaskan susu jika terlalu panas atau dingin' },
+                { desc: 'Memeriksa bayi apakah BAB atau BAK ( popok segera diganti )' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Mengangkat bayi dari box' },
+                { desc: 'Menggendong bayi dengan memberi posisi setengah duduk agak miring kekanan' },
+                { desc: 'Memasangkan kain alas untuk tetesan susu' },
+                { desc: 'Memberi minum bayi dengan dot, sampai habis' },
+                { desc: 'Membuat bayi bersendawa' },
+                { desc: 'Membaringkan bayi dengan posisi miring kanan' },
+                { desc: 'Mengucapkan Hamdalah' },
+                { desc: 'Mengembalikan dan membersihkan alat-alat' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi respon bayi : regurgitasi dan muntah'
+        },
+        {
+            step: 'Dokumentasi',
+            items: [
+                { desc: 'Catat jumlah intake yang telah masuk' },
+                { desc: 'Catat respon bayi' },
+                { desc: 'Catat jumlah dan jenis susu' },
+                { desc: 'Devekasi/ miksi' }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat'
+    ]
+},
+{
+    id: 1523,
+    title: 'Menghisap Lendir ( Suctioning ) Pada Bayi dan Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Melaksanakan pembersihan saluran pernapasan lebih ke dalam dengan menggunakan alat penghisap lendir sekresi baik melalui hidung, mulut, atau trakea pada pasien post trakheostomi.',
+    icon: 'fa-lungs',
+    tags: ['Suction', 'Lendir', 'Pernapasan'],
+    noDokumen: '445/SPO.4771/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Melaksanakan pembersihan saluran pernapasan lebih ke dalam dengan menggunakan alat penghisap lendir sekresi baik melalui hidung, mulut, atau trakea pada pasien post trakheostomi.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah tindakan suction pada pasien dewasa di RSUD Al Ihsan',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Mesin penghisap lendir dengan tekanan 95-110 mmHg (Potter & Perry, 1995)' },
+                        { text: 'Selang penghisap lendir sesuai dengan kebutuhan' },
+                        { text: 'Nacl 0,9% atau aquadest dalam tempatnya' },
+                        { text: 'Cairan desinfektan dalam tempatnya' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Spatel atau sudip lidah yang terbungkus kassa' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan keluarga',
+                    detail: [
+                        { text: 'Menginformasikan pada keluarga atau anak tentang prosedur dan tujuan tindakan yang akan dilakukan' },
+                        { text: 'Bila pasien sadar posisikan pasien dalam keadaan setengah duduk' },
+                        { text: 'Bila pasien tidak sadar posisi miring dengan kepala setengah ekstensi agar penghisap berjalan dengan lancar' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Alat-alat didekatkan pada pasien' },
+                { desc: 'Atur posisi pasien : kepala miring ke arah perawat' },
+                { desc: 'Gunakan sarung tangan' },
+                { desc: 'Pasang selang kateter penghisap pada mesin penghisap lendir' },
+                { desc: 'Mesin penghisap lendir dihidupkan' },
+                { desc: 'Sebelum menghisap lendir pada pasien coba terlebih dahulu untuk menghisap Nacl 0,9% atau aquadest' },
+                { desc: 'Masukkan kateter suction dalam keadaan tidak menghisap' },
+                { desc: 'Tarik kateter penghisap dengan memutar tidak lebih dari 10-15 detik' },
+                { desc: 'Setiap kali setelah menghisap lendir selang dibilas dengan Nacl 0,9% atau aquadest' },
+                { desc: 'Berikan kesempatan pada pasien untuk melakukan nafas dalam atau batuk di antara penghisapan pertama dan selanjutnya' },
+                { desc: 'Bila pasien mengalami distres pernafasan biarkan pasien istirahat 20-30 detik sebelum penghisapan berikutnya' },
+                { desc: 'Perhatikan respon klien' },
+                { desc: 'Bila penghisapan lendir selesai matikan mesin suction' },
+                { desc: 'Jika tindakan penghisapan lendir dilakukan secara terus-menerus, maka kateter suction disimpan di dalam botol berisi cairan desinfektan' },
+                { desc: 'Aquabidest atau Nacl 0,9% disimpan di dalam kom/gelas' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Berikan pujian pada anak atas kerjasamanya' },
+                { desc: 'Pasien dan alat-alat dibersihkan' },
+                { desc: 'Perawat mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Observasi respon pasien setelah dilakukan tindakan' },
+                { desc: 'Kaji jumlah, konsistensi, warna, dan bau sekret pasien' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            items: [
+                { desc: 'Dokumentasikan tindakan dalam catatan asuhan keperawatan' },
+                { desc: 'Dokumentasikan jumlah, konsistensi, warna, dan bau sekret pasien' }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat'
+    ]
+},
+{
+    id: 1524,
+    title: 'Memberikan Obat Oral Pada Bayi / Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Pemenuhan kebutuhan obat per oral pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    icon: 'fa-pills',
+    tags: ['Obat', 'Oral', 'Anak'],
+    noDokumen: '445/SPO.4772/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Pemenuhan kebutuhan obat per oral pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam memberikan obat oral',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Obat dan tempat ; obat sesuai order, usia & kondisi pasien (Cair, tablet, kapsul)' },
+                        { text: 'Gelas berisi air' },
+                        { text: 'Alat pemotong obat, Penggerus obat' },
+                        { text: 'Sendok obat atau alat (pipet/spuit/sendok/ cangkir obat/ sendok ukur)' },
+                        { text: 'Sedotan bila perlu' },
+                        { text: 'Air masak' },
+                        { text: 'Tissue secukupnya atau serbet' },
+                        { text: 'Celemek' },
+                        { text: 'Kom berisi air' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Berikan penjelasan kepada anak dan keluarga tentang prosedur yang akan dilakukan.' },
+                        { text: 'Baca label obat untuk memastikan obat yang benar (5 benar) : nama Klien, nama obat, dosis, cara pemberian dan waktu pemberian' },
+                        { text: 'Siapkan sejumlah obat sesuai program' },
+                        { text: 'Pilih alat pemberian obat yang sesuai dengan kebutuhan anak, libatkan klien atau keluarga untuk memilih alat pemberian obat yang tepat.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mendekatkan peralatan' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Gunakan restrain bila perlu' },
+                { desc: 'Pasang serbet/celemek di atas dada pasien' },
+                { desc: 'Pasien ditawarkan untuk minum' },
+                { desc: 'Atur posisi klien, gendong anak dalam dekapan. Rebahkan kepala di antara tubuh dan lengan perawat, tangan perawat yang tidak mendekap pasien memasukkan obat.' },
+                { desc: 'Masukkan obat dengan cara letakkan alat pemberian obat (pipet atau spuit/sendok) di mulut anak pada bawah lidah atau pinggir mulut dan minta anak untuk menghisap obat. Jika tidak bisa menghisap, tekan pipet atau tekan spuit perlahan sampai obat habis. Pada bayi bisa menggunakan feeding cup dan anak lebih besar dengan sendok atau cangkir / sedotan' },
+                { desc: 'Beri minum untuk membilas obat dalam mulut' },
+                { desc: 'Tambahkan air untuk membilas pada gigi dan gusi' },
+                { desc: 'Amati respon klien saat dan setelah pemberian obat' },
+                { desc: 'Hentikan pemberian obat bila terjadi gangguan pada jalan nafas, muntah atau syok.' },
+                { desc: 'Mulut pasien dan sekitarnya dibersihkan' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Memuji anak atas kerjasamanya' },
+                { desc: 'Membereskan semua alat-alat dengan bersih dan rapi' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien setelah perawatan pemberian obat'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan dalam catatan keperawatan dan kartu obat'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat'
+    ]
+},
+{
+    id: 1525,
+    title: 'Memberikan Obat Mata Pada Bayi / Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Pemenuhan kebutuhan obat melalui mata pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    icon: 'fa-eye-dropper',
+    tags: ['Obat Mata', 'Anak'],
+    noDokumen: '445/SPO.4773/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Pemenuhan kebutuhan obat melalui mata pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam memberikan obat pada mata',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Obat pada tempatnya' },
+                        { text: 'Meja atau baki' },
+                        { text: 'Bak steril berisi : kapas , air hangat khusus untuk mata ( NaCl 0,9% / air hangat biasa ), kasa steril' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Alas kerja' },
+                        { text: 'Gunting dan plester' },
+                        { text: 'Bengkok' },
+                        { text: 'Kartu obat' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Berikan penjelasan kepada anak dan keluarga tentang prosedur yang akan dilakukan.' },
+                        { text: 'Baca label obat untuk memastikan obat yang benar (5 benar) : nama Klien, nama obat, dosis, cara pemberian dan waktu pemberian' },
+                        { text: 'Siapkan sejumlah obat sesuai program' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mendekatkan peralatan' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Gunakan restrain bila perlu' },
+                { desc: 'Pasang alas kerja' },
+                { desc: 'Memasang sarung tangan' },
+                { desc: 'Bersihkan mata dengan kapas basah dari bagian dalam keluar kantus mata, buang kapas pada bengkok' },
+                { desc: 'Jika pada mata terdapat krusta, basahi kassa dengan air hangat tunggu kira-kira 1 menit, kemudian bersihkan, ulangi lagi jika mata belum bersih' },
+                { desc: 'Atur posisi pasien : pada posisi terlentang , bila tidak mau diam anak bisa digendong' },
+                { desc: 'Pemberian obat cair / tetes mata',
+                    detail: [
+                        { text: 'Buka botol tetes mata, ujung pipet botol tidak menyentuh apapun' },
+                        { text: 'Beritahu anak untuk melihat ke atas dan ke sisi lain, tarik kelopak mata anak bagian bawah dengan perlahan, teteskan obat sesuai order sehingga jatuh tepat ke dalam kelopak mata bagian bawah, tidak langsung ke bola mata, beritahu pasien untuk menutup mata kemudian mengedipkannya' },
+                        { text: 'Berikan tekanan yang lembut pada duktus lakrimalis pasien selama 30 – 60 detik' },
+                        { text: 'Lap sisa obat yang keluar mata menggunakan tissue/lap kering bersih' },
+                    ]
+                 },
+                { desc: 'Pemberian obat Zalf',
+                    detail: [
+                        { text: 'Oleskan zalf dari arah kanthus mata dalam ke arah kanthus mata luar pada konjungctiva bagian dalam' },
+                        { text: 'Anjurkan pasien untuk memejamkan mata' },
+                        { text: 'Gosok kelopak mata secara perlahan dengan gerakan sirkuler menggunakan kapas' },
+                        { text: 'Bersihkan sisa obat yang ada dimata dengan kapas basah' },
+                    ]
+                 },
+                { desc: 'Membuka sarung tangan' },
+                { desc: 'Amati respon klien saat dan setelah pemberian obat' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Memuji anak atas kerjasamanya' },
+                { desc: 'Membereskan pasien dan peralatan' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien setelah perawatan pemberian obat'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan dalam catatan keperawatan dan kartu obat'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1526,
+    title: 'Memberikan Obat Tetes Telinga Pada Bayi / Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Pemenuhan kebutuhan obat tetes telinga pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    icon: 'fa-ear-listen',
+    tags: ['Obat Telinga', 'Anak'],
+    noDokumen: '445/SPO.4774/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Pemenuhan kebutuhan obat tetes telinga pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam memberikan obat tetes telinga',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Meja atau baki' },
+                        { text: 'Obat pada tempatnya' },
+                        { text: 'Mangkok berisi air panas' },
+                        { text: 'Bak steril berisi : lidi watten, kapas' },
+                        { text: 'Pipet obat' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Alas kerja' },
+                        { text: 'Bengkok' },
+                        { text: 'Kartu obat' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Berikan penjelasan kepada anak dan keluarga tentang prosedur yang akan dilakukan.' },
+                        { text: 'Baca label obat untuk memastikan obat yang benar (5 benar) : nama Klien, nama obat, dosis, cara pemberian dan waktu pemberian' },
+                        { text: 'Siapkan sejumlah obat sesuai program' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mendekatkan peralatan' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Gunakan restrain bila perlu' },
+                { desc: 'Pasang alas kerja' },
+                { desc: 'Memasang sarung tangan' },
+                { desc: 'Hangatkan obat dengan memasukkannya ke dalam air panas dalam mangkok' },
+                { desc: 'Tes suhu obat dengan meneteskannya ke punggung tangan petugas' },
+                { desc: 'Pasien diatur miring kanan / kiri dengan telinga menghadap ke atas dengan sudut 60O' },
+                { desc: 'Pasang alas kerja' },
+                { desc: 'Bersihkan canal telinga luar dengan lidi watten' },
+                { desc: 'Tarik daun telinga ke atas dan ke belakang' },
+                { desc: 'Teteskan obat pada telinga pasien sebanyak yang telah ditentukan dalam program pengobatan' },
+                { desc: 'Tutup lubang telinga pasien dengan kapas' },
+                { desc: 'Anjurkan pasien agar miring dengan telinga yang diberi obat menghadap ke atas selama 1 menit' },
+                { desc: 'Bersihkan sisa obat di sekitar telinga' },
+                { desc: 'Membuka sarung tangan' },
+                { desc: 'Amati respon klien saat dan setelah pemberian obat' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Memuji anak atas kerjasamanya' },
+                { desc: 'Membereskan pasien dan peralatan' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien setelah perawatan pemberian obat'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan dalam catatan keperawatan dan kartu obat'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan'
+    ]
+},
+     {
+    id: 1527,
+    title: 'Memberikan Obat Tetes Hidung Pada Bayi / Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Pemenuhan kebutuhan obat tetes hidung pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    icon: 'fa-head-side-cough',
+    tags: ['Obat', 'Hidung', 'Anak'],
+    noDokumen: '445/SPO.4775/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Pemenuhan kebutuhan obat tetes hidung pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam memberikan obat tetes hidung',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Meja atau baki' },
+                        { text: 'Obat pada tempatnya' },
+                        { text: 'Pipet obat' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Bengkok' },
+                        { text: 'Kartu obat' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Berikan penjelasan kepada anak dan keluarga tentang prosedur yang akan dilakukan.' },
+                        { text: 'Baca label obat untuk memastikan obat yang benar (5 benar): nama klien, nama obat, dosis, cara pemberian dan waktu pemberian.' },
+                        { text: 'Siapkan sejumlah obat sesuai program' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mendekatkan peralatan' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Gunakan restrain bila perlu' },
+                { desc: 'Pasang alas kerja' },
+                { desc: 'Memasang sarung tangan' },
+                { desc: 'Atur posisi pasien: tempatkan anak pada posisi terlentang (hiperekstensi untuk sinus etmoid dan sphenoid, hiperekstensi miring untuk sinus maksilaris), minta seseorang untuk memeganginya, bila perlu gunakan restrain' },
+                { desc: 'Bersihkan lubang hidung terlebih dahulu dengan lidi watten, bila terdapat krusta kering, lembabkan dulu dengan kapas/washlap basah selama 1 menit, kemudian bersihkan, bila belum bersih ulangi sampai bersih.' },
+                { desc: 'Buka botol tetes hidung, berikan obat dengan jumlah tetesan yang tepat pada setiap hidung, jaga agar kepala anak tetap menengadah ke belakang sedikitnya selama 1 menit.' },
+                { desc: 'Bersihkan sisa obat di sekitar hidung' },
+                { desc: 'Gendong dan beri rasa nyaman pada anak' },
+                { desc: 'Membuka sarung tangan' },
+                { desc: 'Amati respon klien saat dan setelah pemberian obat' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Memuji anak atas kerjasamanya' },
+                { desc: 'Membereskan pasien dan peralatan' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Mendokumentasikan tindakan dalam catatan keperawatan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien setelah perawatan pemberian obat'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan dalam catatan keperawatan dan kartu obat'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1528,
+    title: 'Memberikan Obat Supositoria Melalui Anus Pada Bayi / Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Pemenuhan kebutuhan obat supositoria melalui anus pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    icon: 'fa-syringe',
+    tags: ['Obat', 'Supositoria', 'Anak'],
+    noDokumen: '445/SPO.4776/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Pemenuhan kebutuhan obat supositoria melalui anus pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam memberikan obat supositoria melalui anus',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Meja atau baki' },
+                        { text: 'Obat pada tempatnya' },
+                        { text: 'Air hangat' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Kassa' },
+                        { text: 'Bengkok' },
+                        { text: 'Kartu obat' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Berikan penjelasan kepada anak dan keluarga tentang prosedur yang akan dilakukan.' },
+                        { text: 'Baca label obat untuk memastikan obat yang benar (5 benar): nama klien, nama obat, dosis, cara pemberian dan waktu pemberian.' },
+                        { text: 'Siapkan sejumlah obat sesuai program' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mendekatkan peralatan' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Gunakan restrain bila perlu' },
+                { desc: 'Memasang sarung tangan' },
+                { desc: 'Buka pakaian bawah / popok pasien' },
+                { desc: 'Atur posisi pasien miring dengan kaki bagian atas ditekuk' },
+                { desc: 'Buka pembungkus supositoria, basahi supositoria dengan air hangat' },
+                { desc: 'Masukkan ujung supositoria yang datar pangkalnya ke dalam rektum anak sedalam 2,5 cm, bila anak merasa tidak nyaman, masukkan terlebih dahulu ujung yang tajam ke dalam rektum' },
+                { desc: 'Anjurkan anak untuk menahan supositoria yang dimasukkan, untuk anak yang kecil dapat dibantu dengan merapatkan bokong sekitar 5 menit.' },
+                { desc: 'Membuka sarung tangan' },
+                { desc: 'Amati respon klien saat dan setelah pemberian obat' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Memuji anak atas kerjasamanya' },
+                { desc: 'Membereskan pasien dan peralatan' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien setelah perawatan pemberian obat'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan dalam catatan keperawatan dan kartu obat'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1529,
+    title: 'Memberikan Obat Topikal Pada Bayi / Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Pemenuhan kebutuhan obat topikal pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    icon: 'fa-hand-holding-medical',
+    tags: ['Obat', 'Topikal', 'Anak'],
+    noDokumen: '445/SPO.4777/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Pemenuhan kebutuhan obat topikal pada anak dapat dipenuhi sesuai kebutuhan pasien.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam memberikan obat topikal',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Meja atau baki' },
+                        { text: 'Obat pada tempatnya' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Kassa' },
+                        { text: 'Bengkok' },
+                        { text: 'Sabun (jika perlu), handuk, washlap, baskom berisi air hangat' },
+                        { text: 'Alas kerja' },
+                        { text: 'NaCl 0,9% bila diperlukan' },
+                        { text: 'Plester dan gunting bila diperlukan' },
+                        { text: 'Kartu obat' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Berikan penjelasan kepada anak dan keluarga tentang prosedur yang akan dilakukan.' },
+                        { text: 'Baca label obat untuk memastikan obat yang benar (5 benar): nama klien, nama obat, dosis, cara pemberian dan waktu pemberian.' },
+                        { text: 'Siapkan sejumlah obat sesuai program.' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mendekatkan peralatan' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Gunakan restrain bila perlu' },
+                { desc: 'Memasang sarung tangan' },
+                { desc: 'Atur pasien sesuai kebutuhan' },
+                { desc: 'Pasang alas kerja' },
+                { desc: 'Bersihkan area yang akan diberikan obat menggunakan air hangat, sabun (jika perlu) kemudian dikeringkan.' },
+                { desc: 'Berikan obat topikal merata ke seluruh area yang telah dibersihkan / luka searah pertumbuhan bulu / rambut' },
+                { desc: 'Tutup dengan kassa jika perlu fiksasi dengan plester' },
+                { desc: 'Membuka sarung tangan' },
+                { desc: 'Amati respon klien saat dan setelah pemberian obat' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Memuji anak atas kerjasamanya' },
+                { desc: 'Membereskan pasien dan peralatan' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Mendokumentasikan tindakan dalam catatan keperawatan' }
+
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien setelah perawatan pemberian obat'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan dalam catatan keperawatan dan kartu obat'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1530,
+    title: 'Memberikan Obat Melalui Sub Cutan Pada Bayi dan Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Pemberian injeksi Sub Cutan merupakan salah satu route pemberian obat yang diinsersikan di bawah kulit.',
+    icon: 'fa-syringe',
+    tags: ['Obat', 'Sub Cutan', 'Injeksi'],
+    noDokumen: '445/SPO.4778/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Pemberian injeksi Sub Cutan merupakan salah satu route pemberian obat yang diinsersikan di bawah kulit. Absorpsi obat terjadi karena adanya vaskularisasi otot. Otot kurang sensitif terhadap obat-obat yang kental dan mengiritasi.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam memberikan obat secara sub cutan',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki tindakan' },
+                        { text: 'Bak spuit' },
+                        { text: 'Spuit 3 – 5 cc dan needle 27 - 30' },
+                        { text: 'Kapas dalam larutan antiseptik' },
+                        { text: 'Perlak dan alas' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Jenis obat (vial / ampul)' },
+                        { text: 'Bengkok' },
+                        { text: 'Sampiran' },
+                        { text: 'Alat tulis' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Memberikan penjelasan kepada anak / keluarga tentang tindakan yang akan dilakukan' },
+                        { text: 'Verifikasi order obat untuk keakuratannya. Pastikan nama klien, nama obat, dosis, waktu pemberian, route pemberian dengan benar' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Mendekatkan alat dengan klien dan diletakkan di atas meja klien' },
+                { desc: 'Memasang sarung tangan' },
+                { desc: 'Memilih tempat penyuntikkan yang tepat' },
+                { desc: 'Melakukan palpasi otot untuk menentukan ukuran dan kekerasannya' },
+                { desc: 'Mengatur posisi klien sesuai dengan tempat penyuntikkan' },
+                { desc: 'Meminta klien melemaskan daerah tempat penyuntikkan' },
+                { desc: 'Melakukan desinfeksi tempat penyuntikkan dengan kapas alkohol 70%' },
+                { desc: 'Memegang kapas alkohol di antara jari ke-3 dan ke-4 pada tangan yang tidak dominan' },
+                { desc: 'Melepaskan kap jarum dari spuit dengan tempat kap lurus' },
+                { desc: 'Memegang spuit antara ibu jari dan jari telunjuk pada tangan yang dominan, bayangkan seperti memegang anak panah' },
+                { desc: 'Posisikan tangan non-dominan pada tangan anatomi yang tepat dan regangkan kulit' },
+                { desc: 'Suntikkan jarum dengan cepat dengan sudut 30 derajat, jika masa otot tipis cubit otot tubuh' },
+                { desc: 'Tarik plunger ke belakang untuk mengaspirasi obat, tarik kembali jarum bila ada darah dalam spuit dan buang. Lakukan persiapan obat kembali, suntikkan obat dengan perlahan bila tidak terdapat darah dalam spuit' },
+                { desc: 'Setelah jarum masuk kedalam otot dengan tangan non dominan raih ujung bawah barrel spuit, pindahkan tangan dominan ke ujung plunger' },
+                { desc: 'Cabut jarum dengan cepat sambil meletakkan kapas alkohol tepat di bawah suntikkan' },
+                { desc: 'Massage tempat suntikan dengan perlahan' },
+                { desc: 'Buang spuit kedalam bengkok' },
+                { desc: 'Bantu klien kembali ke posisi yang nyaman' },
+                { desc: 'Lepaskan sarung tangan dan cuci tangan' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Memuji anak atas kerjasamanya' },
+                { desc: 'Bereskan semua alat-alat dengan bersih dan rapi' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien terhadap obat yang diberikan dalam 15 – 30 menit'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan dalam catatan keperawatan dan kartu obat'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1531,
+    title: 'Memberikan Obat Melalui Intra Vena Pada Bayi dan Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Pemberian injeksi intra vena merupakan salah satu pemberian obat ke dalam pembuluh darah.',
+    icon: 'fa-syringe',
+    tags: ['Obat', 'IV', 'Injeksi'],
+    noDokumen: '445/SPO.4779/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Pemberian injeksi intra vena merupakan salah satu pemberian obat yang diinsersikan ke dalam pembuluh darah. Masuknya obat dalam aliran darah dipengaruhi oleh viskositas darah dan jenis obat yang disuntikkan sehingga apabila penyuntikkan tidak cermat dapat berisiko yang dapat mengakibatkan syok atau kematian.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam memberikan obat secara intra vena',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki tindakan' },
+                        { text: 'Bak spuit' },
+                        { text: 'Spuit 3 – 5 cc dengan needle 20 atau 23' },
+                        { text: 'Bola kapas dalam larutan alkohol 70%' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Jenis obat (vial/ampul)' },
+                        { text: 'Bengkok' },
+                        { text: 'Alat tulis' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Jelaskan prosedur pada klien dan keluarga tentang tindakan yang akan dilakukan' },
+                        { text: 'Verifikasi order obat untuk keakuratannya' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Cuci tangan' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien dan menanyakan nama klien' },
+                { desc: 'Menyiapkan alat' },
+                { desc: 'Siapkan medikasi dari ampul atau vial' },
+                { desc: 'Pastikan bahwa klien yang akan diberikan injeksi adalah klien yang benar' },
+                { desc: 'Dekatkan alat dan letakkan diatas meja klien' },
+                { desc: 'Pasang sarung tangan' },
+                { desc: 'Pilih tempat penyuntikkan yang tepat, tempat / lokasi penyuntikkan dan pembuluh darah vena yang akan disuntik tidak terdapat edema, masa, nyeri tekan, jaringan parut, memar dan infeksi (Kepala, tangan atau kaki) sesuai kondisi pasien' },
+                { desc: 'Mengatur posisi klien sesuai dengan tempat : duduk atau terlentang' },
+                { desc: 'Desinfeksi tempat penyuntikkan dengan kapas alkohol 70 % didesinfeksi dari arah tengah – luar dengan diameter 5 cm' },
+                { desc: 'Masukkan jarum suntik pada lokasi vena yang telah dipilih dengan posisi spuit sejajar kulit secara perlahan masukan jarum pada pembuluh vena' },
+                { desc: 'Tarik plunger ke belakang untuk mengaspirasi obat, tarik atau dorong sedikit bila belum keluar darah pastikan dalam spuit yang diaspirasi keluar darah' },
+                { desc: 'Dorong plunger untuk memasukkan obat kedalam pembuluh darah secara perlahan sampai obat habis, pastikan obat masuk kedalam pembuluh darah dengan lancar dan tidak terasa adanya tahanan' },
+                { desc: 'Cabut jarum perlahan sambil meletakkan kapas alkohol di tempat suntikkan' },
+                { desc: 'Buang spuit dan kapas alkohol kedalam bengkok' },
+                { desc: 'Rapihkan alat' },
+                { desc: 'Lepaskan sarung tangan dan cuci tangan' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Puji anak atas kerjasamanya' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien terhadap obat yang diberikan dalam 10 – 15 menit'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan dalam catatan keperawatan dan kartu obat'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1532,
+    title: 'Memberikan Obat Melalui Intra Muskuler Pada Bayi dan Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Pemberian injeksi Intra Muskuler merupakan salah satu route pemberian obat yang diinsersikan kedalam otot.',
+    icon: 'fa-syringe',
+    tags: ['Obat', 'Intra Muskuler', 'Injeksi'],
+    noDokumen: '445/SPO.4780/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Pemberian injeksi Intra Muskuler merupakan salah satu route pemberian obat yang diinsersikan kedalam otot. Absorpsi obat terjadi karena adanya vaskularisasi otot. Otot kurang sensitif terhadap obat-obat yang kental dan mengiritasi, tetapi apabila penyuntikkan tidak cermat resiko yang merugikan dari tindakan injeksi dapat terjadi misalnya kerusakan serabut syaraf.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam memberikan obat secara intra muskuler',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki tindakan dan alas' },
+                        { text: 'Bak spuit' },
+                        { text: 'Spuit 3 – 5 cc dengan needle 20 atau 23' },
+                        { text: 'Bola kapas dalam larutan alkohol 70 %' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Jenis obat (vial / ampul)' },
+                        { text: 'Bengkok' },
+                        { text: 'Sampiran' },
+                        { text: 'Alat tulis' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Jelaskan pada klien dan keluarga tentang prosedur tindakan yang akan dilakukan' },
+                        { text: 'Verifikasi order obat untuk keakuratannya. Pastikan nama klien, nama obat, dosis, waktu pemberian, route pemberian dengan benar' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Menyiapkan lingkungan klien untuk menjaga privacy klien' },
+                        { text: 'Gorden atau sampiran menutupi klien' },
+                        { text: 'Lingkungan tidak membahayakan klien dan perawat' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Menyiapkan alat' },
+                { desc: 'Siapkan medikasi dari ampul atau vial' },
+                { desc: 'Identifikasi klien dengan memeriksa gelang identitas dan menanyakan nama klien. Pastikan bahwa klien yang akan diberikan injeksi adalah klien yang benar' },
+                { desc: 'Mendekatkan alat dan letakkan diatas meja klien' },
+                { desc: 'Memasang sarung tangan' },
+                { desc: 'Memilih tempat penyuntikkan yang tepat, tempat penyuntikkan mempunyai masa otot yang cukup dan tidak terdapat edema, masa, nyeri tekan, jaringan parut, memar, lecet dan infeksi' },
+                { desc: 'Posisi duduk atau berbaring mendatar dengan lengan atas fleksi tetap rileks menyilang abdomen atau diatas abdomen (Deltoid). Meminta klien untuk melemaskan lengan atau tungkainya, tempat dimana suntikan akan diberikan' },
+                { desc: 'Mencari tempat yang akan disuntik dengan tanda anatomik yang tepat' },
+                {
+                    desc: 'Memilih tanda anatomi yang tepat sebagai tempat penyuntikkan',
+                    detail: [
+                        { text: 'Ventrogluteal' },
+                        { text: 'Tempatkan telapak tangan diatas trochanter mayor dengan jari kearah atas. Jari telunjuk diatas SIAS klien, jari tengah menekan crista iliaca. Segitiga dari jari telunjuk, jari tengah dan crista iliaca adalah tempat injeksi', marker: false },
+                        { text: 'Vastus lateralis' },
+                        { text: 'Diukur dengan cara membagi area antara trochanter mayor dan kondilus femolateral menjadi 3 dan diambil sepertiga tengah adalah tempat injeksi', marker: false },
+                        { text: 'Deltoid' },
+                        { text: 'Tempatkan 4 jari diatas deltoid dengan jari I diatas akromion. Jari yang ke-3 adalah tempat penyuntikkan atau 5 cm dibawah akromion', marker: false },
+                        { text: 'Dorsogluteal' },
+                        { text: 'Diukur dengan cara membuat garis imajiner dari SIPS ke trochenter mayor. Bagian lateral superior ini adalah tempat injeksi', marker: false }
+                    ]
+                },
+                { desc: 'Desinfeksi tempat penyuntikkan dengan kapas alkohol 70 %, tempat penyuntikkan didesinfeksi dari arah tengah ke luar dengan diameter 5 cm' },
+                { desc: 'Pegang kapas alkohol diantara jari ke-3 dan ke-4 pada tangan yang tidak dominan' },
+                { desc: 'Lepaskan kap jarum dari spuit dengan tempat kap lurus' },
+                { desc: 'Pegang spuit antara ibu jari dan jari telunjuk pada tangan yang dominan, bayangkan seperti memegang anak panah' },
+                { desc: 'Posisikan tangan non-dominan pada tangan anatomi yang tepat dan regangkan kulit' },
+                { desc: 'Suntikkan jarum dengan cepat dengan sudut 90 derajat, jika masa otot tipis cubit otot tubuh' },
+                { desc: 'Tarik plunger ke belakang untuk mengaspirasi obat, tarik kembali jarum bila ada darah dalam spuit dan buang. Lakukan persiapan obat kembali, suntikkan obat dengan perlahan bila tidak terdapat darah dalam spuit' },
+                { desc: 'Setelah jarum masuk kedalam otot dengan tangan non dominan raih ujung bawah barrel spuit, pindahkan tangan dominan ke ujung plunger' },
+                { desc: 'Cabut jarum dengan cepat sambil meletakkan kapas alkohol tepat di bawah suntikkan' },
+                { desc: 'Massage tempat suntikan dengan perlahan' },
+                { desc: 'Buang spuit kedalam bengkok' },
+                { desc: 'Bantu klien kembali ke posisi yang nyaman' },
+                { desc: 'Ucapkan hamdalah' },
+                { desc: 'Puji anak atas kerjasamanya' },
+                { desc: 'Rapihkan alat' },
+                { desc: 'Lepaskan sarung tangan dan cuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien terhadap obat yang diberikan dalam 15 – 30 menit'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan pemberian obat dalam buku atau status dan kartu obat'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1533,
+    title: 'Memberikan Obat Melalui Intra Cutan Pada Bayi dan Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Pemberian injeksi Intra Cutan merupakan salah satu route pemberian obat yang diinsersikan ke bawah kulit.',
+    icon: 'fa-syringe',
+    tags: ['Obat', 'Intra Cutan', 'Injeksi'],
+    noDokumen: '445/SPO.4781/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Pemberian injeksi Intra Cutan merupakan salah satu route pemberian obat yang diinsersikan ke bawah kulit.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam memberikan obat secara intra cutan',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Baki tindakan dan alas' },
+                        { text: 'Bak spuit' },
+                        { text: 'Spuit 1cc' },
+                        { text: 'Bola kapas dalam larutan alkohol 70 %' },
+                        { text: 'Sarung tangan' },
+                        { text: 'Jenis obat (vial / ampul)' },
+                        { text: 'Bengkok' },
+                        { text: 'Sampiran' },
+                        { text: 'Alat tulis' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Jelaskan pada klien dan keluarga tentang prosedur tindakan yang akan dilakukan' },
+                        { text: 'Verifikasi order obat untuk keakuratannya. Pastikan nama klien, nama obat, dosis, waktu pemberian, route pemberian dengan benar' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Menyiapkan lingkungan klien untuk menjaga privacy klien' },
+                        { text: 'Gorden atau sampiran menutupi klien' },
+                        { text: 'Lingkungan tidak membahayakan klien dan perawat' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Menyiapkan alat' },
+                { desc: 'Siapkan medikasi dari ampul atau vial' },
+                { desc: 'Identifikasi klien dengan memeriksa gelang identitas dan menanyakan nama klien. Pastikan bahwa klien yang akan diberikan injeksi adalah klien yang benar' },
+                { desc: 'Mendekatkan alat dan letakkan diatas meja klien' },
+                { desc: 'Memasang sarung tangan' },
+                { desc: 'Pilih tempat penyuntikkan, tempat penyuntikkan tidak terdapat edema, masa, nyeri tekan, jaringan parut, memar, lecet dan infeksi' },
+                { desc: 'Mengatur posisi klien sesuai dengan tempat penyuntikkan' },
+                { desc: 'Meminta klien untuk melemaskan lengan atau tungkainya, tempat dimana suntikan akan diberikan' },
+                { desc: 'Mencari tempat yang akan disuntik dengan tanda anatomik yang tepat' },
+                {
+                    desc: 'Memilih tanda anatomi yang tepat sebagai tempat penyuntikan',
+                    detail: [
+                        { text: 'Ventrogluteal' },
+                        { text: 'Tempatkan telapak tangan diatas trochanter mayor dengan jari kearah atas. Jari telunjuk diatas SIAS klien, jari tengah menekan crista iliaca. Segitiga dari jari telunjuk, jari tengah dan crista iliaca adalah tempat injeksi', marker: false },
+                        { text: 'Deltoid' },
+                        { text: 'Tempatkan 4 jari diatas deltoid dengan jari I diatas akromion. Jari yang ke-3 adalah tempat penyuntikkan atau 5 cm dibawah akromion', marker: false },
+                    ]
+                },
+                { desc: 'Pegang kapas alkohol diantara jari ke-3 dan ke-4 pada tangan yang tidak dominan' },
+                { desc: 'Lepaskan kap jarum dari spuit dengan tempat kap lurus' },
+                { desc: 'Pegang spuit antara ibu jari dan jari telunjuk pada tangan yang dominan, bayangkan seperti memegang anak panah' },
+                { desc: 'Posisikan tangan non-dominan pada tangan anatomi yang tepat dan regangkan kulit' },
+                { desc: 'Suntikkan jarum dengan cepat dengan sudut 45 derajat' },
+                { desc: 'Tarik plunger ke belakang untuk mengaspirasi obat, tarik kembali jarum bila ada darah dalam spuit dan buang. Lakukan persiapan obat kembali, suntikkan obat dengan perlahan bila tidak terdapat darah dalam spuit' },
+                { desc: 'Setelah jarum masuk kedalam otot dengan tangan non dominan raih ujung bawah barrel spuit, pindahkan tangan dominan ke ujung plunger' },
+                { desc: 'Cabut jarum dengan cepat sambil meletakkan kapas alkohol tepat di bawah suntikkan' },
+                { desc: 'Massage tempat suntikan dengan perlahan' },
+                { desc: 'Buang spuit kedalam bengkok' },
+                { desc: 'Bantu klien kembali ke posisi yang nyaman' },
+                { desc: 'Ucapkan hamdalah' },
+                { desc: 'Puji anak atas kerjasamanya' },
+                { desc: 'Rapihkan alat' },
+                { desc: 'Lepaskan sarung tangan dan cuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien terhadap obat yang diberikan dalam 15 – 30 menit'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan pemberian dalam catatan keperawatan dan kartu obat'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1534,
+    title: 'Wash Out',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Tindakan yang dilakukan untuk mengosongkan colon dari feses.',
+    icon: 'fa-toilet',
+    tags: ['Wash Out', 'Eliminasi', 'Kolon'],
+    noDokumen: '445/SPO.4782/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Tindakan yang dilakukan untuk mengosongkan colon dari feses',
+    tujuan: 'Sebagai acuan penerapan langkah langkah untuk melaksanakan wash out:\nMencegah terjadinya kontaminasi feses keluka operasi\nMengosongkan colon dari feses yang menumpuk',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Ember besar terbungkus plastic' },
+                        { text: 'Tempat sampah tertutup' },
+                        { text: 'Waskom sedang satu buah' },
+                        { text: 'Perlak besar' },
+                        { text: 'Rectal tube no 20' },
+                        { text: 'Vaslin / jeli' },
+                        { text: 'Spuit 50cc tanpa needle 1 buah' },
+                        { text: 'Sarung tangan 2 pasang' },
+                        { text: 'Barakshot 2 buah' },
+                        { text: 'NaCl 0,9 % hangat disesuaikan dengan berat badan bayi kurang lebih 10-15 cc/ kg BB' },
+                        { text: 'Kapas cebok dan waslap' },
+                        { text: 'Kain pel' },
+                        { text: 'Set peralatan mandi' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan klien dan lingkungan',
+                    detail: [
+                        { text: 'Menginformasikan kepada keluarga atau anak tentang tujuan dan prosedur yang akan dilakuakan' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat mencuci tangan' },
+                { desc: 'Mengucapkan basamalah' },
+                { desc: 'Mendekatkan alat alat' },
+                { desc: 'Identifikasi klien dengan memeriksa gelang identitas dan menanyakan nama klien' },
+                { desc: 'Memasang perlak dengan posisi tidur anak terlentang dengan kondisi kedua kaki keatas pantat berada dibibir meja prasat' },
+                { desc: 'Melibatkan keluaraga dalam merestrain pasien' },
+                { desc: 'Perwat mencuci tangan' },
+                { desc: 'Memakai barakshot' },
+                { desc: 'Menuangkan NaCl 0,9 % hangat kedalam Waskom' },
+                { desc: 'Memakai sarung tangan' },
+                { desc: 'Mengoleskan vaselin keujung rectal tube' },
+                { desc: 'Membersihkan daerah anus klien dengan kapas cebok' },
+                { desc: 'Memasukan rectal tube kedalam anus(kurang lebih 7 cm-10 cm)' },
+                { desc: 'Memasukan NaCl 0,9 % menahan sebentar lalu dikeluarkan, mengulanginya sampai abdomen terasa lembek' },
+                { desc: 'Melepaskan sarung tangan' },
+                { desc: 'Membersihkan bayi/ anak' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Membersihkan alat alat dan lingkungan' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Mengobservasi respon pasien setelah dilakuakn tindakan' },
+                { desc: 'Identifikasi eliminasi BAB, BB< lingkar perut, muntah dan distensi abdomen' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            items: [
+                { desc: 'Dokumentasikan tindakan dalam catatan asuhan keperawatan (rekam medik pasien)' },
+                { desc: 'Catat kondisi dan respon bayi' }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat'
+    ]
+},
+{
+    id: 1535,
+    title: 'Merawat Ostomy Pada Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Perawatan stoma penting dilakukan pada anak yang sudah dilakukan operasi ileustomy agar anak terhindar dari komplikasi dan tetap beraktivitas normal.',
+    icon: 'fa-bandage',
+    tags: ['Ostomy', 'Stoma', 'Perawatan'],
+    noDokumen: '445/SPO.4783/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Perawatan stoma penting dilakukan pada anak yang sudah dilakukan operasi ileustomy agar anak terhindar dari komplikasi dan tetap beraktivitas normal, dan mencegah kebocoran, mengontrol bau, sehingga anak tidak merasa rendah diri.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam perawatan pasien dengan ostomy',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Bengkok' },
+                        { text: 'Perlak' },
+                        { text: 'Selimut mandi' },
+                        { text: 'Kom sedang' },
+                        { text: 'Baki tindakan' },
+                        { text: 'Kantong stoma' },
+                        { text: 'Kantong plastik hitam' },
+                        { text: 'Vaslline / pasta' },
+                        { text: 'Kasa / tissue' },
+                        { text: 'Air hangat' },
+                        { text: 'Sabun lembut / savlon' },
+                        { text: 'Kapas' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Jelaskan prosedur yang akan dilakukan pada anak / keluarga' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan lingkungan',
+                    detail: [
+                        { text: 'Pasang sampiran / scherm' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Ucapkan basmallah' },
+                { desc: 'Dekatkan alat ke tempat pasien' },
+                { desc: 'Mencuci tangan' },
+                { desc: 'Identifikasi klien dengan memeriksa gelang identitas dan menanyakan nama klien' },
+                { desc: 'Mengatur posisi pasien, buka baju sedikit, posisi anak tidur terlentang bila perlu minta bantuan asisten 1 orang / 2 orang untuk memegangi kaki dan tangan (sesuai dengan usia anak)' },
+                { desc: 'Memasang alas / perlak dibawah perut' },
+                { desc: 'Memasang bengkok diatas perlak' },
+                { desc: 'Memasang sarung tangan' },
+                { desc: 'Membuka balutan stoma buang ke bengkok' },
+                { desc: 'Membersihkan stoma dan kulit sekitarnya dengan air hangat' },
+                { desc: 'Mengeringkan stoma dengan kassa' },
+                { desc: 'Olesi kulit sekitar stoma dengan skin barier' },
+                { desc: 'Memasang bag stoma' },
+                { desc: 'Mengucapkan hamdallah' },
+                { desc: 'Memuji anak atas kerjasamanya' },
+                { desc: 'Merapihkan alat dan pasien' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Evaluasi respon klien setelah perawatan ostomy'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat'
+    ]
+},
+{
+    id: 1536,
+    title: 'Restrain Pada Bayi dan Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu tindakan yang dilakukan kepada bayi atau anak untuk mempertahankan keamanan pasien.',
+    icon: 'fa-user-lock',
+    tags: ['Restrain', 'Keamanan', 'Anak'],
+    noDokumen: '445/SPO.4784/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: `Suatu tindakan yang dilakukan kepada bayi atau anak untuk mempertahankan keamanan pasien.
+                Tipe-tipe restrain :
+                1. Restrain mummi
+                a. Mengendalikan gerakan anak
+                b. Memobilisasi ekstremitas
+                c. Memberikan restrein sementara untuk prosedur singkat
+                2. Restrain jaket
+                a. Mencegah anak memanjat keluar dari boks / tempat tidur
+                3. Restrain lengan dan kaki
+                a. Memobilisasi ekstremitas 1 atau lebih
+                b. Pengobatan dan penyembuhan
+                4. Restrain siku
+                a. Mencegah anak menekuk siku
+                b. Mencegah anak memegang kepala, wajah, leher atau dada
+`,
+    tujuan: 'Memberikan keamanan\nMempertahankan posisi yang diinginkan\nMemfasilitasi pemeriksaan\nMembantu dalam melakukan tes diagnostik dan prosedur terapeutik',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Restrain yang akan digunakan (restrain jaket, kain / selimut, restrain untuk lengan dan kaki, restrain siku)' },
+                        { text: 'Format persetujuan pemasangan restrain' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Berikan penjelasan kepada orangtua tentang maksud dan tujuan serta prosedur tindakan yang akan dilakukan' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan' },
+                { desc: 'Ucapkan bismillah' },
+                { desc: 'Identifikasi klien dengan memeriksa gelang identitas dan menanyakan nama klien' },
+                {
+                    desc: 'Untuk restrein mummi',
+                    detail: [
+                        { text: 'Letakan kain atau selimut terbuka dipermukaan datar dengan satu ujungnya dilipat ke tengah' },
+                        { text: 'Letakan bayi diatas selimut dengan bagian bahu berada dilipatan selimut dan kaki berada disisi yang berlawanan' },
+                        { text: 'Letakan tangan kanan bayi lurus sejajar sisi tubuh' },
+                        { text: 'Tarik sisi kanan selimut melewati bahu kanan dan dada' },
+                        { text: 'Selipkan sisi selimut tersebut dibawah tubuh anak' },
+                        { text: 'Letakan tangan kiri bayi lurus sejajar sisi tubuh' },
+                        { text: 'Tarik sisi selimut kiri melewati bahu kiri dan dada' },
+                        { text: 'Selipkan sisi selimut tersebut dibawah tubuh anak' },
+                        { text: 'Lipat sudut bagian bawah dan tarik ke atas kearah bahu dan selipkan ujungnya dibawah tubuh' },
+                        { text: 'Kencangkan dengan plester' },
+                        { text: 'Untuk restrein mummi letakan tangan kanan bayi lurus sejajar sisi tubuh' },
+                        { text: 'Tarik sisi kanan selimut melewati bahu kanan dan dada' },
+                        { text: 'Selipkan sisi selumut tersebut dibawah tubuh anak' }
+                    ]
+                },
+                {
+                    desc: 'Restrain siku',
+                    detail: [
+                        { text: 'Pasang mitella / restrain siku yang telah jadi, diikatkan ke salah satu pundak' }
+                    ]
+                },
+                {
+                    desc: 'Untuk restrain jacktet',
+                    detail: [
+                        { text: 'Rompi restrain diletakan diatas pakaian klien' },
+                        { text: 'Tempatkan klien diatas tempat tidur / kursi roda' },
+                        { text: 'Agar pemasangan restrain tidak terbalik, baca intruksi dari bahan yang digunakan' },
+                        { text: 'Bila klien menggunakan kursi roda, restraint diikat ke belakang kursi roda' }
+                    ]
+                },
+                {
+                    desc: 'Ekstremitas restreint',
+                    detail: [
+                        { text: 'Bantu klien dalam posisi lateral' },
+                        { text: 'Kalau perlu gunakan alas dibawah restrain' },
+                        { text: 'Pasang restrain jangan terlalu kencang dengan cara memasukan 2 jari dibawah restrain' },
+                    ]
+                },
+                { desc: 'Sebelum meninggalkan klien, pastikan bel tempat tidur mudah dijangkau' },
+                { desc: 'Setiap 15 – 20 menit, restrain harus di cek penempatannya, observasi nadi, temperature, warna dan sensasi bagian distal ekstremitas' },
+                { desc: 'Setiap 2 jam, lepaskan restraint selama 30 menit dan berikan latihan ROM' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Observasi keefektifan penggunaan restrain untuk mencegah cedera pada klien' },
+                { desc: 'Observasi sirkulasi pada lokasi pemasangan restrain' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            items: [
+                { desc: 'Dokumentasikan hasil penilaian dalam rekam medik pasien' },
+                { desc: 'Catat hasil observasi pada lembar observasi' }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1537,
+    title: 'Bermain',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Cara alamiah bagi anak untuk mengungkapkan konflik dirinya yang tidak disadari.',
+    icon: 'fa-puzzle-piece',
+    tags: ['Bermain', 'Anak', 'Terapeutik'],
+    noDokumen: '445/SPO.4785/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: '1. Cara alamiah bagi anak untuk mengungkapkan konflik dirinya yang tidak disadari (Wong, 1991). \n2. Bermian merupakan yang dilakukan untuk kesenangan yang ditimbulkannya tanpa mempertimbangkan hasil akhirnya (Hurlock,1978). \n3. Kegiatan yang dilakukan sesuai dengan keinginan dalam mengatasi konflik dari dalam dirinya yang tidak disadari serta dengan keinginan sendiri untuk memperoleh kesenangan (Roster,1987).',
+    tujuan: 'Minimalisir tindakan keperawatan yang traumatis.\nMengurangi kecemasan.\nMembantu mempercepat penyembuhan.\nSebagai fasilitas komunikasi.\nPersiapan untuk hospitalisasi atau surgery.\nSarana untuk mengekspresikan perasaan.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Rancangan program bermain yang lengkap dan sistematis.' },
+                        { text: 'Alat bermain sesuai dengan umur / jenis kelamin dan tujuan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Pasien dan keluarga diberitahu tujuan bermain.' },
+                        { text: 'Melakukan kontrak waktu.' },
+                        { text: 'Tidak ngantuk.' },
+                        { text: 'Tidak rewel.' },
+                        { text: 'Keadaan umum membaik.' },
+                        { text: 'Pasien bisa dengan tiduran atau duduk / sesuai kondisi klien.' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan' },
+                { desc: 'Memberikan salam dan menyapa nama pasien' },
+                { desc: 'Memberi petunjuk pada pasien / klien anak cara bermain' },
+                { desc: 'Mempersilahkan anak untuk melakukan permainan' },
+                { desc: 'Memotivasi keterlibatan pasien / klien dan keluarga' },
+                { desc: 'Memberi pujian pada anak bila dapat melakukan' },
+                { desc: 'Mengobservasi emosi, hubungan inter-personal, psikomotor' },
+                { desc: 'Meminta anak menceritakan apa yang dilakukan / dibuatnya' },
+                { desc: 'Menanyakan perasaan pasien / klien anak setelah bermain' },
+                { desc: 'Menanyakan perasaan dan pendapat keluarga tentang bermain' },
+                { desc: 'Berpamitan dengan klien' },
+                { desc: 'Membereskan dan mengembalikan alat ketempat semula' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Pantau respon pasien selama dan setelah dilakukan tindakan'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mencatat kegiatan dalam lembar catatan keperawatan'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Rawat Jalan'
+    ]
+},
+
+
+
+
+
+
+
+
+{
+    id: 1538,
+    title: 'Menyiapkan Pasien Bayi / Anak Untuk Tindakan ( EEG ) Elektro Enchepalo Grafi',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu kegiatan menyiapkan pasien untuk tindakan EEG sehingga tindakan tersebut berjalan dengan baik dan lancar.',
+    icon: 'fa-brain',
+    tags: ['EEG', 'Pemeriksaan', 'Persiapan'],
+    noDokumen: '445/SPO.4786/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu kegiatan menyiapkan pasien untuk tindakan EEG sehingga tindakan tersebut berjalan dengan baik dan lancar. EEG adalah tindakan untuk mendapatkan rekaman aktivitas listrik pada otak melalui elektroda yang ditempatkan di kulit pada daerah yang telah ditentukan.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam menyiapkan pasien yang akan dilakukan pemeriksaan EEG sehingga rasa cemas pasien hilang',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat dan bahan',
+                    detail: [
+                        { text: 'Formulir pemeriksaan EEG' },
+                        { text: 'Berkas catatan medik' },
+                        { text: 'Alat transportasai :',
+                            subDetail: [
+                                { text: 'Bayi : baby box dengan atau tanapa oksigen' },
+                                { text: 'Anak : tempat tidur / brancard dengan atau tanpa oksigen' }
+                            ]
+                         },
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan keluarga',
+                    detail: [
+                        { text: 'Menginformasikan kepada keluarga atau anak yang cukup besar tentang tujuan dan prosedur yang akan dilakukan.' },
+                        { text: 'Kepala pasien dicuci bersih dengan sabun untuk menghilangkan kotoran / lemak dari kulit kepala' },
+                        { text: 'Setengah jam sebelum perekaman dilakukan, pasien diberikan obat penenang (sesuai program / intruksi dokter)' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Perawat memastikan jadwal pemeriksaan' },
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Identifikasi klien dengan memeriksa gelang identitas dan menanyakan nama klien' },
+                {
+                    desc: 'Pasien / keluarga diberitahu bahwa pasien akan dibawa ke ruang pemeriksaan',
+                    detail: [
+                        { text: 'Internal rumah sakit langsung dibawa ke bagian klinik EEG' },
+                        { text: 'Eksternal rumah sakit',
+                            subDetail: [
+                                { text: 'Perawat menghubungi bagian ambulance bahwa pasien akan dibawa ke rumah sakit lain untuk pemeriksaan EEG sesuai jadwal yang telah ditentukan' },
+                                { text: 'Menyiapkan alat-alat dan obat yang diperlukan' },
+                                { text: 'Pasien dibawa ketempat yang dituju menggunakan ambulanace rumah sakit' },
+                            ]
+                         }
+                    ]
+                },
+                { desc: 'Mendampingi pasien selama pemeriksaan' },
+                { desc: 'Membawa pasien kembali kekamar perawatan' },
+                { desc: 'Memberikan pujian kepada anak atas kerjasamanya' },
+                { desc: 'Mengucapkan hamdallah' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi keadaan umum pasien setelah tindakan terutama pasien-pasien yang mendapatkan obat penenang'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan keperawatan dalam rekam medik pasien'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1539,
+    title: 'Membilas Lambung Pada Bayi / Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Adalah suatu tindakan membersihkan lambung dengan cara memasukan dan mengeluarkan air ke / dari lambung dengan menggunakan selang penduga lambung atau NGT.',
+    icon: 'fa-pump-medical',
+    tags: ['Lambung', 'NGT', 'Bilas Lambung'],
+    noDokumen: '445/SPO.4787/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Adalah suatu tindakan membersihkan lambung dengan cara memasukan dan mengeluarkan air ke / dari lambung dengan menggunakan selang penduga lambung atau NGT',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melakukan tindakan membilas lambung pada bayi dan anak\nMembersihkan dan mengeluarkan racun dari lambung',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat dan bahan',
+                    detail: [
+                        { text: 'Baki / meja' },
+                        { text: 'Handuk dan perlak sebagai pengalas' },
+                        { text: 'Bengkok besar' },
+                        { text: 'Ember / kantong penampung' },
+                        { text: 'NaCl dingin atau sesuai program pengobatan' },
+                        { text: 'Spuit 10 / 20 / 50cc sesuai kebutuhan' },
+                        { text: 'Kain kassa / tissue' },
+                        { text: 'Celemek dari plastic / barakshort' },
+                        { text: 'Jelly' },
+                        { text: 'Susu hangat / air manis' },
+                        { text: 'O2 lengkap dengan flow meter (sesuai kebutuhan)' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan keluarga',
+                    detail: [
+                        { text: 'Menginformasikan kepada keluarga atau anak yang cukup besar tentang tujuan dan prosedur yang akan dilakukan.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tanagan' },
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencocokkan nama dengan gelang identitas' },
+                { desc: 'Perawat menggunakan celemek / barakshort' },
+                { desc: 'Bila pasien belum terpasang NGT, lakukan prosedur pemasangan NGT' },
+                {
+                    desc: 'Bila sudah terpasang NGT',
+                    detail: [
+                        { text: 'Memakai sarung tangan' },
+                        { text: 'Pasang perlak dan alas perlak disisi pasien' },
+                        { text: 'Dekatkan bengkok / kantong penampung' },
+                        { text: 'Buka penutup NGT dengan posisi selang tetap terfiksasi, sambungkan spuit yang telah diisi cairan NaCl, buka pendorong spuit, biarkan air dari spuit mengalir' },
+                        { text: 'Sambungkan selang NGT ke kantong penampung yang di letakkan lebih rendah dari posisi lambung, biarkan cairan yang keluar mengalir sesuai gravitasi' },
+                        { text: 'Ulangi tindakan sampai cairan jernih atau sesuai program' }
+                    ]
+                },
+                { desc: 'Memberikan pujian kepada anak atas kerjasamanya' },
+                { desc: 'Mengucapkan hamdallah' },
+                { desc: 'Membereskan alat-alat' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi keadaan umum pasien setelah tindakan'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan keperawatan dalam rekam medik pasien : Jumlah cairan yang masuk & keluar, warna, bau'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1540,
+    title: 'Memberikan Makanan atau Minuman Pada Pasien Dengan Labioschizis dan Palatoschizis',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu tindakan memberikan makanan dan minuman pada pasien dengan labioshizis dan palatoshizis.',
+    icon: 'fa-utensils',
+    tags: ['Makan', 'Minum', 'Labioschizis'],
+    noDokumen: '445/SPO.4788/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Suatu tindakan memberikan makanan dan minuman pada pasien dengan labioshizis dan palatoshizis',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melakukan tindakan memberikan makanan dan minuman pada pasien dengan labioshizis dan palatoshizis\nMembantu pasien dalam memenuhi kebutuhan cairan dan elektrolit, sesuai programa pengobatan',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat dan bahan',
+                    detail: [
+                        { text: 'Makanan dan minuman sesuai program diet' },
+                        { text: 'Serbet makan / tissue' },
+                        { text: 'Air matang dalam gelas' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan keluarga',
+                    detail: [
+                        { text: 'Menginformasikan kepada keluarga atau anak yang cukup besar tentang tujuan dan prosedur yang akan dilakukan.' },
+                        { text: 'Pasien disiapkan dalam keadaan nyaman dengan posisi kepala lebih tinggi dari badan' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan' },
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencocokkan nama dengan gelang identitas' },
+                { desc: 'Pasang alas makan didada pasien' },
+                { desc: 'Berikan makanan / minuman secara perlahan, sampai habis' },
+                { desc: 'Memberikan pujian kepada anak atas kerjasamanya' },
+                { desc: 'Mengucapkan hamdallah' },
+                { desc: 'Membereskan dan membersihkan alat-alat' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Observasi keadaan umum pasien setelah tindakan'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan keperawatan dalam rekam medik pasien : Jumlah makanan yang habis, Kejadian pada saat makan'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1541,
+    title: 'Menolong Pasien Bayi / Anak Dengan Perdarahan Hidung ( Epistaksis )',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Memberikan pertolongan pertama dalam keadaan darurat pada pasien dengan perdarahan hidung ( epistaksis ), secara tepat dan benar sesuai kebutuhan.',
+    icon: 'fa-head-side-cough',
+    tags: ['Epistaksis', 'Perdarahan Hidung', 'Darurat'],
+    noDokumen: '445/SPO.4789/Bidper',
+    tanggalTerbit: '04 Maret 2019',
+    pengertian: 'Memberikan pertolongan pertama dalam keadaan darurat pada pasien dengan perdarahan hidung ( epistaksis ), secara tepat dan benar sesuai kebutuhan',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melakukan tindakan pertolongan pertama dalam keadaan darurat pada pasien dengan perdarahan hidung ( epistaksis )\nMenghentikan perdarahan pada rongga hidung',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat dan bahan',
+                    detail: [
+                        { text: 'Pincet hidung' },
+                        { text: 'Spekulum hidung' },
+                        { text: 'Adrenalin 0,5% : 1 – 2 ampul' },
+                        { text: 'Pantocain spray' },
+                        { text: 'Tampon hidung pada tempatnya' },
+                        { text: 'Air minum' },
+                        { text: 'Alas kerja' },
+                        { text: 'Bengkok' },
+                        { text: 'Kapas kering dalam tempatnya' },
+                        { text: 'Kapas lembab dalam tempatnya' },
+                        { text: 'Tissue' },
+                        { text: 'Sarung tangan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan keluarga',
+                    detail: [
+                        { text: 'Menginformasikan kepada keluarga atau anak yang cukup besar tentang tujuan dan prosedur yang akan dilakukan.' },
+                        { text: 'Pasien disiapkan dalam keadaan nyaman dengan posisi kepala ditengadahkan sedikit ke belakang' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan' },
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mengatur posisi pasien dengan posisi kepala ditengadahkan sedikit ke belakang' },
+                { desc: 'Pasang alas kerja didada pasien' },
+                { desc: 'Pasang sarung tangan' },
+                { desc: 'Hidung dipijit ± 5 menit' },
+                { desc: 'Jika perdarahan tidak berhenti, masukan kapas kering kedalam hidung dan hidung dipijit lagi ± 5 menit' },
+                { desc: 'Bila masih ada perdarahan, kapas kering diganti dengan kapas yang telah diberi adrenalin' },
+                { desc: 'Pasien ditidurkan setengah duduk dan dianjurkan bernafas melalui mulut' },
+                { desc: 'setelah 15 – 30 menit, kapas adrenalin dikeluarkan, bila perdarahan sudah berhenti, noda-noda darah disekitar hidung dibersihkan dengan kapas lembab dan dikeringkan dengan tissue' },
+                { desc: 'Paien dianjurkan untuk kumur-kumur' },
+                { desc: 'Pasien dirapihkan kembali' },
+                { desc: 'Memberikan pujian kepada anak atas kerjasamanya' },
+                { desc: 'Mengucapkan hamdallah' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Observasi keadaan umum pasien setelah tindakan, serta kemungkinan epistaksis kembali' },
+                { desc: 'Bila perdarahanbelum berhenti, laporkan kepada dokter yang merawat' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan keperawatan dalam rekam medik pasien'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1540,
+    title: 'Penanganan Pasien Bayi / Anak Dalam Keadaan Kejang',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Memberikan pertolongan kepada pasien bayi / anak yang sedang mendapat serangan kejang.',
+    icon: 'fa-bolt',
+    tags: ['Kejang', 'Emergensi', 'Pediatrik'],
+    noDokumen: '445/SPO.4790Bidper',
+    tanggalTerbit: '4 Maret 2019',
+    pengertian: 'Memberikan pertolongan kepada pasien bayi / anak yang sedang mendapat serangan kejang',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melakukan tindakan pertolongan kepada pasien bayi / anak yang sedang mendapat serangan kejang\nMembantu mencegah / mengurangi komplikasi akibat dari kejang yaitu : lidah tergigit, anoxia, pasien jatuh, lidah jatuh kebelakang\nMencegah terjadinya serangan kejang berulang',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat dan bahan',
+                    detail: [
+                        { text: 'Tongue spatel yang telah dibungkus kassa / OFA (Orofharingeal Airway)' },
+                        { text: 'Suction lengkap dengan nasal catheter sesuai ukuran yang dibutuhkan' },
+                        { text: 'O2 lengkap dengan flowmeter dan nasal canul' },
+                        { text: 'Perangkat untuk melakukan kompres / tapid sponge' },
+                        { text: 'Tensimeter dan thermometer' },
+                        { text: 'Senter / penlight' },
+                        { text: 'Obat-obat anti kejang (sesuai intruksi dokter)' },
+                        { text: 'Pakaian bersih dan alat tenun' },
+                        { text: 'Sarung tangan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan keluarga',
+                    detail: [
+                        { text: 'Menginformasikan kepada keluarga tentang tujuan dan prosedur yang akan dilakukan.' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan' },
+                { desc: 'Pasang sarung tangan' },
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Baringkan pasien dengan posisi horizontal, kepala dimiringkan dan ekstensi' },
+                { desc: 'Pasang tongue spatel yang telah dibungkus kassa atau mayo' },
+                { desc: 'Lakukan suctioning untuk membersihkan dan membebaskan jalan nafas' },
+                { desc: 'Berikan oksigen sesuai kebutuhan' },
+                { desc: 'Ukur suhu badan, nadi dan pernafasan' },
+                { desc: 'Bila suhu badan tinggi lakukan kompres dingin / tapid sponge sesuai suhu tubuh' },
+                { desc: 'Bila perlu berikan obat anti kejang sesuai intruksi dokter' },
+                { desc: 'Bila anak sudah sadar, ganti pakaian yang basah' },
+                { desc: 'Mengucapkan hamdallah' },
+                { desc: 'Peralatan dibersihkan, dibereskan dan dikembalikan ke tempat semula' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Observasi keadaan umum dan tanda-tanda vital pasien setelah tindakan, serta kemungkinan kejang berulang' },
+                { desc: 'Bila kejang belum berhenti, atau berulang laporkan kepada dokter yang merawat' },
+                { desc: 'Observasi keadaan kejangnya sifatnya, lamanya' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Mendokumentasikan tindakan keperawatan dalam rekam medik pasien'
+        },
+        {
+            step: 'Perlu Diperhatikan',
+            items: [
+                { desc: 'Dilarang memberikan makanan / minuman bila keadaan belum sadar penuh' },
+                { desc: 'Pada saat pasien kejang tidak boleh ditinggalkan' },
+                { desc: 'Bila pasien memerlukan RJP lanjutkan aktifkan code blue' }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Rawat Jalan',
+        'Instalasi Gawat Darurat'
+    ]
+},
+{
+    id: 1541,
+    title: 'Memasang Pipa Rectum ( Sourchsteen )',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Suatu kegiatan memasukan pipa rectum ke dalam usus besar melalui rektum.',
+    icon: 'fa-notes-medical',
+    tags: ['Rectum', 'Pipa Rectum', 'Pediatrik'],
+    noDokumen: '445/SPO.4791Bidper',
+    tanggalTerbit: '4 Maret 2019',
+    pengertian: 'Suatu kegiatan memasukan pipa rectum ke dalam usus besar melalui rektum.',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah untuk melakukan tindakan pemasangan pipa rectum.',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Pipa rectal sesuai kebutuhan' },
+                        { text: 'Pelumas (vaselin / minyak kelapa / jelly)' },
+                        { text: 'Pita ukuran, plester, gunting' },
+                        { text: 'Bengkok / kantong plastic yang telah diisi air' },
+                        { text: 'Pot / urinal (jika diperlukan)' },
+                        { text: 'Selimut / kain penutup' },
+                        { text: 'Sarung tangan' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan keluarga',
+                    detail: [
+                        { text: 'Berikan penjelasan kepada klien / keluarga tentang tujuan dan prosedur yang akan dilakukan.' },
+                        { text: 'Untuk pasien dewasa / anak yang sudah kooperatif, anjurkan anak untuk BAK terlebih dahulu' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan' },
+                { desc: 'Mengucapkan basmallah' },
+                { desc: 'Mencocokkan nama dengan gelang identitas' },
+                { desc: 'Baringkan pasien, ukur lingkar perut pasien sebelum pemasangan pipa rectum' },
+                { desc: 'Pasang sarung tangan' },
+                { desc: 'Pasien dimiringkan ke sisi kiri, pasang selimut / kain penutup' },
+                { desc: 'Berikan pelumas (vaselin / minyak kelapa / jelly) pada ujung pipa rectum ± 5 – 7,5 cm' },
+                { desc: 'Buka anus dengan tangan kiri, tangan kanan memasukan pipa rectum yang telah diberi pelumas ± 5 – 7,5 cm, secara perlahan.' },
+                { desc: 'Pangkal pipa rectum dimasukan ke dalam bengkok / plastic yang telah diberi air, fiksasi ke daerah paha, biarkan selama 20 menit' },
+                { desc: 'Perhatikan ada tidaknya gelembung yang keluar' },
+                { desc: 'Bila pipa rectum sudah harus dilepas, dengan menggunakan sarung tangan cabut pipa rectum secara perlahan, masukan ke dalam plastic, buang ke tempat sampah medis' },
+                { desc: 'Bila pipa rectum akan digunakan kembali oleh pasien yang sama, cuci pipa rectum dan rendam dalam cairan desinfectan' },
+                { desc: 'Ukur lingkar perut setelah dipasang pipa rectum' },
+                { desc: 'Mengucapkan hamdallah' },
+                { desc: 'Peralatan dibersihkan, dibereskan dan dikembalikan ke tempat semula' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Pantau respon pasien selama dan setelah pemasangan pipa rectum, perhatikan ada tidaknya gelembung udara'
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medik pasien'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Rawat Jalan'
+    ]
+},
+{
+    id: 1542,
+    title: 'Resusitasi Jantung Paru Pada Anak',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Resusitasi jantung paru (RJP) adalah cara untuk memfungsikan kembali jantung dan paru-paru.',
+    icon: 'fa-heartbeat',
+    tags: ['RJP', 'Resusitasi', 'Emergensi'],
+    noDokumen: '445/SPO.4792Bidper',
+    tanggalTerbit: '4 Maret 2019',
+    pengertian: 'Resusitasi jantung paru (RJP) adalah cara untuk memfungsikan kembali jantung dan paru-paru ( Wong, 2003 ).',
+    tujuan: 'Sebagai acuan penerapan langkah-langkah dalam melaksanakan tindakan Resusitasi jantung paru (RJP) untuk membantu memberikan oksigen ke jantung',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Resusitator lengkap' },
+                        { text: 'Suction pump' },
+                        { text: 'Suction catheter' },
+                        { text: 'Mayo / guedel' },
+                        { text: 'Obat-obatan resusitasi (adrenalin, sulfas atropin, bicnat dll)' },
+                        { text: 'Dsposible syringe 1cc, 3cc, 5cc' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien',
+                    detail: [
+                        { text: 'Perhatikan warna anak apakah warna tersebut normal' },
+                        { text: 'Perhatikan anak untuk menentukan apakah ia masih bernafas' },
+                        { text: 'Perhatikan apakah dada anak bergerak' },
+                        { text: 'Tempatkan telinga didekat hidung dan mulut anak dan dengarkan aliran udara' },
+                        { text: 'Bila terdapat perubahan warna kulit atau anak tidak bernafas, tepuk anak dan panggil namanya dengan keras. Jentikan kaki bayi jika ada perubahan warna kulit atau bila bayi tidak bernafas. Jangan mengguncang-guncangkan bayi' },
+                        { text: 'Mulailah RJP jika anak tetap tidak bernafas' },
+                        { text: 'Bila ada orang lain, minta orang lain untuk menghubungi nomor telepon darurat untuk mendapatkan bantuan. Bila seorang diri lakukan dulu RJP dengan segera sebelum menghubungi nomer tersebut, lakukan RJP selama 1 menit, kemudian hubungi nomor darurat secepat mungkin' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Membebaskan jalan nafas' },
+                { desc: 'Tempatkan anak terlentang diatas permukaan keras' },
+                { desc: 'Posisikan kepala dengan tepat dan buka jalan nafas dengan menempatkan tangan anda pada dahi dan jari-jari anda, dari tangan yang lain dibawah tulang rahang bawah dekat bagian tengah dagu. Berhati-hatilah tidak mendorong bagian tulang lunak dibawah dagu atau menutup mulut anak. Kemudian angkat dan sedikit tengadahkan bagian kepala ke arah belakang dan hidung menghadap keatas.' },
+                { desc: 'Bila terjadi muntah, bersihkan mulut anak sebelum memberikan nafas buatan' },
+                { desc: 'Hilangkan mucus atau muntah dengan cepat menggunakan jari dengan memiringkan kepala anak' },
+                { desc: 'Bila terlihat benda asing, muntahan, atau mukus masukan jari telunjuk tangan yang lain sebagian dalam mulut disisi yang paling jauh dari anda' },
+                { desc: 'Gerakan jari melewati dari bagian belakang tenggorok ke arah anda untuk membantu mengeluarkan benda asing' },
+                { desc: 'Pernafasan',
+                    detail: [
+                        { text: 'Bila mulut sudah bersih, posisikan kembali kepala anak dan observasi dada untuk menentukan apakah anak sudah mulai bernafas. Tempatkan telinga didekat mulut anak, perhatikan, dengarkan dan rasakan nafas bayi selama 3 sampai 5 detik' },
+                        { text: 'Bila pernafasan belum juga terjadi, berikan nafas buatan pada anak:',
+                            subDetail: [
+                                { text: 'Buka mulut dengan lebar, tutupi hidung dan mulut anak dengan ambubag' },
+                                { text: 'Berikan dua kali nafas lambat kira-kira 1 – 1½ detik lamanya, berhenti diantaranya untuk menghirup udara. Setiap nafas yang diberikan harus cukup untuk membuat dada anak meninggi' },
+                                { text: 'Bila tidak terlihat adanya gerakan naik pada dada, posisikan lagi kepala anak dan coba lagi' },
+                                { text: 'Bila bayi muntah, miringkan kepalanya dan bersihkan mulut dengan jari atau suction pump' },
+                            ]
+                         },
+                    ]
+                 },
+                { desc: 'Sirkulasi',
+                    detail: [
+                        { text: 'Setelah memberikan 2 kali nafas buatan, dan melihat adanya peninggian dada, tetapi anak belum juga bernafas sendiri, periksalah nadinya' },
+                        { text: 'Letakan telunjuk dan jari tengah pada nadi carotis' },
+                        { text: 'Rasakan ada tidaknya nadi selama 5 – 10 detik' },
+                        { text: 'Bila denyut nadi teraba tetapi nafas tidak ada, penyelamatan pernafasan harus dilakukan dan dilanjutkan sampai anak bernafas. Untuk anak frekwensinya harus 1 nafas setiap 3 detik atau 20 kali nafas tiap menit' },
+                        { text: 'Mulai kompresi jantung bila denyut nadi tidak teraba' },
+                        { text: 'Cari posisi yang tepat untuk kompresi.' },
+                        { text: 'Dengan satu tangan, beri tekanan kebawah diatas tulang dada sedalam 4 – 5 cm. Ulangi hal ini sebanyak 30 kali, kemudian berhenti dan berikan anak 2 kali nafas (rasio kompresi : ventilasi = 30 : 2), tetap tempatkan tangan yang lain dikepala anak, agar tetap berada di posisi yang benar' },
+                    ]
+                 },
+                { desc: 'RJP dihentikan hanya jika :',
+                    detail: [
+                        { text: 'Anak mulai bernafas dan frekwensi jantung kembali normal' },
+                        { text: 'Anda digantikan seseorang yang dapat melakukan RJP' },
+                        { text: 'Anda mendapat bantuan medis / tim code blue datang dan tindakan lain' },
+                        { text: 'Klien dinyatakan meninggal dunia' },
+                    ]
+                 },
+                { desc: 'Bila anak mulai bernafas sendiri dan tidak ada cedera yang dicurigai, tempatkan anak pada posisi miring dengan kepala bersandar pada lengan dan ujung kaki sedikit menekuk pada lutut dan bersandar di permukaan keras.' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            items: [
+                { desc: 'Pantau respon pasien selama dan setelah RJP di lakukan' },
+                { desc: 'Jika tim code blue sudah datang maka RJP oleh perawat ruangan di hentikan' }
+            ]
+        },
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan tindakan yang telah dilakukan dalam rekam medik pasien'
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Rawat Jalan',
+        'Insatalasi Gawat Darurat'
+    ]
+},
+{
+    id: 1543,
+    title: 'Perawatan Tali Pusat',
+    category: 'tindakan',
+    subCategory: 'pediatric',
+    description: 'Memberikan perawatan tali pusat pada bayi dimulai hari kelahiran sampai dengan tali pusat lepas (puput).',
+    icon: 'fa-baby',
+    tags: ['Tali Pusat', 'Neonatus', 'Perawatan Bayi'],
+    noDokumen: '445/SPO.4793Bidper',
+    tanggalTerbit: '4 Maret 2019',
+    pengertian: 'Memberikan perawatan tali pusat pada bayi dimulai hari kelahiran sampai dengan tali pusat lepas (puput)',
+    tujuan: 'Mencegah terjadinya infeksi tali pusat',
+    kebijakan: 'Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 – RS. Ihsan/2019.',
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'Persiapan alat',
+                    detail: [
+                        { text: 'Kassa steril dalam tempatnya' },
+                        { text: 'Alcohol 70 % pada tempatnya' },
+                        { text: 'Bengkok 1 buah' },
+                        { text: 'Perlak dan pengalas' }
+                    ]
+                },
+                {
+                    desc: 'Persiapan pasien dan lingkungan',
+                    detail: [
+                        { text: 'Menjelaskan tujuan & prosedur tindakan pada keluarga / klien' },
+                        { text: 'Siapkan lingkungan yang aman dan nyaman' }
+                    ]
+                }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Mencuci tangan' },
+                { desc: 'Membawa alat di dekat pasien dengan benar' },
+                { desc: 'Memberikan salam dan menyapa nama pasien' },
+                { desc: 'Mencocokkan nama pada gelang identitas pasien' },
+                { desc: 'Pasang perlak dengan pengalas disamping kanan bayi' },
+                { desc: 'Bersihkan tali pusat dengan kassa alcohol 70%' },
+                { desc: 'Bila tali pusat masih basah, bersihkan dari arah ujung ke pangkal, bila tali pusat sudah kering, bersihkan dari arah pangkal ke ujung.' },
+                { desc: 'Setelah selesai, pakaian bayi dikenakan kembali. Sebaiknya bayi tidak boleh dipakaikan gurita karena akan membuat lembab daerah tali pusat sehingga kuman / bakteri tumbuh subur dan akhirnya menghambat penyembuhan. Tetapi juga harus dilihat kebiasaan orang tua / ibu (personal hygiene)' },
+                { desc: 'Mengucapkan hamdalah' },
+                { desc: 'Berpamitan dengan klien' },
+                { desc: 'Membereskan alat-alat' },
+                { desc: 'Mencuci tangan' }
+            ]
+        },
+        {
+            step: 'Evaluasi',
+            desc: 'Pantau respon pasien selama dan setelah tindakan dilakukan'
+        },
+        {
+            step: 'Dokumentasi',
+            items: [
+                { desc: 'Mencatat kegiatan dalam lembar catatan keperawatan' },
+                { desc: 'Mencatat kondisi tali pusat' }
+            ]
+        }
+    ],
+    dokumenTerkait: ['Status Pasien'],
+    instalasiTerkait: [
+        'Instalasi Gawat Darurat',
+        'Instalasi Rawat Inap',
+        'Instalasi Pelayanan Intensif'
+    ]
+}
+
    
 ];
