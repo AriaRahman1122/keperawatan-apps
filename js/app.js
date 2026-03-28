@@ -68,13 +68,18 @@ function openModal(sop) {
                 .map((line) => {
                     if (typeof line === 'string') {
                         const text = line.trim();
-                        return text ? { text, marker: undefined } : null;
+                        return text ? { text, marker: undefined, formula: undefined, children: [] } : null;
                     }
 
                     if (line && typeof line === 'object') {
                         const text = (line.text || line.desc || line.detail || '').trim();
                         if (!text) return null;
-                        return { text, marker: line.marker, formula: line.formula };
+                        return {
+                            text,
+                            marker: line.marker,
+                            formula: line.formula,
+                            children: normalizeSubDetail(line.subDetail || line.subDetails || line.children)
+                        };
                     }
 
                     return null;
@@ -87,7 +92,7 @@ function openModal(sop) {
                 .split('\n')
                 .map((line) => line.trim())
                 .filter(Boolean)
-                .map((text) => ({ text, marker: undefined, formula: undefined }));
+                .map((text) => ({ text, marker: undefined, formula: undefined, children: [] }));
         }
 
         return [];
@@ -158,8 +163,6 @@ function openModal(sop) {
                 ? `
                     <div class="step-subdetail-list">
                         ${(() => {
-                            const rows = [];
-                            let formulaGroup = [];
                             const isFormulaExpression = (text = '') => {
                                 const hasEquality = /=/.test(text);
                                 const hasNumericOperation =
@@ -174,80 +177,91 @@ function openModal(sop) {
                                 && /\bbb\b/i.test(text)
                                 && /\d/.test(text);
 
-                            const flushFormulaGroup = () => {
-                                if (!formulaGroup.length) return;
+                            const renderSubDetailRows = (subItems = [], level = 1) => {
+                                const rows = [];
+                                let formulaGroup = [];
 
-                                rows.push(`
-                                    <div class="step-subdetail-item step-detail-item-indexed is-formula">
-                                        <span class="step-detail-text formula-group">
-                                            ${formulaGroup.map((line) => `
-                                                <div class="formula-line ${line.isNote ? 'formula-note' : ''}">
-                                                    ${line.marker ? `<span class="formula-inline-marker">${line.marker}</span>` : ''}
-                                                    <span>${line.content}</span>
-                                                </div>
-                                            `).join('')}
-                                        </span>
-                                    </div>
-                                `);
+                                const flushFormulaGroup = () => {
+                                    if (!formulaGroup.length) return;
 
-                                formulaGroup = [];
-                            };
+                                    rows.push(`
+                                        <div class="step-subdetail-item step-detail-item-indexed is-formula">
+                                            <span class="step-detail-text formula-group">
+                                                ${formulaGroup.map((line) => `
+                                                    <div class="formula-line ${line.isNote ? 'formula-note' : ''}">
+                                                        ${line.marker ? `<span class="formula-inline-marker">${line.marker}</span>` : ''}
+                                                        <span>${line.content}</span>
+                                                    </div>
+                                                `).join('')}
+                                            </span>
+                                        </div>
+                                    `);
 
-                            entry.subDetail.forEach((subEntry, idx, allLines) => {
-                                const subLine = typeof subEntry === 'string' ? subEntry : (subEntry?.text || '');
-                                const markerMode = typeof subEntry === 'object' ? subEntry.marker : undefined;
-                                const formulaMode = typeof subEntry === 'object' ? subEntry.formula : undefined;
+                                    formulaGroup = [];
+                                };
 
-                                const subParsed = splitListMarker(subLine);
-                                const hasExplicitMarker = Boolean(subParsed.marker);
-                                const subMarker = hasExplicitMarker ? subParsed.marker : '';
-                                const subContent = subParsed.content || subLine;
+                                subItems.forEach((subEntry, idx, allLines) => {
+                                    const subLine = typeof subEntry === 'string' ? subEntry : (subEntry?.text || '');
+                                    const markerMode = typeof subEntry === 'object' ? subEntry.marker : undefined;
+                                    const formulaMode = typeof subEntry === 'object' ? subEntry.formula : undefined;
+                                    const children = typeof subEntry === 'object' && Array.isArray(subEntry.children)
+                                        ? subEntry.children
+                                        : [];
 
-                                const previousRaw = idx > 0
-                                    ? (typeof allLines[idx - 1] === 'string' ? allLines[idx - 1] : (allLines[idx - 1]?.text || ''))
-                                    : '';
-                                const nextRaw = idx < allLines.length - 1
-                                    ? (typeof allLines[idx + 1] === 'string' ? allLines[idx + 1] : (allLines[idx + 1]?.text || ''))
-                                    : '';
-                                const previousParsed = splitListMarker(previousRaw || '');
-                                const nextParsed = splitListMarker(nextRaw || '');
-                                const previousContent = previousParsed.content || previousRaw;
-                                const nextContent = nextParsed.content || nextRaw;
+                                    const subParsed = splitListMarker(subLine);
+                                    const hasExplicitMarker = Boolean(subParsed.marker);
+                                    const subMarker = hasExplicitMarker ? subParsed.marker : '';
+                                    const subContent = subParsed.content || subLine;
 
-                                const isFormulaExpr = isFormulaExpression(subContent);
-                                const isFormulaNote = /^keterangan\s*:/i.test(subContent);
-                                const isContextFormulaValue = isGivenValueLine(subContent)
-                                    && (isFormulaExpression(previousContent) || isFormulaExpression(nextContent));
-                                const isFormulaRelated = formulaMode === false
-                                    ? false
-                                    : (isFormulaExpr || isFormulaNote || isContextFormulaValue);
+                                    const previousRaw = idx > 0
+                                        ? (typeof allLines[idx - 1] === 'string' ? allLines[idx - 1] : (allLines[idx - 1]?.text || ''))
+                                        : '';
+                                    const nextRaw = idx < allLines.length - 1
+                                        ? (typeof allLines[idx + 1] === 'string' ? allLines[idx + 1] : (allLines[idx + 1]?.text || ''))
+                                        : '';
+                                    const previousParsed = splitListMarker(previousRaw || '');
+                                    const nextParsed = splitListMarker(nextRaw || '');
+                                    const previousContent = previousParsed.content || previousRaw;
+                                    const nextContent = nextParsed.content || nextRaw;
 
-                                if (isFormulaRelated) {
-                                    formulaGroup.push({
-                                        marker: subMarker,
-                                        content: subContent,
-                                        isNote: isFormulaNote
-                                    });
-                                    return;
-                                }
+                                    const isFormulaExpr = isFormulaExpression(subContent);
+                                    const isFormulaNote = /^keterangan\s*:/i.test(subContent);
+                                    const isContextFormulaValue = isGivenValueLine(subContent)
+                                        && (isFormulaExpression(previousContent) || isFormulaExpression(nextContent));
+                                    const isFormulaRelated = formulaMode === false
+                                        ? false
+                                        : (isFormulaExpr || isFormulaNote || isContextFormulaValue);
+
+                                    if (isFormulaRelated) {
+                                        formulaGroup.push({
+                                            marker: subMarker,
+                                            content: subContent,
+                                            isNote: isFormulaNote
+                                        });
+                                        return;
+                                    }
+
+                                    flushFormulaGroup();
+
+                                    const shouldHideMarker = markerMode === false;
+                                    const displayMarker = shouldHideMarker ? '' : (subMarker || '-');
+                                    const markerClass = shouldHideMarker ? ' no-marker' : '';
+                                    const nestedClass = level > 1 ? ' is-nested' : '';
+
+                                    rows.push(`
+                                        <div class="step-subdetail-item step-detail-item-indexed${markerClass}${nestedClass}">
+                                            <span class="step-detail-marker${shouldHideMarker ? ' marker-hidden' : ''}">${shouldHideMarker ? '&nbsp;' : displayMarker}</span>
+                                            <span class="step-detail-text">${subContent}</span>
+                                        </div>
+                                        ${children.length ? `<div class="step-subdetail-list is-nested">${renderSubDetailRows(children, level + 1)}</div>` : ''}
+                                    `);
+                                });
 
                                 flushFormulaGroup();
+                                return rows.join('');
+                            };
 
-                                const shouldHideMarker = markerMode === false;
-                                const displayMarker = shouldHideMarker ? '' : (subMarker || '-');
-                                const markerClass = shouldHideMarker ? ' no-marker' : '';
-
-                                rows.push(`
-                                    <div class="step-subdetail-item step-detail-item-indexed${markerClass}">
-                                        <span class="step-detail-marker${shouldHideMarker ? ' marker-hidden' : ''}">${shouldHideMarker ? '&nbsp;' : displayMarker}</span>
-                                        <span class="step-detail-text">${subContent}</span>
-                                    </div>
-                                `);
-                            });
-
-                            flushFormulaGroup();
-
-                            return rows.join('');
+                            return renderSubDetailRows(entry.subDetail, 1);
                         })()}
                     </div>
                 `
@@ -319,7 +333,83 @@ function openModal(sop) {
         );
     };
 
+    const renderRuangLingkup = (ruangLingkupText) => {
+        return renderPointList(
+            ruangLingkupText,
+            'Tidak ada data ruang lingkup.'
+        );
+    };
+
+    const renderKebijakan = (kebijakanValue) => {
+        if (Array.isArray(kebijakanValue)) {
+            const items = kebijakanValue
+                .map((entry) => {
+                    if (typeof entry === 'string') return entry.trim();
+                    if (entry && typeof entry === 'object') return (entry.text || entry.desc || entry.detail || '').trim();
+                    return '';
+                })
+                .map((line) => line.replace(/^(\d+[\.)]?|[-•])\s*/, '').trim())
+                .filter(Boolean);
+
+            if (!items.length) {
+                return '<p>Berdasarkan standar pelayanan rumah sakit dan peraturan yang berlaku.</p>';
+            }
+
+            return `
+                <ol class="tujuan-list">
+                    ${items.map((item) => `<li>${item}</li>`).join('')}
+                </ol>
+            `;
+        }
+
+        return `<p>${kebijakanValue || 'Berdasarkan standar pelayanan rumah sakit dan peraturan yang berlaku.'}</p>`;
+    };
+
     const renderPengertian = (pengertianText, mode = 'auto') => {
+        if (Array.isArray(pengertianText)) {
+            const entries = pengertianText
+                .map((entry) => {
+                    if (typeof entry === 'string') {
+                        return { text: entry.trim(), marker: undefined };
+                    }
+
+                    if (entry && typeof entry === 'object') {
+                        return {
+                            text: (entry.text || entry.desc || entry.detail || '').trim(),
+                            marker: entry.marker
+                        };
+                    }
+
+                    return null;
+                })
+                .filter((entry) => entry && entry.text);
+
+            if (!entries.length) {
+                return '<p>Tidak ada data</p>';
+            }
+
+            return `
+                <div class="pengertian-list pengertian-mixed-list">
+                    ${entries.map((entry) => {
+                        const parsed = splitListMarker(entry.text);
+                        const marker = entry.marker === false ? '' : parsed.marker;
+                        const content = parsed.content || entry.text;
+
+                        if (!marker) {
+                            return `<p class="pengertian-title">${entry.text}</p>`;
+                        }
+
+                        return `
+                            <div class="pengertian-mixed-item">
+                                <span class="pengertian-mixed-marker">${marker}</span>
+                                <span class="pengertian-mixed-text">${content}</span>
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+            `;
+        }
+
         const value = (pengertianText || 'Tidak ada data').trim();
         const lines = value.split('\n').map((line) => line.trim()).filter(Boolean);
 
@@ -421,9 +511,16 @@ function openModal(sop) {
             ${renderTujuan(sop.tujuan)}
         </div>
 
+        ${sop.ruangLingkup ? `
+        <div class="sop-detail-section">
+            <div class="sop-detail-title"><i class="fas fa-layer-group"></i> Ruang Lingkup</div>
+            ${renderRuangLingkup(sop.ruangLingkup)}
+        </div>
+        ` : ''}
+
         <div class="sop-detail-section">
             <div class="sop-detail-title"><i class="fas fa-gavel"></i> Kebijakan</div>
-            <p>${sop.kebijakan || 'Berdasarkan standar pelayanan rumah sakit dan peraturan yang berlaku.'}</p>
+            ${renderKebijakan(sop.kebijakan)}
         </div>
 
         <div class="sop-detail-section">
