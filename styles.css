@@ -930,6 +930,28 @@ body {
     line-height: 1.6;
 }
 
+.pengertian-mixed-list {
+    gap: 6px;
+}
+
+.pengertian-mixed-item {
+    display: grid;
+    grid-template-columns: minmax(2.2ch, max-content) 1fr;
+    column-gap: 8px;
+    align-items: start;
+    color: #2d4a7c;
+    line-height: 1.6;
+}
+
+.pengertian-mixed-marker {
+    font-weight: 600;
+    text-align: center;
+}
+
+.pengertian-mixed-text {
+    min-width: 0;
+}
+
 .sop-meta-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -1092,6 +1114,14 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4px;
+}
+
+.step-subdetail-list.is-nested {
+    margin-left: 24px;
+}
+
+.step-subdetail-item.is-nested {
+    font-size: 0.85rem;
 }
 
 .step-subdetail-item {

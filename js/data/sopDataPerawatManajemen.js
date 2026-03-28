@@ -1393,7 +1393,567 @@ const sopDataPerawatManajemen = [
     ],
     dokumenTerkait: ['Rencana Kerja Harian', 'Rekam medik pasien'],
     instalasiTerkait: ['Instalasi Rawat Inap', 'Instalasi Anestesi dan Perawatan Intensif', 'Instalasi Hemodialisa']
-    }
+    },
+    {
+    id: 627,
+    title: 'Serah Terima Pasien (Operasi Antar Shift) di Ruang Perawatan',
+    category: 'manajemen',
+    subCategory: 'keperawatanDasar',
+    description: 'Proses interaksi dengan pasien, keluarga, dan petugas lain dalam melaksanakan kegiatan serah terima dinas (operan pasien) di ruang perawatan.',
+    icon: 'fa-people-arrows',
+    tags: [
+        'Serah Terima Pasien',
+        'Operan Pasien',
+        'Antar Shift',
+        'Ruang Perawatan',
+        'Keperawatan',
+        'Hand Over'
+    ],
+
+    noDokumen: '445/SPO.3387/ Bidper',
+    tanggalTerbit: '04 Maret 2019',
+
+    pengertian: `Proses interaksi dengan pasien, keluarga, dan petugas lain dalam melaksanakan kegiatan serah terima dinas (operan pasien) di ruang perawatan.`,
+
+    tujuan: `Terlaksananya kegiatan serah terima dinas diruang rawat inap
+            ⁠Terciptanya keamanan & kenyamanan pasien & ruang perawatan
+            Tercapainya kepuasan pasien & keluarga`,
+
+    kebijakan: `Surat Keputusan Pemberlakuan Standar Prosedur Operasional Tindakan Keperawatan Rumah Sakit Umum Daerah Al Ihsan No: 445/Kep.2934 - RS. Ihsan/2019`,
+
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                {
+                    desc: 'a. Persiapan Kelengkapan',
+                    detail: [
+                        { text: 'Buku komunikasi perawat' },
+                        { text: 'Status pasien' },
+                        { text: 'Hal - hal lain yang diperlukan' }
+                    ]
+                },
+                {
+                    desc: 'b . Persiapan Petugas',
+                    detail: [
+                        { text: 'Petugas berada diruang rawal' },
+                        { text: "Membaca Al Qur'an dan do'a bersama dipimpin olet" }
+                    ]
+                }
+            ]
+        },
+        {
+            step: '2. Pelaksanaperwakilan',
+            items: [
+                {
+                    desc: 'a. Serah terima dilaksanakan pada',
+                    detail: [
+                        { text: 'Dinas malam pukul 07.00 WIB' },
+                        { text: 'Dinas pagi pukul 14.00 WIB' },
+                        { text: 'Dinas Sore pukul 21.00 WIB' }
+                    ]
+                },
+                { desc: 'b. Kepala ruangan, PP(Peraivat Primer) atau Penanggungiawab shif memimpin serah terima di ruangan' },
+                {
+                    desc: 'c. Serah terima pasien dilakukan secara keliling kepada setiappasien',
+                    detail: [
+                        { text: '1) Mengucapkan salam' },
+                        { text: "Contoh: Assalamua'laikum ....selamat pagi, siang, sore malam. (Panggil nama pasien dengan sopan dan jelas)", marker: false },
+                        { text: '2) Menyapa Pasien' },
+                        { text: 'Contoh : " Maaf Bapak/ibu saya mengganggu sebentar karena akan serah terima dinas dengan shift berikutnya "Pak / Ibu (sebutkan nama pasien) kenalkan ini Zr/Br (sebutkan nama perawat yang akan berdinas) pagi/sore/malam ini zr/br tersebut yang akan merawat dan membantu Bapak / Ibu jika membutuhkan sesuatu".', marker: false },
+                        { text: '3) Perawat yang akan berdinas menyapa pasien dan menganalisa keadaan umum serta lingkungan pasien' },
+                        { text: 'Contoh: Pak /Ibu ( sebutkan nama pasien) nanti saya yang akan merawat Bapak /ibu dari pukul ......s/d….....', marker: false }
+                    ]
+                },
+                {
+                    desc: 'd. Sampaikan terima kasih dan ucapkan salam',
+                    detail: [
+                        { text: 'Contoh : " Baiklah Bapak/ibu terima kasih atas waktunya sekarang saya akan permisi dulu Assalamualaikum Wr. Wb."', marker: false }
+                    ]
+                }
+            ]
+        }
+    ],
+
+    dokumenTerkait: [
+        'Status pasien',
+        'Buku komunikasi perawat'
+    ],
+
+    instalasiTerkait: [
+        'Instalasi Rawat Inap',
+        'Instalasi Anestesi dan Perawatan Intensif',
+        'Instalasi Hemodialisa',
+        'Instalasi Gawat Darurat'
+    ]
+    },
+
+    {
+    id: 628,
+    title: 'Hand Over / Serah Terima Pasien Antar Unit Kerja',
+    category: 'manajemen',
+    subCategory: 'keperawatanDasar',
+    description: 'Operan pasien yang dilakukan oleh antar unit kerja untuk proses perawatan, pengobatan, tindakan diagnostik, operatif dan sebagainya untuk diketahui dan diperhatikan oleh penerima transfer.',
+    icon: 'fa-right-left',
+    tags: [
+        'Hand Over',
+        'Serah Terima Pasien',
+        'Antar Unit Kerja',
+        'Transfer Pasien',
+        'Rujukan Intern',
+        'Komunikasi Efektif'
+    ],
+
+    noDokumen: '445/SPO.5907/UHP',
+    tanggalTerbit: '19 Februari 2019',
+
+    pengertian: `Hand Over/Serah terima antar unit kerja adalah operan pasien yang dilakukan oleh antar unit kerja untuk proses perawatan, pengobatan, tindakan diagnostik, operatif dan sebagainya untuk diketahui dan diperhatikan oleh penerima transfer.
+                Komunikasi pada saat transfer (Rujukan Intern) adalah cere berkomunikasi seraca efektif pada saat operan memindahkan pasien dari satu ruangan ke ruangan yang di tuju yang ada di dalam Rumah Sakit oleh perawat yang mengantar dan perawat yang menerima di ruangan yang dituju.`,
+
+    tujuan: `Sebagai Acuan dalam penerapan langkah langkah melaksanakan komunikasi saat hand over/serah terima pasien antar unit kerja untuk :
+            1. Mutu dan keselamatan pasien
+            2. Kesinambungan pelayanan.`,
+
+    kebijakan: [
+        {text: '1. Surat Keputusan N o : 445 / Kep.4822.RS Ihsan / 2019 tentang kebijakan peningkatan mutu dan keselamatan pasien di lingkungan rumah sakit umum daerah Al Ihsan'},
+        {text: '2. Surat Keputusan No : 445/ Kep.2492-RS Ihsan/2019 tentang Panduan Komunikasi efektif di rumah sakit umum daerah Al Ihsan'}
+    ],
+
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                { desc: 'A. Petugas yang akan mengantar sesuai level pasien' },
+                { desc: 'B. Siapkan status pasien' },
+                { desc: 'C. Form transfer sudah terisi lengkap' },
+                { desc: 'D. Pasien disiapkan di alat transportasi (blankard/ kursi roda) dengan baik' },
+                { desc: 'E. Lakukan Informed Consent kepada pasien/keluarga' },
+                { desc: 'F. Perawat yang akan mengantar melakukan komunikasi terlebih dahulu dengan unit kerja yang akan dituju' },
+                { desc: 'G. Siapkan data data yang di perlukan (Hasil Lab, Radiologi)' }
+            ]
+        },
+        {
+            step: '2. Pelaksanaan',
+            items: [
+                { desc: 'A. Pastikan form transfer terisi lengkap' },
+                { desc: 'B. Petugas yang mengantar (Dokter/Perawat/Petugas terlatih sesuai tingkat kondisi pasien) mengucapkan salam, memperkenalkan diri kepada petugas yang ada di ruangan yang dituju.',
+                    detail: [
+                        {text: '"Assalamualaiku Wr. Wb, perkenankan saya ... mau mengantarkan pasien yang sudah kami pesankan sebelumnya”', marker: false}
+                    ]
+                },
+                { desc: 'C. Petugas yang mengantar memastikan petugas yang akan menerima pasien',
+                    detail: [
+                        {text: '"Apakah Bapak/lbu/Sdr yang akan menerima handover pasien ini?"', marker: false}
+                    ]
+                },
+                { desc: 'D. Petugas ang ngantai mei ab nglaa danfayan dan mengucapkan salam dan memperkenalkan diri pada pasien/keluarganya',
+                    detail: [
+                        {text: '"Waalaikumsalam, benar saya yang akan menerima, berkenalkan bapak/lbu ... (pasien) saya ...... petugas di ruangan ini, selamat datang di ruangan .....”', marker: false}
+                    ]
+                },
+                { desc: 'E. Petugas yang mengantar menjelaskan maksud dan tujuan kepada pasien dan petugas yang akan menerma hand over',
+                    detail: [
+                        {text: '"Pasien ini kami antar ke ruangan ini untuk dirawat/ dilakukan tindakan/ alih rawat intensif/ untuk pemeriksaan/ untuk proses pembedahan*) pilih salah satu"', marker: false}
+                    ]
+                },
+                { desc: 'F. Petugas yang menerima memastikan identitas pasien dengan mengecek gelang identitas.' },
+                { desc: 'G. Petugas yang mengantar menjelaskan semua hal yang berkaitan dengan pasien sesuai dengan form transfer (RM 13)' },
+                { desc: 'H. Petugas yang menerima melakukan pemeriksaan TTV dan kondisi pasien kemudian ditulis di form transfer (RM 13)' },
+                { desc: 'I. Petugas yang menerima menandatangani form transfer (RM 13)', 
+                    detail: [
+                        { text: '“Baiklah kami tanda tangan form ini”', marker: false }
+                    ] 
+                },
+                { desc: 'J. Petugas yang mengantar berpamitan kepada petugas penerima dan pasien/keluarganya', 
+                    detail: [
+                        { text: '"Terimakasih sudah menerima operan kami, Bapak/ibu .... (Pasien), kami ijin untuk kembali, semoga Bapak/ibu lekas sembuh. Wassalamualaikum, Wr. Wb."', marker: false }
+                    ]
+                }
+            ]
+        }
+    ],
+
+    dokumenTerkait: [
+        'Status pasien',
+        'Form transfer (RM 13)',
+        'Hasil Lab',
+        'Radiologi'
+    ],
+
+    instalasiTerkait: [
+        'Bidang Pelayanan Medis',
+        'Bidang Keperawatan',
+        'Instalasi Rawat Jalan',
+        'Instalasi Gawat darurat',
+        'Instalasi Hemodialisa',
+        'Instalasi Rawat Inap',
+        'Instalasi Intensif dan Reanimasi',
+        'Instalasi Rehabilitasi Medis',
+        'Instalasi Radioterafi',
+        'Instalasi Radiologi',
+        'Instalasi Bedah Sentral',
+        'Admission'
+    ]
+    },
+    {
+    id: 629,
+    title: 'Hand Over Perawat Antar Shift Jaga',
+    category: 'manajemen',
+    subCategory: 'keperawatanDasar',
+    description: 'Serah terima antar shift perawat atau dokter agar kondisi pasien saat ini diketahui oleh shif selanjutnya.',
+    icon: 'fa-user-clock',
+    tags: [
+        'Hand Over',
+        'Perawat',
+        'Antar Shift',
+        'Shift Jaga',
+        'SBAR',
+        'Operan Pasien'
+    ],
+
+    noDokumen: '445/SPO.5906/UHP',
+    tanggalTerbit: '19 Februari 2019',
+
+    pengertian: `Serah terima antar shift perawat atau dokter adalah operan shift pasien yang dilakukan oleh antar shift agar kondisi pasien saat ini diketahui oleh shif selanjutnya. Hand over berisi pemberian Informasi kondisi pasien antar staf klinis termasuk PPA berdasar atas proses yang sedang berjalan atau pada saat penting tertentu dalam proses asuhan yang ditulis dalam rekam medis.`,
+
+    tujuan: `Sebagai Acuan Penekanan Langkah langkah melaksanakan hand over antar shift jaga.`,
+
+    kebijakan: [
+        { text: '1. Surat Keputusan No : 445 / Kep.4822.RS Ihsan / 2019 tentang kebijakan peningkatan mutu dan keselamatan pasien di lingkungan rumah sakit umum daerah Al Ihsan' },
+        { text: '2. Surat Keputusan No : 445/ Kep.2492-RS Ihsan/2019 tentang Panduan Komunikasi efektif di rumah sakit umum daerah Al Ihsan' }
+    ],
+
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                { desc: 'A. Status Pasien' },
+                { desc: 'B. Semua perawat duduk sudah siap melaksakana operan' }
+            ]
+        },
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'A. Kedua kelompok/tim dalam keadaan siap untuk melakukan timbang terima sesuai jam kerja (Pagi pukul 07.00, siang pukul 14.00, malam pukul 20.00).' },
+                { desc: 'B. Kelompok/tim yang akan bertugas menyiapkan buku catatan.' },
+                { desc: 'C. Kepala ruangan (P/S) Ketua Tim/PP (M) memimpin untuk operan timbang terima yang akan dilakukan di nurse station diawali dengan membaca basmalah sebagai awal dimulainya acara timbang terima.',
+                    detail: [
+                        { text: 'Contoh : "Bismillahirahmanirrahim, Asalamualaikm Wr. Wb, Selamat Pagi/Siang, bagaimana semuanya sudah siap untuk melaksanakan operan?"', marker: false }
+                    ]
+                 },
+                { desc: 'D. Kepala ruangan mempersilahkan kepada staf setiap tim untuk melaporkan : Jumlah pasien, Pasien dalam perhatian, Tindakan yang telah dilakukan, Rencana tindakan yang harus dilakukan Dan hal-hal penting lainnya kepada masing-masing petugas/PP dan PA dinas berikutnya.',
+                    detail: [
+                        { text: 'Contoh : "Silahkan Ketua Tim/PP/Shift sebelumnya untuk menyampaikan laporan kegiatan yang telah dilaksanakan.”', marker: false }
+                    ]
+                 },
+                {
+                    desc: 'E. Melaksanakan hand over sesuai timnya, dengan cara:',
+                    detail: [
+                        { text: '1) Sebelumnya perawat yang akan melakukan serah terima pasien membuat laporan dengan tehnik S-B-A.R' },
+                        { text: '2) Ketua Tim/PP/ Pj Shift memastikan siapa yang akan menerima hand over' },
+                        { text: '3) Ketua Tim/PP/ Pj Shift menjelaskan maksud dan tujuan kepada petugas yang akan menerima hand over' },
+                        { text: '4) Ketua Tim/PP/ Pj Shift menjelaskan laporan tentang pasien kepada penerima hand over' }
+                    ]
+                },
+
+                {
+                    desc: 'F. Contoh komunikasi efektif SBAR antar shift terima :',
+                    detail: [
+                        { text: 'Situation (S) :',
+                            subDetail: [
+                                '- Nama : Tn.A',
+                                '- Umur : 35 tahun',
+                                '- Tanggal masuk : 8 Desember 2015, sudah 3 hari perawatan',
+                                '- DPJP : d r H Apen A, SpPD',
+                                '- Diagnosa medis : Gagal ginjal kronik'
+                            ]
+                        },
+                        { text: 'Masalah keperawatan:', marker: false,
+                            subDetail: [
+                                { text: '• Gangguan keseimbangan cairan dan elektrolit lebih' },
+                                { text: '• Perubahan kebutuhan nutrisi kurang' },
+                            ]
+                         },
+
+                        { text: 'Background (B) :', 
+                            subDetail: [
+                                { text: '• Pasien bedrest total , urine 50 cc/24 jam, balance cairan 1000 cc/ 24 jam.', formula: false },
+                                { text: '• Mual tetap ada selama dirawat, ureum 300 mg/dl.' },
+                                { text: '• Pasien program HD 2x seminggu Senin dan Kamis.', formula: false },
+                                { text: '• Terpasang infus NaCl 10 tetes/menit' },
+                                { text: '• Dokter sudah menjelaskan penyakitnya tentang gagal ginjal kronik' },
+                                { text: '• Diet : rendah protein 1 gram' },
+                            ] 
+                        },
+
+                        { text: 'Assessment (A) :', 
+                            subDetail: [
+                                { text: '• Kesadaran composmentis, T D 150/80 mmHg, Nadi 100x/menit suhu 37 °C, RR 20x/menit, oedema pada ekstremitas bawah', formula: false },
+                                { text: '• Hasil Laboratorium terbaru : Hb 9mg/dl, albumin 3, ureum 237 mg/dl' },
+                                { text: '• Pasien masil mengeluh mual.' },
+                            ] 
+                        },
+
+                        { text: 'Recommendation (R)',
+                            subDetail: [
+                                { text: '• Awasi balance caira' },
+                                { text: '• Batasi asupan cairan' },
+                                { text: '• Konsul ke dokter untuk pemasangan dower kateter' },
+                                { text: '• Pertahankan pemberian diuretik injeksi furosemid 3 x 1 amp', formula: false },
+                                { text: '• Bantu pasien memenuhi kebutuhan dasar pasien' },
+                                { text: '• Jaga aseptic dan antiseptic setiap melakukan prosedur' }
+                            ]
+                         },
+                    ]
+                },
+
+                { desc: 'f. Setelah selesai membacakan laporan, dilanjutkan dengan serah terima langsung ke pasien sambil menginformasikan penggantian petugas (Lama hand over untuk setiap klien tidak lebih dari 5 menit, kecuali pada kondisi khusus dan memerlukan penjelasan yang lengkap dan rinci)' },
+                { desc: 'g. Setelah melihat pasien, Perawat/PPA yang mengantar dan menerima hand over mendiskusikan kembali apabila ada hal yang belum dimengerti' },
+                { desc: 'h. Perawat yang menyerahkan dan menerima hand over menandatangani bukti dalam rekam medik' },
+                { desc: 'i. Jika perlu pasien/keluarga dilibatkan dalam proses hand over ini pada saat keliling ruangan' },
+                { desc: 'j. Di nurse station kepala ruangan mendiskusikan kembali timbang terima pasien kepada perawat untuk berdiskusi tentang apa saja yang masih belum dimerngerti dan dibicarakan kembali.' },
+                { desc: 'k. Dilanjutkan dengan timbang terima alat dan obat emergency langsung melihat kondisi barang oleh penanggung jawab shif/dinas.' },
+                { desc: 'l. Penanggung jawab shif yang menerima dan yang menyerahkan timbang terima menandatangani buku inventaris.' },
+                { desc: 'm. Kepala ruangan mencatat permasalahan diruangan yang dituangkan dalam buku rencana kerja harian kepala ruangan.' },
+                { desc: 'n. Kepala ruangan memimpin doa dan menutup kegiatan operan.' }
+            ]
+        }
+    ],
+
+    dokumenTerkait: [
+        'Status Pasien',
+        'Rekam medik',
+        'Buku catatan',
+        'Buku inventaris',
+        'Buku rencana kerja harian kepala ruangan'
+    ],
+
+    instalasiTerkait: [
+        'Bidang Pelayanan',
+        'Bidang Keperawatan',
+        'Instalasi Rawat Inap',
+        'Instalasi Intensif'
+    ]
+    },
+    {
+    id: 630,
+    title: 'Komunikasi Efektif Pada Pengisian Form Ringkasan Pasien Pulang (Resume Medis) dari Rawat Inap',
+    category: 'manajemen',
+    subCategory: 'komunikasi',
+    description: 'Prosedur komunikasi efektif pada pengisian form ringkasan pasien pulang (resume medis) dari rawat inap.',
+    icon: 'fa-file-medical',
+    tags: [
+        'Komunikasi Efektif',
+        'Resume Medis',
+        'Ringkasan Pasien Pulang',
+        'Rawat Inap',
+        'Rekam Medis',
+        'DPJP'
+    ],
+
+    noDokumen: '445/SPO.5904/UHP',
+    tanggalTerbit: '19 Februari 2019',
+
+    pengertian: `CPPT adalah Catatan asuhan teritegrasi semua PPA dalam Rekam Medis pasien. Agar dapat terlaksana secara efektif, maka perlu kolaborasi yang intens diantara professional pemberi asuhan pasien. Diperlukan suatu kompetensi khusus yang disebut dengan kompetensi intra dan interprofesional kolaboratif.`,
+
+    tujuan: `Sebagai Acuan Penekanan langkah langkah melakukan komunikasi tertulis di dalam CPPT`,
+
+    kebijakan: [
+        {text: 'Surat Keputusan No : 445 / Kep.4822.RS Ihsan / 2019 tentang kebijakan peningkatan mutu dan keselamatan pasien di lingkungan rumah sakit umum daerah Al Ihsan'},
+        {text: 'Surat Keputusan No : 445/ Kep.2492-RS Ihsan/2019 tentang Panduan Komunikasi efektif di rumah sakit umum daerah Al Ihsan'}
+    ],
+
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                { desc: 'Status Pasien' },
+                { desc: 'Pasien dan Keluarga disiapkan' }
+            ]
+        },
+
+        {
+            step: 'Pelaksanaan',
+            items: [
+                { desc: 'Resume medis harus d i isi dan ditandatangani oleh DPJP segera sesaat sebelum pasien pulang' },
+                { desc: 'Perawat menyiapkan form resume medis diberkas rekam medis untuk diisi oleh DPJP. Isi dari resume :' ,
+                    detail: [
+                        { text: '1) Identitas pasien (nama pasien, tanggal lahir, umur, jenis kelamin, nomor medical record).' },
+                        { text: '2) Tanggal masuk dan tanggal keluar/meninggal' },
+                        { text: '3) Ruang perawatan terakhir' },
+                        { text: '4) Penanggung pembayaran' },
+                        { text: '5) Diagnosis/masalah waktu masuk,' },
+                        { text: '6) Ringkasan riwayat penyakit selama perawatan' },
+                        { text: '7) Pemeriksaan fisik yang mendukung diagnosis' },
+                        { text: 'Pemeriksaan penunjang/diagnostik terpenting' },
+                        { text: '9) Terapi/pengobatan selama di rumah sakit' },
+                        { text: '10) Hasil konsultasi selama perawatan' },
+                        { text: '11) Diagnosis utama/sekunder (ICD 10)' },
+                        { text: '12) Tindakan sekunder (ICD 9 )' },
+                        { text: '13) Catatan alergi (reaksi obat)' },
+                        { text: '14) lasil laboratorium yang belum selesai (pending)' },
+                        { text: '15) Diet' },
+                        { text: '16) Instruksi/anjuran dan edukasi (follow up) selama lepas perawatan' },
+                        { text: '17) Kondisi waktu keluar ( sembuh, pindah RS, pulang atas permintaan sendiri, meninggal)' },
+                        { text: '18) Rencana tindak lanjut pengobatan (poliklinik, RS lain, puskesmas, dokter luar)' },
+                        { text: '19) Terapi (obat) pulang' },
+                        { text: '20) Tanda tangan dan nama lengkap DPJP.' }
+                    ]
+                },
+                { desc: 'Isi form resume medis secara carbonise (Lembar NCR 3 warna)',
+                    detail: [
+                        { text: '1) Warna putih untuk arsip rekam medis' },
+                        { text: '2 ) Biru untuk diserahkan kepada pasien' },
+                        { text: '3) Kuning untuk penjamin pelayanan kesehatan (bila diperlukan)' },
+                        { text: '4) Merah untuk faskes/FKTP' }
+                    ]
+                },
+                { desc: 'Serahkan ringkasan pasien pulang kepada pasien yang warna biru dan jelaskan resume tersebut harus dibawa pada saat kontrol pasca rawat ke rumah sakit' }
+            ]
+        }
+    ],
+
+    dokumenTerkait: [
+        'Status Pasien'
+    ],
+
+    instalasiTerkait: [
+        'Pelayanan Medis',
+        'Bidang Keperawatan',
+        'Instalasi Rawat Inap',
+        'Instalasi Intensif'
+    ]
+    },
+    {
+    id: 631,
+    title: 'Komunikasi Efektif Pada Kegiatan Pre dan Post Conference',
+    category: 'manajemen',
+    subCategory: 'komunikasi',
+    description: 'Prosedur komunikasi efektif pada kegiatan pre dan post conference dalam pelayanan keperawatan.',
+    icon: 'fa-people-arrows',
+    tags: [
+        'Komunikasi Efektif',
+        'Pre Conference',
+        'Post Conference',
+        'Operan',
+        'Keperawatan',
+        'Handover'
+    ],
+
+    noDokumen: '45/SPO .5902 /UHP',
+    tanggalTerbit: '19 Februari 2019',
+
+    pengertian: `Konferensi merupakan pertemuan tim yang dilakukan setiap hari. Konferensi dilakukan sebelum atau setelah melakukan operan dinas, sore atau malam sesuai dengan jadwal dinas perawatan pelaksanaan. konference sebaiknya dilakukan di tempat tersendiri sehingga dapat mengurangi gangguan dari luar. Konferensi terdiri dari pre conference dan post conference`,
+
+    tujuan: `Sebagai Acuan Penekanan Langkah langkah melaksanakan komunikasi yang efektif saat Pre dan Post Conference untuk untuk menganalisa masalah-masalah secara kritis dan menjabarkan alternatif penyelesaian masalah, mendapatkan gambaran berbagai situasi lapangan yang dapat menjadi masukan untuk menyusun rencana antisipasi sehingga dapat meningkatkan kesiapan diri dalam pemberian asuhan keperawatan dan merupakan cara yang efektif untuk menghasilkan perubahan non kognitif, juga membantu koordinasi dalam rencana pemberian asuhan keperawatan sehingga tidak terjadi pengulangan asuhan, kebingungan dan frustasi bagi pemberi asuhan.`,
+
+    kebijakan: [
+        { text: '1. Surat Keputusan No : 445 / Kep.4822.RS Ihsan / 2019 tentang kebijakan peningkatan mutu dan keselamatan pasien di lingkungan rumah sakit umum daerah Al Ihsan' },
+        { text: '2. Surat Keputusan NNo : 445 / Kep.2492-RS Ihsan / 2019 tentang Panduan Komunikasi efektif di rumah sakit umum daerah Al Ihsan' }
+    ],
+
+    prosedur: [
+        {
+            step: 'Persiapan',
+            items: [
+                { desc: 'Status Rekam Medik Pasien' },
+                { desc: 'Semua perawat duduk bareng dan saling berhadapan antara shift malam/pagi dan shift pagi/siang' }
+            ]
+        },
+
+        {
+            step: 'Pelaksanaan Pre Conference',
+            items: [
+                { 
+                    desc: 'Buka acara dengan Salam pembuka oleh Perawat Primer/ Ketua Tim',
+                    detail: [
+                        { text: '"Assalamualaikum Wr. Wb, Selamat Pagi/ Siang"', marker: false }
+                    ]
+                },
+                { 
+                    desc: 'Sampaikan jumlah dan kriteria pasien yang dirawat timnya dan memvalidasi pembagian pasien Perawat Primer/Ketua Tim.',
+                    detail: [
+                        { text: '“Hari ini kita merawat …. pasien, dengan tingkat ketergantungan minimal… orang, moderat … orang dan high care … orang, sudah dibagi sesuai dengan kewenangan masing-masing.' },
+                        { text: 'Tanyakan rencana harian masing - masing perawat pelaksanan oleh Perawat Primer/ Ketua Tim "Bagaimana RKH masing-masing PA, apakah sudah disusun sesuai program hari ini, mari saya lihat?”' }
+                    ]
+                },
+                { 
+                    desc: 'Berikan masukan dan tindakan lanjut terkait dengan asuhan yang diberikan saat itu oleh Perawat Primer/ Ketua Tim',
+                    detail: [
+                        { text: '"Mohon jangan sampai ada program atau instruksi yang terlewat, dan senantiasa memperhatikan mutu serta keselamatan pasien"', marker: false }
+                    ]
+                },
+                { 
+                    desc: 'Berikan reinforcement oleh Perawat Primer/ Ketua Tim',
+                    detail: [
+                        { text: '“Terimakasih sudah membuat RKH dengan baik, selamat bekerja, kita berkumpul kembali ½ jam sebelum hand over.”', marker: false }
+                    ]
+                },
+                { 
+                    desc: 'Tutup acara Pre conference oleh Perawat Primer/ Ketua Tim',
+                    detail: [
+                        { text: '“Demikian pre conference ini, selamat bekerja. Wassalamualaikum Wr. Wb."', marker: false}
+                    ]
+                }
+            ]
+        },
+
+        {
+            step: 'Pelaksanaan Post Conference',
+            items: [
+                { 
+                    desc: 'Buka acara oleh Perawat Primer/ Ketua Tim',
+                    detail: [
+                        { text: '"Assalamualaikum Wr. Wb, selamat pagi/ siang!"', marker: false }
+                    ]
+                },
+                { 
+                    desc: 'Tanyakan kendala dalam asuhan yang telah diberikan oleh Perawat Primer/ Ketua Tim',
+                    detail: [
+                        { text: '“Bagaimana proses asuhan hari ini, adakah kendala atau masalah yang perlu ditindaklanjuti?”', marker: false }
+                    ]
+                },
+                { 
+                    desc: 'Tanyakan tindakan lanjut asuhan klien yang harus dioperkan kepada perawat shift berikutnya oleh Perawat Primer/ Ketua Tim',
+                    detail: [
+                        { text: '"Bagaimana tindaklanjut yang sudah dilakukan, bagaimana respon pasien/keluarganya?”', marker: false }
+                    ]
+                },
+                { 
+                    desc: 'Buat laporan untuk persiapam operan dan menyampaikan kepada setiap PA membuat laporan handover oleh Perawat Primer/Ketua Tim',
+                    detail: [
+                        { text: '“Baiklah, kita simpulkan bahwa pasien kita terawat dengan baik..' },
+                        { text: 'mohon untuk dicek ulang dan buat catatan SBAR dalam form hand over untuk disampaikan kepada tim berikutnya"' }
+                    ]
+                },
+                { 
+                    desc: 'Ketua tim atau PP menutup acara',
+                    detail: [
+                        { text: '"Terimakasih teman-teman, silahkan selesaikan rencana kerjanya dan buat laporan, jam ... segera kumpul kembali untuk operan shif jaga"', marker: false }
+                    ]
+                }
+            ]
+        },
+
+        {
+            step: 'Dokumentasi',
+            desc: 'Dokumentasikan pre dan post conference di RKH Perawat PP maupun PA'
+        }
+    ],
+
+    dokumenTerkait: [
+        'Status Rekam Medik Pasien',
+        'RKH Perawat PP maupun PA',
+        'Form hand over'
+    ],
+
+    instalasiTerkait: [
+        'Bidang Keperawatan',
+        'Instalasi Rawat Inap',
+        'Instalasi Intensif'
+    ]
+    },
+
 
 
 
