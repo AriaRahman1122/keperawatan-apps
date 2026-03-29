@@ -1,22 +1,10 @@
-# Bimasakti Digital - Manajemen Keperawatan Digital RSUD Welas Asih
+<img width="410" height="750" alt="image" src="https://github.com/user-attachments/assets/be678f40-16b0-417a-b957-07e156600dbd" /># Bimasakti Digital - Manajemen Keperawatan Digital RSUD Welas Asih
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-production-brightgreen)
 
 **Bimasakti Digital** (Buku Informasi Medis dan Asuhan Keperawatan Terintegrasi) adalah platform digital yang menghadirkan informasi medis, SOP keperawatan, panduan asuhan keperawatan, manajemen tindakan, serta edukasi pasien secara terintegrasi dalam satu sistem.
-
-## 📋 Daftar Isi
-
-- [Fitur Utama](#-fitur-utama)
-- [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
-- [Struktur Proyek](#-struktur-proyek)
-- [Instalasi](#-instalasi)
-- [Penggunaan](#-penggunaan)
-- [Akun Demo](#-akun-demo)
-- [Screenshot](#-screenshot)
-- [Kontributor](#-kontributor)
-- [Lisensi](#-lisensi)
 
 ## ✨ Fitur Utama
 
@@ -69,38 +57,40 @@
 | AOS | 2.3.1 | Scroll animations |
 
 ## 📁 Struktur Proyek
-
+```bash
 KEPERAWATAN-APPS/
-├── assets/ # Aset gambar dan logo
-│ ├── logo-apps-title.png
-│ ├── logo-apps.png
-│ ├── logo-ppn.png
-│ ├── logo-upi-full.png
-│ ├── logo-upi-icon.svg
-│ ├── logo-welas-asih-full.png
-│ └── logo-welas-asih-icon.png
 │
-├── js/ # JavaScript files
-│ ├── data/ # Data sources
-│ │ ├── announcementsData.js # Data pengumuman
-│ │ ├── categoryData.js # Data kategori tindakan
-│ │ ├── newsData.js # Data berita
-│ │ ├── sopDataPerawatUmum.js # SOP Umum
-│ │ ├── sopDataPerawatManajemen.js # SOP Manajemen
-│ │ └── sopDataPerawatTindakan.js # SOP Tindakan
-│ │
-│ ├── pages/ # Page handlers
-│ │ ├── perawatUmum.js # Handler SOP Umum
-│ │ ├── perawatManajemen.js # Handler SOP Manajemen
-│ │ └── perawatTindakan.js # Handler SOP Tindakan
-│ │
-│ ├── app.js # Aplikasi utama
-│ └── auth.js # Modul autentikasi
+├── 📁 assets/                      # Aset gambar dan logo
+│   ├── 🖼️ logo-apps-title.png
+│   ├── 🖼️ logo-apps.png
+│   ├── 🖼️ logo-ppn.png
+│   ├── 🖼️ logo-upi-full.png
+│   ├── 🖼️ logo-upi-icon.svg
+│   ├── 🖼️ logo-welas-asih-full.png
+│   └── 🖼️ logo-welas-asih-icon.png
 │
-├── index.html # Halaman utama
-├── styles.css # Styling utama
-├── CNAME # Custom domain (jika ada)
-└── README.md # Dokumentasi
+├── 📁 js/                          # JavaScript files
+│   │
+│   ├── 📁 data/                    # Data sources
+│   │   ├── 📄 announcementsData.js     # Data pengumuman
+│   │   ├── 📄 categoryData.js          # Data kategori tindakan
+│   │   ├── 📄 newsData.js              # Data berita
+│   │   ├── 📄 sopDataPerawatUmum.js    # SOP Umum
+│   │   ├── 📄 sopDataPerawatManajemen.js # SOP Manajemen
+│   │   └── 📄 sopDataPerawatTindakan.js  # SOP Tindakan
+│   │
+│   ├── 📁 pages/                   # Page handlers
+│   │   ├── 📄 perawatUmum.js           # Handler SOP Umum
+│   │   ├── 📄 perawatManajemen.js      # Handler SOP Manajemen
+│   │   └── 📄 perawatTindakan.js       # Handler SOP Tindakan
+│   │
+│   ├── 📄 app.js                   # Aplikasi utama
+│   └── 📄 auth.js                  # Modul autentikasi
+│
+├── 📄 index.html                   # Halaman utama
+├── 🎨 styles.css                   # Styling utama
+├── 🔧 CNAME                        # Custom domain (jika ada)
+└── 📝 README.md                    # Dokumentasi
 
 
 ## 🚀 Instalasi
@@ -154,16 +144,18 @@ Mencari SOP
 3. Pencarian berdasarkan judul dan deskripsi
 
 👥 Akun Demo
-Role	Username	Password
-Administrator	admin	admin123
-Perawat	perawat	perawat123
-Dokter	dokter	dokter123
+| Role          | Username | Password   |
+| ------------- | -------- | ---------- |
+| Administrator | admin    | admin123   |
+| Perawat       | perawat  | perawat123 |
+| Dokter        | dokter   | dokter123  |
 
 
 👨‍💻 Kontributor
-Nama	Peran	Kontak
-Aria Rahman	UI/UX Designer, System Analyst, Full Stack Developer	GitHub:AriRahman1122/WA:085211220194
-Siddiq Ahmad Anshori	Full Stack Developer	GitHub:siddiqanshori
+| Nama                 | Peran                                | Kontak                |
+| -------------------- | ------------------------------------ | --------------------- |
+| Aria Rahman          | UI/UX, System Analyst, Fullstack Dev | GitHub: AriRahman1122 |
+| Siddiq Ahmad Anshori | Fullstack Developer                  | GitHub: siddiqanshori |
 
 Institusi:
 RSUD Welas Asih Provinsi Jawa Barat
@@ -175,25 +167,26 @@ Copyright © 2026 RSUD WELAS ASIH Provinsi Jawa Barat & Universitas Pendidikan I
 All Rights Reserved.
 
 📞 Kontak & Dukungan
-Jenis	Kontak
-Alamat	Jl. Kiastramanggala, Baleendah, Kec. Baleendah, Kabupaten Bandung, Jawa Barat 40375
-Telepon	(022) 5940872
-Email	rsudalihsan@jabarprov.go.id
+| Jenis   | Kontak                                                            |
+| ------- | ----------------------------------------------------------------- |
+| Alamat  | Jl. Kiastramanggala, Baleendah, Kab. Bandung                      |
+| Telepon | (022) 5940872                                                     |
+| Email   | [rsudalihsan@jabarprov.go.id](mailto:rsudalihsan@jabarprov.go.id) |
+
+
 🔄 Changelog
 v1.0.0 (2026)
 Initial release
 
 
 🙏 Ucapan Terima Kasih
+
 Terima kasih kepada:
 
-RSUD Welas Asih atas dukungan dan kerjasamanya
-
-Universitas Pendidikan Indonesia atas kolaborasi akademiknya
-
-Tim Pengembang yang telah bekerja keras
-
-Seluruh staf keperawatan yang telah memberikan masukan berharga
+RSUD Welas Asih
+Universitas Pendidikan Indonesia
+Tim Pengembang
+Seluruh staf keperawatan
 
 <div align="center"> <sub>Built with ❤️ for better healthcare</sub> <br> <sub>© 2026 Bimasakti Digital | RSUD Welas Asih & UPI</sub> </div> ```
 
