@@ -1,97 +1,110 @@
-# Bimasakti Digital - Manajemen Keperawatan Digital RSUD Welas Asih
+# 🏥 Bimasakti Digital  
+### Manajemen Keperawatan Digital RSUD Welas Asih
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-production-brightgreen)
 
-**Bimasakti Digital** (Buku Informasi Medis dan Asuhan Keperawatan Terintegrasi) adalah platform digital yang menghadirkan informasi medis, SOP keperawatan, panduan asuhan keperawatan, manajemen tindakan, serta edukasi pasien secara terintegrasi dalam satu sistem.
+**Bimasakti Digital** (Buku Informasi Medis dan Asuhan Keperawatan Terintegrasi) adalah platform digital yang menyediakan informasi medis, SOP keperawatan, panduan asuhan, manajemen tindakan, serta edukasi pasien dalam satu sistem terintegrasi.
+
+---
+
+## 🔗 Live Demo
+👉 https://bimasakti-digital.site
+
+---
 
 ## ✨ Fitur Utama
 
-### 1. **Sistem Autentikasi**
-- Login dengan role-based access (Admin, Perawat, Dokter)
-- Session management menggunakan localStorage
+### 🔐 1. Sistem Autentikasi
+- Login dengan **role-based access** (Admin, Perawat, Dokter)
+- Session management menggunakan **localStorage**
 - Logout otomatis
 
-### 2. **Dashboard Beranda**
+### 🏠 2. Dashboard Beranda
 - Statistik ringkas (jumlah SOP, spesialisasi, dll)
 - Berita terkini RSUD Welas Asih
 - Pengumuman terbaru
 - FAQ interaktif
 - Marquee informasi prosedur keperawatan
 
-### 3. **Modul SOP Keperawatan**
-- **SOP Umum**: Prosedur keperawatan dasar yang berlaku di semua area
-- **SOP Manajemen**: Prosedur administratif dan manajerial
-- **SOP Tindakan**: Prosedur spesifik berdasarkan kategori (Farmasi, ICU, IGD, dll)
+### 📋 3. Modul SOP Keperawatan
+- **SOP Umum** → Prosedur dasar lintas unit  
+- **SOP Manajemen** → Prosedur administratif & manajerial  
+- **SOP Tindakan** → Prosedur spesifik (Farmasi, ICU, IGD, dll)
 
-### 4. **Fitur Pencarian**
-- Pencarian real-time pada setiap modul SOP
-- Filter berdasarkan kategori pada modul tindakan
+### 🔍 4. Fitur Pencarian
+- Pencarian real-time
+- Filter kategori tindakan
 - Highlight hasil pencarian
 
-### 5. **Modal Detail SOP**
-- Tampilan lengkap SOP dengan struktur:
-  - Pengertian
-  - Tujuan
-  - Ruang Lingkup
-  - Kebijakan
-  - Prosedur (step-by-step dengan visual alur)
-  - Dokumen terkait
-  - Instalasi terkait
+### 📑 5. Modal Detail SOP
+Struktur detail SOP:
+- Pengertian  
+- Tujuan  
+- Ruang Lingkup  
+- Kebijakan  
+- Prosedur (step-by-step + alur visual)  
+- Dokumen terkait  
+- Instalasi terkait  
 
-### 6. **Responsive Design**
-- Tampilan optimal di desktop, tablet, dan mobile
-- Burger menu untuk navigasi mobile
-- Touch-friendly interface
+### 📱 6. Responsive Design
+- Desktop, tablet, dan mobile friendly
+- Burger menu untuk mobile
+- Touch-friendly UI
+
+---
 
 ## 🛠 Teknologi yang Digunakan
 
-| Teknologi | Versi | Keterangan |
-|-----------|-------|-------------|
-| HTML5 | - | Struktur aplikasi |
-| CSS3 | - | Styling dan animasi |
-| JavaScript | ES6+ | Logika aplikasi |
-| Font Awesome | 6.0 | Ikon-ikon |
-| Google Fonts | Plus Jakarta Sans | Tipografi |
-| AOS | 2.3.1 | Scroll animations |
+| Teknologi       | Versi  | Keterangan              |
+|----------------|--------|------------------------|
+| HTML5          | -      | Struktur aplikasi      |
+| CSS3           | -      | Styling & animasi      |
+| JavaScript     | ES6+   | Logika aplikasi        |
+| Font Awesome   | 6.0    | Ikon                   |
+| Google Fonts   | Plus Jakarta Sans | Tipografi |
+| AOS            | 2.3.1  | Animasi scroll         |
+
+---
 
 ## 📁 Struktur Proyek
+
 ```bash
 KEPERAWATAN-APPS/
 │
-├── 📁 assets/                      # Aset gambar dan logo
-│   ├── 🖼️ logo-apps-title.png
-│   ├── 🖼️ logo-apps.png
-│   ├── 🖼️ logo-ppn.png
-│   ├── 🖼️ logo-upi-full.png
-│   ├── 🖼️ logo-upi-icon.svg
-│   ├── 🖼️ logo-welas-asih-full.png
-│   └── 🖼️ logo-welas-asih-icon.png
+├── assets/
+│   ├── logo-apps-title.png
+│   ├── logo-apps.png
+│   ├── logo-ppn.png
+│   ├── logo-upi-full.png
+│   ├── logo-upi-icon.svg
+│   ├── logo-welas-asih-full.png
+│   └── logo-welas-asih-icon.png
 │
-├── 📁 js/                          # JavaScript files
+├── js/
+│   ├── data/
+│   │   ├── announcementsData.js
+│   │   ├── categoryData.js
+│   │   ├── newsData.js
+│   │   ├── sopDataPerawatUmum.js
+│   │   ├── sopDataPerawatManajemen.js
+│   │   └── sopDataPerawatTindakan.js
 │   │
-│   ├── 📁 data/                    # Data sources
-│   │   ├── 📄 announcementsData.js     # Data pengumuman
-│   │   ├── 📄 categoryData.js          # Data kategori tindakan
-│   │   ├── 📄 newsData.js              # Data berita
-│   │   ├── 📄 sopDataPerawatUmum.js    # SOP Umum
-│   │   ├── 📄 sopDataPerawatManajemen.js # SOP Manajemen
-│   │   └── 📄 sopDataPerawatTindakan.js  # SOP Tindakan
+│   ├── pages/
+│   │   ├── perawatUmum.js
+│   │   ├── perawatManajemen.js
+│   │   └── perawatTindakan.js
 │   │
-│   ├── 📁 pages/                   # Page handlers
-│   │   ├── 📄 perawatUmum.js           # Handler SOP Umum
-│   │   ├── 📄 perawatManajemen.js      # Handler SOP Manajemen
-│   │   └── 📄 perawatTindakan.js       # Handler SOP Tindakan
-│   │
-│   ├── 📄 app.js                   # Aplikasi utama
-│   └── 📄 auth.js                  # Modul autentikasi
+│   ├── app.js
+│   └── auth.js
 │
-├── 📄 index.html                   # Halaman utama
-├── 🎨 styles.css                   # Styling utama
-├── 🔧 CNAME                        # Custom domain (jika ada)
-└── 📝 README.md                    # Dokumentasi
+├── index.html
+├── styles.css
+├── CNAME
+└── README.md
 
+```
 
 ## 🚀 Instalasi
 
@@ -102,7 +115,6 @@ KEPERAWATAN-APPS/
 ### Langkah Instalasi
 
 1. **Clone repository**
-```bash
 git clone https://github.com/AriaRahman1122/keperawatan-apps.git
 cd bimasakti-digital
 
