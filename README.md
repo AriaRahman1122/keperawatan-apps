@@ -120,14 +120,16 @@ cd bimasakti-digital
 
 2. **Jalankan aplikasi**
 
-Option A: Buka file index.html langsung di browser
-Option B: Gunakan live server (disarankan)
-# Jika menggunakan VS Code, install extension "Live Server"
-# Klik kanan index.html → Open with Live Server
+Opsi A (langsung):
+Buka index.html di browser
 
-# Atau menggunakan Python
+Opsi B (Live Server - disarankan):
+Install extension Live Server di VS Code
+Klik kanan index.html → Open with Live Server
+
+Opsi C (Python server):
 python -m http.server 8000
-# Buka http://localhost:8000
+Buka: http://localhost:8000
 
 💻 Penggunaan
 Login ke Aplikasi
@@ -201,6 +203,3 @@ Tim Pengembang
 Seluruh staf keperawatan
 
 <div align="center"> <sub>Built with ❤️ for better healthcare</sub> <br> <sub>© 2026 Bimasakti Digital | RSUD Welas Asih & UPI</sub> </div> ```
-
-markdown
-🔗 **Live Demo**: [https://bimasakti-digital.site](https://bimasakti-digital.site)
