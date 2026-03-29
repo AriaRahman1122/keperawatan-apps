@@ -1,4 +1,4 @@
-<img width="410" height="750" alt="image" src="https://github.com/user-attachments/assets/be678f40-16b0-417a-b957-07e156600dbd" /># Bimasakti Digital - Manajemen Keperawatan Digital RSUD Welas Asih
+# Bimasakti Digital - Manajemen Keperawatan Digital RSUD Welas Asih
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
