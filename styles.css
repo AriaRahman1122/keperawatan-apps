@@ -26,6 +26,11 @@
     --color-accent-alt: #00ffde;
     --color-danger: #e74c3c;
 
+    --color-logout: #2f80ff;
+    --color-logout-2: #00b2ff;
+    --color-logout-soft: rgba(47, 128, 255, 0.12);
+    --color-logout-glow: rgba(47, 128, 255, 0.25);
+
     --grad-primary: linear-gradient(135deg, var(--color-primary), var(--color-primary-2));
     --grad-brand: linear-gradient(135deg, var(--color-primary), var(--color-primary-2), var(--color-accent));
     --grad-subtle: linear-gradient(90deg, rgba(67, 0, 255, 0.05), rgba(0, 202, 255, 0.05));
@@ -58,7 +63,6 @@
 
     --rgba-white-95: rgba(255, 255, 255, 0.95);
 }
-
 
 * {
     margin: 0;
@@ -284,7 +288,7 @@ body {
 .hero-title {
     font-size: 3rem;
     font-weight: 800;
-    line-height: 1.1;
+    line-height: 1.2;
     background: var(--grad-brand);
     -webkit-background-clip: text;
     background-clip: text;
@@ -307,7 +311,7 @@ body {
     padding: 12px 24px;
     border-radius: 50px;
     border: 1px solid var(--rgba-primary2-30);
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     font-weight: 600;
     color: var(--color-primary);
 }
@@ -1799,24 +1803,33 @@ body {
 }
 
 .logout-btn {
-    background: transparent;
-    border: 1px solid var(--color-danger);
-    color: var(--color-danger);
-    padding: 6px 14px;
-    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid rgba(47, 128, 255, 0.25);
+    color: var(--color-text-secondary);
+    backdrop-filter: blur(10px);
+    padding: 7px 16px;
+    border-radius: 999px;
     font-size: 0.85rem;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s;
     display: flex;
     align-items: center;
     gap: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
 
 .logout-btn:hover {
-    background: var(--color-danger);
-    color: var(--color-bg-surface);
-    transform: translateY(-2px);
+    background: linear-gradient(135deg, var(--color-logout), var(--color-logout-2));
+    color: white;
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 8px 20px var(--color-logout-glow);
+}
+
+.logout-btn:active {
+    transform: translateY(0) scale(0.98);
+    box-shadow: 0 4px 10px rgba(47, 128, 255, 0.2);
 }
 
 /* Responsive untuk Login Modal */
